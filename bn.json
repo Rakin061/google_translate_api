@@ -1,0 +1,23 @@
+{
+  "ADD": "যোগ করুন",
+  "ADD_A_TEAM": "একটি দল যোগ করুন",
+  "BACK": "ফিরে",
+  "CANCEL": "বাতিল করুন",
+  "CLOSE": "বন্ধ",
+  "COMPANY_NAME": "কগনোটা",
+  "CONFIRM": "নিশ্চিত করুন",
+  "CONTINUE": "চালিয়ে যান",
+  "CREATE": "তৈরি করুন",
+  "DISCARD_CHANGES": "পরিবর্তন বাতিল করুন",
+  "DONE": "সম্পন্ন",
+  "EDIT": "সম্পাদনা করুন",
+  "FOOTER": "TM & © { year } <a { externalLink } href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> সর্বস্বত্ব সংরক্ষিত",
+  "LOADING": "লোড হচ্ছে",
+  "REMOVE": "সরান",
+  "SAVE": "সংরক্ষণ করুন",
+  "SAVE_NOW": "এখন সংরক্ষণ করুন",
+  "SAVE_OPEN": "সংরক্ষণ করুন এবং খুলুন",
+  "TRAINING_REQUEST_PORTAL": "প্রশিক্ষণ অনুরোধ পোর্টাল",
+  "UPDATE": "আপডেট",
+  "YES_DELETE": "হ্যাঁ, মুছুন"
+}

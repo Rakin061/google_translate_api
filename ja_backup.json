@@ -1,0 +1,4125 @@
+{
+  "ADD": "追加",
+  "ADD_A_TEAM": "チームを追加",
+  "ADD_PROGRAM_MODAL": {
+    "CAPTION": "新しいプログラムを追加するには情報を入力してください",
+    "DELIVERY_TYPE": "配送タイプ",
+    "DELIVERY_TYPE_PLACEHOLDER": "プログラムの種類を選択してください",
+    "DESCRIPTION": "説明",
+    "DESCRIPTION_PLACEHOLDER": "プログラムの説明を追加する",
+    "ERROR": "問題が発生しました... 技術的な問題が発生しています。更新するか,もう一度お試しください",
+    "MODAL_TITLE": "プログラムを追加",
+    "OWNERS": "オーナー",
+    "TITLE": "タイトル",
+    "TITLE_PLACEHOLDER": "プログラム名を追加する"
+  },
+  "ADD_TEAM_MODAL": {
+    "DESCRIPTION_PLACEHOLDER": "チームの説明を入力",
+    "FILL_DETAILS": "チームを追加するには詳細を入力してください",
+    "SUCCESS_MESSAGE": "チームが正常に追加されました!",
+    "TEAM_NAME_PLACEHOLDER": "チーム名を入力してください"
+  },
+  "ADD_USER": {
+    "ADD_USER_BUTTON": "ユーザーを追加",
+    "ADD_USER_MODAL": {
+      "BODY": "詳細を入力し,ユーザータイプを選択してください",
+      "BUSINESS_UNIT": "事業部",
+      "BUSINESS_UNIT_PLACEHOLDER": "事業部門を選択",
+      "CONTINUE_BUTTON": "続く",
+      "EMAIL_LABEL": "メール",
+      "EMAIL_PLACEHOLDER": "メールアドレスを入力してください",
+      "SELF_REGISTRATION": "自己登録",
+      "SELF_REGISTRATION_BANNER": "ユーザーに登録リンクが正常に通知されました。",
+      "SEND_LINK": "リンクを送信",
+      "TITLE": "{ op, plural, =1 {a} other {an} } { userType } を追加します",
+      "USER_TYPE_HELP_TEXT": {
+        "BUSINESS": "ビジネス側のユーザー",
+        "EXTERNAL": "専門ユーザー",
+        "LD": "トレーニング作成に参加するユーザー"
+      },
+      "USER_TYPE_LABEL": "ユーザータイプ",
+      "USER_TYPE_PLACEHOLDER": "ユーザータイプを選択"
+    },
+    "USER_ADDED": "ユーザーが正常に追加されました。"
+  },
+  "ALPHA": "アルファ",
+  "APP_NOTIFICATIONS": {
+    "ASSIGN_NEW_OWNER": "リクエストフォームの所有者としてあなたを割り当てました",
+    "BUSINESS_USER_NEW_REGISTRATION": "{ newUserEmail } が <b>ビジネス ユーザー</b> として登録されました。",
+    "COMMENT_ADDED": "リクエストにコメントを追加しました",
+    "NEW_PROJECT_PARTICIPANT": "{ userName } が,プロジェクト ロール <b>{ role }</b> を持つプロジェクト <b>{ projectName }</b> のメンバーとしてあなたを割り当てました。",
+    "PROGRAM_CLOSED": "{ triggererName } がプログラムを終了しました: <b>{ programName }</b>",
+    "PROGRAM_DELETED": {
+      "DELETE_PROJECTS": "{ triggererName } は,リンクされたプロジェクトを含むプログラム <b>{ programName }</b> を削除しました。",
+      "MOVE_PROJECTS": "{ triggererName } はプログラム <b>{ programName }</b> を削除し,すべての { numberOfProjects } { numberOfProjects,plural,=1 {プロジェクト} other {プロジェクト} } を新しいプログラム <b>{ newProgramTitle }</b> に移動しました。",
+      "NO_PROJECTS": "{ triggererName } がプログラム <b>{ programName }</b> を削除しました。",
+      "UNLINK_PROJECTS": "{ triggererName } がプログラム <b>{ programName }</b> を削除しました。ただし,このアクションによってリンクされたすべてのプロジェクトが影響を受けるわけではありません。"
+    },
+    "PROGRAM_UPDATED": "{ triggererName } がプログラムを更新しました: <b>{ programName }</b>",
+    "PROJECT_ASSIGNMENT_REMOVED": "{ userName } は,プロジェクト <b>{ projectName }</b> の <b>{ role }</b> としてのあなたの割り当てを削除しました。",
+    "PROJECT_ASSIGNMENT_UPDATED": "{ userName } が,プロジェクト <b>{ projectName }</b> のあなたの割り当てを <b>{ role }</b> として更新しました。",
+    "PROJECT_COMMENTED": "{ userName } がプロジェクト <b>{ projectName }</b> にコメントを追加しました。",
+    "PROJECT_COMMENT_MENTION": "{ userName } さんがプロジェクト <b>{ projectName }</b> 内のコメントであなたをタグ付けしました。",
+    "PROJECT_DUE_DATE": "プロジェクト <b>{ projectName }</b> が目標完了日に到達するまで,あと { number, plural, =7 {1 週間} =1 {1 日} } しかありません。",
+    "PROJECT_IS_ARCHIVED_UPDATED": "{ triggererName } { action } プロジェクト <b>{ projectName }</b>。",
+    "PROJECT_LINKED_TO_PROGRAM": "{ triggererName } はプロジェクト <b>{ projectName }</b> をプログラム { programName }</b> にリンクしました",
+    "PROJECT_OWNER_ASSIGNED": "{ userName } があなたをプロジェクト <b>{ projectName }</b> の所有者に割り当てました。",
+    "PROJECT_OWNER_UNASSIGNED": "{ userName } がプロジェクト <b>{ projectName }</b> の所有者としてのあなたの割り当てを解除しました。",
+    "PROJECT_PARTICIPANT_REMOVED": "{ userName } があなたをプロジェクト <b>{ projectName }</b> の参加者から削除しました。",
+    "PROJECT_PAST_DUE": "プロジェクト <b>{ projectName }</b> は目標完了日を過ぎています。",
+    "PROJECT_START_DATE_PASSED": "プロジェクト <b>{ projectName }</b> の開始日が過ぎています。このプロジェクトは進行中にすべきでしょうか?",
+    "PROJECT_START_DATE_THREE_DAYS": "プロジェクト <b>{ projectName }</b> の開始まであと 3 日です。開始したら,ステータスを「進行中」に変更することを忘れないでください。",
+    "PROJECT_STATUS_UPDATED": "{ userName } がプロジェクト <b>{ projectName }</b> のステータスを <b>{ projectSstatus }</b> に更新しました",
+    "PROJECT_UNLINKED_FROM_PROGRAM": "{ triggererName } プロジェクト <b>{ projectName }</b> をプログラム <b>{ programName }</b> からリンク解除しました",
+    "PROJECT_UPDATED": "{ userName } がプロジェクト <b>{ projectName }</b> を更新しました。",
+    "REQUEST_APPROVED": "リクエスト フォーム <b>{ requestTitle }</b> はリクエスト所有者によって承認されました。",
+    "REQUEST_BACK_IN_REVIEW": "リクエスト <b>{ requestTitle }</b> は「審査中」に移動されました。",
+    "REQUEST_BUSINESS_REVIEWER": "リクエストのレビュー担当者としてあなたを追加しました",
+    "REQUEST_CANCELLED": "リクエストフォームのキャンセルをリクエストしました",
+    "REQUEST_COMMENT_MENTION": "{ userName } さんがリクエスト <b>{ requestTitle }</b> 内のコメントであなたをタグ付けしました。",
+    "REQUEST_DECLINED": "リクエスト フォーム <b>{ requestTitle }</b> はリクエスト所有者によって拒否されました。",
+    "REQUEST_QUESTIONS_UPDATED": "リクエストを更新しました",
+    "REQUEST_SUBMITTED": "リクエストを送信しました:",
+    "REQUEST_WAITLISTED": "リクエスト <b>{ requestTitle }</b> は,リクエスト所有者によって待機リストに登録されています。",
+    "TASK_ACTUAL_HOURS_UPDATED": "{ userName } がタスク <b>{ taskName }</b> の実際の時間を更新しました。",
+    "TASK_BUNDLE_DELETED": "{ adminName } がタスクバンドル <b>{ bundleTitle }</b> を削除しました。",
+    "TASK_BUNDLE_UPDATED": "{ adminName } がタスクバンドル <b>{ bundleTitle }</b> を更新しました。",
+    "TASK_COMMENT_MENTION": "{ userName } さんがタスク <b>{ taskName }</b> のコメントであなたをタグ付けしました。",
+    "TASK_DELETED": "{ userName } がタスク <b>{ taskName }</b> を削除しました。",
+    "TASK_DISABLED": "{ userName } { enabled, plural, =0 {無効} =1 {再有効化} } タスク <b>{ taskName }</b>。",
+    "TASK_DUE_DATE": "タスク: <b>{ taskName }</b> の期限まで,あと { number, plural, =1 {1 日} =3 {3 日} } しかありません。",
+    "TASK_PAST_DUE_DATE": "タスク: <b>{ taskName }</b> は期限を過ぎています。",
+    "TASK_STATUS_UPDATED": "{ userName } がタスク <b>{ taskName }</b> のステータスを更新しました。",
+    "TASK_UPDATED": "{ userName } がタスク <b>{ taskName }</b> を更新しました。",
+    "TASK_USER_ASSIGNED": "{ userName } があなたにタスク <b>{ taskName }</b> を割り当てました。",
+    "TASK_USER_ASSIGNED_OWNER_VIEW": "{ userName } がタスク <b>{ taskName }</b> に { actionTargetName } を割り当てました。",
+    "TASK_USER_UNASSIGNED": "{ userName } がタスク <b>{ taskName }</b> からあなたの割り当てを解除しました。",
+    "TASK_USER_UNASSIGNED_OWNER_VIEW": "{ userName } がタスク <b>{ taskName }</b> から { actionTargetName } の割り当てを解除しました。",
+    "TIME_OFF_CREATED": "{ triggererName } が休暇を追加しました: { dateRange }",
+    "TIME_OFF_REMOVED": "{ triggererName } が休暇を削除しました: { dateRange }",
+    "TIME_OFF_UPDATED": "{ triggererName } が休暇を更新しました: { dateRange }",
+    "UNASSIGN_OWNER": "リクエストフォームの所有者としての割り当てを解除しました",
+    "V2_PROJECT_PARTICIPANT_ADDED": "{ triggererName } があなたをプロジェクト <b>{ projectName }</b> の参加者として割り当てました。",
+    "V2_PROJECT_PARTICIPANT_REMOVED": "{ triggererName } により,プロジェクト <b>{ projectName }</b> の参加者から削除されました。"
+  },
+  "ARCHIVE": "アーカイブ",
+  "ARCHIVE_PROJECT_MODAL": {
+    "CAPTION": "アーカイブされると,プロジェクトは編集できなくなります。",
+    "CONFIRM": "はい,{action}",
+    "DATE_LABEL": "{ action } 日付",
+    "TITLE": "{ action } プロジェクト",
+    "UNARCHIVE_CAPTION": "アーカイブされていない場合,プロジェクトはメイン テーブル ビューに表示されます。"
+  },
+  "BACK": "戻る",
+  "BETA": "ベータ",
+  "BUDGET": {
+    "BUDGET_DETAILS": "予算の詳細",
+    "BUDGET_DETAILS_TABLE": {
+      "BUDGET_EXCEEDED": "合計額が予算計画に割り当てられた予算の合計額を超えています",
+      "CANCEL": "キャンセル",
+      "DOLLAR_SIGN": "$",
+      "EDIT": "編集",
+      "HEAD": {
+        "ALLOCATED_BUDGET": "割り当てられた予算",
+        "CATEGORY": "カテゴリ",
+        "COST_TO_DATE": "これまでの実際の費用",
+        "NOTES": "注記"
+      },
+      "SAVE": "保存",
+      "SUBTITLE": "カテゴリー別に予算を絞り込む",
+      "TITLE": "予算の詳細",
+      "USD": "米ドル"
+    },
+    "BUDGET_PLAN": "予算計画",
+    "BUDGET_PLAN_DESCRIPTION": "割り当てられたリソースに基づいて割り当てられた予算",
+    "UPDATE_BUDGET_BUTTON": "予算の更新",
+    "UPDATE_SUCCESS": "予算計画が正常に更新されました"
+  },
+  "CANCEL": "キャンセル",
+  "CAPACITY_INSIGHTS": {
+    "ACTUAL_HOURS": "合計<br/>実時間",
+    "ALLOCATED_HOURS": "合計<br/>割り当て時間",
+    "ALLOCATION_BY_RESOURCE_TYPE": {
+      "ALLOCATION": "割り当て",
+      "BUSINESS": "ビジネスユーザー",
+      "CAPTION": "各リソースタイプの割り当て時間",
+      "EXTERNAL": "外部ユーザー",
+      "LD": "学習メンバー",
+      "TITLE": "リソースタイプ別の割り当て"
+    },
+    "AVAILABLE_HOURS": "合計<br/>利用可能時間",
+    "BUSINESS_UNITS_DEMAND": {
+      "ALLOCATION": "割り当て",
+      "ALLOCATION_RATE": "配分率",
+      "CAPTION": "各事業部門の割り当てと需要",
+      "CHART_LEGEND": "チャートの凡例",
+      "DEMAND": "要求",
+      "HOURS": "営業時間",
+      "OVERALL_ALLOCATION": "全体の配分率",
+      "TITLE": "事業部門別の配分と需要"
+    },
+    "CAPACITY_HOURS": "合計<br/>稼働時間",
+    "DEMAND_BY_PROJECT_CATEGORIES": {
+      "CAPTION": "各プロジェクトカテゴリーの合計推定時間",
+      "HOURS": "営業時間",
+      "TITLE": "上位10プロジェクトカテゴリー別の需要"
+    },
+    "DEMAND_CAPACITY_AVAILABILITY": {
+      "AVAILABILITY": "可用性",
+      "CAPACITY": "容量",
+      "CAPTION": "需要と割り当てと容量",
+      "DEMAND": "要求",
+      "NO_DATA": "おっと！現時点ではグラフに表示するデータがないようです。データ ソースまたは適用されているフィルターを確認してください。",
+      "TITLE": "リソース ワークロードの概要",
+      "TOOLTIP": "「需要対容量対可用性」チャートは,バランスのとれた生産性の高い労働力の実現に役立ちます。時間の経過に伴う作業負荷,チームの容量,可用性を視覚化して,リソースの割り当てを最適化し,ボトルネックを特定して,データに基づいた意思決定を行います。",
+      "TOOLTIP_TRIGGER_DESC": "需要容量可用性チャートの説明"
+    },
+    "DEMAND_HOURS": "合計<br/>需要時間",
+    "ESTIMATION_BY_TASK_TYPE": {
+      "CAPTION": "各タスクタイプの見積と実績",
+      "CHART_LEGEND": "チャートの凡例",
+      "HOURS": "営業時間",
+      "TITLE": "タスクタイプ別の見積と実績",
+      "TOOLTIP": "このグラフには,選択したタスク タイプの推定時間と実際の時間の中央値が表示されます。推定時間は,選択した期間内のすべての未完了タスクから計算されます。中央値はデータ セットの中央傾向を反映し,最小から最大の順に並べたときの中間点を示します。"
+    },
+    "NUMBER_OF_RESOURCES": "リソースの数",
+    "RESOURCE_UTILIZATION": {
+      "CAPTION": "最も利用されているリソースと最も利用されていないリソース",
+      "LEAST_UTILIZED": "最も利用されていない",
+      "MOST_UTILIZED": "最も利用されている",
+      "TITLE": "リソースによる利用"
+    },
+    "UTILIZATION_BY_TEAM": {
+      "ALLOCATION": "割り当て",
+      "CAPACITY": "容量",
+      "CAPTION": "割り当てとキャパシティ/チーム",
+      "CHART_LEGEND": "チャートの凡例",
+      "HOURS": "営業時間",
+      "OVERALL_UTLIZATION": "全体的な利用率",
+      "SORT_ASC_TOOLTIP": "利用頻度の低い順から高い順に並べ替え",
+      "SORT_DESC_TOOLTIP": "利用頻度の高い順に並べ替え",
+      "TITLE": "チーム別の利用状況"
+    }
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "BUTTON": "変更を保存",
+    "FAIL_PROMPT": "リンクが届きませんでしたか?",
+    "INFO": {
+      "CONTENT": "<li>特殊文字 1 文字</li><li>8 文字以上</li><li>少なくとも 1 つの大文字と 1 つの数値</li>",
+      "TITLE": "アカウントを保護するために,パスワードに次の内容が含まれていることを確認してください。"
+    },
+    "INPUT": {
+      "CONFIRM": "パスワードを認証する",
+      "CONFIRM_PLACEHOLDER": "パスワードを確認してください",
+      "INCORRECT_FORMAT": "パスワードの形式が正しくありません",
+      "MATCHED": "パスワードが一致しました",
+      "NO_MATCH": "パスワードが一致しません",
+      "PASSWORD": "新しいパスワード",
+      "PASSWORD_PLACEHOLDER": "パスワードを入力してください"
+    },
+    "PASSWORD_LEVEL": {
+      "MEDIUM": "中くらい",
+      "STRENGTH": "パスワードの強度:",
+      "STRONG": "強い",
+      "WEAK": "弱い"
+    },
+    "PROMPT": "アカウントを保護するために,パスワードが強力であることを確認してください。",
+    "SUCCESS_MESSAGE": "メールが送信されました。受信したらリンクをクリックしてください。",
+    "TITLE": "パスワードを変更する"
+  },
+  "CLOSE": "近い",
+  "COLLAPSE_EXPAND_ICON_DESC": "サイドバーを展開/折りたたむ",
+  "COMING_SOON": "近日公開！",
+  "COMMENT": {
+    "CANCEL_BUTTON": "キャンセル",
+    "COMMENT_CREATED": "コメントを作成しました",
+    "COMMENT_DELETED": "コメントを削除しました",
+    "COMMENT_ERROR": "コメントを保存できませんでした。もう一度お試しください。",
+    "COMMENT_UPDATED": "コメントを更新しました",
+    "DELETE": "消去",
+    "DELETE_COMMENT": {
+      "BODY": "このコメントを削除してもよろしいですか?",
+      "DELETE_BUTTON": "はい,削除",
+      "TITLE": "コメントを削除"
+    },
+    "EDIT": "編集",
+    "EDITED": "編集済み",
+    "HIDDEN_COMMENT": "コメントを非表示",
+    "HIDDEN_COMMENTS": "コメントは非表示",
+    "HIDE_COMMENTS": "コメントを非表示",
+    "POST": "役職",
+    "REPLY": "返事",
+    "UPDATE_BUTTON": "アップデート",
+    "WRITE_COMMENT": "コメントを書いてください"
+  },
+  "COMPANY_NAME": "コグノタ",
+  "COMPLETE_REGISTRATION": {
+    "BUSINESS_UNIT_LABEL": "事業部",
+    "BUSINESS_UNIT_PLACEHOLDER": "ビジネスユニットを選択してください",
+    "BUTTON": "保存して続行",
+    "CAPTION": "<strong>{ email }</strong> としてサインインしています。アプリに進む前に,これらのプロフィールの質問にご回答ください。",
+    "HEADING": "いらっしゃいませ！"
+  },
+  "CONFIRM": "確認する",
+  "CONTINUE": "続く",
+  "COUNTRIES": {
+    "AD": "アンドラ",
+    "AE": "アラブ首長国連邦",
+    "AF": "アフガニスタン",
+    "AG": "アンティグア・バーブーダ",
+    "AI": "アンギラ",
+    "AL": "アルバニア",
+    "AM": "アルメニア",
+    "AO": "アンゴラ",
+    "AQ": "南極大陸",
+    "AR": "アルゼンチン",
+    "AS": "アメリカ領サモア",
+    "AT": "オーストリア",
+    "AU": "オーストラリア",
+    "AW": "アルバ",
+    "AX": "オーランド諸島",
+    "AZ": "アゼルバイジャン",
+    "BA": "ボスニア・ヘルツェゴビナ",
+    "BB": "バルバドス",
+    "BD": "バングラデシュ",
+    "BE": "ベルギー",
+    "BF": "ブルキナファソ",
+    "BG": "ブルガリア",
+    "BH": "バーレーン",
+    "BI": "ブルンジ",
+    "BJ": "ベナン",
+    "BL": "サン・バルテルミー",
+    "BM": "バミューダ",
+    "BN": "ブルネイ・ダルサラーム",
+    "BO": "ボリビア",
+    "BQ": "ボネール島,シント・ユースタティウス島,サバ島",
+    "BR": "ブラジル",
+    "BS": "バハマ",
+    "BT": "ブータン",
+    "BV": "ブーベ島",
+    "BW": "ボツワナ",
+    "BY": "ベラルーシ",
+    "BZ": "ベリーズ",
+    "CA": "カナダ",
+    "CC": "ココス（キーリング）諸島",
+    "CD": "コンゴ民主共和国",
+    "CF": "中央アフリカ共和国",
+    "CG": "コンゴ",
+    "CH": "スイス",
+    "CI": "コートジボワール",
+    "CK": "クック諸島",
+    "CL": "チリ",
+    "CM": "カメルーン",
+    "CN": "中国",
+    "CO": "コロンビア",
+    "CR": "コスタリカ",
+    "CU": "キューバ",
+    "CV": "カーボベルデ",
+    "CW": "キュラソー",
+    "CX": "クリスマス島",
+    "CY": "キプロス",
+    "CZ": "チェコ共和国",
+    "DE": "ドイツ",
+    "DJ": "ジブチ",
+    "DK": "デンマーク",
+    "DM": "ドミニカ",
+    "DO": "ドミニカ共和国",
+    "DZ": "アルジェリア",
+    "EC": "エクアドル",
+    "EE": "エストニア",
+    "EG": "エジプト",
+    "EH": "西サハラ",
+    "ER": "エリトリア",
+    "ES": "スペイン",
+    "ET": "エチオピア",
+    "FI": "フィンランド",
+    "FJ": "フィジー",
+    "FK": "フォークランド諸島（マルビナス諸島）",
+    "FM": "ミクロネシア連邦",
+    "FO": "フェロー諸島",
+    "FR": "フランス",
+    "GA": "ガボン",
+    "GB": "イギリス",
+    "GD": "グレナダ",
+    "GE": "ジョージア",
+    "GF": "フランス領ギアナ",
+    "GG": "ガーンジー島",
+    "GH": "ガーナ",
+    "GI": "ジブラルタル",
+    "GL": "グリーンランド",
+    "GM": "ガンビア",
+    "GN": "ギニア",
+    "GP": "グアドループ",
+    "GQ": "赤道ギニア",
+    "GR": "ギリシャ",
+    "GS": "サウスジョージア島とサンドイッチ島。",
+    "GT": "グアテマラ",
+    "GU": "グアム",
+    "GW": "ギニアビサウ",
+    "GY": "ガイアナ",
+    "HK": "香港",
+    "HM": "ハード島とマクドナルド諸島",
+    "HN": "ホンジュラス",
+    "HR": "クロアチア",
+    "HT": "ハイチ",
+    "HU": "ハンガリー",
+    "IC": "カナリア諸島",
+    "ID": "インドネシア",
+    "IE": "アイルランド",
+    "IL": "イスラエル",
+    "IM": "マン島",
+    "IN": "インド",
+    "IO": "イギリス領インド洋地域",
+    "IQ": "イラク",
+    "IR": "イラン・イスラム共和国",
+    "IS": "アイスランド",
+    "IT": "イタリア",
+    "JE": "ジャージー",
+    "JM": "ジャマイカ",
+    "JO": "ヨルダン",
+    "JP": "日本",
+    "KE": "ケニア",
+    "KG": "キルギスタン",
+    "KH": "カンボジア",
+    "KI": "キリバス",
+    "KM": "コモロ",
+    "KN": "セントクリストファー・ネイビス",
+    "KP": "北朝鮮",
+    "KR": "韓国",
+    "KW": "クウェート",
+    "KY": "ケイマン諸島",
+    "KZ": "カザフスタン",
+    "LA": "ラオス人民民主共和国",
+    "LB": "レバノン",
+    "LC": "セントルシア",
+    "LI": "リヒテンシュタイン",
+    "LK": "スリランカ",
+    "LR": "リベリア",
+    "LS": "レソト",
+    "LT": "リトアニア",
+    "LU": "ルクセンブルク",
+    "LV": "ラトビア",
+    "LY": "リビア・アラブ・ジャマーヒリーヤ",
+    "MA": "モロッコ",
+    "MC": "モナコ",
+    "MD": "モルドバ",
+    "ME": "モンテネグロ",
+    "MF": "サン・マルタン（フランス領）",
+    "MG": "マダガスカル",
+    "MH": "マーシャル諸島",
+    "MK": "マケドニア",
+    "ML": "マリ",
+    "MM": "ミャンマー",
+    "MN": "モンゴル",
+    "MO": "マカオ",
+    "MP": "北マリアナ諸島",
+    "MQ": "マルティニーク",
+    "MR": "モーリタニア",
+    "MS": "モントセラト",
+    "MT": "マルタ",
+    "MU": "モーリシャス",
+    "MV": "モルディブ",
+    "MW": "マラウイ",
+    "MX": "メキシコ",
+    "MY": "マレーシア",
+    "MZ": "モザンビーク",
+    "NA": "ナミビア",
+    "NC": "ニューカレドニア",
+    "NE": "ニジェール",
+    "NF": "ノーフォーク島",
+    "NG": "ナイジェリア",
+    "NI": "ニカラグア",
+    "NL": "オランダ",
+    "NO": "ノルウェー",
+    "NP": "ネパール",
+    "NR": "ナウル",
+    "NU": "ニウエ",
+    "NZ": "ニュージーランド",
+    "OM": "オマーン",
+    "PA": "パナマ",
+    "PE": "ペルー",
+    "PF": "フランス領ポリネシア",
+    "PG": "パプアニューギニア",
+    "PH": "フィリピン",
+    "PK": "パキスタン",
+    "PL": "ポーランド",
+    "PM": "サンピエール島とミクロン島",
+    "PN": "ピトケアン",
+    "PR": "プエルトリコ",
+    "PS": "パレスチナ占領地",
+    "PT": "ポルトガル",
+    "PW": "パラオ",
+    "PY": "パラグアイ",
+    "QA": "カタール",
+    "RE": "再会",
+    "RO": "ルーマニア",
+    "RS": "セルビア",
+    "RU": "ロシア連邦",
+    "RW": "ルワンダ",
+    "SA": "サウジアラビア",
+    "SB": "ソロモン諸島",
+    "SC": "セイシェル",
+    "SD": "スーダン",
+    "SE": "スウェーデン",
+    "SG": "シンガポール",
+    "SH": "セントヘレナ",
+    "SI": "スロベニア",
+    "SJ": "スヴァールバル諸島とヤンマイエン島",
+    "SK": "スロバキア",
+    "SL": "シエラレオネ",
+    "SM": "サンマリノ",
+    "SN": "セネガル",
+    "SO": "ソマリア",
+    "SR": "スリナム",
+    "SS": "南スーダン",
+    "ST": "サントメ・プリンシペ",
+    "SV": "エルサルバドル",
+    "SX": "シント・マールテン（オランダ領）",
+    "SY": "シリア・アラブ共和国",
+    "SZ": "スワジランド",
+    "TC": "タークス・カイコス諸島",
+    "TD": "チャド",
+    "TF": "フランス領南方領土",
+    "TG": "持ち帰り",
+    "TH": "タイ",
+    "TJ": "タジキスタン",
+    "TK": "トケラウ",
+    "TL": "東ティモール",
+    "TM": "トルクメニスタン",
+    "TN": "チュニジア",
+    "TO": "トンガ",
+    "TR": "七面鳥",
+    "TT": "トリニダード・トバゴ",
+    "TV": "ツバル",
+    "TW": "台湾",
+    "TZ": "タンザニア",
+    "UA": "ウクライナ",
+    "UG": "ウガンダ",
+    "UM": "アメリカ領離島",
+    "UNDEFINED": "割り当てられていない",
+    "US": "アメリカ合衆国",
+    "UY": "ウルグアイ",
+    "UZ": "ウズベキスタン",
+    "VA": "聖座（バチカン市国）",
+    "VC": "セントビンセント・グレナディーン諸島",
+    "VE": "ベネズエラ",
+    "VG": "イギリス領ヴァージン諸島",
+    "VI": "米国領バージン諸島",
+    "VN": "ベトナム",
+    "VU": "バヌアツ",
+    "WF": "ウォリス・フツナ",
+    "WS": "サモア",
+    "XK": "コソボ",
+    "YE": "イエメン",
+    "YT": "マヨット",
+    "ZA": "南アフリカ",
+    "ZM": "ザンビア",
+    "ZW": "ジンバブエ"
+  },
+  "CREATE": "作成する",
+  "CURRENCY": "米ドル",
+  "CURRENCY_OPTIONS": {
+    "AUD": "オーストラリアドル（AUD）",
+    "CAD": "カナダドル（CAD）",
+    "EUR": "欧州ユーロ (EUR)",
+    "GBP": "英国ポンド（GBP）",
+    "NZD": "ニュージーランドドル（NZD）",
+    "USD": "米ドル（USD）"
+  },
+  "CUSTOM_FIELDS_FILTERS": {
+    "DATE_FROM_PLACEHOLDER": "開始日",
+    "DATE_PLACEHOLDER": "日付を選択",
+    "DATE_TO_PLACEHOLDER": "現在まで",
+    "FIELD_PLACEHOLDER": "フィルターフィールドを選択",
+    "INPUT_VALUE_PLACEHOLDER": "値を入力してください",
+    "OPERATOR_LABEL": "オペレーター",
+    "OPERATOR_PLACEHOLDER": "演算子を選択します: より大きい,等しいなど",
+    "OVERLAPS_TOOLTIP": "重複演算子を使用すると,選択した日付範囲内のレコードを検索して表示できます。",
+    "VALUE_LABEL": "値",
+    "VALUE_PLACEHOLDER": "値を選択"
+  },
+  "CUSTOM_QUESTIONS": {
+    "CHECKBOX": "チェックボックス",
+    "DATE": "日付フィールド",
+    "DROPDOWN": "落ちる",
+    "FILE": "ファイルのアップロード",
+    "NUMBER": "数値フィールド",
+    "RADIO_BUTTON": "ラジオボタン",
+    "RANGE": "範囲",
+    "TEXT": "テキストフィールド",
+    "TOGGLE": "トグル",
+    "URL": "メールアドレス"
+  },
+  "DAYS_LEFT": "{ days } { days, plural, =1 {日} other {日} } 残り",
+  "DEACTIVATED": "無効化",
+  "DEACTIVATED_USER_PAGE": {
+    "CAPTION": "詳細については管理者にお問い合わせください。",
+    "CTA": "ログインに戻る",
+    "TITLE": "アカウントが無効になったようです"
+  },
+  "DELETE": "消去",
+  "DELETE_FILE": "ファイルを削除",
+  "DELETE_FILE_CONFIRM": "はい,ファイルを削除します",
+  "DELETE_FILE_CONFIRMATION": "このファイルは利用できなくなり,この操作を元に戻すことはできません。",
+  "DESCRIPTION": "{ num, plural, =1 {説明} other {説明} }",
+  "DESIGN_COMPONENTS": {
+    "FLYOUT_MENU_NAME": "追加"
+  },
+  "DISCARD_CHANGES": "変更を破棄",
+  "DISPLAY": "画面",
+  "DISPLAY_TAB": {
+    "CURRENCY_LABEL": "プラットフォーム通貨を選択"
+  },
+  "DOLLAR_SIGN": "$",
+  "DONE": "終わり",
+  "DUPLICATE_PROJECT_MODAL": {
+    "DESCRIPTION": "プロジェクトの詳細",
+    "TITLE": "重複プロジェクト"
+  },
+  "EDIT": "編集",
+  "EDIT_TEAM": {
+    "DELETE_TEAM": "チームを削除",
+    "DELETE_TEAM_MODAL": {
+      "BODY_FIRST_LINE": "この操作は元に戻せません。",
+      "BODY_SECOND_LINE": "このチームを削除してもよろしいですか?",
+      "DELETE_BUTTON": "はい,削除",
+      "SUCCESS_NOTIFICATION": "チームは正常に削除されました",
+      "TITLE": "チームを削除"
+    },
+    "DELETE_TEAM_TOOLTIP": "チームを削除できるのは,チーム メンバーがいないときのみです。",
+    "FAIL_NOTIFICATION": "このチームには情報が不足しており,更新されていません。",
+    "NO_TEAM_MEMBERS": "チームメンバーはまだいません",
+    "SUCCESS_NOTIFICATION": "チームが正常に更新されました。"
+  },
+  "EMPLOYMENT_TYPE": {
+    "CONTRACTOR": "請負業者",
+    "FULL_TIME": "フルタイム",
+    "INTERN": "インターン",
+    "PART_TIME": "パートタイム",
+    "TITLE": "雇用形態"
+  },
+  "EMPTY_TABLE": {
+    "HELP": "学習センターへ",
+    "TRY_AGAIN": "技術的な問題が発生しています。ページを更新するか,後でもう一度お試しください。",
+    "WRONG": "問題が発生しました..."
+  },
+  "ENTITIES": {
+    "ACCOUNT": "{ num, plural, =1 {アカウント} other {アカウント} }",
+    "BUSINESS_TEAM": "{ num, plural, =1 {ビジネス チーム} other {ビジネス チーム} }",
+    "CONFIGURATION": "{ num, plural, =1 {構成} other {構成} }",
+    "FIELDS": "{ num, plural, =1 {フィールド} other {フィールド} }",
+    "LEARNING_TEAM": "{ num, plural, =1 {学習チーム} other {学習チーム} }",
+    "ORGANIZATION": "{ num, plural, =1 {組織} other {組織} }",
+    "PROCESS": "{ num, plural, =1 {プロセス} other {プロセス} }",
+    "PROGRAM": "{ num, plural, =1 {プログラム} other {プログラム} }",
+    "PROGRAMS": "すべてのプログラム",
+    "PROJECT": "{ num, plural, =1 {プロジェクト} other {プロジェクト} }",
+    "REQUEST_FORM": "{ num, plural, =1 {リクエストフォーム} other {リクエストフォーム} }",
+    "TASK_BUNDLE": "{ num, plural, =1 {タスクバンドル} other {タスクバンドル} }",
+    "TEAM": "{ num, plural, =1 {チーム} other {チーム} }",
+    "TEAM_MANAGER": "チームマネージャー",
+    "TEMPLATE": "{ num, plural, =1 {テンプレート} other {テンプレート} }",
+    "USER": "{ num, plural, =1 {ユーザー} other {ユーザー} }",
+    "VENDOR": "{ num, plural, =1 {ベンダー} other {ベンダー} }"
+  },
+  "ERRORS": {
+    "MISSING_INFORMATION": "不足している情報"
+  },
+  "ERROR_MESSAGE": {
+    "INVALID_FORMAT": "メールアドレスを次の形式で入力してください: yourname@workemail.com",
+    "USER_NOT_REGISTERED": "このメールは無効か,すでに使用されています。"
+  },
+  "ERROR_SNACKBAR_TITLE": "エラー！",
+  "EXPORT": "輸出",
+  "EXPORT_CSV": "CSVエクスポート",
+  "FILTER_GENERAL": {
+    "FIELDS_FILTERS": "カスタムフィルター",
+    "FROM": "から",
+    "INPUT_VALUE": "入力値",
+    "NOT_NULL": "少なくとも1つのプロジェクト",
+    "NULL": "プロジェクトなし",
+    "PLACEHOLDER": "オプションを選択",
+    "SELECT_DATE": "日付を選択",
+    "TEXT_VALUE_PLACEHOLDER": "値を入力してください",
+    "TO": "に",
+    "VALUE": "価値"
+  },
+  "FOOTER": "TM & © { year } <a { externalLink } href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> 無断転載を禁じます。",
+  "FORGOT_PAGE": {
+    "BUTTON": "リンクを送ってください",
+    "FAIL_PROMPT": "リンクが届きませんでしたか?",
+    "FAIL_PROMPT_TEXT": "登録済みのメールアドレスを使用していることを確認してください。",
+    "INPUT": {
+      "LABEL": "メール",
+      "PLACEHOLDER": "メールアドレスを入力してください"
+    },
+    "PROMPT": "パスワードをリセットするには,登録したメールアドレスを入力してリセットリンクを受け取ってください。",
+    "SUCCESS_MESSAGE": "メールが送信されました。受信したらリンクをクリックしてください。",
+    "TITLE": "パスワードを回復する"
+  },
+  "GENERAL": "一般的な",
+  "GENERAL_SETTINGS": {
+    "SUCCESS_MESSAGE": "一般設定が正常に更新されました。",
+    "TITLE": "一般設定"
+  },
+  "HOURS_LABEL": "{ hours } { hours, plural, =1 {時間} other {時間} }",
+  "IMPORT": "輸入",
+  "IMPORT_FROM_FILE": "ファイルをアップロードして{element}をインポートする",
+  "IMPORT_PROJECTS": {
+    "COLUMN_LABELS": {
+      "BUSINESS_UNIT": "事業部",
+      "CATEGORY": "プロジェクトカテゴリー",
+      "DESCRIPTION": "説明",
+      "HEALTH": "健康",
+      "LEARNING_TEAMS": "学習チーム",
+      "OWNERS": "プロジェクトオーナー",
+      "PRIORITY": "優先度",
+      "PRIVACY": "プライバシー",
+      "PROCESS": "プロセス",
+      "STAGE": "ステージ",
+      "START_DATE": "開始日",
+      "STATUS": "状態",
+      "TARGET_COMPLETION_DATE": "目標完了日",
+      "TARGET_LAUNCH_DATE": "目標発売日",
+      "TITLE": "プロジェクト名"
+    },
+    "IMPORT": "プロジェクトのインポート",
+    "IMPORT_FROM_FILE": "ファイルをアップロードしてプロジェクトをインポートする",
+    "IMPORT_SUCCESS": "プロジェクトは正常にインポートされました。"
+  },
+  "IMPORT_PROJECT_MODAL": {
+    "DESCRIPTION": "プロジェクトのテンプレートを選択し,詳細を入力してプロジェクトをインポートします",
+    "TITLE": "プロジェクトテンプレートを選択"
+  },
+  "IMPORT_REQUEST_MODAL": {
+    "DESCRIPTION": "リクエストのリクエストフォームを選択し,詳細を入力してリクエストをインポートします。",
+    "LABEL": "リクエストフォーム",
+    "TITLE": "リクエストフォームを選択"
+  },
+  "INPUT_CATEGORY": {
+    "BUSINESS_REQUEST_SECTION": {
+      "ADDITIONAL_FIELDS_PROMPT": "ビジネス リクエストで次のフィールドが指定されていない場合,またはリクエストがリンクされていない場合は,入力してください。",
+      "BUSINESS_UNIT_PLACEHOLDER": "ビジネスグループを選択",
+      "BUSINESS_UNIT_SUBTITLE": "この学習を要求しているのは誰ですか?",
+      "BUSINESS_UNIT_TITLE": "事業部",
+      "CLEAR_ALL": "すべてクリア",
+      "COMPLETION_DATE_PLACEHOLDER": "完了日を選択してください",
+      "COMPLETION_DATE_SUBTITLE": "学習はいつ完了する必要がありますか?",
+      "COMPLETION_DATE_TITLE": "完了日",
+      "LINK_REQUEST": "リクエストをリンクする",
+      "LINK_REQUESTS": "リンク",
+      "REQUESTS_LABEL": "このプログラムに関連するビジネスリクエストを見つける",
+      "REQUESTS_PLACEHOLDER": "リクエスト名または番号で検索",
+      "SUBTITLE": "この学習を要求しているのは誰ですか? 学習はいつ提供する必要がありますか?",
+      "TABLE": {
+        "BUSINESS_UNIT": "事業部",
+        "EMPTY_MESSAGE": "リンクされたリクエストはありません",
+        "REQUESTER_NAME": "依頼者名",
+        "REQUEST_NUMBER": "リクエスト番号",
+        "REQUEST_TITLE": "リクエストタイトル"
+      },
+      "TITLE": "ビジネスリクエスト"
+    },
+    "LEARNER_DETAIL_SECTION": {
+      "FIELDS": {
+        "AUDIENCE": {
+          "PLACEHOLDER": "視聴者を含める",
+          "SUBTITLE": "学習が必要なのは誰ですか?",
+          "TITLE": "観客"
+        },
+        "NO_OF_LEARNERS": {
+          "PLACEHOLDER": "学習者数を追加",
+          "SUBTITLE": "聴衆には何人の学習者が含まれていますか?",
+          "TITLE": "学習者数"
+        }
+      },
+      "SECTION_SUBTITLE": "学習者は誰ですか? 学習者は何を知って,何をする必要がありますか?",
+      "SECTION_TITLE": "学習者の詳細"
+    },
+    "OBJECTIVES_DETAIL_SECTION": {
+      "FIELDS": {
+        "BUSINESS_NEED": {
+          "PLACEHOLDER": "ビジネスニーズを追加",
+          "SUBTITLE": "どのようなビジネス指標が改善されれば,問題または機会が解決されていることを示すことができますか?",
+          "TITLE": "ビジネスニーズ",
+          "TOOLTIP": "例: 滞在期間,在庫超過,残業,従業員の離職率,顧客離れ"
+        },
+        "JOB_PERFORMANCE_NEED": {
+          "PLACEHOLDER": "職務遂行能力の必要性を追加する",
+          "SUBTITLE": "ビジネスニーズを引き起こしている仕事で何が起こっているか,あるいは何が起こっていないか?",
+          "TITLE": "職務遂行能力の必要性",
+          "TOOLTIP": "例：上司は出勤しないスタッフと会話をしていない"
+        },
+        "LEARNING_NEED": {
+          "PLACEHOLDER": "学習ニーズを追加",
+          "SUBTITLE": "起こっていること,起こっていないことを変えるためには,どのような知識,スキル,情報が必要ですか?",
+          "TITLE": "学習ニーズ",
+          "TOOLTIP": "例: 主要なパフォーマーは自分の時間を守り,管理する方法を知る必要がある"
+        },
+        "PAYOFF_OPPORTUNITY": {
+          "PLACEHOLDER": "報酬機会の追加",
+          "SUBTITLE": "問題または機会は何ですか? その機会の経済的価値は何ですか?",
+          "TITLE": "報酬の機会",
+          "TOOLTIP": "たとえば,完全に良品の製品を廃棄したために,毎月 100 万ドルの損失が発生しています。"
+        },
+        "PREFERENCE_NEED": {
+          "PLACEHOLDER": "優先設定を追加",
+          "SUBTITLE": "仕事に変化をもたらすために,この知識,スキル,または情報を最も効果的に伝えるにはどうすればよいでしょうか?",
+          "TITLE": "好みのニーズ",
+          "TOOLTIP": "例: 幹部合宿中に主要なステークホルダーに新しい報告プロセスを紹介"
+        }
+      },
+      "SECTION_SUBTITLE": "ビジネス目標は何ですか?",
+      "SECTION_TITLE": "ビジネス目標の詳細"
+    },
+    "SAVE_SUCCESS_NOTIFICATION": "成功しました！入力戦略が更新されました"
+  },
+  "INSIGHTS_PAGE": {
+    "CAPACITY": {
+      "BUSINESS_UNITS": "事業部門",
+      "BUSINESS_UNIT_PLACEHOLDER": "ビジネスユニットを選択",
+      "END_DATE": "終了日",
+      "START_DATE": "開始日",
+      "TIME_FRAME": "時間枠"
+    },
+    "ERROR_MESSAGE": "問題が発生しました。ページを再読み込みしてください。",
+    "PROJECTS": {
+      "CANCELLED_PROJECTS": "中止されたプロジェクト",
+      "COMPLETED_PROJECTS": "完了したプロジェクト",
+      "COMPLETED_WITHIN_TIMELINE": "目標期間内に完了",
+      "NEW_PROJECTS": "新しいプロジェクト",
+      "TOTAL_PROJECTS": "総プロジェクト数"
+    },
+    "TITLE": "洞察"
+  },
+  "INSIGHTS_PAGE_TABS": {
+    "APPROVED_REQUESTS": {
+      "APPROVAL_RATIO": "{ ratio }% 承認率",
+      "CHART_LABEL": "承認取得における主導的な事業部門",
+      "NUMBER_OF_REQUESTS": "# 必須",
+      "TITLE": "承認されたリクエストの合計"
+    },
+    "CAPACITY": "容量",
+    "CAPACITY_FILTER": {
+      "APPLY": "適用する",
+      "BUSINESS_UNIT_LABEL": "事業部",
+      "DATE": {
+        "CUSTOM": "カスタム",
+        "LAST_12_MONTHS": "過去12か月",
+        "LAST_3_MONTHS": "過去3か月",
+        "LAST_6_MONTHS": "過去6か月",
+        "LAST_MONTH": "先月",
+        "LAST_WEEK": "先週"
+      },
+      "DATE_LABEL": "日付",
+      "FORM_LABEL": "形状",
+      "OWNER": "所有者",
+      "PRIORITY": "優先度",
+      "PROCESS_NAME": "プロセス名",
+      "REQUEST_TYPE_LABEL": "リクエストタイプ",
+      "RESET": "リセット",
+      "TITLE": "フィルター"
+    },
+    "DECLINED_REQUESTS": {
+      "DECLINE_RATIO": "減少率（％）",
+      "TITLE": "拒否されたリクエスト"
+    },
+    "FILTER": {
+      "APPLY": "適用する",
+      "BUSINESS_UNIT_LABEL": "事業部",
+      "DATE": {
+        "ALL": "全て",
+        "LAST_1_MONTH": "過去1か月",
+        "LAST_2_MONTHS": "過去2か月",
+        "LAST_3_MONTHS": "過去3か月",
+        "LAST_4_MONTHS": "過去4か月",
+        "LAST_5_MONTHS": "過去5か月",
+        "LAST_6_MONTHS": "過去6か月"
+      },
+      "DATE_LABEL": "日付",
+      "FORM_LABEL": "形状",
+      "OWNER": "所有者",
+      "PRIORITY": "優先度",
+      "PROCESS_NAME": "プロセス名",
+      "REQUEST_TYPE_LABEL": "リクエストタイプ",
+      "RESET": "リセット",
+      "TITLE": "フィルター"
+    },
+    "INSIGHTS_INTAKE_REQUESTS_BY_CHART": {
+      "BUSINESS_UNIT": "事業部",
+      "FORM": "形状",
+      "STATUS": "状態",
+      "TYPE": "タイプ"
+    },
+    "INTAKE": "摂取量",
+    "IN_REVIEW_REQUESTS": {
+      "DAYS_IN_REVIEW": "日々の振り返り",
+      "FOUR_TO_EIGHT_DAYS": "4～8日",
+      "LESS_THAN_THREE_DAYS": "1～3日",
+      "MORE_THAN_FIFTEEN_DAYS": "+15日",
+      "NINE_TO_FOURTEEN_DAYS": "9 - 14日",
+      "REQUESTS_WAITING": "キャンセル待ちのリクエスト",
+      "TITLE": "レビューリクエスト中"
+    },
+    "NO_REQUESTS": "選択した期間内にリクエストが見つかりませんでした",
+    "NUMBER_OF_REQUESTS": "リクエスト数",
+    "PROJECTS": "プロジェクト",
+    "RECEIVED_REQUESTS": {
+      "TITLE": "受信したリクエスト"
+    },
+    "REQUESTS_BY": {
+      "TITLE": "リクエスト者"
+    },
+    "RESPONSE_RATIO": {
+      "AVERAGE_DAYS": "平均応答時間は{responseTime}日以内",
+      "TITLE": "応答率"
+    }
+  },
+  "INTAKE": "摂取量",
+  "INTAKE_TAB": {
+    "10MB_FILE_ERROR": "ファイルサイズが10MBより大きい",
+    "CAPTION": "ポータルを設定し,リクエストフォームを作成します。",
+    "CHOOSE": "選ぶ",
+    "COPYRIGHT": "TM & © 2022 Cognota, Inc. 無断複写・転載を禁じます。",
+    "COPY_LINK": "コピー",
+    "DRAG_HERE": "ファイルをここにドラッグするか,",
+    "FROM_DEVICE": "デバイスから。最大ファイルサイズ: 10MB",
+    "IMAGE_SIZE_HELPER": "大きな画像を推奨（最小高さ：1080ピクセル）",
+    "LINK_COPIED": "ポータル リンクがクリップボードにコピーされました。",
+    "PORTAL_LINK": "ポータルリンク",
+    "PORTAL_NAME_LABEL": "ポータル名",
+    "PORTAL_NAME_PLACEHOLDER": "ポータルの名前を追加します",
+    "PREVIEW": "プレビュー",
+    "PREVIEW_TOOLTIP": "ここでは,ポータルでファイルがどのように表示されるかを確認できます。ポータル画像をアップロードしない場合は,当社が提供するデフォルトの画像が表示されます。",
+    "TEAM_REQUEST_TOGGLE": {
+      "LABEL": "ビジネスユーザー向けのチームリクエストを表示する",
+      "OFF_TEXT": "オフ",
+      "ON_TEXT": "の上"
+    },
+    "UPLOAD_BACKGROUND": "ポータル画像をアップロード",
+    "UPLOAD_LOGO": "ロゴをアップロード",
+    "USE_DEFAULT": "デフォルトの画像を使用する"
+  },
+  "LANDING": {
+    "DESIGN": "学習ソリューションの設計",
+    "DESIGN_DESC": "学習を開発および提供するための戦略とテクニックについて協力します。",
+    "EXTERNAL_USERS": {
+      "BODY_LINE_ONE": "学習ソリューションをシームレスにコラボレーションします。",
+      "BODY_LINE_TWO": "ベストプラクティスを活用して学習コンテンツを迅速に構築します。"
+    },
+    "INSIGHTS": "学習の洞察を分析する",
+    "INSIGHTS_DESC": "学習運用の洞察を解き放ち,戦略的焦点を発見して明確にします。",
+    "INTAKE": "学習リクエストの受け入れ",
+    "INTAKE_DESC": "企業全体からの新しいトレーニング リクエストを受け付け,確認し,ランク付けして対応します。",
+    "LEARN_MORE": "もっと詳しく知る",
+    "PROJECTS": "学習プロジェクトを計画する",
+    "PROJECTS_DESC": "学習プロジェクトに必要なコスト,範囲,スケジュール,リソースの概要を示し,追跡します。",
+    "SETTINGS": "プラットフォーム設定を構成する",
+    "SETTINGS_DESC": "独自のビジネス ニーズとエクスペリエンスをサポートするために,プラットフォームを構成し,その操作を管理します。",
+    "TEAMS": "学習チームの管理",
+    "TEAMS_DESC": "チームを管理し,継続的に容量を調べて,プロジェクトのリソースの可用性を確保します。",
+    "WELCOME": "いらっしゃいませ！"
+  },
+  "LANGUAGES": {
+    "UNDEFINED": "割り当てられていない",
+    "aa": "アファール",
+    "ab": "アブハジア語",
+    "ae": "アヴェスター語",
+    "af": "アフリカーンス語",
+    "ak": "アカン",
+    "am": "アムハラ語",
+    "an": "アラゴン語",
+    "ar": "アラビア語",
+    "as": "アッサム語",
+    "av": "アヴァリック",
+    "ay": "アイマラ語",
+    "az": "アゼルバイジャン語",
+    "ba": "バシキール語",
+    "be": "ベラルーシ語",
+    "bg": "ブルガリア語",
+    "bh": "ビハリ語",
+    "bi": "ビスラマ",
+    "bm": "バンバラ語",
+    "bn": "ベンガル語",
+    "bo": "チベット語",
+    "br": "ブルトン語",
+    "bs": "ボスニア語",
+    "ca": "カタロニア語",
+    "ce": "チェチェン",
+    "ch": "チャモロ語",
+    "co": "コルシカ",
+    "cr": "クリー語",
+    "cs": "チェコ語",
+    "cu": "古代教会スラヴ語 / 古代ブルガリア語",
+    "cv": "チュヴァシ語",
+    "cy": "ウェールズ語",
+    "da": "デンマーク語",
+    "de": "ドイツ語",
+    "dv": "ディベヒ語",
+    "dz": "ゾンカ語",
+    "ee": "雌羊",
+    "el": "ギリシャ,近代（1453-）",
+    "en": "英語",
+    "eo": "エスペラント",
+    "es": "スペイン語",
+    "et": "エストニア語",
+    "eu": "バスク語",
+    "fa": "ペルシャ語",
+    "ff": "フーラ語",
+    "fi": "フィンランド語",
+    "fj": "フィジー語",
+    "fo": "フェロー語",
+    "fr": "フランス語",
+    "fy": "西フリジア語",
+    "ga": "アイルランド語",
+    "gd": "スコットランド・ゲール語",
+    "gl": "ガリシア語",
+    "gn": "グアラニー語",
+    "gu": "グジャラート語",
+    "gv": "マンクス",
+    "ha": "ハウサ語",
+    "he": "ヘブライ語",
+    "hi": "ヒンディー語",
+    "ho": "ヒリ・モツ",
+    "hr": "クロアチア語",
+    "ht": "ハイチ語",
+    "hu": "ハンガリー語",
+    "hy": "アルメニア語",
+    "hz": "ヘレロ語",
+    "ia": "インターリングア（国際補助言語協会）",
+    "id": "インドネシア語",
+    "ie": "インターリンガル",
+    "ig": "イボ語",
+    "ii": "四川イー",
+    "ik": "イヌピアック語",
+    "io": "私はします",
+    "is": "アイスランド語",
+    "it": "イタリア語",
+    "iu": "イヌクティトゥット語",
+    "ja": "日本語",
+    "jv": "ジャワ語",
+    "ka": "グルジア語",
+    "kg": "金剛",
+    "ki": "キクユ語",
+    "kj": "クアンヤマ",
+    "kk": "カザフ語",
+    "kl": "グリーンランド語",
+    "km": "中部クメール語",
+    "kn": "カンナダ語",
+    "ko": "韓国語",
+    "kr": "カヌリ",
+    "ks": "カシミール語",
+    "ku": "クルド",
+    "kv": "コミ",
+    "kw": "コーンウォール語",
+    "ky": "キルギス語",
+    "la": "ラテン",
+    "lb": "ルクセンブルク語",
+    "lg": "ガンダ語",
+    "li": "リンブルガン",
+    "ln": "リンガラ語",
+    "lo": "ラオス",
+    "lt": "リトアニア語",
+    "lu": "ルバ・カタンガ",
+    "lv": "ラトビア語",
+    "mg": "マダガスカル語",
+    "mh": "マーシャル人",
+    "mi": "マオリ語",
+    "mk": "マケドニア語",
+    "ml": "マラヤーラム語",
+    "mn": "モンゴル語",
+    "mr": "マラーティー語",
+    "ms": "マレー語",
+    "mt": "マルタ語",
+    "my": "ビルマ語",
+    "na": "ナウル",
+    "nb": "ノルウェー語（ブークモール）",
+    "nd": "北ンデベレ語",
+    "ne": "ネパール語",
+    "ng": "ンドンガ",
+    "nl": "オランダ語",
+    "nn": "ノルウェー語（ニーノシュク）",
+    "no": "ノルウェー語",
+    "nr": "南ンデベレ語",
+    "nv": "ナバホ語",
+    "ny": "チェワ語",
+    "oc": "オック語（1500年以降）",
+    "oj": "オジブワ語",
+    "om": "オロモ語",
+    "or": "オリヤー語",
+    "os": "オセット語",
+    "pa": "パンジャブ語",
+    "pi": "パーリ語",
+    "pl": "研磨",
+    "ps": "パシュトゥー語",
+    "pt": "ポルトガル語",
+    "qu": "ケチュア語",
+    "rm": "ロマンシュ語",
+    "rn": "ルンディ",
+    "ro": "ルーマニア語",
+    "ru": "ロシア",
+    "rw": "キニャルワンダ語",
+    "sa": "サンスクリット",
+    "sc": "サルデーニャ語",
+    "sd": "シンディー語",
+    "se": "北サーミ語",
+    "sg": "サンゴ",
+    "si": "シンハラ語",
+    "sk": "スロバキア語",
+    "sl": "スロベニア語",
+    "sm": "サモア語",
+    "sn": "ショナ語",
+    "so": "ソマリア",
+    "sq": "アルバニア語",
+    "sr": "セルビア語",
+    "ss": "スワティ語",
+    "st": "ソト語,南部",
+    "su": "スンダ語",
+    "sv": "スウェーデン語",
+    "sw": "スワヒリ語",
+    "ta": "タミル語",
+    "te": "テルグ語",
+    "tg": "タジク語",
+    "th": "タイ語",
+    "ti": "ティグリニャ語",
+    "tk": "トルクメン語",
+    "tl": "タガログ語",
+    "tn": "ツワナ語",
+    "to": "トンガ（トンガ諸島）",
+    "tr": "トルコ語",
+    "ts": "ツォンガ",
+    "tt": "タタール語",
+    "tw": "トゥイ語",
+    "ty": "タヒチアン",
+    "ug": "ウイグル",
+    "uk": "ウクライナ語",
+    "ur": "ウルドゥー語",
+    "uz": "ウズベク語",
+    "ve": "ベンダ",
+    "vi": "ベトナム語",
+    "vo": "ヴォラピュク",
+    "wa": "ワロン語",
+    "wo": "ウォロフ語",
+    "xh": "コサ語",
+    "yi": "イディッシュ語",
+    "yo": "ヨルバ語",
+    "za": "チワン族",
+    "zh": "中国語",
+    "zu": "ズールー語"
+  },
+  "LICENSE": {
+    "LICENSE_ACTIVATION": "利用可能なライセンスがないと,このユーザー アカウントをアクティブ化できません。",
+    "LICENSE_INACTIVE": "ライセンスは 0 個残っています。このユーザーを作成すると,そのアカウントは <b>非アクティブ</b> に設定されます。",
+    "LICENSE_REMAINING": "購入したアカウントライセンスは { purchasedLicense } 個です - 残りライセンスは { licensesLeft } 個です"
+  },
+  "LOADING": "読み込み中",
+  "LOGIN_PAGE": {
+    "BUTTON": "ログイン",
+    "BUTTON_BACK": "戻る",
+    "BUTTON_NEXT": "次",
+    "BUTTON_SSO": "SSOでログイン",
+    "FORGET_PASSWORD_LINK": "パスワードをお忘れですか？",
+    "HEADING": "Cognotaへようこそ",
+    "INPUT": {
+      "EMAIL_INPUT": {
+        "LABEL": "メール",
+        "PLACEHOLDER": "メールアドレスを入力してください"
+      },
+      "EMPTY_HELP_TEXT": "入力がありません",
+      "INCORRECT_EMAIL_OR_PASSWORD": "メールアドレスが間違っているか,パスワードが無効です。",
+      "INVALID_HELP_TEXT": "メールアドレスを次の形式で入力してください: yourname@workemail.com",
+      "PASSWORD_INPUT": {
+        "LABEL": "パスワード",
+        "PLACEHOLDER": "パスワードを入力してください"
+      },
+      "PASSWORD_NOT_MATCH": "パスワードが一致しません",
+      "USER_NOT_FOUND": "ユーザーが登録されていません"
+    },
+    "LEFT_PANEL": {
+      "PROMPT": "集中型プラットフォームでトレーニング リクエスト,プロジェクトおよびキャパシティ プランニング,コンテンツ デザインを管理することで,さまざまなツールを統合し,プロセスを改善します。",
+      "TITLE": "生産性を 70% 以上向上させる準備はできていますか?"
+    },
+    "LOADING": "読み込み中",
+    "LOGIN_OPTION_CHK_FAILED": "利用可能なログイン オプションを確認できませんでした。もう一度お試しください。",
+    "REMEMBER_ME": "私を覚えてますか",
+    "SLOGAN": "L&Dチーム向けに構築されたソフトウェア",
+    "WELCOME_TO": "ようこそ"
+  },
+  "MANAGE_TIME_OFF": {
+    "ADD_TIME_OFF": "休暇を追加",
+    "ADD_TIME_OFF_SUCCES": "成功しました。休暇が追加されました。",
+    "AMOUNT": "額",
+    "DAILY_CAPACITY": "1日の容量: { capacity } 時間",
+    "DELETE_TIME_OFF_BUTTON": "はい,休暇を削除します",
+    "DELETE_TIME_OFF_CONFIRMATION": "この休暇を削除してもよろしいですか?",
+    "DELETE_TIME_OFF_MESSAGE": "この休暇は削除されます。",
+    "DELETE_TIME_OFF_SUCCESS": "成功しました。休暇が削除されました。",
+    "DELET_TIME_OFF_TITLE": "休暇を削除",
+    "EDIT_TIME_OFF": "休暇の編集",
+    "FILTERS": {
+      "DATEPICKER_END_PLACEHOLDER": "に",
+      "DATEPICKER_LABEL": "日付",
+      "DATEPICKER_START_PLACEHOLDER": "から"
+    },
+    "HOURS": "時間",
+    "INVALID_DATE_RANGE_ERROR": "休暇期間は18か月を超えることはできません",
+    "MANAGE_USER_TIME_OFF_TITLE": "休暇の管理: { userName }",
+    "NO_PERMISSION_ERROR_MESSAGE": "アクセスするには管理者にお問い合わせください",
+    "NO_PERMISSION_ERROR_TITLE": "このページを閲覧する権限がありません",
+    "NUMBER_OF_RESULTS": "{ number } 件の結果",
+    "SAVE_CHANGES_ERROR_MESSAGE": "再度保存する前にページを再読み込みしてください。",
+    "SAVE_CHANGES_ERROR_TITLE": "申し訳ありませんが,エラーが発生したため,一部の変更が保存されなかった可能性があります。",
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "日付",
+        "HOURS": "営業時間",
+        "TIME_OFF_TYPE": "休暇の種類"
+      },
+      "EMPTY_CAPTION": "休暇の追加を始めましょう。",
+      "EMPTY_FILTER_RESULT_CAPTION": "結果が見つかりませんでした。"
+    },
+    "TOTAL": "合計",
+    "UPDATE_INVALID_DATE_RANGE": "終了日を遅くとも",
+    "UPDATE_TIME_OFF_SUCCES": "成功しました。休暇が更新されました。"
+  },
+  "MORE_ACTIONS": "その他のアクション",
+  "MY_WORKSPACE": {
+    "AFTERNOON_GREETING": "こんにちは,{userName}さん！",
+    "DUE_PROJECTS": {
+      "EMPTY_STATE_TEXT": "プロジェクトが割り当てられていません",
+      "MODAL_TITLE": "完了日別プロジェクト",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "COMPLETION_DATE": "完了日",
+          "MY_TASKS": "私のタスク",
+          "PRIORITY": "優先度",
+          "STATUS": "状態",
+          "TITLE": "タイトル"
+        },
+        "TODAY": "今日"
+      },
+      "TITLE": "期限が迫っているプロジェクト",
+      "TOOLTIP_TEXT": "完了日別プロジェクト"
+    },
+    "DUE_TASKS": {
+      "EMPTY_STATE_TEXT": "タスクが割り当てられていません",
+      "MODAL_TITLE": "期限別タスク",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "DUE": "期限",
+          "DUE_DATE": "期日",
+          "PROJECT": "プロジェクト",
+          "STATUS": "状態",
+          "TITLE": "タイトル"
+        },
+        "TODAY": "今日",
+        "TOMORROW": "一日で"
+      },
+      "TITLE": "期限のタスク",
+      "TOOLTIP_TEXT": "期限別に割り当てられたタスク"
+    },
+    "ERROR_STATE": "問題が発生しました。ページを再読み込みしてください。",
+    "EVENING_GREETING": "こんばんは,{ userName }さん！",
+    "IN_REVIEW_REQUESTS": {
+      "EMPTY_STATE_TEXT": "リクエストは送信されていません",
+      "TABLE": {
+        "DAYS": "{ days } { days, plural, =1 {日} other {日} }",
+        "HEAD_CELLS": {
+          "DAYS_IN_REVIEW": "日々の振り返り",
+          "PRIORITY": "優先度",
+          "REQUESTER": "依頼者",
+          "TITLE": "タイトル"
+        }
+      },
+      "TITLE": "審査中のリクエスト",
+      "TOOLTIP_TEXT": "審査中のリクエスト"
+    },
+    "MORNING_GREETING": "おはようございます,{userName}さん！",
+    "RECENT_MENTIONS": {
+      "EMPTY_STATE_TEXT": "言及もアクション項目もない",
+      "IN": "で",
+      "TITLE": "最近の言及",
+      "TOOLTIP_TEXT": "リクエスト,プロジェクト,デザインでの言及"
+    },
+    "VIEW_ALL": "すべて表示"
+  },
+  "NEW_PROJECT_PAGE": {
+    "ALL_PROJECTS_LINK": "プロジェクト",
+    "BACK_BUTTON": "戻る",
+    "BASIC_DETAILS": "基本情報",
+    "BUDGET_DETAILS": "予算の詳細",
+    "CANCEL_BUTTON": "キャンセル",
+    "CANCEL_PROJECT_CREATION_MODAL": {
+      "BODY": "要求されたアクションにより,入力された情報が完全に削除されます。「{ projectName }」の作成をキャンセルしてもよろしいですか?",
+      "CANCEL": "創作を続ける",
+      "SUBMIT": "はい,作成をキャンセル",
+      "TITLE": "プロジェクト作成をキャンセル"
+    },
+    "CANCEL_PROJECT_CREATION_SUCCESS": "プロジェクト「{ projectName }」の作成が正常にキャンセルされました。",
+    "DISABLED_PROCESS": "（無効）",
+    "MISSING_INFO_ERROR": "不足している情報",
+    "NEXT_BUTTON": "次",
+    "RESOURCES_DETAILS": "リソースの詳細",
+    "SAVE_BUTTON": "保存",
+    "SAVE_ERROR": "このプロジェクトには情報が不足しているため,作成されていません。",
+    "TASK_BUNDLE": {
+      "ESTIMATED_HOURS_PLACEHOLDER": "予定時間は未設定",
+      "PLACEHOLDER": "プロジェクトのタスクバンドルを選択",
+      "TITLE": "タスクバンドル"
+    },
+    "TITLE": "プロジェクトを追加",
+    "VIEW_PROJECT_MODAL": {
+      "ADDITIONAL_DETAILS": "追加の詳細",
+      "BASIC_DETAILS": "基本情報",
+      "LD_ONLY": "L&Dのみ",
+      "REQUEST_DETAILS": "リクエストの詳細",
+      "TITLE": "プロジェクトを見る"
+    }
+  },
+  "NO": "いいえ",
+  "NONE": "なし",
+  "NOTIFICATIONS": "通知",
+  "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。",
+  "OPERATORS": {
+    "BETWEEN": "間",
+    "CONTAINS": "含まれるもの",
+    "DOESNT_CONTAIN": "含まれていない",
+    "EQUAL": "等しい",
+    "GREATER": "より大きい",
+    "GREATER_OR_EQUAL": "より大きいか等しい",
+    "LESS": "未満",
+    "LESS_OR_EQUAL": "以下",
+    "NOT_EQUAL": "等しくない",
+    "NOT_NULL": "少なくとも1つのプロジェクトに相当",
+    "NULL": "プロジェクトなし",
+    "OVERLAPS": "重複"
+  },
+  "ORG_SETTINGS_PAGE": {
+    "ADD_VENDOR": "ベンダーを追加する",
+    "BUSINESS_TEAMS": {
+      "TABLE": {
+        "CREATION_DATE": "作成日",
+        "DESCRIPTION": "説明"
+      },
+      "TITLE": "ビジネスチーム"
+    },
+    "CAPTION": "チームまたはベンダーを追加して組織を設定します",
+    "LEARNING_TEAMS": {
+      "ADD_TEAM": "チームを追加",
+      "ADD_TEAM_MODAL": {
+        "ADD_MANAGER": "マネージャーを追加",
+        "ENTER_DESCRIPTION": "チームの説明を入力",
+        "ENTER_TEAM_NAME": "チーム名を入力してください",
+        "FILL_DETAILS": "チームを追加するには詳細を入力してください",
+        "REPORTS_TO": "報告先",
+        "SELECT_TEAM": "チームを選択",
+        "TEAM_ADDED": "チームが正常に追加されました!",
+        "TEAM_NAME": "チーム名"
+      },
+      "HIDE_PROJECTS": "プロジェクトを非表示",
+      "HOURS": "{ hours }時間",
+      "ROLES": "{ op, plural, =1 {役割} other {役割} }",
+      "TABLE": {
+        "A_MANAGER_IS_NEEDED": "プロジェクト リソースを管理するにはマネージャーが必要です。",
+        "CREATION_DATE": "作成日",
+        "NO_MANAGER_ASSIGNED": "マネージャーが割り当てられていません",
+        "NO_TEAM_ADDED": "チームが追加されていません",
+        "REPORTS_TO": "報告先",
+        "TEAM_MANAGER": "チームマネージャー",
+        "TEAM_NAME": "チーム名"
+      },
+      "TEAMS_&_MEMBERS": "チームとチームメンバー",
+      "TIME_OFF_WEEK": "今週の休日",
+      "TITLE": "学習チーム",
+      "VENDOR_MODAL_TITLE": "ベンダーを追加するには詳細を入力してください",
+      "VIEW_PROJECTS": "プロジェクトを見る"
+    },
+    "TITLE": "組織の設立"
+  },
+  "PAGINATION": {
+    "JUMP_TO_PAGE": "ページへジャンプ",
+    "RESULTS": "{ range } 件中 { total } 件を表示",
+    "SHOW": "ページあたりの行数"
+  },
+  "PASSWORD_SETUP_PAGE": {
+    "BUTTON": "提出する",
+    "INPUT": {
+      "PASSWORD": "パスワードを入力してください"
+    },
+    "PROMPT": "この設定は,ユーザー アカウント <strong>{ email }</strong> 用です。これが自分のアカウントでない場合は,管理者に問い合わせてください。",
+    "SUCCESS_MESSAGE": {
+      "LINE_ONE": "アカウントを確認するにはメールを確認してください。",
+      "LINE_TWO": "メールが届きませんか？",
+      "LINK": "メールを再送信",
+      "TITLE": "もうすぐ到着です！"
+    },
+    "TITLE": "パスワードの設定"
+  },
+  "PEOPLE": {
+    "RESOURCE_ALLOCATION": {
+      "ADD_PARTICIPANT_MODAL": {
+        "ADD_USER": "ユーザーを追加する",
+        "AVAILABLE": "利用可能",
+        "DESCRIPTION": "プロジェクトにリソースを追加するには詳細を入力してください",
+        "HOURS_AVAILABLE": "{ hours } 時間",
+        "PARTICIPANT_ADDED_SUCCESS_MESSAGE": "新しい参加者がチームに正常に追加されました。",
+        "PARTICIPANT_ADDED_SUCCESS_SNACKBAR_MESSAGE": "成功しました。参加者が追加されました。",
+        "PARTICIPANT_END_DATE_FIELD_LABEL": "終了日",
+        "PARTICIPANT_END_DATE_FIELD_PLACEHOLDER": "完了日",
+        "PARTICIPANT_ESTIMATED_HOURS_NEEDED": "推定所要時間",
+        "PARTICIPANT_ROLE_FIELD_LABEL": "プロジェクトの役割",
+        "PARTICIPANT_ROLE_FIELD_PLACEHOLDER": "リソースを追加するには,職務を選択してください",
+        "PARTICIPANT_START_DATE_FIELD_LABEL": "開始日",
+        "PARTICIPANT_TOTAL_ALLOCATED_HOURS": "割り当てられた合計時間",
+        "PARTICIPANT_TOTAL_AVAILABILITY": "総可用性",
+        "PARTICIPANT_TYPE_FIELD_LABEL": "参加者タイプ",
+        "PARTICIPANT_TYPE_FIELD_OPTIONS": {
+          "COLLABORATOR": "プロジェクト協力者",
+          "MEMBER": "プロジェクトメンバー"
+        },
+        "PARTICIPANT_TYPE_FIELD_PLACEHOLDER": "プロジェクトロールを選択",
+        "PARTICIPANT_UPDATED_SUCCESS_SNACKBAR_MESSAGE": "成功しました。参加者情報が更新されました。",
+        "PARTICIPANT_USER_FIELD_LABEL": "ユーザー",
+        "PARTICIPANT_USER_FIELD_PLACEHOLDER": "ユーザーを選択",
+        "PROJECT_PARTICIPANT_FIELD_LABEL": "プロジェクト参加者",
+        "PROJECT_PARTICIPANT_FIELD_PLACEHOLDER": "参加者を追加する",
+        "SELECT_ROLE": "役割を選択",
+        "TITLE": "参加者を追加",
+        "TOTAL_ALLOCATION_PLACEHOLDER": "割り当て",
+        "UPDATE_ROLE": "役割の更新"
+      },
+      "PARTICIPANT_PROJECT_ROLE": {
+        "COMMUNICATION_SPECIALIST": "コミュニケーションスペシャリスト",
+        "CONTENT_WRITER": "コンテンツライター",
+        "EXECTIVE_SPOSNOR": "エグゼクティブスポンサー",
+        "INSTRUCTIONAL_DESIGNER": "インストラクショナルデザイナー",
+        "LEARNING_CONSULTANT": "学習コンサルタント/パートナー",
+        "LEARNING_DEVELOPER": "学習開発者",
+        "LMS_ADMIN": "LMS 管理/サポート",
+        "MEDIA_DEVELOPER": "メディア開発者",
+        "OTHERS": "その他",
+        "PRODUCER": "プロデューサー",
+        "PROGRAM_MANAGER": "プログラムマネージャー",
+        "PROJECT_MANAGER": "プロジェクトマネージャー",
+        "PROJECT_OWNER": "プロジェクトオーナー",
+        "QA": "品質保証",
+        "REPORTING_ANALYST": "レポートアナリスト",
+        "RESOURCE_MANAGER": "リソース マネージャー",
+        "REVIEWER": "レビュー担当者",
+        "SME": "中小企業",
+        "TRAINER": "トレーナー/ファシリテーター",
+        "TRAINING_COORDINATOR": "トレーニングコーディネーター"
+      },
+      "REMOVE_PARTICIPANT_MODAL": {
+        "DESCRIPTION": "この参加者をこのプロジェクトから削除しようとしています。<br> この参加者はプロジェクトに <b>アクセスできなくなり</b>,<br> <b>すべてのタスクから割り当て解除されます</b>。",
+        "PARTICIPANT_REMOVED_SUCCESS_SNACKBAR_MESSAGE": "成功しました！参加者を削除しました",
+        "REMOVE": "参加者を削除",
+        "TITLE": "参加者を削除"
+      },
+      "TABLE": {
+        "ADD_ASSIGNMENT": "新しい課題を追加",
+        "ADJUST_ALLOCATION": "割り当てを調整する",
+        "ALLOCATION": "割り当て",
+        "ALLOCATION_AVAILABILITY": "({ availability } 利用可能)",
+        "ALLOCATION_HOURS": "{ hours }時間",
+        "ALLOCATION_TIME": "{ allocation }h",
+        "ASSIGNMENT_ACTUAL_TIME": "実際の時間: { hours } 時間",
+        "ASSIGNMENT_DETAILS": "課題の詳細",
+        "ASSIGNMENT_ESTIMATED_TIME": "推定時間: { estimated } 時間",
+        "ASSIGNMENT_UPDATED_SUCCESSFULLY": "プロジェクト { type } の割り当てが正常に更新されました。",
+        "COLLABORATORS": "{ num, plural, =0 {共同作業者} =1 {共同作業者} }",
+        "COLLABORATOR_ESTIMATED_TIME": "推定合計 { hours } 時間",
+        "EMPTY_COLLABORATORS": "共同作業者はまだ追加されていません。",
+        "EMPTY_MEMBERS": "まだメンバーが追加されていません。",
+        "EMPTY_OWNERS": "所有者はまだ追加されていません。",
+        "HEADERS": {
+          "ACTUAL_HOURS": "実際の時間",
+          "ALLOCATION": "{ isMember, plural, =0 {推定} =1 {合計} } 割り当て",
+          "NAME": "名前",
+          "PARTICIPANT_TOTAL": "参加者合計",
+          "PARTICIPANT_TYPE": "参加者タイプ",
+          "PROJECT_ROLE": "プロジェクトの役割",
+          "PROJECT_TEAM": "プロジェクトチーム",
+          "TIME_LINE": "タイムライン",
+          "WEEKLY_TOTAL": "週合計（共同作業者を除く）"
+        },
+        "HIDE_TASKS": "タスクを非表示",
+        "MEMBERS": "{ num, plural, =0 {メンバー} =1 {メンバー} }",
+        "NEW_ASSIGNMENT": "新しいメンバーの割り当て",
+        "NO_ASSIGNMENT": "割り当てなし",
+        "NO_ROLE": "役割が割り当てられていません",
+        "NO_TASKS": "タスクが割り当てられていません",
+        "OVERALLOCATION": "過剰配分",
+        "OWNERS": "{ num, plural, =0 {所有者} =1 {所有者} }",
+        "PROJECT_OWNER_ROLE": "プロジェクトオーナー",
+        "REMOVE_PARTICIPANT": "参加者を削除",
+        "REMOVE_PROJECT_OWNER_ROLE_WARNING": "この割り当てを削除するには,概要ページからユーザーを所有者として削除する必要があります。",
+        "REMOVE_STARTED_ROLE_WARNING": "このプロジェクト ロールを削除すると,プロジェクトから作業時間が削除されます。作業時間の記録を保持するには,ロールを削除するのではなく,タイムラインを調整してください。",
+        "REMOVE_STARTED_ROLE_WARNING_TOOLTIP": "このプロジェクト ロールを削除すると,プロジェクトから作業時間が削除されます。作業時間の記録を保持するには,ロールを削除するのではなく,タイムラインを調整してください。",
+        "REMOVE_USER_WARNING": "このロールを削除すると,ユーザーはプロジェクトから削除されます。不要な場合は,このアクションをキャンセルしてください。",
+        "REMOVE_USER_WARNING_TOOLTIP": "このロールを削除すると,ユーザーはプロジェクトから削除されます。",
+        "REVIEW_ALLOCATION_WARNING": "このユーザーの割り当てを確認する必要があるかもしれません。",
+        "SECTIONS": {
+          "BUSINESS": "仕事",
+          "EMPTY_BUSINESS": "ビジネスユーザーはまだ追加されていません",
+          "EMPTY_EXTERNAL": "外部ユーザーはまだ追加されていません",
+          "EMPTY_FACILITATOR": "ファシリテーターユーザーはまだ追加されていません",
+          "EMPTY_LD": "学習ユーザーはまだ追加されていません",
+          "EMPTY_OWNER": "所有者ユーザーはまだ追加されていません",
+          "EXTERNAL": "外部の",
+          "FACILITATOR": "ファシリテーター",
+          "LD": "学ぶ",
+          "OWNER": "所有者"
+        },
+        "TARGET_COMPLETION": "目標達成",
+        "TEAM_MANAGER_ASSIGNMENT": "ユーザーは,同じチームのチーム マネージャーとチーム メンバーを兼任することはできません。",
+        "TIME_OFF_HOLIDAYS": "休暇/休日",
+        "TIME_OFF_TOOLTIP": "今週の休日",
+        "UPDATE_ASSIGNMENT": "{ type } の割り当てを更新",
+        "VIEW_TASKS": "タスクを表示"
+      },
+      "UPDATE_WEEKLY_ALLOCATION_MODAL": {
+        "ACTUAL_HOURS": "実際の時間",
+        "HOURS_ALLOCATED": "割り当てられた時間",
+        "HOURS_LEFT": "残り時間",
+        "HOUR_LABEL": "h",
+        "PROJECT_ROLE": "プロジェクトの役割",
+        "SUCCESS_BANNER": "プロジェクトメンバーの割り当て時間が正常に更新されました。",
+        "TIME_LINE": "タイムライン"
+      }
+    },
+    "RESOURCE_PLAN": {
+      "UPDATE_RESOURCES_BUTTON": "リソースの更新",
+      "UPDATE_SUCCESS": "リソース プランが正常に更新されました"
+    },
+    "RESOURCE_SUMMARY": {
+      "RESOURCE_SUMMARY_TABLE": {
+        "COLLABORATORS_SECTION": "協力者",
+        "MEMBERS_SECTION": "メンバー",
+        "NO_OF_RESOURCE_COLUMN": "リソース数",
+        "PROJECT_ROLE_COLUMN": "プロジェクトの役割",
+        "SUB_TITLE": "このセクションには,プロジェクトメンバーと協力者のこれまでの割り当てられた時間と実際の時間の合計が表示されます。",
+        "TITLE": "リソースタイプ別のリソース概要",
+        "TOTAL": "合計",
+        "TOTAL_ACTUAL_HOURS": "総実労働時間",
+        "TOTAL_HOURS_COLUMN": "割り当てられた合計時間"
+      },
+      "TASKS_SUMMARY_TABLE": {
+        "EMPTY_TABLE": "タスクがまだ追加されていないため,表示するデータはありません。",
+        "NUMBER_OF_TASKS": "タスク数",
+        "SUB_TITLE": "このセクションでは,タスクタイプ別に,これまでに割り当てられた時間と実際の時間の合計を表示します。",
+        "TASK_TYPE": "タスクタイプ",
+        "TITLE": "タスクタイプ別のリソース概要",
+        "TOTAL_ACTUAL_HOURS": "総実労働時間",
+        "TOTAL_ESTIMATED_HOURS": "推定総時間"
+      }
+    },
+    "TABS": {
+      "RESOURCE_ALLOCATION": "リソースの割り当て",
+      "RESOURCE_PLAN": "リソース計画",
+      "RESOURCE_SUMMARY": "リソースの概要"
+    }
+  },
+  "PERCENT_SIGN": "%",
+  "POWERED_BY": "搭載",
+  "PROFILE": {
+    "SUCCESS": "プロフィールが正常に更新されました",
+    "TITLE": "アカウントプロフィール"
+  },
+  "PROFILE_MENU": {
+    "LANGUAGE": "言語",
+    "NOTIFICATION": "通知",
+    "PROFILE": "マイプロフィール",
+    "TIME_OFF": "私の休暇"
+  },
+  "PROGRAMS_LIST_PAGE": {
+    "ADD_PROGRAM_BUTTON": "プログラムを追加",
+    "DELIVERY_TYPES": {
+      "BLENDED": "ブレンド",
+      "IN_PERSON": "直接",
+      "ONLINE": "オンライン",
+      "OTHER": "他の"
+    },
+    "STATUS": {
+      "CLOSED": "閉鎖",
+      "IN_PROGRESS": "進行中",
+      "NOT_STARTED": "開始されていません"
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "CREATION": "作成日",
+        "DELIVERY_TYPE": "配送タイプ",
+        "OWNERS": "オーナー",
+        "PROGRAM_NUMBER": "プログラム番号",
+        "STATUS": "状態",
+        "TITLE": "タイトル"
+      },
+      "EMPTY": "プログラムを作成および管理します。",
+      "GET_STARTED": "始める",
+      "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。"
+    },
+    "TITLE": "プログラム"
+  },
+  "PROGRAM_PAGE": {
+    "CLOSED_TOOLTIP": "このプログラムを閉じる前に,リンクされているすべてのプロジェクトを完了してください。",
+    "DELETE_PROGRAM": "プログラムを削除",
+    "DELETE_PROGRAM_ERROR": "申し訳ありません。問題が発生しました。もう一度試す前にページを再読み込みしてください。",
+    "DELETE_PROGRAM_MODAL": {
+      "STEP_ONE": {
+        "DELETED_PROJECTS_TEXT": "次の { numberOfProjects, plural, =1 {プロジェクト} other {プロジェクト} } ({ numberOfProjects }) が削除されます:",
+        "DELETE_OPTIONS": {
+          "DELETE": "プログラムを使用してプロジェクトを削除する",
+          "MOVE": "プロジェクトを別のプログラムに移動する",
+          "UNLINK": "プロジェクトのリンクを解除し,プログラムを削除する"
+        },
+        "DESCRIPTION": "このプログラムにはプロジェクトがリンクされています。それらを新しいプログラムに移動するか,プログラムと一緒にそれらのプロジェクトを削除するか,それらのリンクを解除してプログラムのみを削除することができます。",
+        "MOVED_PROJECTS_TEXT": "すべてのプロジェクトを移動するプログラムを選択してください:",
+        "PROGRAMS_DROPDOWN_PLACEHOLDER": "プログラムを選択",
+        "TAB": "1. プロジェクトの移動または削除を選択します",
+        "UNLINKED_PROJECTS_TEXT": "次の { numberOfProjects, plural, =1 {プロジェクト} other {プロジェクト} } ({ numberOfProjects }) のリンクが解除されます:"
+      },
+      "STEP_TWO": {
+        "DELETED_PROJECTS_TEXT": "このプログラムにより,すべての { numberOfProjects } { numberOfProjects,plural,=1 {プロジェクト} other {プロジェクト} } が削除されます。この操作は元に戻せません。",
+        "DELETE_BUTTON": "プログラムを削除",
+        "DESCRIPTION": "削除するプログラムの名前を入力してください:",
+        "MOVED_PROJECTS_TEXT": "すべての { numberOfProjects } { numberOfProjects,plural,=1 {プロジェクト} other {プロジェクト} } が <b>{ newProgramTitle }</b> に移動されます。新しいプログラム所有者に通知されます。この操作は元に戻せません。",
+        "PROGRAM_NAME_PLACEHOLDER": "プログラム名を入力してください",
+        "TAB": "2. 確認",
+        "UNLINKED_PROJECTS_TEXT": "すべての { numberOfProjects } { numberOfProjects,plural,=1 {プロジェクト} other {プロジェクト} } のリンクが解除され,プログラムが削除されます。この操作は元に戻せません。"
+      },
+      "TITLE": "プログラムを削除"
+    },
+    "DELETE_PROGRAM_SUCCESS": {
+      "DELETE_PROJECTS": "成功しました。プログラムとそのプロジェクトが削除されました。",
+      "MOVE_PROJECTS": "成功しました。プログラムが削除され,プロジェクトが選択したプログラムに移動されました。",
+      "NO_PROJECTS": "成功しました。プログラムが削除されました。",
+      "UNLINK_PROJECTS": "成功しました。プロジェクトのリンクが解除され,プログラムが削除されました。"
+    },
+    "DELETE_PROGRAM_TOOLTIP": "保存されていない変更があります。",
+    "EMPTY": "プログラムを作成および管理します。",
+    "ID": "ID",
+    "INSIGHTS": {
+      "AVERAGE_TASK_COMPLETION": "平均タスク完了率",
+      "CAPTION": "ステータス別",
+      "CONGRATULATIONS": "おめでとう！",
+      "CONGRATULATIONS_MESSAGE_1": "すべてのプロジェクトが完了しました。",
+      "CONGRATULATIONS_MESSAGE_2": "プログラムを終了する準備ができました。",
+      "PIE_CHART_LINKED": "リンク",
+      "PIE_CHART_NO": "いいえ",
+      "PIE_CHART_PROJECT": "プロジェクト",
+      "PIE_CHART_PROJECTS": "プロジェクト",
+      "PROJECTS_AT_RISK": "リスクのあるプロジェクト",
+      "PROJECTS_COMPLETED": "完了したプロジェクト",
+      "PROJECTS_OVERDUE": "期限が過ぎたプロジェクト"
+    },
+    "LINK_PROJECTS": "リンクプロジェクト",
+    "LINK_PROJECTS_MODAL": {
+      "CAPTION": "プログラムに含めるプロジェクトを選択してください",
+      "LINK_BUTTON": "リンクプロジェクト",
+      "NO_PROJECTS_AVAILABLE": "すべてのプロジェクトはすでにこのプログラムにリンクされています",
+      "PROJECTS_DROPDOWN_PLACEHOLDER": "含めるプロジェクトを選択してください",
+      "PROJECTS_LABEL": "プロジェクトを選択",
+      "TITLE": "リンクプロジェクト"
+    },
+    "NO_DESCRIPTION": "説明なし",
+    "OVERVIEW": "概要",
+    "PROJECTS": "プロジェクト",
+    "PROJECTS_SUB": "このセクションではプログラムの詳細を示します",
+    "PROJECT_NO_ACCESS": "アクセスが拒否されました。あなたはこのプロジェクト チームのメンバーではないため,プロジェクトを表示できません。",
+    "STATUS": "状態",
+    "STRATEGY_PAGE": {
+      "ADDITIONAL_BENEFIT": {
+        "BENEFIT_MANAGEMENT": {
+          "BENEFIT": "特典 { number }",
+          "BENEFIT_PLACEHOLDER": "このプログラムによって生み出されるメリットを指定してください",
+          "BENEFIT_SUBTITLE": "プログラムの最後にこの追加特典が生まれました",
+          "TITLE": "福利厚生管理"
+        },
+        "BENEFIT_MEASUREMENT": {
+          "IS_MONETARY": "この利益は金銭的なものでしょうか?",
+          "IS_MONETARY_OPTIONS": {
+            "NO": "いいえ,それは無形です",
+            "YES": "はい,それは金銭的なものでした"
+          },
+          "SUBTITLE": "この特典によって金銭的利益が生じたかどうかを明記してください。",
+          "TITLE": "利益測定"
+        },
+        "DELETE_BENEFIT_BUTTON": "特典を削除",
+        "DELETE_BENEFIT_MODAL": {
+          "ERROR_NOTIFICATION_MESSAGE": "もう一度お試しください。",
+          "ERROR_NOTIFICATION_TITLE": "申し訳ございません。エラーが発生したため,特典は削除されませんでした。",
+          "MESSAGE": "特典は利用できなくなり,この操作を元に戻すことはできません。",
+          "SUCCESS_NOTIFICATION": "成功しました。特典が削除されました。",
+          "TITLE": "特典を削除"
+        },
+        "SUCCESS_MESSAGE": "成功しました! 特典が更新されました。",
+        "TAGS": {
+          "INTANGIBLE": "無形",
+          "MONETARY": "金銭的",
+          "NO_INFORMATION": "情報が追加されていません"
+        },
+        "TITLE": "{ categoryName } 特典"
+      },
+      "ADDITIONAL_BENEFITS": {
+        "BENEFIT": "特典 { number }",
+        "MANAGE_BENEFIT": "特典の管理"
+      },
+      "ADD_ADDITIONAL_BENEFIT_MODAL": {
+        "BENEFIT": "特典 { number }",
+        "BENEFIT_INPUT_PLACEHOLDER": "この戦略レベルのメリットを追加",
+        "CONFIRM_BUTTON": "はい,特典を追加します",
+        "CREATE_BENEFIT": "利益を生み出す",
+        "PROMPTS": {
+          "OTHER": "このプログラムによって他にどのような利点が生まれましたか?",
+          "SCOPE": "その他の利点としては,ストレス軽減,仕事への満足度などが挙げられます。"
+        },
+        "SUCCESS_MESSAGE": "成功しました。特典が追加されました。",
+        "TITLE": "{ category } 特典を追加"
+      },
+      "BETA": "ベータ",
+      "CATEGORY": {
+        "ADD_OBJECTIVE": "目標を追加",
+        "CATEGORY_INSTRUCTIONS": {
+          "APPLICATION": "「応用」とは,この学習プログラムを通じて得た知識とスキルをどのように応用するかを指します。このプログラムはどのような行動の変化に影響を与えるべきでしょうか?",
+          "IMPACT": "このプログラムはビジネス指標をどのように改善するのでしょうか? 理想的には,各 Impact 目標はビジネスに金銭的な利益をもたらします。",
+          "LEARNING": "学習者はこのプログラムからどのような新しいスキルや能力を身に付ける必要がありますか?",
+          "REACTION": "学習者の体験は重要です。学習者の関心と満足度は,プログラムの成功の基盤です。このプログラムはどのような反応を引き出す必要がありますか?",
+          "ROI": "ROI 目標を設定して,プログラムが意図した結果を達成したかどうかを判断します。"
+        },
+        "CATEGORY_NAVIGATOR": "{ category } 目的",
+        "CATEGORY_TITLE": "{ program } / { category } 戦略",
+        "ERROR": {
+          "MESSAGE": "再度保存する前にページを再読み込みしてください。",
+          "TITLE": "申し訳ありませんが,エラーが発生したため変更は保存されませんでした。"
+        },
+        "GET_STARTED_ADD_OBJECTIVES": "目標の追加を開始する",
+        "INPUT_CATEGORY_NAVIGATOR": "入力",
+        "OBJECTIVES_SETTING": "目標設定",
+        "PROGRAM_CATEGORY": "プログラムカテゴリー",
+        "ROI_CATEGORY_NAVIGATOR": "ROIとコスト",
+        "SUCCESS_TITLE": "成功しました! 目標が更新されました。",
+        "TOTAL_MONETARY_BENEFITS": "年間総金銭的利益",
+        "UPDATE_ERROR_TITLE": "申し訳ありませんが,エラーが発生したため,一部の変更が保存されなかった可能性があります。"
+      },
+      "EVALUATION": {
+        "DELETE_COLLECTION_METHOD_MODAL": {
+          "BODY_TEXT": "これらの変更を評価プランに保存すると,削除されたデータ収集方法とそれに関連する情報はすべて完全に削除されます。",
+          "CONFIRM_BUTTON": "はい,変更を保存します",
+          "TITLE": "変更を保存: データ収集方法を削除しました"
+        },
+        "DICARD_CHANGES": "変更を破棄",
+        "FIELDS": {
+          "ADD_BEHAVIOUR": "動作を追加",
+          "COLLECTION_METHOD": "データ収集方法",
+          "COLLECTION_METHOD_PLACEHOLDER": "1つ以上の方法を選択してください",
+          "COLLECTION_TIMING": "データ収集のタイミング",
+          "COLLECTION_TIMING_PLACEHOLDER": "収集タイミングを1つ以上選択してください",
+          "DATA_SOURCE": "データソース",
+          "DATA_SOURCE_PLACEHOLDER": "1 つ以上のデータソースを選択",
+          "DESIRED_BEHAVIOURS": "望ましい行動",
+          "DESIRED_BEHAVIOURS_PLACEHOLDER": "観察すべき望ましい行動を説明する",
+          "METHOD": "方法",
+          "METHOD_PLACEHOLDER": "1つ以上の方法を選択してください",
+          "NUMBER_OBSERVED": "観測された数",
+          "NUMBER_OBSERVED_PLACEHOLDER": "観察者の数を追加する",
+          "NUMBER_OF_OBSERVERS": "オブザーバー数",
+          "NUMBER_OF_OBSERVERS_PLACEHOLDER": "観察者の数を追加する",
+          "NUMBER_OF_RESPONDENTS": "回答者数",
+          "NUMBER_OF_RESPONDENTS_PLACEHOLDER": "回答者数を追加",
+          "OTHER": "他の",
+          "OTHER_PLACEHOLDER": "データソースを指定する"
+        },
+        "NO_OBJECTIVES_DESCRIPTION": "新しい目標を追加し,評価計画を更新することを検討してください。",
+        "NO_OBJECTIVES_TITLE": "この計画に一致する目標はありません。",
+        "SAVE_PLAN": "プランを保存",
+        "SECTION_DESCRIPTION": "反応を評価するための推奨方法には,プログラム後のアンケート,テスト,および/またはインタビューが含まれます。",
+        "TITLE": "評価計画と結果",
+        "WARNING": "対応する評価を計画するには,まず目標を追加します。"
+      },
+      "EVIDENCE": {
+        "DELETE_ERROR": "申し訳ございませんが,エラーが発生したため,証拠ファイルは削除されませんでした。",
+        "DELETE_ERROR_MESSAGE": "もう一度削除してみてください",
+        "DELETE_SUCCESS": "成功しました！証拠ファイルを削除しました",
+        "DOWNLOAD_ERROR_MESSAGE": "もう一度ダウンロードしてみてください",
+        "DOWNLOAD_ERROR_TITLE": "申し訳ありませんが,エラーが発生したため,証拠ファイルはダウンロードされませんでした",
+        "REPLACE_EVIDENCE_MODAL": {
+          "BODY_TEXT": "<b>{ fileName }</b> というファイルがすでに存在します。<p>同じ名前の新しいファイルをアップロードすると,<b>以前のファイルが置き換えられます。</b></p>",
+          "REPLACE_BUTTON": "はい,交換します",
+          "TITLE": "証拠を置き換える"
+        },
+        "REPLACE_SUCCESS_MESSAGE": "成功しました。証拠ファイルが置き換えられました。",
+        "SECTION_DESCRIPTION": "関連する文書をここにアップロードしてまとめて保管します。",
+        "SUPPORTED_FILE_TYPES": "サポートされているファイル形式: JPG,PNG,mp4,mpeg,mp3,pdf,txt,.ppt,.pptx,.xls,.xlsx,.doc,.docx,.odt,.odp,.ai,.psd,ods,.csv",
+        "TITLE": "評価証拠",
+        "UPLOAD_ERROR_MESSAGE_BODY": "もう一度アップロードしてみてください",
+        "UPLOAD_ERROR_MESSAGE_TITLE": "申し訳ありませんが,エラーが発生したため,証拠ファイルはアップロードされませんでした",
+        "UPLOAD_SUCCESS_MESSAGE": "成功しました。ファイルがアップロードされました。"
+      },
+      "EXAMPLE_PROMPTS": {
+        "APPLICATION_GUIDE": "ROI 方法論を採用する理由",
+        "BOOTCAMP": "無料のブートキャンプを申し込む",
+        "LEVEL_0_BUILDING_THE_BRIEF": "概要の作成",
+        "LEVEL_1_REACTION_EVALUATION_METHODOLOGY": "反応評価方法論",
+        "LEVEL_2_LEARNING_EVALUATION_METHODOLOGY": "学習評価方法論",
+        "LEVEL_3_APPLICATION_EVALUATION_METHODOLOGY": "アプリケーション評価方法",
+        "LEVEL_4_IMPACT_CALCULATING_MONETARY_VALUE": "金銭的価値を計算する方法",
+        "LEVEL_4_IMPACT_EVALUATION_METHODOLOGY": "影響評価方法論",
+        "LEVEL_5_ROI_CALCULATING_PROGRAM_COSTS": "プログラム費用",
+        "LEVEL_5_ROI_EVALUATION_METHODOLOGY": "ROI評価方法",
+        "ROI_AT_A_GLANCE": "ROI認定",
+        "ROI_BROCHEUR": "ROI 手法の概要"
+      },
+      "GO_CATEGORY_PAGE": "{ category } 戦略へ移動",
+      "OBJECTIVE": {
+        "ADDITIONAL_BENEFITS": {
+          "ADD_BENEFIT": "特典を追加",
+          "SECTION_DESCRIPTION": "このプログラムによって他にどのようなメリットが生まれましたか? これらのメリットは金銭的なものでも無形のものでもかまいません。",
+          "SECTION_TITLE": "追加特典"
+        },
+        "ADD_OBJECTIVE": {
+          "ADD_OBJECTIVES": "はい,目標を追加します",
+          "ADD_OBJECTIVE_FOR": "この戦略レベルの目標を追加します",
+          "CREATE_OBJECTIVE": "目標の作成",
+          "OBJECTIVES_SHOULD_BE": "目標は SMART である必要があります。つまり,具体的,測定可能,実行可能,関連性があり,期限が定められている必要があります。",
+          "PROGRAM_DESCRIPTION": "プログラムの説明",
+          "PROGRAM_OBJECTIVE": "プログラムの目的",
+          "PROMPTS": "プロンプト",
+          "SUBTITLE_REACTION": "これらの一般的な反応目標から選択してプログラムに追加します。必要なものが見つからない場合は,新しい目標を作成できます。",
+          "SUCCESS": "成功しました。目標が追加されました。",
+          "TITLE": "{ category } 目標を追加"
+        },
+        "AT_END_OF_PROGRAM_PARTICIPANTS": "このプログラムの最後には,参加者は次のことができるようになります。",
+        "BENEFITS": {
+          "ANNUAL_MONETARY_BENEFITS_EMPTY_STATE": "値が提供されていません",
+          "ANNUAL_MONETARY_BENEFITS_SUBTITLE": "パフォーマンスの年間変化（ΔP*12）に指標の値を乗じた値",
+          "ANNUAL_MONETARY_BENEFITS_TITLE": "年間金銭的利益（AΔP*V）",
+          "CHANGE_OF_PERFORMANCE_PLACEHOLDER": "番号を追加",
+          "CHANGE_OF_PERFORMANCE_SUBTITLE": "例: 月ごとに防止された欠勤数を追加します。",
+          "CHANGE_OF_PERFORMANCE_TITLE": "月ごとのパフォーマンスの変化（ΔP）。",
+          "ERROR_MESSAGE_BODY": "もう一度試す前にこのページを再読み込みしてください。",
+          "ERROR_MESSAGE_TITLE": "申し訳ありませんが,エラーが発生したため,説明ファイルを読み込むことができませんでした。",
+          "SUBTITLE": "1 つの測定単位の値を入力し,その測定単位の 1 か月間のパフォーマンスの変化を入力します。",
+          "TITLE": "メリット計算機",
+          "UNIT_OF_MEASURE_PLACEHOLDER": "測定単位を追加する",
+          "UNIT_OF_MEASURE_SUBTITLE": "何を測定していますか? 例: 新規顧客,不在,解約",
+          "UNIT_OF_MEASURE_TITLE": "測定単位",
+          "VALUE_OF_UNIT_PLACEHOLDER": "測定単位に金銭的価値を追加する",
+          "VALUE_OF_UNIT_SUBTITLE": "これは,新規顧客 1 人あたりの利益や欠勤の削減によるコスト回避などの付加価値となる可能性があります。",
+          "VALUE_OF_UNIT_TITLE": "1単位の値（V）",
+          "VALUE_OF_UNIT_TOOLTIP": "この値を見つけるにはどうすればいいですか?"
+        },
+        "COMMING_SOON": "近日公開...",
+        "DELETE_OBJECTIVE": {
+          "MODAL": {
+            "CONFIRM_BUTTON": "はい,削除",
+            "IMPACE_LEVEL_MESSAGE": "この目標を削除すると,対応する金銭的利益もシステムから永久に削除されます。",
+            "MESSAGE": "目標は利用できなくなり,このアクションを元に戻すことはできません。",
+            "TITLE": "目標を削除"
+          },
+          "NOTIFICATION": {
+            "ERROR": {
+              "MESSAGE": "もう一度お試しください。",
+              "TITLE": "申し訳ありませんが,エラーが発生したため,目標は削除されませんでした。"
+            },
+            "SUCCESS": {
+              "TITLE": "成功しました! 目標が削除されました。"
+            }
+          }
+        },
+        "EDIT_OBJECTIVE_PLACEHOLDER": "学習者は,このプログラムが自分の役割や職務に関連していると感じるはずです。",
+        "EVALUATION_DETAILS": "評価の詳細と結果",
+        "MANAGE_OBJECTIVE": "目標管理",
+        "MEASURED_OTHER_SCALE": "他の尺度を使用して測定されましたか?",
+        "MEASUREMENT_INPUT": {
+          "FIVE_POINT": "この目標は達成されました",
+          "PERCENTAGE": "% の参加者がこの目標を達成しました。",
+          "TEN_POINT": "この目標は達成されました"
+        },
+        "MEASUREMENT_TYPES": {
+          "FIVE_POINT": "5 ポイントスケール",
+          "PERCENTAGE": "パーセンテージ %",
+          "TEN_POINT": "10 ポイントスケール"
+        },
+        "NOT_MET": "いいえ,目標は達成されませんでした",
+        "OBJECTIVE": "目的 { number }",
+        "OBJECTIVE_MANAGEMENT": "目標管理",
+        "OBJECTIVE_MEASUREMENT": "客観的な測定",
+        "OBJECTIVE_NOT_MET_REASON_LABEL": "なぜ目標は達成されなかったのでしょうか?",
+        "OBJECTIVE_NOT_MET_REASON_PLACEHOLDER": "目標が達成されなかった理由を説明する",
+        "OBJECTIVE_NOT_MET_REASON_SUBTITLE": "詳細を指定してください",
+        "OBJECTIVE_PAGE_SUBTITLE": "{ category } 目的",
+        "OBJECTIVE_RESULT": {
+          "MET": "目標達成",
+          "NOT_MET": "目標未達成",
+          "NO_RESULTS": "結果が追加されませんでした"
+        },
+        "REPORT_RESULTS": "この目標の結果をどのように報告しますか?",
+        "WAS_OBJECTIVE_MET": "この目的は達成されましたか?",
+        "YES_MET": "はい,目的は達成されました"
+      },
+      "PROGRAM_STRATEGY": "プログラム戦略",
+      "ROI_BOOTCAMP": {
+        "DESCRIPTION": "以下の基本的な理解を深めます。",
+        "POINT_FOUR": "実用的なアプリケーションと計算",
+        "POINT_ONE": "データに基づく意思決定",
+        "POINT_THREE": "ROI 手法",
+        "POINT_TWO": "評価知識",
+        "TITLE": "ROI Institute® 主催の ROI ブートキャンプ"
+      },
+      "STRATEGY": "戦略",
+      "TIPS": {
+        "DESCRIPTION": "以下のヒントと例は,Cognota と ROI Institute のコラボレーションの一環として開発されました。",
+        "ERROR_MESSAGE": "申し訳ございません。エラーが発生したため,ヒントと例のページを読み込むことができませんでした。",
+        "ERROR_SUB": "もう一度試す前にこのページを再読み込みしてください。",
+        "HAVE_QUESTIONS": "ご質問がありますか?",
+        "MAIL_SUBJECT": "プログラム戦略に関するサポートが必要です",
+        "TITLE": "ヒントと例",
+        "WE_CAN_HELP": "私たちがお手伝いします。"
+      }
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "ACTUAL_COMPLETION_DATE": "実際の完了日",
+        "PRIORITY": "優先度",
+        "PROGRESS": "進捗",
+        "START_DATE": "開始日",
+        "STATUS": "状態",
+        "TARGET_COMPLETION_DATE": "目標完了日",
+        "TITLE": "タイトル"
+      },
+      "EMPTY": "プログラムを作成および管理します。",
+      "GET_STARTED": "始める",
+      "NO_LINKED_PROJECTS": "リンクされたプロジェクトはありません",
+      "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。"
+    },
+    "UNLINK": "リンクを解除",
+    "UPDATE": "アップデートプログラム",
+    "UPDATE_ERROR": "問題が発生しました... 技術的な問題が発生しています。更新するか,もう一度お試しください",
+    "UPDATE_SUCCESS": "成功しました！プログラムが更新されました"
+  },
+  "PROJECTS_INSIGHTS_TABS": {
+    "BY_HEALTH_PROJECTS": {
+      "AT_RISK": "危険にさらされている",
+      "LABEL": "進行中のプロジェクト",
+      "OFF_TRACK": "オフトラック",
+      "ON_TRACK": "軌道に乗って",
+      "TITLE": "健康"
+    },
+    "BY_PRIORITY": {
+      "HIGH_PRIORITY": "優先度が高い",
+      "LOW_PRIORITY": "優先度が低い",
+      "MEDIUM_PRIORITY": "中程度の優先度",
+      "TITLE": "優先順位"
+    },
+    "BY_PROCESS": {
+      "TITLE": "プロセス別",
+      "TOTAL": "合計 *"
+    },
+    "BY_STATUS": {
+      "TITLE": "ステータス別プロジェクト"
+    },
+    "NO_PROJECTS": "選択した期間内にプロジェクトが見つかりません",
+    "NO_TASKS": "選択した期間内にタスクが見つかりません"
+  },
+  "PROJECTS_LIST_PAGE": {
+    "ADD_PROJECT_BUTTON": "プロジェクトを追加",
+    "BOARD": {
+      "FILTER": "フィルター",
+      "FILTER_FIELD": "分野",
+      "FILTER_FIELD_PLACEHOLDER": "フィールドを選択",
+      "MY_BOARD": "私のボード",
+      "NEW_AND_IN_QUEUE_PROJECTS_STAGE": "新規およびキュー中のプロジェクト",
+      "NO_RESULTS_FOUND": "結果が見つかりませんでした。別のキーワードを試してください。",
+      "SEARCH": "検索..",
+      "SORTING": {
+        "NEWEST": "最新",
+        "OLDEST": "最古",
+        "TITLE_ASC": "A-Z",
+        "TITLE_DESC": "Z-A"
+      },
+      "SORT_BY": "並べ替え",
+      "TEAM_BOARD": "チームボード",
+      "VIEW_BY": "表示順"
+    },
+    "CREATE_PROJECT_MODAL": {
+      "BODY": "プロジェクトのテンプレートを選択し,詳細を入力してプロジェクトを作成します",
+      "TEMPLATE_FIELD_LABEL": "プロジェクトテンプレート",
+      "TITLE": "プロジェクトを作成"
+    },
+    "EXPORT_PROJECTS": "プロジェクトのエクスポート",
+    "EXPORT_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするプロジェクトを選択します。",
+    "MY_PROJECTS": "私のプロジェクト",
+    "PAST_START_DATE": "開始日はすでに過ぎています。このプロジェクトは <b>進行中</b> にすべきでしょうか?",
+    "TABLE": {
+      "DUPLICATE": "重複",
+      "EMPTY": "プロジェクトを作成して管理しましょう！",
+      "GET_STARTED": "始める",
+      "HEAD": {
+        "ACTUAL_COMPLETION_DATE": "実際の完了日",
+        "BUGGET_SOURCE": "予算ソース",
+        "BUSINESS_UNIT": "事業部",
+        "HEALTH": "健康",
+        "PARTICIPANT_TYPE": "参加者タイプ",
+        "PRIORITY": "優先度",
+        "PROCESS_STAGE": "プロセス",
+        "PROJECT_CATEGORY": "プロジェクトカテゴリー",
+        "PROJECT_NAME": "プロジェクト名",
+        "PROJECT_NUMBER": "プロジェクト番号",
+        "PROJECT_OWNER": "プロジェクトオーナー",
+        "PROJECT_STAGE": "ステージ",
+        "RESOURCING_TYPE": "リソースタイプ",
+        "START_DATE": "開始日",
+        "STATUS": "状態",
+        "TARGET_COMPLETION_DATE": "目標完了日",
+        "TEAMS": "チーム"
+      },
+      "SORT": {
+        "ASC": "昇順で並べ替え",
+        "DESC": "降順で並べ替え"
+      }
+    },
+    "TEAM_PROJECTS": "チームプロジェクト",
+    "TITLE": "プロジェクト"
+  },
+  "PROJECT_DETAIL": {
+    "ACTUAL_COMPLETION_DATE": "実際の完了日",
+    "ADDITIONAL_INFO": "追加情報",
+    "ADD_COMMENT": "コメントを追加",
+    "ALLOCATED_BUDGET": "割り当てられた予算",
+    "ARCHIVE": {
+      "PROJECT_ARCHIVED_ON": "このプロジェクトは { archivedDate } にアーカイブされました。"
+    },
+    "ARCHIVED": "アーカイブ済み",
+    "ASSIGN_OWNERS": "所有者を割り当てる",
+    "ASSIGN_TO_ME": "私に割り当てる",
+    "BASIC_INFORMATION_SUBTITLE": "基本的なプロジェクトの詳細を入力してください",
+    "BASIC_INFORMATION_TITLE": "基本情報",
+    "BUDGET_INFORMATION_SUBTITLE": "プロジェクト予算の詳細を記入してください",
+    "BUDGET_INFORMATION_TITLE": "予算情報",
+    "BUDGET_SOURCE": "予算ソース",
+    "BUDGET_SOURCE_OPTIONS": {
+      "BUSINESS": "ビジネス予算",
+      "LD": "L&D予算",
+      "MIXED": "混合",
+      "OTHERS": "その他",
+      "SPECIAL": "特別資金"
+    },
+    "BUDGET_SOURCE_PLACEHOLDER": "プロジェクトの資金源を選択する",
+    "BUSINESS_UNIT": "事業部",
+    "BUSINESS_UNIT_PLACEHOLDER": "このプロジェクトの対象となる事業部門を選択してください",
+    "CANCEL_PROJECT": {
+      "ARCHIVE": "はい,キャンセルしてアーカイブ",
+      "BANNER_TITLE": "キャンセルされたプロジェクト",
+      "BODY": "確認すると,<b>プロジェクトを再開することはできなくなり</b>,リソースと予算はプロジェクトから解放されます。キャンセルされたプロジェクトをアーカイブすることもできます。",
+      "CANCEL": "キャンセル",
+      "CANCELLATION_DATE": "キャンセル日",
+      "CANCELLATION_REASON": "キャンセル理由",
+      "CANCELLED_PROJECT_TITLE": "キャンセルされたプロジェクト",
+      "REASON": "理由: { reason }",
+      "REASONS": {
+        "BUDGET_ISSUE": "予算問題",
+        "BUSINESS_ASK": "ビジネスに関する質問",
+        "LACK_OF_RESOURCE": "リソースの問題",
+        "OTHER": "他の",
+        "PRIORITY_CHANGE": "L&Dの優先順位の変更",
+        "PROCUREMENT_ISSUE": "調達問題",
+        "TECHNICAL_ISSUE": "テクノロジーの問題",
+        "TIMELINE_CONFLICT": "タイムラインの変更",
+        "VENDOR_ISSUE": "ベンダーの問題"
+      },
+      "SELECT_REASON": "プロジェクトをキャンセルする理由を選択してください。",
+      "SELECT_REASON_PLACEHOLDER": "理由を選択してください",
+      "SPECIFY": "指定してください",
+      "SPECIFY_PLACEHOLDER": "このプロジェクトをキャンセルする理由を記載してください",
+      "SUBMIT": "はい,プロジェクトをキャンセルします",
+      "SUCCESS_MESSAGE": "成功しました! プロジェクト「{ projectName }」{ archive,plural,=0 {キャンセル済み} =1 {キャンセルしてアーカイブ済み} }。",
+      "TITLE": "プロジェクトをキャンセル"
+    },
+    "CATEGORY": "プロジェクトカテゴリー",
+    "CATEGORY_PLACEHOLDER": "プロジェクトの種類を選択してください",
+    "CLOSE_PROJECT": {
+      "ARCHIVE": "はい,閉じてアーカイブ",
+      "BODY": "このプロジェクトを閉じてもよろしいですか? 閉じた後はプロジェクトを編集できなくなり,<b>アクションを元に戻すことはできません。</b>",
+      "CANCEL": "キャンセル",
+      "CLOSED_PROJECT_BANNER": "このプロジェクトは終了しました。",
+      "CLOSING_DATE": "締め切り日",
+      "CONFIRMATION": "もしそうなら,プロジェクトを終了する前に最終コメントを追加してください。",
+      "CURRENCY": "米ドル",
+      "FINAL_COMMENTS_LABEL": "最終コメント",
+      "FINAL_COMMENTS_PLACEHOLDER": "プロジェクトに関するその他の詳細を追加します",
+      "HOURS": "営業時間",
+      "SUBMIT": "はい,プロジェクトを閉じる",
+      "SUCCESS_MESSAGE": "成功しました! プロジェクト「{ projectName }」{ archive,plural,=0 {終了} =1 {終了してアーカイブされました} }。",
+      "TITLE": "プロジェクトを閉じる",
+      "TOTAL_COST": "総費用",
+      "TOTAL_HOURS": "合計時間",
+      "VIEW_DETAILS_BUTTON": "詳細を表示"
+    },
+    "COMMENTS": "コメント",
+    "COMPLETION_DISABLED": "このプロジェクトを完了する前に,すべてのタスクを完了してください。",
+    "DELETE_PROJECT": {
+      "BODY": "そうすることで,リソースと予算は自動的に解放され,プロジェクトはシステムから <b>永久に削除</b> されます。",
+      "CANCEL": "キャンセル",
+      "QUESTION": "このプロジェクトを削除してもよろしいですか?",
+      "SUBMIT": "はい,プロジェクトを削除します",
+      "SUCCESS_MESSAGE": "プロジェクト「{ projectName }」が正常に削除されました",
+      "TITLE": "プロジェクトを削除"
+    },
+    "DESCRIPTION": "説明",
+    "DESCRIPTION_PLACEHOLDER": "プロジェクトの説明を追加する",
+    "END_DATE": "目標完了日",
+    "ESTIMATED_COST": "推定費用",
+    "ESTIMATED_EFFORT": "推定労力",
+    "ESTIMATED_EFFORT_PLACEHOLDER": "プロジェクトを完了するために必要な推定時間または日数を指定します",
+    "FILES_TAB": {
+      "ADD_CONTENT": "コンテンツを追加",
+      "ATTACH_FILE": "ファイルを添付する",
+      "CANCEL": "キャンセル",
+      "CONFIRMATION_MODAL": {
+        "BODY": "この { content } を { action } してもよろしいですか?",
+        "CONFIRM": "はい,{action} {content}",
+        "HEADER": "この操作は元に戻せません。"
+      },
+      "DESIGN": "デザイン",
+      "DESIGN_ADDED_SUCCESS": "デザインが正常に追加されました!",
+      "DESIGN_OWNER_TAG": "所有者",
+      "DESIGN_REMOVE_SUCCESS": "デザインは正常に削除されました!",
+      "FILE": "ファイル",
+      "FILE_1GB": "ファイルサイズが1GBより大きい",
+      "FILE_DELETE_SUCCESS": "ファイルは正常に削除されました。",
+      "FILE_LIMIT": "デバイスから。最大ファイルサイズ: 1GB",
+      "FILE_LINK_SUCCESS": "Web リンクがコンテンツとして正常に追加されました。",
+      "FILE_NAME_PLACEHOLDER": "ファイル名を追加 *",
+      "FILE_UPLOAD_SUCCESS": "ファイルが正常に追加されました。",
+      "FILE_URL_PLACEHOLDER": "URLを貼り付け*",
+      "LINK": "リンク",
+      "LINK_FILE": "ファイルをリンクする",
+      "LINK_TO_TASKS": "タスクへのリンク",
+      "LINK_UNLINK_TO_TASK_MODAL": {
+        "LABEL": "タスクを選択",
+        "SUBMIT_SUCCESS_MESSAGE": "リンクされたタスクのリストが正常に更新されました。",
+        "TASKS_PICKER_PLACEHOLDER": "ファイルをリンクするタスクを選択してください",
+        "TITLE": "タスクのリンク/リンク解除"
+      },
+      "NO_FILES": "プロジェクトにファイルとデザインを追加してリンクしましょう。",
+      "REPLACE_CONTENT_MODAL": {
+        "ARIA_LABEL": "コンテンツファイルの置き換えモーダル",
+        "REPLACE_DESIGN_CONTENT": "Cognotaデザインを選択",
+        "REPLACE_FILE": "ファイルを置き換える",
+        "SUBMIT_BUTTON": "コンテンツを置き換える",
+        "SUCCESS_MESSAGE": "ファイルが正常に置き換えられました。",
+        "TITLE": "{ name } を置き換えます",
+        "UPLOAD_FILE": "新しいファイルをアップロード"
+      },
+      "REQUIRED_INFORMATION": "必要な情報",
+      "SELECTE_TASKS": "ファイルをリンクするタスクを選択",
+      "SELECT_CONTENT": "コンテンツタイプを選択してください:",
+      "SELECT_DESIGN": "Cognotaデザインを選択",
+      "TABLE": {
+        "ACTIONS_MENU": {
+          "DELETE": "{ action } コンテンツ",
+          "LINK_UNLINK_TASK": "タスクのリンク/リンク解除",
+          "REPLACE": "コンテンツを置き換える"
+        },
+        "COLUMNS": {
+          "FILE_NAME": "名前",
+          "FILE_SIZE": "ファイルサイズ",
+          "FILE_THUMBNAIL": "サムネイル",
+          "FILE_TYPE": "コンテンツタイプ",
+          "TASKS_LINKED": "リンクされたタスク",
+          "UPLOADED_BY": "追加者",
+          "UPLOADED_DATE": "追加された日"
+        },
+        "CONTENT_TYPE": {
+          "DESIGN": "デザイン",
+          "FILE": "ファイル",
+          "WEB_LINK": "ウェブリンク"
+        },
+        "DOWNLOAD_TOOLTIP": "クリックしてファイルを開く",
+        "LINKED_TASK": "タスク: { name }",
+        "LINKED_TASKS_NUMBER": "{ number } { num, plural, =0 {タスク} =1 {タスク} } リンクされています",
+        "NO_TASKS": "タスクがリンクされていません",
+        "UNLINK": "リンクを解除"
+      },
+      "TEXT_TO_DISPLAY": "表示するテキスト",
+      "TITLE": "コンテンツ",
+      "UPLOAD_DESIGN_FILE": "または,デザインファイルをアップロードする",
+      "UPLOAD_FILE": "ファイルをアップロード",
+      "WEBLINK": "ウェブリンク",
+      "WEBLINK_PLACEHOLDER": "URLリンクの名前を追加する",
+      "WEBLINK_REMOVE_SUCCESS": "Webリンクが正常に削除されました。",
+      "WEBLINK_URL_PLACEHOLDER": "URLを貼り付け"
+    },
+    "FILL_IN_INFORMATION_TITLE": "プロジェクトのテンプレートを選択し,詳細を入力してプロジェクトを作成します",
+    "HEALTH": "健康",
+    "HEALTH_OPTIONS": {
+      "AT_RISK": "危険にさらされている",
+      "OFF_TRACK": "オフトラック",
+      "ON_TRACK": "軌道に乗って"
+    },
+    "HEALTH_PLACEHOLDER": "このプロジェクトの健全性を選択してください",
+    "INSIGHTS": {
+      "BY_TASKS": {
+        "AVERAGE_OVERDUE_AGE": "平均延滞期間",
+        "BY_STATUS": "ステータス別",
+        "BY_TASKS": "タスク別",
+        "DAY": "日",
+        "DAYS": "日",
+        "ESTIMATED_VS_ACTUAL_HOURS": "推定 | 実際の時間",
+        "HOURS": "h",
+        "OVERDUE_TASKS": "期限切れのタスク",
+        "TASK": "タスク",
+        "TASKS": "タスク",
+        "TASKS_COMPLETED": "完了したタスク",
+        "TOTAL_TASKS": "合計タスク数"
+      },
+      "RESOURCES": {
+        "AVERAGE_UTILIZATION": "平均利用率",
+        "AVERAGE_UTILIZATION_TOOLTIP": "残りのプロジェクト期間におけるすべてのプロジェクト リソースの平均割り当て/容量比率。",
+        "HOURS": "営業時間",
+        "NOT_AVAILABLE": "該当なし",
+        "NUMBER_OF_RESOURCES": "リソースの数",
+        "NUMBER_OF_RESOURCES_TOOLTIP": "所有者,LD ユーザー,ビジネス ユーザー,外部ユーザーを含む,プロジェクトの参加者の合計数。",
+        "REMAINING_HOURS": "残り",
+        "REMAINING_HOURS_TOOLTIP": "プロジェクトの目標完了日までのアクティブなタスクのみの残りの見積時間の合計。",
+        "TITLE": "リソース",
+        "TOTAL_AVAILABILITY": "総可用性",
+        "TOTAL_AVAILABILITY_TOOLTIP": "残りのプロジェクト期間中のすべてのプロジェクト リソースの使用可能時間の合計。",
+        "UNASSIGNED_HOURS": "未割り当て",
+        "UNASSIGNED_HOURS_TOOLTIP": "プロジェクトの目標完了日までのアクティブなタスクのみの推定未割り当て時間の合計。"
+      },
+      "SUMMARY": "まとめ"
+    },
+    "LINKED_REQUESTS_SECTION": {
+      "BUSINESS_UNIT": "事業部",
+      "LINK_REQUEST": "リクエストをリンクする",
+      "NO_REQUEST_LINKED": "リクエストがリンクされていません",
+      "PLACEHOLDER": "リクエストを検索するには入力してください",
+      "REQUESTER_NAME": "依頼者名",
+      "REQUEST_NUMBER": "リクエスト番号",
+      "REQUEST_OWNER": "リクエストオーナー",
+      "REQUEST_TITLE": "リクエストタイトル",
+      "STATUS": "状態",
+      "SUBMISSION_DATE": "提出日",
+      "TITLE": "リンクされたリクエスト",
+      "VIEW": "ビュー"
+    },
+    "NO_COMMENTS": "まだコメントはありません",
+    "NO_PROGRAMS_AVAILABLE": "利用可能なプログラムはありません",
+    "OWNERS": "プロジェクトオーナー",
+    "PRIORITY": "優先度",
+    "PRIORITY_OPTIONS": {
+      "HIGH": "高い",
+      "LOW": "低い",
+      "MEDIUM": "中くらい",
+      "NONE": "未割り当て"
+    },
+    "PRIORITY_PLACEHOLDER": "プロジェクトの優先度レベルを選択する",
+    "PRIVACY": "プライバシー",
+    "PRIVACY_OPTIONS": {
+      "PRIVATE": "プライベート",
+      "PUBLIC": "公共",
+      "TEAM": "チーム"
+    },
+    "PRIVACY_PLACEHOLDER": "プロジェクトを閲覧できるユーザーを選択する",
+    "PRIVACY_PRIVATE_MESSAGE": "プロジェクトへのアクセスはあなたのアカウントに制限されています",
+    "PRIVACY_TEAM_MESSAGE": "プロジェクトへのアクセスは選択したチームに制限されます",
+    "PROCESS": "使用されるプロセス",
+    "PROCESS_PLACEHOLDER": "このプロジェクトで使用するプロセスを選択してください",
+    "PROGRAMS": "プログラム",
+    "PROGRAMS_PLACEHOLDER": "このプロジェクトが参加しているプログラムを選択してください",
+    "PROJECT_NAME": "プロジェクト名",
+    "PROJECT_NAME_PLACEHOLDER": "プロジェクト名を追加する",
+    "PROJECT_NUMBER": "ID",
+    "PROJECT_OWNERS": "プロジェクトオーナー",
+    "PROJECT_PROCESS_SECTION": "プロジェクトプロセス",
+    "PROJECT_UPDATE_SUCCESS_SNACKBAR_MESSAGE": "成功！プロジェクト { action }",
+    "PUT_PROJECT_ON_HOLD_MODAL": {
+      "CANCEL": "キャンセル",
+      "CONFIRM": "はい,プロジェクトを保留します",
+      "PLEASE_SPECIFY": "指定してください",
+      "PROJECT_ON_HOLD_BANNER": "このプロジェクトは保留になっています。",
+      "QUESTION": "このプロジェクトを保留しますか?",
+      "REASONS_PICKER_LABEL": "このプロジェクトを保留する理由",
+      "REASONS_PICKER_PLACEHOLDER": "理由を選択してください",
+      "REASON_PICKER_OPTIONS": {
+        "BUSINESS_PRIORITY_CHANGE": "事業の優先順位の変更",
+        "LACK_OF_BUSINESS_RESOURCE": "ビジネスリソースの不足",
+        "LACK_OF_LD_RESOURCE": "L&Dリソースの不足",
+        "LD_PRIORITY_CHANGE": "L&Dの優先順位の変更",
+        "OTHER": "他の",
+        "PROCUREMENT_ISSUE": "調達問題",
+        "PROJECT_SCOPE_CHANGE": "プロジェクト範囲の変更",
+        "SME": "SMEは利用できません",
+        "TECHNICAL_ISSUE": "技術的な問題",
+        "TIMELINE_CONFLICT": "タイムラインの競合",
+        "VENDOR_ISSUE": "ベンダーの問題"
+      },
+      "RESPONSE": "もしそうなら,その理由とその後の行動項目を選択してください。",
+      "SPECIFY_REASON_PLACEHOLDER": "このプロジェクトを保留にする理由を指定してください",
+      "TITLE": "プロジェクトを保留にする",
+      "VIEW_DETAILS": "詳細を表示"
+    },
+    "REACTIVATE_PROJECT": {
+      "BODY": "プロジェクト { projectTitle } を再アクティブ化するには,このプロジェクトの新しいステータスを選択してください。",
+      "CANCEL": "キャンセル",
+      "REACTIVATE_BUTTON": "再アクティブ化",
+      "SUBMIT": "はい,プロジェクトを再開します",
+      "SUCCESS_MESSAGE": "成功しました! プロジェクト「{ projectName }」が正常に再アクティブ化されました。",
+      "TITLE": "プロジェクトを再開"
+    },
+    "RESOURCE_INFORMATION_SUBTITLE": "プロジェクトリソースの詳細を入力してください",
+    "RESOURCE_INFORMATION_TITLE": "リソース情報",
+    "RESOURCING_TYPE": "リソースタイプ",
+    "RESOURCING_TYPE_OPTIONS": {
+      "INTERNAL": "内部",
+      "MIXED": "混合",
+      "VENDOR": "ベンダー"
+    },
+    "RESOURCING_TYPE_PLACEHOLDER": "このプロジェクトで使用するリソースの種類を選択します",
+    "SHARING": "共有",
+    "STAGE": "ステージ",
+    "STAGE_PLACEHOLDER": "プロジェクトの段階を選択してください",
+    "START_DATE": "開始日",
+    "STATUS": "状態",
+    "STATUS_OPTIONS": {
+      "CANCELED": "キャンセル",
+      "CLOSED": "閉鎖",
+      "COMPLETED": "完了",
+      "IN_PLANNING": "キュー内",
+      "IN_PROGRESS": "進行中",
+      "NEW": "新しい",
+      "ON_HOLD": "保留中"
+    },
+    "STATUS_PLACEHOLDER": "プロジェクトのステータスを選択してください",
+    "SUBMIT_COMMENT": "送信",
+    "TARGET_LAUNCH_DATE": "目標発売日",
+    "TARGET_LAUNCH_DATE_PLACEHOLDER": "プロジェクトのリリース日を指定する",
+    "TARGET_LAUNCH_DATE_WARNING": "目標開始日はプロジェクト開始日より前に設定できません。",
+    "TEAM": "チーム",
+    "TEAM_PLACEHOLDER": "プロジェクトにアクセスするチームを選択する",
+    "TEMPLATES": "プロジェクトテンプレート",
+    "TEMPLATES_PLACEHOLDER": "テンプレートを選択",
+    "TIMELINE_WARNING": "日付の変更はリソースの割り当てに影響を与える可能性があります",
+    "UNARCHIVED": "アーカイブ解除",
+    "USER_CANNOT_ASSIGN_ITSELF_AS_OWNER": "プロジェクトの所有者は 2 人までです。<br>{ num, plural, =0 {所有者になるには,プロジェクト所有者の 1 人に連絡してください。} =1 {所有者を 1 人削除して,自分自身に割り当てます。} }",
+    "USER_ROLE": {
+      "COLLABORATOR": "プロジェクト協力者",
+      "MEMBER": "プロジェクトメンバー",
+      "OWNER": "プロジェクトオーナー"
+    },
+    "VENDOR": "ベンダー",
+    "VENDOR_PLACEHOLDER": "このプロジェクトに必要なベンダーを選択してください"
+  },
+  "REMOVE": "取り除く",
+  "REQUESTS_LIST_PAGE": {
+    "ADD_REQUEST_BUTTON": "リクエストを追加",
+    "CREATE_MANAGE_REQUESTS": "リクエストを作成して管理しましょう！",
+    "EXPORT": "エクスポートリクエスト",
+    "EXPORT_BY_FORM": "フォームタイプ別にエクスポート",
+    "EXPORT_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするリクエストを選択します。",
+    "GET_STARTED": "始める",
+    "MODAL": {
+      "APPROVE_REQUEST": {
+        "APPROVE_REQUEST": "リクエストを承認",
+        "CALL_TO_ACTION": "このリクエストを承認しようとしています。リクエスト者へのコメントを残すことを検討してください。",
+        "COMMENTS": "コメント",
+        "DETAILS": "リクエストに関するその他の詳細を追加します",
+        "ERROR": "必須フィールド"
+      },
+      "CANCEL_CREATE_NEW_REQUEST": {
+        "CALL_TO_ACTION": "リクエストの送信を中止しようとしています。この操作は元に戻せません。入力したデータは失われます。",
+        "SUBMIT_BUTTON": "はい,キャンセル",
+        "TITLE": "新規リクエストをキャンセル"
+      },
+      "CANCEL_REQUEST": {
+        "CALL_TO_ACTION": "はいの場合は,キャンセルの理由を選択してください。",
+        "CANCELLATION": "キャンセルをリクエストする",
+        "CANCELLATION_REASON": "キャンセル理由",
+        "CANCEL_REQUEST": "リクエストをキャンセル",
+        "ERROR": "必須フィールド",
+        "NOTICE": "この操作により,リクエストのキャンセルが開始されます。キャンセルを続行してもよろしいですか?",
+        "REASON": "理由",
+        "REASONS": {
+          "BUSINESS_TIMELINE": "ビジネスタイムラインの変更",
+          "LACK_OF_BUDGET": "プロジェクトに資金を提供する予算の不足",
+          "LACK_OF_RESOURCE": "要求をサポートするためのリソースが不足している",
+          "OTHER": "その他",
+          "PRIORITY_CHANGE": "事業計画や優先順位の変更",
+          "PROCUREMENT_ISSUE": "調達問題",
+          "VENDOR_ISSUE": "ベンダーの問題"
+        },
+        "SPECIFY": "指定してください"
+      },
+      "DECLINE_REQUEST": {
+        "CALL_TO_ACTION": "はいの場合は,リクエストを拒否する理由を選択してください。",
+        "COMMENTS": "コメント",
+        "DECLINATION": "はい,リクエストを拒否します",
+        "DECLINATION_DETAILS": "リクエストが拒否される理由に関するその他の詳細を追加します",
+        "DECLINATION_REASON": "辞退理由",
+        "DECLINE_REQUEST": "リクエストを拒否",
+        "ERROR": "必須フィールド",
+        "NOTICE": "本当にリクエストを拒否しますか?",
+        "REASON": "理由",
+        "REASONS": {
+          "BUDGET_AVAILABILITY": "予算の可用性",
+          "DUPLICATE_REQUEST": "重複リクエスト",
+          "EXTERNAL_VENDOR_RECOMMENDED": "外部ベンダー推奨",
+          "LACK_OF_RESOURCE": "リソースまたは予算の不足",
+          "NOT_ALIGNED": "L&D機能と連携していない",
+          "OTHER": "その他",
+          "PRIORITY_CHANGE": "事業計画や優先順位の変更",
+          "RESOURCE_AVAILABILITY": "リソースの可用性",
+          "SERVICE_NOT_AVAILABLE": "サービス/オファーは利用できません",
+          "TECHNOLOGY_CONSTRAINT": "技術的制約",
+          "TIMELINE_CONFLICT": "タイムラインの競合",
+          "VENDOR_AVAILABILITY": "ベンダーの可用性"
+        },
+        "SPECIFY": "指定してください"
+      },
+      "DELETE_REQUEST": {
+        "BODY": "「{ requestNo }」リクエストを完全に削除してもよろしいですか?",
+        "CANCEL_BUTTON": "キャンセル",
+        "DELETE_BUTTON": "はい,削除",
+        "TITLE": "削除リクエスト"
+      },
+      "LEAVING_CREAT_NEW_REQUEST": {
+        "CALL_TO_ACTION": "このページには保存されていない変更があるようです。このページを離れるとリクエストは破棄され,保存されていない変更はすべて失われます。",
+        "CALL_TO_ACTION_FOR_EDITING": "このページには保存されていない変更があるようです。このページを離れると,保存されていない変更はすべて破棄されます。",
+        "SUBMIT_BUTTON": "進む",
+        "TITLE": "出口"
+      }
+    },
+    "NOTIFICATIONS": {
+      "CANCELLATION_SUCCESS": "リクエスト「{ requestNo }」のキャンセルが正常に送信されました。",
+      "DELETE_REQUEST": "リクエスト「{ requestNo }」が正常に削除されました。"
+    },
+    "NO_DATE": "日付なし",
+    "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。",
+    "PAGE_NAME": "リクエストリストページ",
+    "SUB_NAV": {
+      "MY_REQUESTS": "私のリクエスト",
+      "TEAM_REQUESTS": "チームリクエスト"
+    },
+    "TABLE": {
+      "ACTIONS": {
+        "DELETE": "消去"
+      },
+      "FILTER": {
+        "businessTeams": "事業部",
+        "createdAt": "作成日",
+        "decision_date": "決定日",
+        "formTitle": "フォームタイトル",
+        "ldPriority": "内部の優先順位",
+        "owners": "リクエストオーナー",
+        "requestIdentifier": "リクエスト番号",
+        "requestProjects": "プロジェクト",
+        "requester": "依頼者",
+        "status": "状態",
+        "submittedAt": "提出日",
+        "title": "リクエストタイトル",
+        "updatedAt": "最終更新日"
+      },
+      "HEAD": {
+        "BUSINESS_UNIT": "事業部",
+        "CREATION_DATE": "作成日",
+        "DECISION_DATE": "決定日",
+        "FORM": "使用されるフォーム",
+        "LINKED_PROJECTS": "プロジェクト",
+        "OWNER_NAME": "リクエストオーナー",
+        "PRIORITY": "内部の優先順位",
+        "REQUESTER_NAME": "依頼者名",
+        "REQUEST_NO": "リクエスト番号",
+        "REQUEST_TITLE": "リクエストタイトル",
+        "STATUS": "状態",
+        "SUBMISSION_DATE": "提出日",
+        "UPDATE_DATE": "最終更新"
+      },
+      "IMPORT": {
+        "COLUMN_LABELS": {
+          "BASE_FORM": "基本形",
+          "BUSINESS_TEAM": "ビジネスチーム",
+          "CREATOR": "リクエスト作成者",
+          "DESCRIPTION": "説明",
+          "LD_PRIORITY": "LD 優先度",
+          "OWNERS": "オーナー",
+          "TITLE": "リクエストタイトル"
+        },
+        "IMPORT": "インポートリクエスト",
+        "IMPORT_FROM_FILE": "ファイルをアップロードしてリクエストをインポートする",
+        "SUCCESS": "リクエストは正常にインポートされました。"
+      },
+      "LINKED_PROJECTS": {
+        "NO_LINKED_PROJETS": "プロジェクトなし",
+        "PICKER_LABEL": "リンクされたプロジェクト",
+        "PICKER_OPTIONS": {
+          "MANY": "2件以上のプロジェクト",
+          "NONE": "0 件のプロジェクト",
+          "ONE": "1 件のプロジェクト"
+        },
+        "TITLE": "リンクされたプロジェクトのリスト"
+      },
+      "SORT": {
+        "ASC": "昇順で並べ替え",
+        "DESC": "降順で並べ替え"
+      },
+      "STATUS_LABEL": {
+        "APPROVED": "承認された",
+        "CANCELED": "キャンセル",
+        "DRAFT": "下書き",
+        "PENDING_CANCELLATION": "キャンセル待ち",
+        "REJECTED": "拒否",
+        "SUBMITTED": "レビュー中",
+        "WAITLISTED": "順番待ちリスト"
+      }
+    }
+  },
+  "REQUEST_PAGE": {
+    "ADDITIONAL_DETAILS": {
+      "CAPTION": "このセクションは,標準フォームに含まれていない,このリクエストに固有の追加情報を提供するために使用されます。",
+      "FIELDS": {
+        "ADD_MORE": "フィールドや質問を追加する",
+        "ADD_MORE_CAPTION": "トレーニングに関してさらに提供したい情報はありますか？",
+        "OTHER_INFO": "その他の情報",
+        "OTHER_INFO_CAPTION": "他に注意すべき考慮事項や状況はありますか?"
+      },
+      "FLY_OUT_MENU": {
+        "FILE_UPLOAD": "アップロード",
+        "TEXT_FIELD": "テキストフィールド",
+        "URL": "URL"
+      },
+      "TITLE": "追加情報"
+    },
+    "ALL_REQUESTS_LINK": "すべてのリクエスト",
+    "APPROVED_REQUEST_BANNER": {
+      "BUTTON": "コメントを表示",
+      "LINE_ONE": "このリクエストは,{approvalDate}にリクエスト所有者によって<b>承認</b>されました",
+      "LINE_TWO": "追加情報については詳細をご覧ください。"
+    },
+    "APPROVED_REQUEST_INFO_MODAL": {
+      "APPROVAL_DATE": "承認日",
+      "COMMENTS": "コメント",
+      "NO_COMMENTS": "コメントはありません",
+      "TITLE": "承認されたリクエスト"
+    },
+    "BASIC_DETAILS": {
+      "CAPTION": "このセクションには,学習チームがリクエストを整理および追跡するのに役立つ,リクエストに関する基本情報が含まれています。",
+      "ERRORS": {
+        "MISSING_INPUT": "入力がありません"
+      },
+      "FIELDS": {
+        "BUSINESS_REVIEWER": {
+          "PLACEHOLDER": "ビジネスレビュー担当者が割り当てられていません",
+          "REQUEST_BUSINESS_REVIEWER": "ビジネスレビュアー",
+          "TRIGGER": "ビジネスレビュー担当者を追加"
+        },
+        "BUSINESS_UNIT": "事業部",
+        "FORM_TITLE": "使用されるフォーム",
+        "LD_REVIEWER": {
+          "PLACEHOLDER": "L&Dレビュー担当者が割り当てられていません",
+          "REQUEST_LD_REVIEWER": "L&Dレビュアー",
+          "TRIGGER": "L&Dレビュアーを追加"
+        },
+        "LOCATION": "地域/場所",
+        "PRIORITY_OPTIONS": {
+          "HIGH": "高い",
+          "LOW": "低い",
+          "MEDIUM": "中くらい"
+        },
+        "REQUESTER": {
+          "NAME": "依頼者名",
+          "PLACEHOLDER": "リクエスト者が割り当てられていません",
+          "TRIGGER": "リクエスト者を追加する"
+        },
+        "REQUESTER_NAME": "依頼者名",
+        "REQUEST_CREATOR": "依頼者",
+        "REQUEST_CREATOR_PLACEHOLDER": "リクエスト者を割り当てる",
+        "REQUEST_NUMBER": "リクエスト番号",
+        "REQUEST_OWNER": "所有者",
+        "REQUEST_OWNER_PLACEHOLDER": "オプションを選択",
+        "REQUEST_STATUS": "リクエストステータス",
+        "REQUEST_STATUS_OPTIONS": {
+          "APPROVED": "承認された",
+          "DRAFT": "下書き",
+          "REJECTED": "拒否",
+          "SUBMITTED": "提出済み"
+        },
+        "REQUEST_TITLE": "リクエストタイトル"
+      },
+      "REQUEST_TITLE": "リクエストタイトルを追加",
+      "TITLE": "基本情報"
+    },
+    "CANCELLED_REQUEST_BANNER": {
+      "BUTTON": "コメントを表示",
+      "LINE_ONE": "このリクエストは { cancellationDate } に <b>キャンセル</b> されました",
+      "LINE_TWO": "理由: { reason }"
+    },
+    "CANCELLED_REQUEST_INFO_MODAL": {
+      "ADDITIONAL_INFO": "キャンセルに関する追加情報",
+      "CANCELLATION_DATE": "キャンセル日",
+      "COMMENTS": "L&Dコメント",
+      "INTERNAL_SECTION": "内部セクション",
+      "NO_COMMENTS": "コメントはありません",
+      "REASON": "キャンセル理由",
+      "TITLE": "キャンセルをリクエストする"
+    },
+    "DECLINED_REQUEST_BANNER": {
+      "BUTTON": "コメントを表示",
+      "LINE_ONE": "このリクエストは,{ declineDate } にリクエスト所有者によって <b>拒否</b> されました。",
+      "LINE_TWO": "理由: { reason }"
+    },
+    "DECLINED_REQUEST_INFO_MODAL": {
+      "ADDITIONAL_DETAILS": "拒否に関する追加情報",
+      "COMMENTS": "コメント",
+      "DECLINE_DATE": "辞退日",
+      "NO_COMMENTS": "コメントはありません",
+      "REASON": "辞退理由",
+      "TITLE": "拒否されたリクエスト"
+    },
+    "EMPTY_STATE": "リクエスト タイプとフォームを選択して,フォームの内容をプレビューします。",
+    "LEFT_PANEL": {
+      "CHANGE_FORM_ALERT": {
+        "CANCEL": "キャンセル",
+        "DESCRIPTION": "フォームを新たに選択すると,現在のリクエストのすべてのデータが破棄されます。これにより,新しいフォームが開始されます。この変更は元に戻せません。",
+        "TITLE": "フォームを切り替える",
+        "YES_CHANGE": "はい,スイッチ"
+      },
+      "COLLAPSE": "崩壊",
+      "EXPAND": "拡大する",
+      "FORM": {
+        "APPLY_BUTTON": "リクエストの作成",
+        "DOWNLOAD_BUTTON": "フォームをダウンロード",
+        "FORM_TYPE_LABEL": "必要なフォームの種類を選択してください",
+        "TRAINING_TYPE_LABEL": "リクエストの種類を選択"
+      },
+      "PROMPT": "以下のリクエストタイプのリストから選択してください",
+      "REQUEST_TYPE": {
+        "ALL": "全て",
+        "ASSESSMENT_EVALUATION": "評価と評価",
+        "COACHING_MENTORING": "コーチングとメンタリング",
+        "CONSULTING": "コンサルティング",
+        "CONTENT_DEVELOPMENT": "コンテンツ開発/更新",
+        "EMPLOYEE_RESEARCH": "従業員調査",
+        "EMPLOYEE_SERVICE": "従業員サービス",
+        "EVENTS": "イベント",
+        "FACILITATION": "ファシリテーション",
+        "LEARNING_ADMIN": "学習管理/サポート",
+        "LEARNING_DELIVERY": "学習配信",
+        "OTHERS": "その他",
+        "TRAINING": "トレーニング"
+      },
+      "TITLE": "リクエストの種類"
+    },
+    "LINKED_PROJECTS": {
+      "MODAL": {
+        "CLOSE_BUTTON": "近い",
+        "SUB_TITLE": "このセクションにはプロジェクトの概要が記載されています",
+        "TITLE": "概要"
+      },
+      "TABLE": {
+        "PROJECT_ID": "プロジェクトID",
+        "PROJECT_NAME": "プロジェクト名",
+        "STATUS": "状態",
+        "VIEW": "ビュー"
+      },
+      "TITLE": "関連プロジェクト"
+    },
+    "L_D_SECTION": {
+      "CAPTION": "このセクションでは,リクエストの所有者は初期評価結果を記録し,学習チームがリクエストについて決定を下し,必要に応じて次のステップを計画するのに役立ちます。",
+      "FIELDS": {
+        "COMMENTS": "コメント",
+        "COST": "推定費用",
+        "EFFORT": "推定労力",
+        "HOURS": "時間",
+        "PRIORITY": "内部の優先順位"
+      },
+      "PRIORITY_OPTIONS": {
+        "high": "高い",
+        "low": "低い",
+        "medium": "中くらい",
+        "unassigned": "割り当てられていない"
+      },
+      "TITLE": "内部情報"
+    },
+    "MODAL": {
+      "CONFIRM_CANCELLATION_REQUEST": {
+        "ADDITIONAL_INFORMATION": "キャンセルに関する追加情報",
+        "CANCEL_BUTTON": "キャンセル",
+        "CONFIRM_CANCELLATION": "キャンセルの確認",
+        "HINT": "このリクエストのキャンセルはリクエスト者が開始しました。キャンセルの理由は次のとおりです:",
+        "LD_REMARK": "L&Dコメント",
+        "LD_SECTION": "L&Dセクション",
+        "PURPOSE": "キャンセルの目的",
+        "REMARK_PLACEHOLDER": "コメントを追加",
+        "TITLE": "キャンセルをリクエストする"
+      }
+    },
+    "NOTIFICATIONS": {
+      "IN_REVIEW_SUCCESS_MESSAGE": "リクエストは「審査中」に移動されました。",
+      "MISSING_INFO": "リクエストに情報が不足しています。リクエストは送信されません。",
+      "MODIFICATION_SUCCESS": "リクエスト「{ requestNo }」が正常に変更されました。",
+      "REQUEST_CANCELLATION_CONFIRMATION": "リクエスト「{ requestNo }」は正常にキャンセルされました。",
+      "REQUEST_CREATE_SUCCESS": "リクエスト「{ requestNo }」が正常に追加されました。",
+      "REQUEST_SUBMIT": "新しいリクエスト「{ requestNo }」が正常に送信されました。"
+    },
+    "PAGE_NAME": "リクエストページ",
+    "PENDING_CANCELLATION_BANNER": {
+      "BODY": "リクエスト者はこのリクエストをキャンセルするよう要求しました。",
+      "BUTTON": "コメントを表示",
+      "TITLE": "キャンセルをリクエストします。"
+    },
+    "REQUEST_DETAILS": {
+      "BUTTON": {
+        "BACK": "戻る",
+        "CANCEL": "キャンセル",
+        "NEXT": "次",
+        "SAVE_EXIT": "保存して終了",
+        "SUBMIT": "提出する",
+        "UPDATE_EXIT": "更新して終了",
+        "UPDATE_REQUEST": "更新リクエスト"
+      },
+      "CAPTION": "このセクションでは,リクエストの内容について説明します。学習チームが目標と要件をよりよく理解し,リクエストをタイムリーに評価できるように,詳細を必ず含めてください。",
+      "FIELDS": {
+        "REQUEST_DESCRIPTION": "リクエストの説明",
+        "REQUEST_DESCRIPTION_CAPTION": "ご要望についてご説明ください",
+        "REQUEST_DESCRIPTION_PLACEHOLDER": "解決しようとしている課題の詳細を入力してください"
+      },
+      "TITLE": "リクエストの詳細"
+    },
+    "STATUS": {
+      "APPROVED": "承認された",
+      "DECLINED": "拒否",
+      "IN_REVIEW": "レビュー中",
+      "WAITLISTED": "順番待ちリスト"
+    },
+    "SUBMITTED_ON": "{num, plural, =0 {} =1 {on: { date }}} に { user } によって送信されました",
+    "TABS": {
+      "ADDITIONAL": "追加情報",
+      "BASIC": "基本情報",
+      "L_D": "内部情報",
+      "REQUEST": "リクエストの詳細"
+    },
+    "TITLE": "リクエストを追加",
+    "TOP_BAR": {
+      "APPROVE": "承認する",
+      "APPROVE_SUCCESS_MESSAGE": "リクエスト「{ requestNo }」が正常に承認され,リクエスト者に変更が通知されました。",
+      "COMMENTS": "コメント",
+      "CREATE_PROJECT_MODAL": {
+        "CANCEL": "キャンセル",
+        "SAVE_NOW": "今すぐ保存",
+        "SAVE_OPEN": "保存して開く",
+        "SUCCESS_MESSAGE": "プロジェクト「{ projectTitle }」が保存されました。",
+        "TITLE": "プロジェクトを作成"
+      },
+      "DECLINE": "衰退",
+      "DECLINE_SUCCESS_MESSAGE": "リクエスト「{ requestNo }」は正常に拒否され,リクエスト者に変更が通知されました。",
+      "DELETE_REQUEST": {
+        "ERROR": "エラー！",
+        "ERROR_MESSAGE": "リクエストを削除できませんでした。もう一度お試しください。",
+        "SUCCESS": "成功！",
+        "SUCCESS_MESSAGE": "リクエストは削除されました。"
+      },
+      "DELETE_REQUEST_MODAL": {
+        "CANCEL_BUTTON": "キャンセル",
+        "CONFIRMATION": "<span class='font-bold'>{ request }</span> を削除してもよろしいですか?",
+        "DELETE_BUTTON": "はい,削除リクエスト",
+        "TITLE": "削除リクエスト",
+        "WARNING": "リクエストはシステムから <span class='font-bold'>完全に削除</span> されます。"
+      },
+      "FORM": "形状",
+      "ID": "ID:",
+      "IN_REVIEW_MODAL": {
+        "CONFIRMATION": "このリクエストを「審査中」に戻してもよろしいですか?",
+        "NOTIFICATION": "リクエスト者に通知されます。",
+        "TITLE": "レビュー中に戻る"
+      },
+      "LINK_PROJECT": "プロジェクトを作成",
+      "LINK_REQUEST_MODAL": {
+        "CANCEL": "キャンセル",
+        "LINK": "リンク",
+        "LINKED_PROJECTS_SUCCESS": "このリクエストにリンクされているプロジェクトが更新されました。",
+        "NO_LINKED_PROJECTS": "リンクされたプロジェクトはありません",
+        "PLACEHOLDER": "プロジェクトを検索するには入力してください",
+        "PROJECT_TITLE": "プロジェクト名",
+        "SAVE": "保存",
+        "STATUS": "状態",
+        "SUBTITLE": "このリクエストをリンクするプロジェクトを選択します。",
+        "TITLE": "プロジェクトへのリンク",
+        "TRIGGER": "プロジェクトへのリンクリクエスト",
+        "UNLINK": "リンクを解除"
+      },
+      "MORE": {
+        "CANCEL_REQUEST": "リクエストをキャンセル",
+        "CREATE_PROJECT": "プロジェクトを作成",
+        "DELETE_REQUEST": "削除リクエスト",
+        "DOWNLOAD_REQUEST": "ダウンロードリクエスト",
+        "LINK_PROJECT": "プロジェクトへのリンクリクエスト"
+      },
+      "PUBLIC_DRAFT": {
+        "TITLE": "下書きを公開する",
+        "TOOLTIP": "下書きを公開すると,他のユーザーが提出前にそれを閲覧できるようになります。"
+      },
+      "WAITLIST_MODAL": {
+        "CONDITION_APPROVAL": "順番待ちリストの条件",
+        "MENTION_REASON": "このリクエストを待機リストに入れる理由を記載してください",
+        "PLEASE": "このリクエストを待機リストに入れる理由を選択してください:",
+        "SELECT_CONDITIONS": "必要な条件をいくつでも選択してください",
+        "SPECIFY_OTHERS": "「その他」を指定してください",
+        "WAITLIST": "順番待ちリスト",
+        "WAITLIST_CONDITIONS": {
+          "BUDGET": "予算",
+          "IT": "それ",
+          "OTHERS": "その他",
+          "PROCUREMENT": "調達",
+          "RESOURCE": "リソース",
+          "STRATEGY_PRIORITY": "戦略 / 優先順位",
+          "TIMELINE": "タイムライン",
+          "VENDOR": "ベンダー"
+        },
+        "WAITLIST_DATE": "順番待ち日",
+        "WAITLIST_MEANS": "待機リストに登録するということは,このリクエストに対して行動を起こす準備がまだできていないが,適切な時期になったらこのリクエストについて決定することを検討することを意味します。",
+        "WAITLIST_PLAN": "現時点では対応できない待機リストのリクエスト。",
+        "WAITLIST_REQUEST": "順番待ちリストリクエスト"
+      },
+      "WAITLIST_SUCCESS_MESSAGE": "リクエスト「{ requestNo }」は正常に待機リストに登録され,今後の承認を待っています。"
+    },
+    "WAITLISTED_REQUEST_BANNER": {
+      "LINE_ONE": "このリクエストは,リクエスト所有者によって { date } に <b>待機リスト</b> に追加されました。",
+      "LINE_TWO": "承認条件: { conditions }"
+    }
+  },
+  "REQUEST_PORTAL_DEFAULT_NAME": "学習リクエストポータル",
+  "REQUIRED_INFORMATION": "必要な情報",
+  "ROI_CATEGORY": {
+    "COSTS_PAGE": {
+      "ADD_COST_BUTTON": "新しいコストを追加",
+      "COST": "料金",
+      "COST_DESCRIPTION": "コストの説明",
+      "COST_DESCRIPTION_PLACEHOLDER": "費用について説明してください",
+      "COST_PLACEHOLDER": "コストを追加",
+      "DELETED_STAGE": "削除されました",
+      "DELETE_MODAL_TITLE": "削除コスト",
+      "DISABLED_STAGE": "無効",
+      "HEADING_SUBTITLE": "評価戦略,機器の設計,データの収集と分析,レポート作成コストに関連するすべてのコストを含めます。",
+      "HEADING_TITLE": "このプログラムに関連するコストを追加します",
+      "PROCESS_STAGE": "プロセスステージ（オプション）",
+      "RESOURCE_COSTS": "資源コスト",
+      "RESOURCE_COSTS_INFORMATION_ICON": "リソースコストに関する情報",
+      "RESOURCE_COSTS_TOOLTIP_LINE_1": "この費用は,",
+      "RESOURCE_COSTS_TOOLTIP_LINE_2": "チームメンバー数 x 平均時給 x 総労働時間。",
+      "SUCCESS_MESSAGE": "成功しました。コストが更新されました。"
+    },
+    "OBJECTIVES_SETTING": {
+      "ADD_OBJECTIVE_MODAL": {
+        "CONFIRM_BUTTON": "はい,目標を追加",
+        "OBJECTIVE_FIELD_LABEL": "客観的",
+        "OBJECTIVE_FIELD_PLACEHOLDER": "ROI % を追加する",
+        "OBJECTIVE_FIELD_SUBTITLE": "このプログラムはどのくらいの ROI % を達成する必要がありますか?",
+        "TITLE": "ROI目標を追加"
+      },
+      "ADD_SUCCESS_NOTIFICATION": "成功しました! 目標が追加されました。",
+      "EMPTY_STATE_CAPTION": "ROI目標の追加を開始する",
+      "OBJECTIVE_CARD": {
+        "BODY": "ROIは{roi}%",
+        "TITLE": "客観的"
+      }
+    },
+    "OBJECTIVE_PAGE": {
+      "DELETE_OBJECTIVE_BUTTON": "目標を削除",
+      "OBJECTIVE_FIELD_SUBTITLE": "このプログラムの望ましいROI％は",
+      "ROI_OBJECTIVE_MODAL_TEXT": "この目標を削除すると,関連する計算もシステムから完全に削除されます。",
+      "TITLE": "目標管理"
+    },
+    "PROGRAM_COSTS": {
+      "BANNER": "プログラム総費用",
+      "MANAGE_COSTS": "コスト管理",
+      "SUBTITLE": "これにより,プログラムのすべての段階にわたる直接コストと間接コストの両方を含むプログラムの総コストが取得され,ROI 計算に値が提供されます。",
+      "TITLE": "プログラム費用"
+    },
+    "ROI_CALCULATOR": {
+      "ANNUAL_MONETARY_BENEFITS_TOTAL": "年間総金銭的利益",
+      "BENEFIT_COST_RATIO": "便益費用比",
+      "NO_CALCULATION_YET": "まだ計算していません",
+      "NO_OBJECTIVE": "目標設定なし",
+      "NO_VALUE_PROVIDED": "値が提供されていません",
+      "PROGRAM_COST_TOTAL": "プログラム総費用",
+      "RETURN_ON_INVESTMENT": "投資収益率",
+      "ROI_OBJECTIVE": "ROI目標",
+      "SUBTITLE": "金銭的利益とプログラム コストを,利益コスト比率と ROI に変換し,パーセントで表します。",
+      "TITLE": "ROI計算機",
+      "VIEW_CALCULATION": "計算を表示"
+    }
+  },
+  "SAVE": "保存",
+  "SAVE_NOW": "今すぐ保存",
+  "SAVE_OPEN": "保存して開く",
+  "SCHEDULE": {
+    "ADD_EVENT_BUTTON": "イベントを追加",
+    "ADD_FACILITATOR_BUTTON": "ファシリテーターを追加",
+    "ADD_NEW_EVENT": "新しいイベントを追加する",
+    "EVENTS": {
+      "BANNER": "学習イベントを追加すると,下に表示されます。"
+    },
+    "FACILITATORS": {
+      "BANNER": "Cognota にファシリテーターを追加すると,下に表示されます。"
+    },
+    "IMPORT_FACILITATORS": "輸入促進者",
+    "TABS": {
+      "EVENTS": "イベント",
+      "FACILITATORS": "ファシリテーター"
+    },
+    "TITLE": "スケジュール"
+  },
+  "SELECT": "選択",
+  "SETTINGS_PAGE": {
+    "ADD_PROCESS_MODAL": {
+      "ADD_STAGE_BUTTON": "ステージを追加",
+      "DESCRIPTION": "詳細を入力してカスタムプロセスを追加します",
+      "DESCRIPTION_FIELD_LABEL": "説明",
+      "PROCESS_ADDED_SUCCESSFULLY_MESSAGE": "プロセスが正常に追加されました。",
+      "PROCESS_DESCRIPTION_FIELD_PLACEHOLDER": "プロセスの説明を入力してください",
+      "PROCESS_NAME_FIELD_LABEL": "プロセス名",
+      "PROCESS_NAME_FIELD_PLACEHOLDER": "プロセスの名前を入力してください",
+      "PROCESS_UPDATED_SUCCESSFULLY_MESSAGE": "プロセスは正常に更新されました。",
+      "STAGE_COMPLETION_FIELD_LABEL": "推定完了時間（最小 - 最大）",
+      "STAGE_DESCRIPTION_FIELD_PLACEHOLDER": "このステージの説明を入力してください",
+      "STAGE_DIVISION": "ステージ { index }",
+      "STAGE_MAX_COMPLETION_FIELD_PLACEHOLDER": "最大時間",
+      "STAGE_MIN_COMPLETION_FIELD_PLACEHOLDER": "最小時間",
+      "STAGE_NAME_FIELD_ERROR": "ステージ名は重複できません。別の名前を使用してください。",
+      "STAGE_NAME_FIELD_LABEL": "芸名",
+      "STAGE_NAME_FIELD_PLACEHOLDER": "ステージ名を入力してください",
+      "TITLE": "プロセスを追加する"
+    },
+    "FIELDS_PAGE": {
+      "BUTTON_TITLE": "フィールドを追加",
+      "DEFAULT_VALUES_MODAL": {
+        "ADD_VALUES_BUTTON": "値を追加する",
+        "BODY": "このフィールド値を使用している既存のプロジェクトにはデフォルト値を指定してください。",
+        "TITLE": "デフォルト値"
+      },
+      "DELETE_FIELD_MODAL": {
+        "BODY": "この操作は元に戻せません。カスタム フィールドを削除すると,関連するデータや参照も含めて,システムから完全に削除されます。続行する前に,影響についてよく考えてください。",
+        "DELETE_BUTTON": "フィールドを削除",
+        "SUCCESS_NOTIFICATION": "カスタムフィールドが削除されました。",
+        "TITLE": "フィールドを削除"
+      },
+      "DETAILS": {
+        "ADD_SUCCESS": "新しいカスタムフィールドが追加されました。",
+        "CREATOR_FIELD_NAME": "フィールドクリエーター",
+        "DELETE_FIELD": "フィールドを削除",
+        "DESCRIPTION_FIELD_NAME": "説明",
+        "DESCRIPTION_FIELD_PLACEHOLDER": "フィールドの説明を入力してください",
+        "DUPLICATE_ERROR": "おっと！このオプションは既に使用されています。固有のオプションを入力してください",
+        "ENABLED_TOGGLE": "有効",
+        "FIELD_OPTIONS": {
+          "BOOLEAN": "はい / いいえ",
+          "FLOAT": "小数点数（通貨や計測単位）",
+          "INT": "数字（整数）",
+          "SINGLE_LINE": "テキスト（英数字）"
+        },
+        "FIELD_TYPE_CHECKBOX": {
+          "DATE": "日付範囲",
+          "DROPDOWN": "複数選択ドロップダウン",
+          "NUMERIC": "小数点を含む",
+          "TEXT": "複数行テキスト"
+        },
+        "OPTIONS_DATA_TYPE_LABEL": "オプションのデータ型",
+        "OPTIONS_LABEL": "オプション",
+        "TITLE_FIELD_NAME": "フィールドタイトル",
+        "TITLE_FIELD_PLACEHOLDER": "フィールドタイトルを入力",
+        "TYPE_FIELD_NAME": "フィールドタイプ",
+        "TYPE_FIELD_PLACEHOLDER": "フィールドタイプを選択",
+        "TYPE_TOOLTIP": "選択したデータ タイプによって,フィールド オプションによるデータの処理方法と表示方法が決まり,正確な情報の取得が保証されます。",
+        "UPDATE_ERROR": "問題が発生しました... 技術的な問題が発生しています。更新するか,もう一度お試しください。",
+        "UPDATE_SUCCESS": "{ title } フィールドが更新されます。"
+      },
+      "FIELD_NAMES": {
+        "CHECKBOX": "チェックボックス",
+        "DATE_PICKER": "日付フィールド",
+        "DROPDOWN": "落ちる",
+        "NUMERICAL_FIELD": "数値フィールド",
+        "RADIO": "ラジオボタン",
+        "TEXT_FIELD": "テキストフィールド",
+        "TOGGLE": "トグル"
+      },
+      "PAGE_SUB_TITLE": "この設定セクションを使用して,フィールドを作成および管理します。",
+      "PAGE_TITLE": "カスタムフィールド",
+      "SUB_TITLE": "このセクションにはフィールド情報が含まれています。",
+      "TABLE_COLUMNS": {
+        "CREATOR": "クリエイター",
+        "DESCRIPTION": "説明",
+        "DISABLED": "無効",
+        "ENABLED": "有効",
+        "LAST_UPDATED": "最終更新日",
+        "STATUS": "状態",
+        "TITLE": "フィールドタイトル",
+        "TYPE": "フィールドタイプ"
+      },
+      "TABLE_EMPTY": "カスタム フィールドを作成および管理します。",
+      "TITLE": "フィールドの概要",
+      "UPDATE_WARNING_MODAL": {
+        "BODY": "更新は,このフィールドを使用しているすべての新規および既存のプロジェクトに適用されます。<br/>続行しますか?",
+        "PROCEED_BUTTON": "はい,続行します",
+        "TITLE": "フィールドの更新"
+      }
+    },
+    "FORMS": {
+      "ADD_FORM": "フォームを追加",
+      "COPY_LINK": {
+        "COPY_FORM_LINK": "フォームへのリンクをコピー",
+        "SUCCESS_MESSAGE": "リクエストポータルのフォームへのリンクがコピーされました。",
+        "TOOLTIP": "リクエストポータルのフォームへのリンク"
+      },
+      "CREATE_FORMS": "フォームを作成して管理しましょう！",
+      "DELETE": {
+        "DELETE_FORM": "フォームを削除",
+        "PUBLISHED_DESCRIPTION": "この変更は<b>元に戻せません</b>。このフォームに基づくリクエストは削除されません。",
+        "QUESTION": "このフォームを削除してもよろしいですか?",
+        "SUCCESS": "フォームは正常に削除されました。",
+        "TITLE": "{ status } フォームを削除",
+        "UNPUBLISHED_DESCRIPTION": "この変更は<b>元に戻せません</b>。フォームが以前に公開されていた場合,この変更はこのフォームに基づくリクエストには影響しません。"
+      },
+      "DELETE_TOOLTIP": "フォームを削除するには非公開にする必要があります",
+      "DESIGN": {
+        "CUSTOM_QUESTIONS": {
+          "ADD_OPTION": "オプションを追加",
+          "ADD_QUESTION": "質問を追加",
+          "CAPTION1": "さまざまな形式で独自の質問を追加します。",
+          "CAPTION2": "ラベルまたは値のない質問はリクエストに表示されません。",
+          "DATE": {
+            "DATE_RANGE": "日付範囲"
+          },
+          "DRAG_HANDLE": "ドラッグハンドル",
+          "DROPDOWN": {
+            "MULTISELECT": "複数選択ドロップダウン"
+          },
+          "FILE": {
+            "PLACEHOLDER": "アップロード手順を追加する"
+          },
+          "LABEL_PROMPT": {
+            "EDIT": "ラベルを編集",
+            "OPEN": "リンクを開く"
+          },
+          "OPTION_PLACEHOLDER": "オプションを入力してください",
+          "PLACEHOLDER": "プレースホルダーを入力してください",
+          "QUESTION_LABEL": "ラベルを入力してください",
+          "RANGE": {
+            "MAX_VALUE_PLACEHOLDER": "最大値を追加",
+            "MIN_VALUE_PLACEHOLDER": "最小値を追加"
+          },
+          "REMOVE_OPTION": "オプションを削除",
+          "REORDER": "並べ替え",
+          "REQUIRED": "必須",
+          "TEXT": {
+            "MULTILINE": "複数行フィールド"
+          },
+          "TITLE": "カスタム質問",
+          "TOGGLE": {
+            "HELP_TEXT": "トグルをデフォルト状態に設定する",
+            "VALUE": "値を入力"
+          }
+        },
+        "DEFAULT_FIELDS": "デフォルトフィールド",
+        "ENTER_COMMENTS": "このリクエストに対するコメントを入力してください",
+        "ENTER_COSTS": "コストを入力",
+        "ENTER_DESCRIPTION": "説明を入力してください",
+        "ENTER_EFFORTS": "努力を入力",
+        "ENTER_REQUESTER": "依頼者名を入力してください",
+        "GENERAL_INFO": "一般情報",
+        "SELECT_BUSINESS_UNIT": "事業部門を選択",
+        "SELECT_PRIORITY": "優先順位を選択",
+        "SELECT_REGION_LOCATION": "地域または場所を選択してください",
+        "SUBTITLE": "学習リクエストの情報を収集するためのフィールドを追加してフォームを作成します",
+        "SYSTEM_GENERATED_ID": "システム生成ID",
+        "TITLE": "フォームデザイン"
+      },
+      "DUPLICATE": {
+        "COPY": "- コピー",
+        "DUPLICATE_FORM": "重複フォーム",
+        "FILL_DETAILS": "新しいフォームを作成するには詳細を入力してください",
+        "NEW_NAME": "新しいフォーム名",
+        "ORIGINAL_NAME": "元のフォーム名"
+      },
+      "FORM_CREATED_SUCCESS": "リクエストフォームが正常に作成されました。",
+      "FORM_CREATOR": "フォーム作成者",
+      "FORM_TITLE": "リクエストフォームタイトル",
+      "LAST_UPDATE": "最終更新",
+      "NOT_UPDATED": "このリクエストフォームには情報が不足しており,更新されていません。",
+      "NO_FORMS": "フォームが見つかりません",
+      "PUBLISH": "公開",
+      "PUBLISHED": "公開済み",
+      "PUBLISHED_MODAL": {
+        "DESCRIPTION": "フォームはすでに公開されています。変更は新しいリクエストにのみ影響します。",
+        "TITLE": "公開フォームを更新する"
+      },
+      "PUBLISH_SUCCESS": "このフォームは正常に公開されました。",
+      "REQUEST_TYPE": "リクエストタイプ",
+      "SUMMARY": {
+        "DEFAULT_OWNERS": "デフォルトのリクエスト所有者",
+        "DESCRIPTION": "フォームの説明",
+        "ENTER": "{ field } を入力してください",
+        "ENTER_DESCRIPTION": "説明を入力",
+        "FORM_TITLE": "フォームタイトル",
+        "REQUEST_OWNER": "リクエスト所有者を追加",
+        "SELECT_REQUEST_TYPE": "リクエストタイプを選択",
+        "SUBTITLE": "一般的なフォーム情報を入力します。",
+        "TITLE": "フォームの概要"
+      },
+      "TABLE_MENU": {
+        "DELETE": "消去",
+        "DUPLICATE": "重複"
+      },
+      "UNPUBLISHED_MODAL": {
+        "DESCRIPTION": "このフォームが以前に公開されている場合,変更は新しいリクエストにのみ影響します。",
+        "QUESTION": "フォームを更新してもよろしいですか?",
+        "TITLE": "未公開フォームの更新"
+      },
+      "UNPUBLISH_SUCCESS": "このフォームは正常に非公開になりました。このフォームを使用して送信されたリクエストは影響を受けません。",
+      "UN_PUBLISHED": "未公開",
+      "UPDATED_SUCCESS": "リクエストフォームが正常に更新されました。",
+      "UPDATE_TOOLTIP": "すべてのカスタム質問に次の内容が含まれていることを確認してください:<li>明確なラベル</li><li>複数選択の質問にすべてのオプションが指定されている</li>",
+      "YES_UPDATE": "はい,更新します"
+    },
+    "GENERAL_PAGE_CAPTION": "アプリケーションをカスタマイズする",
+    "PROJECTS_PAGE": {
+      "ACTIVE_PROCESS_TOOLTIP": "プロジェクトを含むプロセスは削除できません",
+      "ADD_PROCESS": "プロセスを追加",
+      "ADD_TASK_BUNDLE": "バンドルを追加",
+      "ADD_TEMPLATES": "テンプレートを追加",
+      "COGNOTA": "コグノタ",
+      "CREATED_BY": "作成者",
+      "CREATION_DATE": "作成日",
+      "DATE": "日付",
+      "DELETE_PROCESS": "削除プロセス",
+      "DESCRIPTION": "説明",
+      "DISABLED_PROCESS_WARNING": "無効なプロセスは,新しいプロジェクトのオプションとして表示されず,プロジェクトが含まれていない場合はボード ビューにも表示されません。",
+      "EDIT": "編集",
+      "ENABLE_PROCESS": "プロセスを有効にする",
+      "ESTIMATED_COMPLETION_TIME": "{ time } 時間",
+      "ESTIMATE_TIME": "推定完了時間",
+      "GET_STARTED": "始める",
+      "NO_ESTIMATED_COMPLETION_TIME": "指定されていない",
+      "OWNER": "所有者",
+      "PAGE_SUB_TITLE": "この設定セクションを使用して,カスタムまたはすぐに使用できるプロセス,テンプレート,フィールドによってプロジェクトを整理します。",
+      "PAGE_TITLE": "プロジェクトのセットアップ",
+      "PROCESSES": "プロセス",
+      "PROCESS_NAME": "プロセス名",
+      "PROCESS_PAGE_TITLE": "プロセス: { process }",
+      "REMOVE": "取り除く",
+      "STATUS": "状態",
+      "SYSTEM": "システム",
+      "SYSTEM_PROCESS_TOOLTIP": "システム定義のプロセスは削除できません。",
+      "TEMPLATES": "テンプレート",
+      "TITLE": "タイトル",
+      "disabled": "無効",
+      "draft": "未公開",
+      "published": "公開済み"
+    },
+    "REMOVE_PROCESS_MODAL": {
+      "DESCRIPTION": "この変更は<b>元に戻せません。</b><br><br>このプロセスを削除してもよろしいですか?",
+      "REMOVE_PROCESS_SUCCESSFULLY_MESSAGE": "プロセスは正常に削除されました。",
+      "TITLE": "削除プロセス"
+    },
+    "TASK_BUNDLE_PAGE": {
+      "ADD_TASK_BUNDLE": "タスクバンドルを追加",
+      "BUILD_SECTION": {
+        "ADD_TASK": "タスクを追加",
+        "ARE_YOU_SURE": "このタスクを削除してもよろしいですか?",
+        "DELETE_TASK": "タスクを削除",
+        "DELETE_TASK_CONFIRM": "はい,タスクを削除します",
+        "DESCRIPTION": "タスクの説明",
+        "GET_STARTED": "タスクを追加して始めましょう。",
+        "NAME": "タスクタイトル",
+        "NO_RESULTS_FOUND": "結果が見つかりませんでした。別のキーワードを試してください。",
+        "NO_TASKS_ADDED": "タスクが追加されていません",
+        "TASK_LIST": "タスクリスト",
+        "TASK_WILL_BE_REMOVED": "このタスクはタスク バンドルから削除されます。"
+      },
+      "BUNDLE_BUILD_TAB": "2. バンドルをビルドする",
+      "BUNDLE_OVERVIEW_TAB": "1. バンドルの概要",
+      "CREATED_SUCCESSFULLY": "成功しました。タスク バンドルが作成されました。",
+      "DELETE_BUNDLE": {
+        "BODY_FIRST_LINE": "タスク バンドルを削除すると,元に戻すことはできませんのでご注意ください。バンドルは新しいプロジェクトに関連付けることができなくなりますが,古いプロジェクトには影響がないのでご安心ください。",
+        "BODY_SECOND_LINE": "削除を続行しますか?",
+        "CANCEL": "キャンセル",
+        "CONFIRM": "はい,続行します",
+        "DELETE": "バンドルを削除",
+        "SUCCESS_MESSAGE": "成功しました。タスク バンドルが削除されました。",
+        "TITLE": "タスクバンドルの削除"
+      },
+      "OVERVIEW_SECTION": {
+        "CREATOR_LABEL": "作成者",
+        "DESCRIPTION_LABEL": "説明",
+        "SECTION_DESCRIPTION": "このセクションにはタスク バンドルの情報が含まれています。",
+        "TITLE_LABEL": "タイトル"
+      },
+      "TABLE": {
+        "EMPTY": "タスクバンドルの作成と管理",
+        "GET_STARTED": "始める",
+        "HEAD": {
+          "CREATION_DATE": "作成日",
+          "CREATOR": "クリエイター",
+          "DESCRIPTION": "説明",
+          "ESTIMATED_HOURS": "推定所要時間",
+          "TITLE": "タイトル"
+        },
+        "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。"
+      },
+      "UPDATE": "アップデートバンドル",
+      "UPDATED_SUCCESSFULLY": "成功しました。タスク バンドルが更新されました。"
+    },
+    "TEMPLATE_PAGE": {
+      "ACTIONS": {
+        "ADD": "追加した",
+        "DELETE": "削除されました",
+        "PUBLISH": "公開済み",
+        "UNPUBLISH": "未発表",
+        "UPDATE": "更新"
+      },
+      "ADD_MORE_FIELDS_MODAL": {
+        "DESCRIPTION": "次のフィールドを使用して,カスタム プロジェクト テンプレートを構築します。",
+        "FIELD_TYPE": "フィールドタイプ: { fieldType }",
+        "TITLE": "テンプレートのフィールド"
+      },
+      "ADD_TEMPLATE": "テンプレートを追加",
+      "BUILD_SECTION": {
+        "ADD_MORE_FIELDS": "フィールドを追加する",
+        "REQUIRED": "必須",
+        "SECTION_DESCRIPTION": "このセクションでは,プロジェクトの概要を説明します。",
+        "SECTION_TITLE": "プロジェクトセクション"
+      },
+      "BUILD_TAB": "テンプレートの作成",
+      "DEFAULT_VALUES_MODAL": {
+        "DESCRIPTION": "既存のプロジェクトの更新されたテンプレート内の新しいフィールドにデフォルト値を提供します。",
+        "TITLE": "デフォルト値"
+      },
+      "DELETE_TEMPLATE": "テンプレートを削除",
+      "DELETE_TEMPLATE_TOOLTIP": "削除できるのは未公開のテンプレートのみです。",
+      "DELETE_TEMPLATE_WARNING_MENSSAGE": "このテンプレートを削除しようとしています。この操作は元に戻せません。",
+      "OVERVIEW_SECTION": {
+        "DESCRIPTION_FIELD_LABEL": "説明",
+        "SECTION_DESCRIPTION": "このセクションにはテンプレート情報が含まれています。",
+        "TEMPLATE_CREATOR_FIELD_LABEL": "テンプレート作成者",
+        "TEMPLATE_OWNER_FIELD_LABEL": "テンプレート所有者",
+        "TITLE_FIELD_LABEL": "タイトル"
+      },
+      "OVERVIEW_TAB": "テンプレートの概要",
+      "PUBLISH": "公開",
+      "SUCCESS_MESSAGE": "成功しました! テンプレート { action }。",
+      "UPDATE_CONFIRMATION_MODAL": {
+        "CONFIRM": "はい,続行します",
+        "DESCRIPTION": "これらの更新は,このテンプレートを使用しているすべての新規および既存のプロジェクトに適用されます。<br/>続行しますか?"
+      },
+      "UPDATE_TEMPLATE": "テンプレートの更新",
+      "UPDATE_WARNING": "<b>注意!</b> このテンプレートに加えられた編集は,このテンプレートを使用して作成されたすべての新規プロジェクトと既存のプロジェクトに適用されます。",
+      "VERSION_MISMATCH_ERROR": {
+        "MESSAGE": "テンプレートの編集中に,他のユーザーが変更を保存しました。再試行する前にページを再読み込みしてください。",
+        "TITLE": "おっと！変更は保存されませんでした。"
+      }
+    },
+    "USER_PAGE": {
+      "BASIC_INFORMATION": {
+        "CAPTION": "基本的なユーザーの詳細を入力してください",
+        "CHANGE_TO_LEARNING_USER": "学習ユーザーへの変更",
+        "COUNTRY": "国",
+        "COUNTRY_PLACEHOLDER": "国を選択",
+        "EDIT_PICTURE": "画像を編集",
+        "EMAIL": "メール",
+        "EMAIL_PLACEHOLDER": "メールを追加",
+        "FIRST_NAME": "ファーストネーム",
+        "FIRST_NAME_PLACEHOLDER": "名前を追加",
+        "LAST_NAME": "苗字",
+        "LAST_NAME_PLACEHOLDER": "姓を追加",
+        "PROFILE_PICTURE": "プロフィール写真",
+        "PROVINCE": "州/県",
+        "PROVINCE_LIST_PLACEHOLDER": "州または県を選択してください",
+        "PROVINCE_TEXT_PLACEHOLDER": "州または県を追加する",
+        "TITLE": "基本情報",
+        "TOGGLE_LABEL": "このユーザーを管理者にする",
+        "TOGGLE_OFF_TEXT": "オフ",
+        "TOGGLE_ON_TEXT": "の上",
+        "USER_TYPE": "ユーザータイプ"
+      },
+      "CAPACITY_MANAGEMENT": {
+        "CAPTION": "基本的な容量の詳細を入力してください",
+        "PUBLIC_HOLIDAYS": {
+          "LABEL": "祝日を適用する",
+          "OFF_TEXT": "オフ",
+          "ON_TEXT": "の上",
+          "VIEW_HOLIDAYS": "休日を表示"
+        },
+        "TITLE": "キャパシティ管理",
+        "WEEKLY_CAPACITY": "デフォルトの週当たり容量",
+        "WEEKLY_CAPACITY_PLACEHOLDER": "週あたりの労働時間を指定する"
+      },
+      "CHANGE_USER_TYPE_MODAL": {
+        "BODY": {
+          "CHANGE_DESCRIPTION": "これにより,ユーザーはプラットフォームのより多くのモジュールにアクセスできるようになり,ライセンス シートが必要になります。",
+          "FORM": {
+            "DEFAULT_WEEKLY_CAPACITY": "デフォルトの週当たり容量",
+            "EMPLOYMENT_TYPE": "雇用形態",
+            "EMPLOYMENT_TYPE_PLACEHOLDER": "雇用形態を選択",
+            "JOB_FUNCTION": "職務内容",
+            "JOB_FUNCTION_PLACEHOLDER": "職務機能を選択",
+            "SECTION_TITLE_CAPACITY": "容量情報",
+            "SECTION_TITLE_JOB": "求人情報",
+            "TEAM": "チーム",
+            "TEAM_PLACEHOLDER": "チームを選択"
+          },
+          "LICENSES_REMAINING": "残りのライセンス数: { licenses }",
+          "NO_LICENSES": "ライセンスは 0 個残っています。このユーザーをアップグレードすると,ライセンスは非アクティブに設定されます。",
+          "PLEASE_FILL": "学習ユーザーに必要な以下の情報を入力してください"
+        },
+        "BUTTONS": {
+          "CANCEL": "キャンセル",
+          "CONFIRM": "はい,変更"
+        },
+        "ERROR_NOTIFICATION": "問題が発生しました。もう一度お試しください。",
+        "SUCCESS_NOTIFICATION": "成功しました。ユーザー タイプが変更されました。",
+        "TITLE": "ビジネスユーザーを学習ユーザーに変更する"
+      },
+      "ERRORS": {
+        "DISABLE_ACCOUNT": "このユーザーは非アクティブ化されており,プラットフォームにアクセスできなくなりました。",
+        "INLINE_NOTFICATION": "このユーザーには情報が不足しており,更新されていません。",
+        "MISSING_INFORMATION": "情報が不足しています"
+      },
+      "FOOTER": {
+        "CANCEL_BUTTON": "キャンセル",
+        "UPDATE_BUTTON": "アップデート"
+      },
+      "HEADER": {
+        "ENABLE_ACCOUNT": "アクティブユーザー",
+        "MORE_ACTIONS": {
+          "NOTIFY_USER": "ユーザーに通知"
+        }
+      },
+      "JOB_INFORMATION": {
+        "BUSINESS_TEAM": "ビジネスチーム",
+        "BUSINESS_TEAM_PLACEHOLDER": "ビジネスユニットを選択",
+        "CAPTION": "主な仕事の詳細を入力してください",
+        "COMPANY_NAME": "会社名",
+        "COMPANY_NAME_PLACEHOLDER": "会社名を追加",
+        "EMPLOYMENT_TYPE": "雇用形態",
+        "EMPLOYMENT_TYPE_PLACEHOLDER": "雇用形態を選択",
+        "HOURLY_RATE": "時給",
+        "HOURLY_RATE_PLACEHOLDER": "時間あたりの料金を追加",
+        "JOB_FUNCTION": "職務内容",
+        "JOB_FUNCTION_PLACEHOLDER": "職務機能を選択",
+        "JOB_TITLE": "役職",
+        "JOB_TITLE_PLACEHOLDER": "役職を追加する",
+        "LANGUAGES": "言語",
+        "LANGUAGES_PLACEHOLDER": "習得した言語を1つ以上選択してください",
+        "NONE": "なし",
+        "SKILLS": "スキル",
+        "SKILLS_PLACEHOLDER": "スキルを追加する",
+        "TEAM": "チーム",
+        "TEAM_PLACEHOLDER": "チームを選択",
+        "TITLE": "求人情報"
+      },
+      "NOTIFY_USER_MODAL": {
+        "BODY": {
+          "FIRST_LINE": "ログイン詳細を含む通知をユーザーに送信しますか?",
+          "SECOND_LINE": "後から通知することもできます。"
+        },
+        "BUTTONS": {
+          "NOTIFY": "はい,通知します",
+          "NOT_NOW": "今じゃない"
+        },
+        "TITLE": "ユーザーに通知"
+      },
+      "TITLE": "ユーザー",
+      "USER_NOTIFIED": "このユーザーには正常に通知されました。",
+      "USER_UPDATED": "このユーザーは正常に更新されました!",
+      "VIEW_HOLIDAYS_MODAL": {
+        "TITLE": "祝日"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "DESIGN": "デザイン",
+    "HOME": "家",
+    "INSIGHTS": "洞察",
+    "INTAKE": "摂取量",
+    "LOGOUT": "ログアウト",
+    "MY_TIME_OFF": "私の休暇",
+    "PROGRAMS": "プログラム",
+    "PROJECTS": "プロジェクト",
+    "SCHEDULE": "スケジュール",
+    "SETTINGS": "設定",
+    "SUPPORT": "リソース",
+    "SUPPORT_POPUP_OPTIONS": {
+      "CHAT": "チャットで問い合わせる",
+      "LEARNING": "学習センター",
+      "LEARNOPS_CERTIFICATION": "LearnOps 認定",
+      "LEARNOPS_COMMUNITY": "LearnOpsコミュニティ",
+      "SHOW": "案内して"
+    },
+    "TASKS": "タスク",
+    "TEAMS": "チーム"
+  },
+  "SIDEKICK": "LearnOps AIに質問する",
+  "SIDE_PANEL": {
+    "CANCEL_BUTTON": "キャンセル",
+    "DUPLICATE": "重複",
+    "FULL_PAGE": "全ページ",
+    "ID": "ID",
+    "PROJECT": {
+      "RESOURCE_AND_BUDGET": "リソースと予算"
+    },
+    "QUICK_EDIT": "クイック編集",
+    "QUICK_VIEW": "クイックビュー",
+    "REQUEST_MISSING_FIELDS": "必須項目に入力漏れがあるのでご注意ください。送信する前に,フルページビューを開いてフォームに入力してください。",
+    "SUBMIT_BUTTON": "提出する",
+    "UNSAVED_CHANGES": "保存されていない変更",
+    "UPDATE_BUTTON": "アップデート"
+  },
+  "STRATEGY_DATA_COLLECTION": {
+    "METHODS": {
+      "ACTION_PLANNING_PERFORMANCE_CONTRACTING": "アクションプランニング/パフォーマンス契約",
+      "FOCUS_GROUP": "フォーカスグループ",
+      "INTERVIEW": "インタビュー",
+      "OBSERVATION": "観察",
+      "PERFORMANCE_MONITORING": "パフォーマンス監視",
+      "QUESTIONNAIRE": "アンケート",
+      "SURVEY": "調査",
+      "TEST": "テスト"
+    },
+    "NOTIFICATION": {
+      "ERROR": {
+        "MESSAGE": "再度保存する前にページを再読み込みしてください。",
+        "TITLE": "申し訳ありませんが,エラーが発生したため,一部の変更が保存されなかった可能性があります"
+      },
+      "SUCCESS_TITLE": "成功しました! { categoryName } 戦略が更新されました。"
+    },
+    "QUESTION_ANSWERS": {
+      "COLLECTION_TIMING": {
+        "1_MONTH_AFTER": "1ヶ月後",
+        "1_YEAR_AFTER": "1年後",
+        "2_WEEKS_AFTER": "2週間後",
+        "3_MONTHS_AFTER": "3ヶ月後",
+        "6_MONTHS_AFTER": "6ヶ月後",
+        "IMMEDIATELY_AFTER": "直後",
+        "PRE_PROGRAM": "事前プログラム"
+      },
+      "DATA_SOURCE": {
+        "CLIENT_BUSINESS_PARTNERS": "クライアント/ビジネスパートナー",
+        "COLLEAGUES_TEAM": "同僚/チーム",
+        "DIRECT_REPORTS": "直属の部下",
+        "EXTERNAL_CUSTOMERS": "外部顧客",
+        "FACILITATORS": "ファシリテーター",
+        "MANAGERS": "マネージャー",
+        "OTHER": "他の",
+        "PARTICIPANTS": "参加者"
+      },
+      "METHOD": {
+        "AUDIO_MONITORING": "オーディオモニタリング",
+        "BEHAVIOUR_CHECKLIST": "行動チェックリスト",
+        "CODED_BEHAVIOUR_RECORD": "コード化された行動記録",
+        "COMPUTER_MONITORING_SOFTWARE": "コンピュータ監視（ソフトウェア）",
+        "DELAYED_REPORT_METHOD": "遅延報告方式",
+        "VIDEO_RECORDING": "ビデオ録画"
+      }
+    },
+    "UNSAVED_CHANGES_MODAL": {
+      "CONFIRM_MESSAGE": "はい,保存せずに終了します",
+      "DISCARD_BUTTON": "キャンセル",
+      "MESSAGE": "評価計画と結果セクションに保存されていない変更があるようです。このページを離れると,保存されていない変更はすべて破棄されます。",
+      "TITLE": "保存されていない変更"
+    }
+  },
+  "SUCCESS": "成功",
+  "SUCCESS_SNACKBAR_TITLE": "成功！",
+  "TABLE_HEADER_ACTIONS": {
+    "EXPORT": "輸出",
+    "FILTER": "フィルター",
+    "REORDER": "並べ替え"
+  },
+  "TASK": {
+    "ACTUAL_COMPLETION_DATE": "実際の完了日",
+    "ACTUAL_HOURS": "実際の時間",
+    "ASSIGNEE": "譲受人",
+    "DUE_DATE": "期日",
+    "ESTIMATED_HOURS": "推定所要時間",
+    "INCLUDE_DISABLED": "無効なタスクを含める",
+    "START_DATE": "開始日",
+    "STATUS": "状態",
+    "TASK_TYPE": "タスクタイプ",
+    "TYPE": "タイプ"
+  },
+  "TASKS": {
+    "ADD_TASK_BUTTON_TITLE": "タスクを追加",
+    "ADD_TASK_MODAL": {
+      "END_DATE": "期日",
+      "ESTIMATED_TIME": "推定所要時間",
+      "ESTIMATED_TIME_PLACEHOLDER": "タスクにかかる推定時間を記載する",
+      "PROJECT_PLACEHOLDER": "プロジェクトを選択",
+      "START_DATE": "開始日",
+      "SUBTITLE": "このタスクをプロジェクトに追加するには情報を入力してください",
+      "TASK_ASSIGNEE": "タスク担当者",
+      "TASK_ASSIGNEE_PLACEHOLDER": "ユーザーを割り当てる",
+      "TASK_DESCRIPTION": "タスクの説明",
+      "TASK_DESCRIPTION_PLACEHOLDER": "タスクの説明を追加する",
+      "TASK_TITLE": "タスクタイトル",
+      "TASK_TITLE_PLACEHOLDER": "タスク名を追加する",
+      "TASK_TYPE": "タスクタイプ",
+      "TASK_TYPE_PLACEHOLDER": "タスクの種類を選択",
+      "TITLE": "タスクを追加"
+    },
+    "COMPLETED_PROGRESS_BAR_LABEL": "完了したタスク",
+    "FROM_BUNDLE": "バンドルから",
+    "FROM_FILE": "ファイルから",
+    "IMPORT": "インポートタスク",
+    "IMPORT_SUCCESS": "タスクは正常にインポートされました。",
+    "IMPORT_TASKS_MODAL": {
+      "DESCRIPTION": "タスク バンドルを選択して,タスクをプロジェクトにインポートします。",
+      "LABEL": "タスクバンドル",
+      "SUCCESS_MESSAGE": "タスクが正常にインポートされました",
+      "TITLE": "インポートタスク",
+      "UPLOAD": "ファイルからタスクをインポート",
+      "UPLOAD_FROM_BUNDLE": "バンドルからタスクをインポート"
+    },
+    "MY_TASKS": "私のタスク",
+    "NOTIFICATIONS": {
+      "CENTRALIZED": {
+        "CALLBACK": "タスクを表示",
+        "MESSAGE": "新しいタスクを作成しました。"
+      },
+      "TASK_CREATION_SUCCESS": "タスクが正常に作成され,キューに追加されました。",
+      "TASK_DELETION_SUCCESS": "タスクは削除されました。",
+      "TASK_DUPLICATION_SUCCESS": "タスクが正常に複製されました。"
+    },
+    "TABLE": {
+      "COPY_OF_PLACEHOLDER": "コピー",
+      "DUPLICATE": "重複",
+      "EMPTY": "このプロジェクトにタスクを追加する",
+      "EXPORT": "タスクのエクスポート",
+      "EXPORT_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするタスクを選択します。",
+      "GET_STARTED": "始める",
+      "HEAD": {
+        "ACTUAL_DATE": "実際の日付",
+        "ACTUAL_HOURS": "実際の時間",
+        "ASSIGNEE_UPDATE": "タスク担当者",
+        "DISABLED": "無効",
+        "DUE_ACTUAL_DATE": "期日 / 実際の日付",
+        "DUE_DATE": "期日",
+        "ENABLED": "有効",
+        "ESTIMATED_ACTUAL_HOURS": "推定時間 / 実時間",
+        "ESTIMATED_HOURS": "推定所要時間",
+        "NAME": "タスクタイトル",
+        "START_DATE": "開始日",
+        "STATUS": "状態",
+        "TASK_TYPE": "タスクタイプ"
+      },
+      "INACTIVE": "非アクティブ",
+      "NO_ASSIGNEE": "参加者が割り当てられていません",
+      "NO_DATA": "表示できるデータがありません",
+      "NO_DATE": "表示できるデータがありません",
+      "NO_RECORDS": "結果が見つかりませんでした。別のキーワードを試してください。",
+      "NO_TASK_TYPE": "タスクタイプが定義されていません",
+      "NO_TYPE": "タスクタイプが定義されていません"
+    },
+    "TASK_DETAIL_PAGE": {
+      "ACTUAL_COMPLETION_DATE": "実際の完了日",
+      "ACTUAL_HOURS": "総実労働時間",
+      "ACTUAL_HOURS_LAST_UPDATE": "(最終更新日 { date })",
+      "ACTUAL_HOURS_PLACEHOLDER": "タスクに費やした実際の時間を追加する",
+      "ACTUAL_HOURS_TOOLTIP": "実際の時間を追加するには,タスクを進行中に移動します",
+      "ADDITIONAL_FLAGS": {
+        "DISABLED": "無効"
+      },
+      "ADDITIONAL_FLAGS_LABELS": {
+        "DISABLED": "無効を含める"
+      },
+      "ADD_ACTUAL_HOURS": "実際の時間を追加",
+      "ASSIGNEES_REQUIRED": "タスク完了には担当者が必要",
+      "CANCEL_LINK_FILE_TO_TASK": "キャンセル",
+      "CANCEL_UPDATES_BUTTON": "キャンセル",
+      "COMMENTS": {
+        "ADD_COMMENT": "コメントを追加",
+        "NO_COMMENTS": "まだコメントはありません",
+        "NO_SUGGESTIONS": "その人を見つけることができませんでした。",
+        "TITLE": "{ num, plural, =0 {コメント} =1 {1 件のコメント} other {# 件のコメント} }",
+        "VIEW_COMMENTS": "コメントを表示"
+      },
+      "CONTENT": {
+        "ADD_CONTENT": "コンテンツを追加",
+        "CONTENT_LINKED_MESSAGE": "コンテンツリンクが更新されました",
+        "CONTENT_UNLINK_MESSAGE": "コンテンツのリンクが正常に解除されました。",
+        "DESIGN": "デザイン",
+        "FILES_ADDED_MESSAGE": "ファイルが正常に追加されました。",
+        "LINK": "リンク",
+        "LINK_CONTENT": "リンクコンテンツ",
+        "LINK_CONTENT_MODAL_BODY": "コンテンツ項目を選択",
+        "LINK_CONTENT_MODAL_TITLE": "既存のコンテンツのリンク/リンク解除",
+        "NO_CONTENT": "まだコンテンツが追加されていません。",
+        "SUBTITLE": "タスクにファイルとウェブリンクを追加します。すべてのアイテムはプロジェクトのコンテンツ セクションに保存されます。",
+        "TITLE": "コンテンツ",
+        "TOOLTIP_CONTENT": {
+          "ADDED_BY": "追加者",
+          "ON_DATE": "{ date }に"
+        },
+        "WEBLINK": "ウェブリンク"
+      },
+      "DELETE_TASK_MODAL": {
+        "BODY": "そうすることで,すべての情報がシステムから永久に削除されます。",
+        "CANCEL": "キャンセル",
+        "QUESTION": "このタスクを削除してもよろしいですか?",
+        "SUBMIT": "はい,タスクを削除します",
+        "TITLE": "タスクを削除"
+      },
+      "DUE_DATE_LABEL": "期日",
+      "ENABLE_TASK": "タスクを有効にする",
+      "ESTIMATED_TIME_LABEL": "推定所要時間",
+      "ESTIMATED_TIME_PLACEHOLDER": "タスクにかかる推定時間を記載する",
+      "HOURS_LABEL": "時間",
+      "LINK_FILE_TO_TASK": "リンク",
+      "MISSING_INFO_ERROR": "情報が不足しています",
+      "MORE_ACTIONS_DROPDOWN": {
+        "DELETE": "タスクを削除"
+      },
+      "SAVE_UPDATES_BUTTON": "タスクの更新",
+      "SINGULAR_TITLE": "タスク",
+      "START_DATE_LABEL": "開始日",
+      "STATUS": "状態",
+      "STATUS_OPTIONS": {
+        "COMPLETED": "完了",
+        "IN_PROGRESS": "進行中",
+        "NEW": "新しい",
+        "ON_HOLD": "保留中"
+      },
+      "STATUS_PLACEHOLDER": "タスクのステータスを選択します",
+      "TASK_ASSIGNEE": "タスク担当者",
+      "TASK_DESCRIPTION_LABEL": "タスクの説明",
+      "TASK_DESCRIPTION_PLACEHOLDER": "タスクの説明を追加する",
+      "TASK_DISABLED_WARNING": "無効なタスクは編集できず,そのタスクに費やされた時間は最終的な計算に含まれません。",
+      "TASK_ON_HOLD_WARNING": "このタスクは保留中です。",
+      "TASK_PAST_DUE_WARNING": "このタスクは期限を過ぎています。",
+      "TASK_TITLE_LABEL": "タスクタイトル",
+      "TASK_TITLE_PLACEHOLDER": "タスク名を追加する",
+      "TASK_TYPE": "タスクタイプ",
+      "TASK_UPDATE_ERROR": "このタスクには情報が不足しており,更新されていません",
+      "TITLE": "タスク情報",
+      "UPDATE_SUCCESSFUL": "タスクが正常に更新されました",
+      "VIEW_ACTUAL_HOURS": "実際の時間を表示"
+    },
+    "TASK_TYPES": {
+      "ANALYSIS": "分析",
+      "APPROVAL": "承認",
+      "ASSESSMENT_CREATION": "評価の作成",
+      "CLOSING": "終わりに",
+      "COMMUNICATION": "コミュニケーション",
+      "CONTENT_CREATION": "コンテンツ作成",
+      "CONTENT_UPDATE": "コンテンツの更新",
+      "DELIVERY": "配信/ファシリテーション",
+      "DESIGN": "デザイン",
+      "DEVELOPMENT": "発達",
+      "ERROR_CORRECTION": "エラー訂正",
+      "EVALUATION": "評価",
+      "EXECUTION": "実行",
+      "EXTERNAL_REVIEW": "外部レビュー",
+      "FILE_UPLOAD": "ファイルのアップロード",
+      "GRAPHIC_DESIGN": "グラフィックデザイン",
+      "IMPLEMENTATION": "実装",
+      "INITIATING": "開始",
+      "INSTRUCTIONAL_DESIGN": "教育設計",
+      "LMS_DEPLOYMENT": "LMS の展開",
+      "LMS_SUPPORT": "LMS 管理とサポート",
+      "MEDIA_PRODUCTION": "メディア制作",
+      "MONITORING": "監視",
+      "OTHERS": "その他",
+      "PLANNING": "計画",
+      "PROGRAM_MANAGEMENT": "プログラム管理",
+      "PROJECT_MANAGEMENT": "プロジェクト管理",
+      "PUBLISH": "公開",
+      "QA": "品質保証",
+      "RESEARCH": "研究",
+      "REVIEW": "レビュー",
+      "SCHEDULING": "スケジュール/登録"
+    },
+    "TEAM_TASKS": "チームタスク"
+  },
+  "TASKS_LIST_PAGE": {
+    "BACK_LINK": "タスクリスト",
+    "EXPORT_TASKS": "タスクのエクスポート",
+    "EXPORT_TASKS_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするタスクを選択します。",
+    "MY_TASKS": "私のタスク",
+    "TABLE": {
+      "EMPTY": "タスクの追加を始めましょう。",
+      "HEAD": {
+        "ACTUAL_HOURS": "実際の時間",
+        "ASSIGNEE": "譲受人",
+        "DUE_DATE": "期日",
+        "ESTIMATED_HOURS": "推定時間",
+        "PROJECT": "プロジェクト",
+        "START_DATE": "開始日",
+        "STATUS": "状態",
+        "TASK_NAME": "名前"
+      }
+    },
+    "TEAM_TASKS": "チームタスク",
+    "TITLE": "タスク"
+  },
+  "TASK_ACTUAL_HOURS": {
+    "CAPTION": "このセクションを使用して,タスクに費やした実際の時間を追加または削除します。",
+    "NO_ACTUAL_HOURS_DATA": "申し訳ございませんが,このタスクに表示できる実際の時間はありません。",
+    "NO_DATE": "表示できる日付がありません",
+    "NO_USER_DATA": "表示できるユーザーの詳細がありません",
+    "TITLE": "実時間ログ",
+    "TODAY": "今日",
+    "WARNING": "実際の時間データを削除すると,プロジェクトのタイムラインと進捗状況の追跡に影響する可能性があります。"
+  },
+  "TASK_MODAL": {
+    "ADD_PROMPT": "このタスクを{container}に追加するための情報を入力してください",
+    "TITLE": "{ action } タスク",
+    "UPDATE_PROMPT": "{ container } でこのタスクを更新するための情報を入力してください"
+  },
+  "TEAMS": {
+    "CAPACITY": "容量",
+    "CAPACITY_LEGENDS": {
+      "ALLOCATION": "割り当て",
+      "AVAILABLE_HOURS": "利用可能時間:",
+      "HOURS_OCCUPIED": "占有時間:",
+      "NO_DEFAULT_CAPACITY": "容量を割り当てる",
+      "OVER_ALLOCATION": "過剰割り当て",
+      "TIMEOFF_HOLIDAYS": "休暇/休日",
+      "WEEK_CAPACITY": "週の収容人数:"
+    },
+    "CURRENCY": "米ドル",
+    "EMPLOYMENT_TYPE": {
+      "CONTRACTOR": "請負業者",
+      "FULL_TIME": "フルタイム",
+      "INTERN": "インターン",
+      "PART_TIME": "パートタイム",
+      "UNDEFINED": "割り当てられていない"
+    },
+    "EXPORT_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするチーム メンバーを選択します。",
+    "JOB_FUNCTIONS": {
+      "BUSINESS_RELATIONSHIP_MANAGEMENT": "ビジネス関係管理",
+      "COACHING": "コーチング",
+      "COMMUNICATION": "コミュニケーション",
+      "CONSULTING": "コンサルティング",
+      "CONTENT_WRITING": "コンテンツライティング",
+      "COORDINATION": "調整",
+      "DATA_REPORTING_ANALYSIS": "データ/レポート分析",
+      "FACILITATION": "ファシリテーション",
+      "FINANCIAL_MANAGEMENT": "財務管理",
+      "GOVERNANCE": "ガバナンス",
+      "GRAPHIC_DESIGN": "グラフィックデザイン",
+      "INSTRUCTIONAL_DESIGN": "教育設計",
+      "INTAKE_MANAGEMENT": "摂取管理",
+      "LEADERSHIP_DEVELOPMENT": "リーダーシップ開発",
+      "LEARNING_DEVELOPMENT": "学習開発",
+      "LEARNING_PLATFORM_ADMINISTRATION": "学習プラットフォーム管理",
+      "LEARNING_STRATEGY": "学習戦略",
+      "LEARNING_SUPPORT": "学習サポート",
+      "LEARNING_TECHNOLOGY": "学習テクノロジー",
+      "MARKETING": "マーケティング",
+      "MEASUREMENT": "測定",
+      "OTHERS": "その他",
+      "PLANNING": "計画",
+      "PORTFOLIO_MANAGEMENT": "ポートフォリオ管理",
+      "PROGRAM_MANAGEMENT": "プログラム管理",
+      "PROJECT_MANAGER": "プロジェクト管理",
+      "QUALITY_ASSURANCE": "品質保証",
+      "REPORTING": "報告",
+      "RESOURCE_MANAGEMENT": "リソース管理",
+      "SUBJECT_MATTER_EXPERT": "主題専門家",
+      "TALENT_DEVELOPMENT": "人材開発",
+      "TEAM_MANAGEMENT": "チーム管理",
+      "TRANSLATION": "翻訳",
+      "VENDOR_MANAGEMENT": "ベンダー管理",
+      "VIDEO_PRODUCTION": "ビデオ制作",
+      "WEB_DEVELOPMENT": "ウェブ開発"
+    },
+    "SAVE": "保存",
+    "SKILLS": {
+      "ACCOUNT_MANAGEMENT": "アカウント管理",
+      "ANIMATION": "アニメーション",
+      "ASSESSMENT_CREATION": "評価の作成",
+      "AUDIO_EDITING": "オーディオ編集",
+      "BRAND_DEVELOPMENT": "ブランド開発",
+      "BUSINESS_ANALYSIS": "ビジネス分析",
+      "BUSINESS_DEVELOPMENT": "ビジネス開発",
+      "BUSINESS_INTELLIGENCE": "ビジネスインテリジェンス",
+      "BUSINESS_RELATION_MANAGEMENT": "ビジネス関係管理",
+      "CASCADING_STYLE_SHEETS": "カスケードスタイルシート",
+      "CHANGE_MANAGEMENT": "変更管理",
+      "COACHING": "コーチング",
+      "COMMUNICATION": "コミュニケーション",
+      "CONSULTING": "コンサルティング",
+      "CONTENT_MANAGEMENT_SYSTEM": "コンテンツ管理システム",
+      "CONTENT_WRITING_EDITING": "コンテンツ執筆/編集",
+      "CONTRACT_MANAGEMENT": "契約管理",
+      "COORDINATION": "調整",
+      "CURRICULUM_DESIGN_DEVELOP": "カリキュラムの設計/開発",
+      "DATABASE": "データベース",
+      "DATA_ANALYSIS": "データ分析",
+      "DIGITAL_MARKETING": "デジタルマーケティング",
+      "EVALUATION": "評価",
+      "EVENT_MANAGEMENT": "イベント管理",
+      "E_LEARNING": "Eラーニング",
+      "FACILITATION": "ファシリテーション",
+      "FINANCIAL_ANALYSIS": "財務分析",
+      "FINANCIAL_MANAGEMENT": "財務管理",
+      "GOVERNANCE": "ガバナンス",
+      "GRAPHIC_DESIGN": "グラフィックデザイン",
+      "HTML5": "HTML5",
+      "HUMAN_RESOURCE_MANAGEMENT_SYSTEM": "人材管理システム",
+      "INFORMATION_ARCHITECTURE": "情報アーキテクチャ",
+      "INSTRUCTIONAL_DESIGN": "教育設計",
+      "INTAKE_MANAGEMENT": "摂取管理",
+      "JAVASCRIPT": "ジャバスクリプト",
+      "LEADERSHIP": "リーダーシップ",
+      "LEARNING_MANAGEMENT_SYSTEM": "学習管理システム",
+      "MARKETING": "マーケティング",
+      "MEASUREMENT": "測定",
+      "MOBILE_APP_DESIGN": "モバイルアプリデザイン",
+      "MOBILE_APP_DEVELOPMENT": "モバイルアプリ開発",
+      "PEOPLE_ANALYTICS": "人材分析",
+      "PERFORMANCE_MANAGEMENT": "パフォーマンス管理",
+      "PHOTOGRAPHY": "写真",
+      "PLANNING": "計画",
+      "PROCESS_IMPROVEMENT": "プロセス改善",
+      "PRODUCT_MANAGEMENT": "製品管理",
+      "PROGRAMMING": "プログラミング",
+      "PROJECT_MANAGEMENT": "プロジェクト管理",
+      "PROOFREADING": "校正",
+      "QUALITY_ASSURANCE": "品質保証",
+      "REPORTING": "報告",
+      "REQUIREMENT_ANALYSIS": "要件分析",
+      "REQUIREMENT_GATHERING": "要件収集",
+      "RESEARCH": "研究",
+      "RESOURCE_MANAGEMENT": "リソース管理",
+      "SEARCH_ENGINE_OPTIMIZATION": "検索エンジン最適化",
+      "SOCIAL_MEDIA": "ソーシャルメディア",
+      "SOCIAL_MEDIA_MARKETING": "ソーシャルメディアマーケティング",
+      "SOFTWARE - SHAREPOINT": "ソフトウェア - SharePoint",
+      "SOFTWARE_ADOBE_CAPTIVATE": "ソフトウェア - Adob​​e Captivate",
+      "SOFTWARE_ADOBE_ILLUSTRATOR": "ソフトウェア - Adob​​e Illustrator",
+      "SOFTWARE_ADOBE_PHOTOSHOP": "ソフトウェア - Adob​​e Photoshop",
+      "SOFTWARE_ARTICULATE": "ソフトウェア - Articulate",
+      "SOFTWARE_CAMTASIA": "ソフトウェア - Camtasia",
+      "SOFTWARE_EASYGENERATOR": "ソフトウェア - Easygenerator",
+      "SOFTWARE_ELUCIDAT": "ソフトウェア - Elucidat",
+      "SOFTWARE_ISPRING_SUITE": "ソフトウェア - iSpring Suite",
+      "SOFTWARE_LECTORA": "ソフトウェア - Lectora",
+      "SOFTWARE_MICROSOFT_EXCEL": "ソフトウェア - Microsoft Excel",
+      "SOFTWARE_MICROSOFT_POWERPOINT": "ソフトウェア - Microsoft PowerPoint",
+      "SOFTWARE_MICROSOFT_WORD": "ソフトウェア - Microsoft Word",
+      "SURVEY_DESIGN": "調査設計",
+      "TALENT_MANAGEMENT": "タレントマネジメント",
+      "TEAM_MANAGEMENT": "チーム管理",
+      "TRAINING_DELIVERY": "トレーニングの提供",
+      "USABILITY TESTING": "ユーザビリティテスト",
+      "UX_DESIGN": "UXデザイン",
+      "UX_RESEARCH": "UXリサーチ",
+      "VENDOR_MANAGEMENT": "ベンダー管理",
+      "VIDEO_EDITING": "ビデオ編集",
+      "VIRTUAL_REALITY": "バーチャルリアリティ",
+      "WEB_DESIGN": "ウェブデザイン",
+      "WEB_DEVELOPMENT": "ウェブ開発"
+    },
+    "TABLE": {
+      "COUNTRY": "国",
+      "EMPLOYMENT_TYPE": "雇用形態",
+      "HOURLY_RATE": "時給",
+      "JOB_TITLE": "役職",
+      "TEAM_MANAGER": "チームマネージャー",
+      "TEAM_MEMBERS": "チームメンバー"
+    },
+    "TEAM": "チーム",
+    "TIME_OFF": {
+      "ADD": "追加",
+      "ADD_NEW_TIME_OFF": "新しい休暇を追加",
+      "ADD_REMOVE_TIME_OFF": "休暇の追加と削除",
+      "EMPTY_TABLE": "休暇は追加されません",
+      "END": "終わり",
+      "HISTORY": "歴史",
+      "REMOVE": "取り除く",
+      "SELECT_TYPE": "休暇の種類を選択してください",
+      "START": "始める",
+      "TABLE_HEAD": {
+        "DATES": "日付",
+        "TIME_OFF_TYPE": "休暇の種類"
+      },
+      "TIME_OFF_TYPES": {
+        "UNDEFINED": "割り当てられていない",
+        "custom_holiday": "カスタムホリデー",
+        "others": "その他",
+        "paid_time_off": "個人休暇",
+        "parental_leave": "育児休暇",
+        "sick_day_off": "病気休暇",
+        "vacation": "休暇"
+      },
+      "TITLE": "休暇の管理: { user }",
+      "UPCOMING_TIME_OFF": "今後の休暇"
+    },
+    "UPDATE_MENU": {
+      "MANAGE_TIME_OFF": "休暇を管理する",
+      "UPDATE_INFO": "更新情報"
+    },
+    "UPDATE_MODAL": {
+      "COUNTRY": "国",
+      "EMAIL_ID": "メールID",
+      "EMPLOYMENT_TYPE": "雇用形態",
+      "HRS": "時間",
+      "JOB_FUNCTIONS": "職務内容",
+      "JOB_TITLE": "役職",
+      "LANGUAGES": "言語",
+      "RATE_PER_HOUR": "時間当たりの料金",
+      "SKILLS": "スキル",
+      "WEEKLY_CAPACITY": "デフォルトの週当たり容量"
+    }
+  },
+  "TEAMS_CAPACITY": {
+    "ADD_TEAM": "チームを追加",
+    "ALLOCATION_SUMMARY_HOURS": "{ hours }時間",
+    "ALLOCATION_SUMMARY_TOOLTIP": {
+      "ASSIGNED_HOURS": "{ teamLevel, plural, =1{チーム } other{} }割り当てられた時間:",
+      "AVAILABLE_HOURS": "{ teamLevel, plural, =1{チーム } other{} }利用可能時間:",
+      "DEFAULT_CAPACITY": "{ teamLevel, plural, =1{チーム } other{} }{ view } 定員:",
+      "TIME_OFF": "{ teamLevel, plural, =1{チーム } other{} }休暇:"
+    },
+    "ASSIGNED_HOURS": "割り当てられた時間:",
+    "ASSIGN_CAPACITY": "容量の割り当て",
+    "AVAILABLE_HOURS": "利用可能時間:",
+    "FETCH_MORE_TEAMS": "その他のチームを表示",
+    "GET_STARTED_ADD_TEAMS": "チームの追加を始めましょう。",
+    "HIDE_PROJECTS": "プロジェクトを非表示",
+    "NO_PROJECTS_ASSIGNED": "プロジェクトが割り当てられていません",
+    "NO_TASKS_ASSIGNED": "タスクが割り当てられていません",
+    "NO_TEAMS_ASSIGNED": "チームが割り当てられていません",
+    "NO_TEAM_MEMBERS": "（チームメンバーなし）",
+    "NUMBER_OF_TEAM_MEMBERS": "({ numberMembers } { numberMembers, plural, =1 {メンバー} other {メンバー} })",
+    "TABLE_CAPTION": "チーム容量",
+    "TEAMS_AND_MEMBERS_COLUMN_TITLE": "チームメンバーがいるチーム ({ numberOfTeams })",
+    "TEAM_MANAGER": "チームマネージャー",
+    "TEAM_NAME_COLUMN": "チーム名",
+    "VIEW_PICKER": {
+      "BETA": "ベータ",
+      "BETA_WEEKLY": "毎週",
+      "DAILY": "毎日",
+      "WEEKLY": "毎週"
+    },
+    "VIEW_PROJECTS": "プロジェクトを見る",
+    "WEEKLY_CAPACITY": "週間収容人数:",
+    "WEEKLY_TIME_OFF": "今週の休日"
+  },
+  "TEAM_NAME": "{ num, plural, =1 {チーム名} other {チーム名} }",
+  "TIMEOFF_DELETION_SUCCESS": {
+    "TIMEOFF_DELETED": "休暇はリストから正常に削除されました"
+  },
+  "TITLES": {
+    "BASIC_INFORMATION_TITLE": "基本情報"
+  },
+  "TOGGLE_OFF": "オフ",
+  "TOGGLE_ON": "の上",
+  "TRAINING_REQUEST_PORTAL": "トレーニングリクエストポータル",
+  "TRIAL_REGISTRATION_PAGE": {
+    "HEADING": "アカウントを登録する",
+    "INPUT": {
+      "COMPANY": {
+        "LABEL": "会社",
+        "PLACEHOLDER": "会社名を入力してください"
+      },
+      "CONFIRM_PASSWORD": {
+        "LABEL": "パスワードを認証する",
+        "PLACEHOLDER": "パスワードを確認してください"
+      },
+      "COUNTRY": {
+        "LABEL": "国",
+        "PLACEHOLDER": "国を選択してください"
+      },
+      "EMAIL": {
+        "LABEL": "メール",
+        "PLACEHOLDER": "メールアドレスを入力してください"
+      },
+      "FIRST_NAME": {
+        "LABEL": "ファーストネーム",
+        "PLACEHOLDER": "名前を入力してください"
+      },
+      "JOB_TITLE": {
+        "LABEL": "役職",
+        "PLACEHOLDER": "役職を入力してください"
+      },
+      "LAST_NAME": {
+        "LABEL": "苗字",
+        "PLACEHOLDER": "姓を入力してください"
+      },
+      "PASSWORD": {
+        "LABEL": "パスワード",
+        "PLACEHOLDER": "パスワードを入力してください",
+        "TOOLTIP": {
+          "LENGTH": "8〜64文字",
+          "NUMBER": "番号",
+          "SPECIAL_CHARACTERS": "特別なキャラクター",
+          "TITLE": "パスワードには以下を含める必要があります",
+          "UPPERCASE": "大文字"
+        }
+      }
+    },
+    "INVALID_ACCOUNT_ERROR": "提供されたアカウントIDは無効です",
+    "INVALID_TOKEN_ERROR": "この登録トークンは無効です。カスタマー サポートにご連絡ください。すぐに対応いたします。",
+    "LOGIN_BUTTON": "代わりにログイン",
+    "REGISTER_BUTTON": "今すぐ登録",
+    "TERMS_CHECK": "私は<a { linkClass } href='https://cognota.com/terms-of-use/' target='_blank' rel='noreferrer'>利用規約</a>および<a { linkClass } href='https://cognota.com/privacy-policy/' target='_blank' rel='noreferrer'>プライバシーポリシー</a>に同意します。",
+    "USERNAME_EXISTS_ERROR": "このメールは無効か,すでに使用されています。"
+  },
+  "UNARCHIVE": "アーカイブ解除",
+  "UNSAVED_CHANGES": {
+    "CONFIRM_MESSAGE": "続行しますか?",
+    "DISCARD_BUTTON": "はい,変更を破棄します",
+    "MESSAGE": "このページには保存されていない変更があります。保存せずにこのページを離れると,変更内容は失われます。",
+    "TITLE": "保存されていない変更"
+  },
+  "UPDATE": "アップデート",
+  "UPDATE_PROJECT_PAGE": {
+    "ALL_PROJECTS": "すべてのプロジェクト",
+    "NOT_UPDATED": "このプロジェクトには情報が不足しており,更新されていません。",
+    "UPDATE": "プロジェクトの更新",
+    "UPDATED": "このプロジェクトは正常に更新されました!",
+    "UPDATE_FAILED": "このプロジェクトを更新できませんでした。もう一度お試しください。"
+  },
+  "UPDATE_PROJECT_PAGE_TABS": {
+    "BUDGET": "予算",
+    "CONTENT": "コンテンツ",
+    "OVERVIEW": "概要",
+    "PEOPLE": "リソース",
+    "TASKS": "タスク"
+  },
+  "UPGRADE": "アップグレード",
+  "UPGRADE_PAGE": {
+    "CTA": "今すぐアップグレード",
+    "MESSAGE": "しかし,次のステップに進むことは可能です。当社のさまざまなプランを確認し,チームに最適なオプションを選択してください。",
+    "TITLE": "あなたの裁判は終わりました"
+  },
+  "USERS_PAGE": {
+    "TABLE": {
+      "EXPORT": {
+        "EXPORT_TOOLTIP": "チェックボックスを使用して,最初にエクスポートするユーザーを選択します。",
+        "EXPORT_USERS": "ユーザーのエクスポート"
+      },
+      "HEAD": {
+        "ACCOUNT_STATUS": "アカウントステータス",
+        "EMPLOYMENT_TYPE": "雇用形態",
+        "HOURLY_RATE": "時給",
+        "JOB_TITLE": "役職",
+        "LOCATION": "位置",
+        "ROLE": "役割",
+        "TEAM": "チーム",
+        "USER_EMAIL": "ユーザーメール",
+        "USER_NAME": "ユーザー名",
+        "USER_TYPE": "ユーザータイプ"
+      },
+      "IMPORT": {
+        "IMPORT_BUSINESS_USERS": "ビジネスユーザーのインポート",
+        "IMPORT_FACILITATOR_USERS": "ファシリテーターユーザーのインポート",
+        "IMPORT_LEARNING_USERS": "学習ユーザーのインポート",
+        "IMPORT_NOT_NUMBER": "元の値が無効でした",
+        "IMPORT_USERS_FILE": "ファイルからユーザーをインポートする",
+        "REPEATED_EMAIL": "メールアドレスはすでに登録されています",
+        "SUCCESS": "ユーザーは正常にインポートされました。"
+      },
+      "USER_PENDING": {
+        "PENDING": "保留中"
+      },
+      "USER_ROLE": {
+        "ADMIN": "管理者",
+        "USER": "ユーザー"
+      },
+      "USER_STATUS": {
+        "DISABLED_INVITED": "無効化",
+        "DISABLED_REGISTERED": "無効化",
+        "INVITED": "招待",
+        "REGISTERED": "アクティブ"
+      },
+      "USER_TYPE": {
+        "BUSINESS": "ビジネスユーザー",
+        "EXTERNAL": "外部ユーザー",
+        "FACILITATOR": "ファシリテーターユーザー",
+        "LD": "学習チームユーザー"
+      }
+    },
+    "TITLE": "ユーザーアカウント"
+  },
+  "USER_TIME_OFF_PAGE": {
+    "ADD_TIME_OFF": "休暇を追加",
+    "FORM": {
+      "TITLE": "{ action } 休暇",
+      "TYPE_PLACEHOLDER": "休暇の種類を選択してください"
+    },
+    "SIDE_PANEL": {
+      "ACTIONS": {
+        "ADD": "追加した",
+        "REMOVE": "削除された",
+        "UPDATE": "更新されました"
+      },
+      "SUCCESS_MESSAGE": "成功しました！休暇{action}。"
+    },
+    "SUBTITLE": "休暇を追加および削除する",
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "日付",
+        "END_DATE": "終了日",
+        "START_DATE": "開始日",
+        "TYPE": "休暇の種類"
+      },
+      "EMPTY": "休暇はまだ追加されていません"
+    },
+    "TITLE": "私の休暇"
+  },
+  "VENDORS_PAGE": {
+    "ADDRESS": "住所",
+    "ADD_VENDOR_LINK": "ベンダーを追加する",
+    "CONTACT_NAME": "連絡先名",
+    "DISABLED_NOTIFICATION": "ベンダーは正常に無効化されました。",
+    "EDIT_SUCCESS": "ベンダーが正常に更新されました。",
+    "EMAIL": "メール",
+    "ENABLED_NOTIFICATION": "ベンダーが正常に有効化されました。",
+    "ENABLE_VENDOR": "ベンダーを有効にする",
+    "NOT_UPDATED": "ベンダーの情報が不足しており,更新されていません。",
+    "PHONE": "電話",
+    "PROVINCE": "州/県",
+    "SUCCESS_NOTIFICATION": "新しいベンダーが正常に追加されました。",
+    "TABLE": {
+      "EMPTY_STATE": "ベンダーが追加されていません",
+      "HEAD": {
+        "COUNTRY": "国",
+        "CREATION_DATE": "作成日",
+        "DESCRIPTION": "説明",
+        "ENABLED": "有効",
+        "LOCATION": "所在地（州/県）",
+        "VENDOR_NAME": "ベンダー名"
+      },
+      "NOT_ASSIGNED": "割り当てられていない"
+    },
+    "TITLE": "ベンダー",
+    "VENDOR_ADDRESS": "住所を入力",
+    "VENDOR_CONTACT_NAME": "連絡先名を追加",
+    "VENDOR_COUNTRY": "国を選択",
+    "VENDOR_DESCRIPTION": "ベンダーの説明を入力",
+    "VENDOR_DETAILS": "ベンダーを追加するには詳細を入力してください",
+    "VENDOR_EMAIL": "連絡先メールアドレスを追加",
+    "VENDOR_NAME": "ベンダー名を入力してください",
+    "VENDOR_PHONE": "連絡先電話番号を追加",
+    "VENDOR_PROVINCE": "州または県を選択してください",
+    "VENDOR_WEBSITE": "ウェブサイトを入力",
+    "WEBSITE": "Webサイト"
+  },
+  "VERIFY_PAGE": {
+    "BODY": {
+      "LINE_ONE": "5秒後にログインページにリダイレクトされます",
+      "LINE_TWO": "リダイレクトされませんでしたか?"
+    },
+    "ERROR": {
+      "BODY": "使用しているリンクは無効になっているようです。新しいリンクを取得するには,下のボタンをクリックしてください。",
+      "LINK": "リンクを生成",
+      "TITLE": "問題が発生しました"
+    },
+    "LINK": "ここからログイン",
+    "TITLE": "アカウントが確認されました!"
+  },
+  "YES": "はい",
+  "YES_DELETE": "はい,削除"
+}

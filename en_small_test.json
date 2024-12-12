@@ -1,0 +1,23 @@
+{
+  "ADD_A_TEAM": "Add a Team",
+  "COMPANY_NAME": "Cognota",
+  "FOOTER": "TM & © {year} <a {externalLink} href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> All rights reserved.",
+  "TRAINING_REQUEST_PORTAL": "Training Request Portal",
+  "LOADING": "Loading",
+  "SAVE": "Save",
+  "YES_DELETE": "Yes, Delete",
+  "DISCARD_CHANGES": "Discard Changes",
+  "CREATE": "Create",
+  "CLOSE": "Close",
+  "CONFIRM": "Confirm",
+  "BACK": "Back",
+  "SAVE_OPEN": "Save & Open",
+  "SAVE_NOW": "Save Now",
+  "EDIT": "Edit",
+  "UPDATE": "Update",
+  "CANCEL": "Cancel",
+  "CONTINUE": "Continue",
+  "REMOVE": "Remove",
+  "DONE": "Done",
+  "ADD": "Add"
+  }

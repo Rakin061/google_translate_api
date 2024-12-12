@@ -1,0 +1,4125 @@
+{
+  "ADD_A_TEAM": "Add a Team",
+  "COMPANY_NAME": "Cognota",
+  "FOOTER": "TM & © {year} <a {externalLink} href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> All rights reserved.",
+  "TRAINING_REQUEST_PORTAL": "Training Request Portal",
+  "LOADING": "Loading",
+  "SAVE": "Save",
+  "YES_DELETE": "Yes, Delete",
+  "DISCARD_CHANGES": "Discard Changes",
+  "CREATE": "Create",
+  "CLOSE": "Close",
+  "CONFIRM": "Confirm",
+  "BACK": "Back",
+  "SAVE_OPEN": "Save & Open",
+  "SAVE_NOW": "Save Now",
+  "EDIT": "Edit",
+  "UPDATE": "Update",
+  "CANCEL": "Cancel",
+  "CONTINUE": "Continue",
+  "REMOVE": "Remove",
+  "DONE": "Done",
+  "ADD": "Add",
+  "DELETE": "Delete",
+  "SELECT": "Select",
+  "ARCHIVE": "Archive",
+  "UNARCHIVE": "Unarchive",
+  "SUCCESS": "Success",
+  "SUCCESS_SNACKBAR_TITLE": "Success!",
+  "ERROR_SNACKBAR_TITLE": "Error!",
+  "DISPLAY": "Display",
+  "INTAKE": "Intake",
+  "EXPORT_CSV": "Export CSV",
+  "EXPORT": "Export",
+  "IMPORT": "Import",
+  "DELETE_FILE": "Delete File",
+  "DELETE_FILE_CONFIRM": "Yes, Delete File",
+  "DELETE_FILE_CONFIRMATION": "This file will no longer be available and this action cannot be undone.",
+  "COLLAPSE_EXPAND_ICON_DESC": "expand/collapse sidebar",
+  "DESCRIPTION": "{num, plural, =1 {Description} other {Descriptions}}",
+  "MORE_ACTIONS": "More Actions",
+  "DAYS_LEFT": "{days} {days, plural, =1 {day} other {days}} left",
+  "UPGRADE": "Upgrade",
+  "NO_RECORDS": "No results found. Try another keyword.",
+  "COMING_SOON": "Coming soon!",
+  "DEACTIVATED": "Deactivated",
+  "TOGGLE_OFF": "Off",
+  "TOGGLE_ON": "On",
+  "REQUIRED_INFORMATION": "Required information",
+  "EMPTY_TABLE": {
+    "WRONG": "Something went Wrong...",
+    "TRY_AGAIN": "We’re having a technical issue..please refresh the page or try again later.",
+    "HELP": "Go to our Learning Center"
+  },
+  "DOLLAR_SIGN": "$",
+  "PERCENT_SIGN": "%",
+  "NONE": "None",
+  "NOTIFICATIONS": "notifications",
+  "SIDEKICK": "Ask LearnOps AI",
+  "ALPHA": "Alpha",
+  "BETA": "Beta",
+  "PROFILE_MENU": {
+    "PROFILE": "My Profile",
+    "TIME_OFF": "My Time Off"
+  },
+  "IMPORT_FROM_FILE": "Import {element} by uploading a file",
+  "TABLE_HEADER_ACTIONS": {
+    "FILTER": "Filter",
+    "EXPORT": "Export",
+    "REORDER": "Reorder"
+  },
+  "ENTITIES": {
+    "ACCOUNT": "{num, plural, =1 {Account} other {Accounts}}",
+    "BUSINESS_TEAM": "{num, plural, =1 {Business Team} other {Business Teams}}",
+    "LEARNING_TEAM": "{num, plural, =1 {Learning Team} other {Learning Teams}}",
+    "ORGANIZATION": "{num, plural, =1 {Organization} other {Organizations}}",
+    "CONFIGURATION": "{num, plural, =1 {Configuration} other {Configurations}}",
+    "PROJECT": "{num, plural, =1 {Project} other {Projects}}",
+    "REQUEST_FORM": "{num, plural, =1 {Request Form} other {Request Forms}}",
+    "USER": "{num, plural, =1 {User} other {Users}}",
+    "VENDOR": "{num, plural, =1 {Vendor} other {Vendors}}",
+    "TEAM": "{num, plural, =1 {Team} other {Teams}}",
+    "TEAM_MANAGER": "Team Manager(s)",
+    "PROCESS": "{num, plural, =1 {Process} other {Processes}}",
+    "TEMPLATE": "{num, plural, =1 {Template} other {Templates}}",
+    "PROGRAMS": "All Programs",
+    "FIELDS": "{num, plural, =1 {Field} other {Fields}}",
+    "PROGRAM": "{num, plural, =1 {Program} other {Programs}}",
+    "TASK_BUNDLE": "{num, plural, =1 {Task Bundle} other {Task Bundles}}"
+  },
+  "TASK": {
+    "STATUS": "Status",
+    "TYPE": "Type",
+    "TASK_TYPE": "Task Type",
+    "ASSIGNEE": "Assignee",
+    "START_DATE": "Start Date",
+    "DUE_DATE": "Due Date",
+    "ACTUAL_COMPLETION_DATE": "Actual Completion Date",
+    "ESTIMATED_HOURS": "Estimated Hours",
+    "ACTUAL_HOURS": "Actual Hours",
+    "INCLUDE_DISABLED": "Include disabled tasks"
+  },
+  "TEAM_NAME": "{num, plural, =1 {Team Name} other {Team Names}}",
+  "GENERAL": "General",
+  "YES": "Yes",
+  "NO": "No",
+  "CURRENCY": "USD",
+  "HOURS_LABEL": "{hours} {hours, plural, =1 {hour} other {hours}}",
+  "ADD_TEAM_MODAL": {
+    "DESCRIPTION_PLACEHOLDER": "Enter team description",
+    "FILL_DETAILS": "Fill in the details to add Team",
+    "SUCCESS_MESSAGE": "Team was successfully added!",
+    "TEAM_NAME_PLACEHOLDER": "Enter team name"
+  },
+  "TITLES": {
+    "BASIC_INFORMATION_TITLE": "Basic Information"
+  },
+  "ERRORS": {
+    "MISSING_INFORMATION": "Missing Information"
+  },
+  "EDIT_TEAM": {
+    "SUCCESS_NOTIFICATION": "Team was successfully updated.",
+    "FAIL_NOTIFICATION": "This team is missing information and has not been updated.",
+    "NO_TEAM_MEMBERS": "No team members yet",
+    "DELETE_TEAM": "Delete team",
+    "DELETE_TEAM_TOOLTIP": "Team can only be deleted when there are no team members.",
+    "DELETE_TEAM_MODAL": {
+      "TITLE": "Delete Team",
+      "BODY_FIRST_LINE": "This action is irreversible.",
+      "BODY_SECOND_LINE": "Are you sure you want to delete this team?",
+      "DELETE_BUTTON": "Yes, Delete",
+      "SUCCESS_NOTIFICATION": "Team was successfully deleted"
+    }
+  },
+  "LOGIN_PAGE": {
+    "LEFT_PANEL": {
+      "TITLE": "Are you ready to increase your productivity by 70% or more?",
+      "PROMPT": "Consolidate your disparate tools and improve your processes by managing training requests, project and capacity planning and content design in a centralized platform."
+    },
+    "HEADING": "Welcome to Cognota",
+    "SLOGAN": "Software built for L&D teams",
+    "INPUT": {
+      "EMAIL_INPUT": {
+        "LABEL": "Email",
+        "PLACEHOLDER": "Enter your email"
+      },
+      "PASSWORD_INPUT": {
+        "LABEL": "Password",
+        "PLACEHOLDER": "Enter Password"
+      },
+      "EMPTY_HELP_TEXT": "Input missing",
+      "INVALID_HELP_TEXT": "Please enter your email address in this format: yourname@workemail.com",
+      "USER_NOT_FOUND": "User not registered",
+      "PASSWORD_NOT_MATCH": "Password does not match",
+      "INCORRECT_EMAIL_OR_PASSWORD": "Incorrect email or invalid password."
+    },
+    "REMEMBER_ME": "Remember Me",
+    "FORGET_PASSWORD_LINK": "Forgot Password?",
+    "BUTTON": "Login",
+    "BUTTON_NEXT": "Next",
+    "BUTTON_BACK": "Back",
+    "BUTTON_SSO": "Login with SSO",
+    "LOGIN_OPTION_CHK_FAILED": "Failed to check available login options. Please try again.",
+    "LOADING": "Loading",
+    "WELCOME_TO": "Welcome to"
+  },
+  "TRIAL_REGISTRATION_PAGE": {
+    "HEADING": "Register your account",
+    "INPUT": {
+      "EMAIL": {
+        "LABEL": "Email",
+        "PLACEHOLDER": "Enter your email"
+      },
+      "FIRST_NAME": {
+        "LABEL": "First Name",
+        "PLACEHOLDER": "Enter your first name"
+      },
+      "LAST_NAME": {
+        "LABEL": "Last Name",
+        "PLACEHOLDER": "Enter your last name"
+      },
+      "COMPANY": {
+        "LABEL": "Company",
+        "PLACEHOLDER": "Enter your company's name"
+      },
+      "JOB_TITLE": {
+        "LABEL": "Job Title",
+        "PLACEHOLDER": "Enter your job title"
+      },
+      "COUNTRY": {
+        "LABEL": "Country",
+        "PLACEHOLDER": "Select your country"
+      },
+      "PASSWORD": {
+        "LABEL": "Password",
+        "PLACEHOLDER": "Enter a password",
+        "TOOLTIP": {
+          "TITLE": "Password must include",
+          "LENGTH": "8 - 64 characters",
+          "NUMBER": "A number",
+          "UPPERCASE": "An uppercase letter",
+          "SPECIAL_CHARACTERS": "A special character"
+        }
+      },
+      "CONFIRM_PASSWORD": {
+        "LABEL": "Confirm Password",
+        "PLACEHOLDER": "Confirm your password"
+      }
+    },
+    "TERMS_CHECK": "I agree to the <a {linkClass} href='https://cognota.com/terms-of-use/' target='_blank' rel='noreferrer'>Terms of Use</a> and <a {linkClass} href='https://cognota.com/privacy-policy/' target='_blank' rel='noreferrer'>Privacy Policy</a>.",
+    "LOGIN_BUTTON": "Log in Instead",
+    "REGISTER_BUTTON": "Register Now",
+    "USERNAME_EXISTS_ERROR": "This email is invalid or has already been taken.",
+    "INVALID_TOKEN_ERROR": "This registration token is not valid. Please contact customer support, we will help you right away!",
+    "INVALID_ACCOUNT_ERROR": "The provided account id is not valid"
+  },
+  "DEACTIVATED_USER_PAGE": {
+    "TITLE": "Looks like your account was deactivated",
+    "CAPTION": "Please contact your admin for more information.",
+    "CTA": "Back to Login"
+  },
+  "ERROR_MESSAGE": {
+    "INVALID_FORMAT": "Please enter your email address in this format: yourname@workemail.com",
+    "USER_NOT_REGISTERED": "This email is invalid or has already been taken."
+  },
+  "FORGOT_PAGE": {
+    "BUTTON": "Send me a link",
+    "FAIL_PROMPT": "Didn't get the link?",
+    "FAIL_PROMPT_TEXT": "Make sure you used a registered email address.",
+    "INPUT": {
+      "LABEL": "Email",
+      "PLACEHOLDER": "Enter your email"
+    },
+    "PROMPT": "To reset your password, enter your registered email address to receive the reset link.",
+    "SUCCESS_MESSAGE": "An email has been sent. Please click the link when you receive it.",
+    "TITLE": "Recover Password"
+  },
+  "PASSWORD_SETUP_PAGE": {
+    "TITLE": "Password Set Up",
+    "PROMPT": "This set up is for the user account <strong>{email}.</strong> If this is not your account, please contact your admin.",
+    "INPUT": {
+      "PASSWORD": "Enter password"
+    },
+    "BUTTON": "Submit",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "You're almost there!",
+      "LINE_ONE": "Please check your email to confirm your account.",
+      "LINE_TWO": "Didn't receive an email?",
+      "LINK": "Resend email"
+    }
+  },
+  "VERIFY_PAGE": {
+    "TITLE": "Your account has been verified!",
+    "BODY": {
+      "LINE_ONE": "You'll be redirected to the login page in 5 seconds",
+      "LINE_TWO": "Didn't get redirected?"
+    },
+    "LINK": "Login here",
+    "ERROR": {
+      "TITLE": "Something went wrong",
+      "BODY": "It looks like the link you're using is no longer valid. To get a new link, please click the button below.",
+      "LINK": "Generate Link"
+    }
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "BUTTON": "Save Changes",
+    "FAIL_PROMPT": "Didn't get the link?",
+    "INPUT": {
+      "PASSWORD": "New password",
+      "CONFIRM": "Confirm password",
+      "PASSWORD_PLACEHOLDER": "Enter a password",
+      "CONFIRM_PLACEHOLDER": "Confirm your password",
+      "MATCHED": "Password Matched",
+      "INCORRECT_FORMAT": "Incorrect password format",
+      "NO_MATCH": "Password does not match"
+    },
+    "PASSWORD_LEVEL": {
+      "STRENGTH": "Password Strength: ",
+      "WEAK": "Weak",
+      "MEDIUM": "Medium",
+      "STRONG": "Strong"
+    },
+    "PROMPT": "In order to protect your account make sure your password is strong.",
+    "SUCCESS_MESSAGE": "An email has been sent. Please click the link when you receive it.",
+    "TITLE": "Change Password",
+    "INFO": {
+      "TITLE": "In order to protect your account make sure your password has:",
+      "CONTENT": "<li>One special character</li><li>8 characters or more</li><li>At least one uppercase letter and one numerical value</li>"
+    }
+  },
+  "ORG_SETTINGS_PAGE": {
+    "CAPTION": "Add teams or vendors to set up your organization",
+    "TITLE": "Organization Set Up",
+    "ADD_VENDOR": "Add a Vendor",
+    "LEARNING_TEAMS": {
+      "TITLE": "Learning Teams",
+      "ADD_TEAM": "Add a Team",
+      "TABLE": {
+        "TEAM_NAME": "Team Name",
+        "TEAM_MANAGER": "Team Manager(s)",
+        "REPORTS_TO": "Reports to",
+        "CREATION_DATE": "Creation Date",
+        "NO_TEAM_ADDED": "No team added",
+        "NO_MANAGER_ASSIGNED": "No manager assigned",
+        "A_MANAGER_IS_NEEDED": "A manager is needed to manage project resources."
+      },
+      "VENDOR_MODAL_TITLE": "Fill in the details to add Vendor",
+      "ADD_TEAM_MODAL": {
+        "FILL_DETAILS": "Fill in the details to add Team",
+        "TEAM_NAME": "Team Name",
+        "REPORTS_TO": "Reports to",
+        "ENTER_TEAM_NAME": "Enter team name",
+        "SELECT_TEAM": "Select team",
+        "ENTER_DESCRIPTION": "Enter team description",
+        "ADD_MANAGER": "Add managers",
+        "TEAM_ADDED": "Team was successfully added!"
+      },
+      "TEAMS_&_MEMBERS": "Teams & Team Members",
+      "ROLES": "{op, plural, =1 {Role} other {Roles}}",
+      "VIEW_PROJECTS": "View Projects",
+      "HIDE_PROJECTS": "Hide Projects",
+      "HOURS": "{hours}h",
+      "TIME_OFF_WEEK": "Time off/Holiday this week"
+    },
+    "BUSINESS_TEAMS": {
+      "TITLE": "Business Teams",
+      "TABLE": {
+        "DESCRIPTION": "Description",
+        "CREATION_DATE": "Creation Date"
+      }
+    }
+  },
+  "ADD_USER": {
+    "ADD_USER_BUTTON": "Add User",
+    "ADD_USER_MODAL": {
+      "TITLE": "Add {op, plural, =1 {a} other {an}} {userType}",
+      "BODY": " Fill in the details and select the user type",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter an email",
+      "USER_TYPE_LABEL": "User Type",
+      "USER_TYPE_PLACEHOLDER": "Select a user type",
+      "USER_TYPE_HELP_TEXT": {
+        "LD": "User who participates in the training creation",
+        "BUSINESS": "User from the business side",
+        "EXTERNAL": "Specialist user"
+      },
+      "SELF_REGISTRATION": "Self registration",
+      "BUSINESS_UNIT": "Business Unit",
+      "BUSINESS_UNIT_PLACEHOLDER": "Select a business unit",
+      "CONTINUE_BUTTON": "Continue",
+      "SEND_LINK": "Send Link",
+      "SELF_REGISTRATION_BANNER": "User was sucessfully notified with the registration link!"
+    },
+    "USER_ADDED": "User was succesfully added!"
+  },
+  "SETTINGS_PAGE": {
+    "USER_PAGE": {
+      "TITLE": "Users",
+      "HEADER": {
+        "ENABLE_ACCOUNT": "Active User",
+        "MORE_ACTIONS": {
+          "NOTIFY_USER": "Notify user"
+        }
+      },
+      "ERRORS": {
+        "MISSING_INFORMATION": "Missing information",
+        "INLINE_NOTFICATION": "This user is missing information and has not been updated.",
+        "DISABLE_ACCOUNT": "This user has been deactivated and can no longer access the platform."
+      },
+      "USER_UPDATED": "This user was successfully updated!",
+      "USER_NOTIFIED": "This user was successfully notified!",
+      "FOOTER": {
+        "CANCEL_BUTTON": "Cancel",
+        "UPDATE_BUTTON": "Update"
+      },
+      "BASIC_INFORMATION": {
+        "TITLE": "Basic Information",
+        "CAPTION": "Fill in the basic user details",
+        "PROFILE_PICTURE": "Profile Picture",
+        "TOGGLE_LABEL": "Make this user an admin",
+        "FIRST_NAME": "First Name",
+        "FIRST_NAME_PLACEHOLDER": "Add first name",
+        "LAST_NAME": "Last Name",
+        "LAST_NAME_PLACEHOLDER": "Add last name",
+        "EMAIL": "Email",
+        "EMAIL_PLACEHOLDER": "Add email",
+        "COUNTRY": "Country",
+        "COUNTRY_PLACEHOLDER": "Select a country",
+        "PROVINCE": "State/Province",
+        "PROVINCE_LIST_PLACEHOLDER": "Select a state or province",
+        "PROVINCE_TEXT_PLACEHOLDER": "Add a state or province",
+        "EDIT_PICTURE": "Edit Picture",
+        "TOGGLE_OFF_TEXT": "Off",
+        "TOGGLE_ON_TEXT": "On",
+        "USER_TYPE": "User Type",
+        "CHANGE_TO_LEARNING_USER": "Change to Learning User"
+      },
+      "JOB_INFORMATION": {
+        "TITLE": "Job Information",
+        "CAPTION": "Fill in the main job details",
+        "JOB_TITLE": "Job Title",
+        "JOB_TITLE_PLACEHOLDER": "Add a job title",
+        "EMPLOYMENT_TYPE": "Employment Type",
+        "JOB_FUNCTION": "Job Function",
+        "TEAM": "Team",
+        "TEAM_PLACEHOLDER": "Select a team",
+        "BUSINESS_TEAM": "Business Team",
+        "BUSINESS_TEAM_PLACEHOLDER": "Select a Business Unit",
+        "SKILLS": "Skills",
+        "LANGUAGES": "Languages",
+        "HOURLY_RATE": "Hourly Rate",
+        "HOURLY_RATE_PLACEHOLDER": "Add rate per hour",
+        "COMPANY_NAME": "Company Name",
+        "COMPANY_NAME_PLACEHOLDER": "Add company name",
+        "LANGUAGES_PLACEHOLDER": "Select one or more mastered languages",
+        "JOB_FUNCTION_PLACEHOLDER": "Select a job function",
+        "EMPLOYMENT_TYPE_PLACEHOLDER": "Select an employment type",
+        "SKILLS_PLACEHOLDER": "Add Skills",
+        "NONE": "None"
+      },
+      "CAPACITY_MANAGEMENT": {
+        "TITLE": "Capacity Management",
+        "CAPTION": "Fill in the basic capacity details",
+        "WEEKLY_CAPACITY": "Default Weekly Capacity",
+        "WEEKLY_CAPACITY_PLACEHOLDER": "Specify work hours per week",
+        "PUBLIC_HOLIDAYS": {
+          "LABEL": "Apply Public Holidays",
+          "ON_TEXT": "On",
+          "OFF_TEXT": "Off",
+          "VIEW_HOLIDAYS": "View holidays"
+        }
+      },
+      "VIEW_HOLIDAYS_MODAL": {
+        "TITLE": "Public Holidays"
+      },
+      "NOTIFY_USER_MODAL": {
+        "TITLE": "Notify User",
+        "BODY": {
+          "FIRST_LINE": "Do you wish to send the user a notification with their login details?",
+          "SECOND_LINE": "You can still notify them later."
+        },
+        "BUTTONS": {
+          "NOTIFY": "Yes, Notify",
+          "NOT_NOW": "Not Now"
+        }
+      },
+      "CHANGE_USER_TYPE_MODAL": {
+        "TITLE": "Change Business User to Learning User",
+        "BODY": {
+          "CHANGE_DESCRIPTION": "This will give the user access to more modules of the platform and will require a license seat.",
+          "LICENSES_REMAINING": "Licenses left: {licenses}",
+          "NO_LICENSES": "You have 0 licenses left. If you upgrade this user, they will be set as deactivated.",
+          "PLEASE_FILL": "Please fill out the following information required for learning users",
+          "FORM": {
+            "SECTION_TITLE_JOB": "Job Information",
+            "JOB_FUNCTION": "Job Function",
+            "JOB_FUNCTION_PLACEHOLDER": "Select a job function",
+            "EMPLOYMENT_TYPE": "Employment Type",
+            "EMPLOYMENT_TYPE_PLACEHOLDER": "Select an employment type",
+            "TEAM": "Team",
+            "TEAM_PLACEHOLDER": "Select a team",
+            "SECTION_TITLE_CAPACITY": "Capacity Information",
+            "DEFAULT_WEEKLY_CAPACITY": "Default Weekly Capacity"
+          }
+        },
+        "BUTTONS": {
+          "CONFIRM": "Yes, Change",
+          "CANCEL": "Cancel"
+        },
+        "SUCCESS_NOTIFICATION": "Success! User type changed.",
+        "ERROR_NOTIFICATION": "Something went wrong. Please try again."
+      }
+    },
+    "FIELDS_PAGE": {
+      "PAGE_TITLE": "Custom Field",
+      "TABLE_EMPTY": "Create and manage custom fields.",
+      "BUTTON_TITLE": "Add Field",
+      "PAGE_SUB_TITLE": "Use this section of settings to create and manage your fields.",
+      "TITLE": "Fields Overview",
+      "SUB_TITLE": "This section contains field information.",
+      "TABLE_COLUMNS": {
+        "TITLE": "Field Title",
+        "TYPE": "Field Type",
+        "DESCRIPTION": "Description",
+        "CREATOR": "Creator",
+        "LAST_UPDATED": "Last Updated",
+        "STATUS": "Status",
+        "ENABLED": "Enabled",
+        "DISABLED": "Disabled"
+      },
+      "FIELD_NAMES": {
+        "TEXT_FIELD": "Text Field",
+        "DROPDOWN": "Dropdown",
+        "TOGGLE": "Toggle",
+        "RADIO": "Radio button",
+        "CHECKBOX": "Checkbox",
+        "DATE_PICKER": "Date Field",
+        "NUMERICAL_FIELD": "Numeric Field"
+      },
+      "DETAILS": {
+        "TITLE_FIELD_NAME": "Field Title",
+        "TITLE_FIELD_PLACEHOLDER": "Enter field title",
+        "CREATOR_FIELD_NAME": "Field Creator",
+        "DESCRIPTION_FIELD_NAME": "Description",
+        "DESCRIPTION_FIELD_PLACEHOLDER": "Enter field description",
+        "TYPE_FIELD_NAME": "Field Type",
+        "TYPE_FIELD_PLACEHOLDER": "Select field type",
+        "ENABLED_TOGGLE": "Enabled",
+        "DELETE_FIELD": "Delete Field",
+        "FIELD_TYPE_CHECKBOX": {
+          "DROPDOWN": "Multiselect Dropdown",
+          "NUMERIC": "Include Decimal",
+          "TEXT": "Multiline Text",
+          "DATE": "Date Range"
+        },
+        "OPTIONS_DATA_TYPE_LABEL": "Option's Data Type",
+        "OPTIONS_LABEL": "Options",
+        "TYPE_TOOLTIP": "The data type you select determines how field options handle and display data, ensuring accurate information capture.",
+        "FIELD_OPTIONS": {
+          "SINGLE_LINE": "Text (Alpha-numeric characters)",
+          "INT": "Numbers (whole numbers)",
+          "FLOAT": "Decimal numbers (i.e. currency and measurement)",
+          "BOOLEAN": "Yes / No"
+        },
+        "DUPLICATE_ERROR": "Oops! Option already used. Please enter a unique option",
+        "UPDATE_SUCCESS": "{title} field is updated.",
+        "UPDATE_ERROR": "Something went wrong... We're having a technical issue, please refresh or try again",
+        "ADD_SUCCESS": "New custom field is added."
+      },
+      "DELETE_FIELD_MODAL": {
+        "TITLE": "Delete Field",
+        "BODY": "This action is irreversible. Deleting the custom field will permanently remove it from the system, including any associated data or references. Please take a moment to consider the implications before proceeding.",
+        "DELETE_BUTTON": "Delete Field",
+        "SUCCESS_NOTIFICATION": "Custom field is deleted."
+      },
+      "UPDATE_WARNING_MODAL": {
+        "TITLE": "Update Field",
+        "BODY": "The update(s) will be applied to all new and existing project(s) which are using this field. <br/>Do you want to proceed?",
+        "PROCEED_BUTTON": "Yes, Proceed"
+      },
+      "DEFAULT_VALUES_MODAL": {
+        "TITLE": "Default values",
+        "BODY": "Please provide default value(s) for any existing projects that have utilized this field value.",
+        "ADD_VALUES_BUTTON": "Add Value(s)"
+      }
+    },
+    "PROJECTS_PAGE": {
+      "PAGE_TITLE": "Project Set Up",
+      "PAGE_SUB_TITLE": "Use this section of settings to tidy up your projects by custom or our out-of-the-box processes, templates, fields.",
+      "PROCESSES": "Processes",
+      "ADD_PROCESS": "Add Process",
+      "GET_STARTED": "Get started",
+      "PROCESS_NAME": "Process Name",
+      "ESTIMATE_TIME": "Estimated Completion Time",
+      "CREATED_BY": "Created by",
+      "CREATION_DATE": "Creation Date",
+      "EDIT": "Edit",
+      "REMOVE": "Remove",
+      "SYSTEM": "System",
+      "ESTIMATED_COMPLETION_TIME": "{time} hrs",
+      "NO_ESTIMATED_COMPLETION_TIME": "Not specified",
+      "ENABLE_PROCESS": "Enable process",
+      "PROCESS_PAGE_TITLE": "Process: {process}",
+      "DELETE_PROCESS": "Delete process",
+      "SYSTEM_PROCESS_TOOLTIP": "System defined processes can't be removed.",
+      "ACTIVE_PROCESS_TOOLTIP": "Processes containing projects can't be removed",
+      "DISABLED_PROCESS_WARNING": "Disabled processes will not appear as an option for new projects and will not appear in the board view if they don't contain any projects.",
+      "TEMPLATES": "Templates",
+      "ADD_TASK_BUNDLE": "Add Bundle",
+      "TITLE": "Title",
+      "DESCRIPTION": "Description",
+      "OWNER": "Owner",
+      "DATE": "Date",
+      "STATUS": "Status",
+      "COGNOTA": "Cognota",
+      "draft": "Un-published",
+      "published": "Published",
+      "disabled": "Disabled",
+      "ADD_TEMPLATES": "Add template"
+    },
+    "ADD_PROCESS_MODAL": {
+      "TITLE": "Add a Process",
+      "DESCRIPTION": " Fill in the details to add a custom process",
+      "PROCESS_NAME_FIELD_LABEL": "Process Name",
+      "PROCESS_NAME_FIELD_PLACEHOLDER": "Enter the name of the process",
+      "DESCRIPTION_FIELD_LABEL": "Description",
+      "PROCESS_DESCRIPTION_FIELD_PLACEHOLDER": "Enter description for the process",
+      "STAGE_DIVISION": "Stage {index}",
+      "STAGE_NAME_FIELD_LABEL": "Stage Name",
+      "STAGE_NAME_FIELD_PLACEHOLDER": "Enter the name of the stage",
+      "STAGE_NAME_FIELD_ERROR": "Stage names cannot be repeated. Use a different name.",
+      "STAGE_DESCRIPTION_FIELD_PLACEHOLDER": "Enter description for this stage",
+      "STAGE_COMPLETION_FIELD_LABEL": "Estimated Completion Time (min - max)",
+      "STAGE_MIN_COMPLETION_FIELD_PLACEHOLDER": "Min hours",
+      "STAGE_MAX_COMPLETION_FIELD_PLACEHOLDER": "Max hours",
+      "ADD_STAGE_BUTTON": "Add Stage",
+      "PROCESS_ADDED_SUCCESSFULLY_MESSAGE": "Process was succesfully added!",
+      "PROCESS_UPDATED_SUCCESSFULLY_MESSAGE": "Process was succesfully updated!"
+    },
+    "REMOVE_PROCESS_MODAL": {
+      "TITLE": "Delete Process",
+      "DESCRIPTION": "This change is <b>irreversible.</b><br><br>Are you sure you want to delete this Process?",
+      "REMOVE_PROCESS_SUCCESSFULLY_MESSAGE": "Process was succesfully removed!"
+    },
+    "FORMS": {
+      "FORM_TITLE": "Request Form Title",
+      "REQUEST_TYPE": "Request Type",
+      "FORM_CREATOR": "Form Creator",
+      "LAST_UPDATE": "Last Update",
+      "PUBLISHED": "Published",
+      "UN_PUBLISHED": "Un-published",
+      "CREATE_FORMS": "Create and manage forms!",
+      "NO_FORMS": "No forms found",
+      "ADD_FORM": "Add Form",
+      "DESIGN": {
+        "TITLE": "Form Design",
+        "SUBTITLE": "Create form by adding fields to gather information for learning requests",
+        "GENERAL_INFO": "General Information",
+        "SELECT_REGION_LOCATION": "Select a region or location",
+        "DEFAULT_FIELDS": "Default Fields",
+        "ENTER_DESCRIPTION": "Enter a description",
+        "ENTER_EFFORTS": "Enter Efforts",
+        "ENTER_COSTS": "Enter Cost",
+        "ENTER_COMMENTS": "Enter comments for this request",
+        "SELECT_PRIORITY": "Select a priority",
+        "SELECT_BUSINESS_UNIT": "Select a business unit",
+        "ENTER_REQUESTER": "Enter requester name",
+        "SYSTEM_GENERATED_ID": "System Generated ID",
+        "CUSTOM_QUESTIONS": {
+          "LABEL_PROMPT": {
+            "EDIT": "Edit Label",
+            "OPEN": "Open Link"
+          },
+          "REORDER": "Reorder",
+          "DRAG_HANDLE": "drag handle",
+          "TITLE": "Custom Questions",
+          "CAPTION1": "Add your own questions with a variety of formats. ",
+          "CAPTION2": "Questions without labels or values will not be displayed in the request.",
+          "ADD_QUESTION": "Add Question",
+          "REQUIRED": "Required",
+          "QUESTION_LABEL": "Type your label",
+          "PLACEHOLDER": "Type your placeholder",
+          "REMOVE_OPTION": "remove option",
+          "ADD_OPTION": "Add Option",
+          "OPTION_PLACEHOLDER": "Type your option",
+          "TEXT": {
+            "MULTILINE": "Multiline field"
+          },
+          "DROPDOWN": {
+            "MULTISELECT": "Multiselect dropdown"
+          },
+          "TOGGLE": {
+            "VALUE": "Type a value",
+            "HELP_TEXT": "Set toggle to its default state"
+          },
+          "RANGE": {
+            "MIN_VALUE_PLACEHOLDER": "Add min value",
+            "MAX_VALUE_PLACEHOLDER": "Add max value"
+          },
+          "DATE": {
+            "DATE_RANGE": "Date range"
+          },
+          "FILE": {
+            "PLACEHOLDER": "Add an upload instruction"
+          }
+        }
+      },
+      "SUMMARY": {
+        "TITLE": "Form Summary",
+        "SUBTITLE": "Fill in the general form information.",
+        "FORM_TITLE": "Form Title",
+        "DESCRIPTION": "Form Description",
+        "DEFAULT_OWNERS": "Default Request Owner(s)",
+        "ENTER": "Enter {field}",
+        "REQUEST_OWNER": "Add Request Owner",
+        "ENTER_DESCRIPTION": "Enter Description",
+        "SELECT_REQUEST_TYPE": "Select a Request Type"
+      },
+      "FORM_CREATED_SUCCESS": "Request form was successfully created!",
+      "PUBLISH": "Publish",
+      "YES_UPDATE": "Yes, Update",
+      "UNPUBLISHED_MODAL": {
+        "TITLE": "Update unpublished form",
+        "DESCRIPTION": "If this form was previously published, changes made will only affect new requests.",
+        "QUESTION": "Are you sure you want to update the form?"
+      },
+      "PUBLISHED_MODAL": {
+        "TITLE": "Update published form",
+        "DESCRIPTION": "The form is already published. Changes made will only affect new requests."
+      },
+      "UPDATED_SUCCESS": "Request form was successfully updated.",
+      "NOT_UPDATED": "This request form is missing information and has not been updated.",
+      "UNPUBLISH_SUCCESS": "This form was succesfully unpublished! Requests submitted using this form have not been affected.",
+      "PUBLISH_SUCCESS": "This form was succesfully published!",
+      "TABLE_MENU": {
+        "DUPLICATE": "Duplicate",
+        "DELETE": "Delete"
+      },
+      "COPY_LINK": {
+        "COPY_FORM_LINK": "Copy link to form",
+        "SUCCESS_MESSAGE": "The link to the form in the request portal was copied!",
+        "TOOLTIP": "Link to form in the request portal"
+      },
+      "DELETE_TOOLTIP": "Forms need to be unpublished to be deleted",
+      "DUPLICATE": {
+        "DUPLICATE_FORM": "Duplicate Form",
+        "FILL_DETAILS": "Fill in the details to create new form",
+        "ORIGINAL_NAME": "Original Form Name",
+        "NEW_NAME": "New Form Name",
+        "COPY": "- Copy"
+      },
+      "DELETE": {
+        "TITLE": "Delete {status} form",
+        "PUBLISHED_DESCRIPTION": "This change is <b>irreversible</b>. Requests based on this form will not be deleted.",
+        "UNPUBLISHED_DESCRIPTION": "This change is <b>irreversible</b>. If the form was previously published, the change will not affect requests based on this form",
+        "QUESTION": "Are you sure you want to delete this form?",
+        "SUCCESS": "The form was successfully deleted!",
+        "DELETE_FORM": "Delete form"
+      },
+      "UPDATE_TOOLTIP": "Make sure all your custom questions have:<li>A clear label</li><li>All options specified for multiselect questions</li>"
+    },
+    "GENERAL_PAGE_CAPTION": "Customize the application",
+    "TEMPLATE_PAGE": {
+      "ADD_TEMPLATE": "Add Template",
+      "OVERVIEW_TAB": "Template Overview",
+      "BUILD_TAB": "Build Template",
+      "UPDATE_TEMPLATE": "Update Template",
+      "UPDATE_WARNING": "<b>Heads up!</b> Any edits made to this template will be applied to all new as well as existing projects created with this template.",
+      "OVERVIEW_SECTION": {
+        "SECTION_DESCRIPTION": "This section contains template information.",
+        "TITLE_FIELD_LABEL": "Title",
+        "DESCRIPTION_FIELD_LABEL": "Description",
+        "TEMPLATE_OWNER_FIELD_LABEL": "Template Owner",
+        "TEMPLATE_CREATOR_FIELD_LABEL": "Template Creator"
+      },
+      "UPDATE_CONFIRMATION_MODAL": {
+        "DESCRIPTION": "These update(s) will be applied to all new and existing project(s) which are using this template.<br/>Do you want to proceed?",
+        "CONFIRM": "Yes, Proceed"
+      },
+      "DEFAULT_VALUES_MODAL": {
+        "TITLE": "Default Values",
+        "DESCRIPTION": "Provide default value for the new fields within updated template for the existing projects."
+      },
+      "BUILD_SECTION": {
+        "SECTION_TITLE": "Project Sections ",
+        "SECTION_DESCRIPTION": "This section of the project provides overview of the your project.",
+        "ADD_MORE_FIELDS": "Add more fields",
+        "REQUIRED": "Required"
+      },
+      "PUBLISH": "Publish",
+      "ADD_MORE_FIELDS_MODAL": {
+        "TITLE": "Fields For Template",
+        "DESCRIPTION": "Use following fields to build your custom project templates.",
+        "FIELD_TYPE": "Field type: {fieldType}"
+      },
+      "ACTIONS": {
+        "ADD": "Added",
+        "UPDATE": "Updated",
+        "DELETE": "Deleted",
+        "PUBLISH": "Published",
+        "UNPUBLISH": "Unpublished"
+      },
+      "SUCCESS_MESSAGE": "Success! Template {action}.",
+      "VERSION_MISMATCH_ERROR": {
+        "TITLE": "Oops! Changes were not saved.",
+        "MESSAGE": "Someone else currently saved their changes while you were still editing the template. Please reload the page before you try again."
+      },
+      "DELETE_TEMPLATE": "Delete Template",
+      "DELETE_TEMPLATE_TOOLTIP": "You can only delete unpublished templates.",
+      "DELETE_TEMPLATE_WARNING_MENSSAGE": "You are about to delete this template. This action is irriversible."
+    },
+    "TASK_BUNDLE_PAGE": {
+      "ADD_TASK_BUNDLE": "Add Task Bundle",
+      "BUNDLE_OVERVIEW_TAB": "1. Bundle Overview",
+      "BUNDLE_BUILD_TAB": "2. Build Bundle",
+      "UPDATED_SUCCESSFULLY": "Success! Task bundle updated.",
+      "CREATED_SUCCESSFULLY": "Success! Task bundle created.",
+      "OVERVIEW_SECTION": {
+        "SECTION_DESCRIPTION": "This section contains task bundle information.",
+        "TITLE_LABEL": "Title",
+        "DESCRIPTION_LABEL": "Description",
+        "CREATOR_LABEL": "Created By"
+      },
+      "BUILD_SECTION": {
+        "TASK_LIST": "Task List",
+        "NAME": "Task Title",
+        "DESCRIPTION": "Task Description",
+        "NO_TASKS_ADDED": "No tasks added",
+        "NO_RESULTS_FOUND": "No results found. Try another keyword.",
+        "ADD_TASK": "Add Task",
+        "DELETE_TASK": "Delete Task",
+        "DELETE_TASK_CONFIRM": "Yes, Delete Task",
+        "TASK_WILL_BE_REMOVED": "This task will be removed from the task bundle.",
+        "ARE_YOU_SURE": "Are you sure you want to delete this task?",
+        "GET_STARTED": "Get started by adding tasks."
+      },
+      "TABLE": {
+        "HEAD": {
+          "TITLE": "Title",
+          "DESCRIPTION": "Description",
+          "ESTIMATED_HOURS": "Estimated Hours",
+          "CREATOR": "Creator",
+          "CREATION_DATE": "Creation Date"
+        },
+        "EMPTY": "Create and manage your task bundles",
+        "GET_STARTED": "Get started",
+        "NO_RECORDS": "No results found. Try another keyword."
+      },
+      "UPDATE": "Update Bundle",
+      "DELETE_BUNDLE": {
+        "DELETE": "Delete Bundle",
+        "TITLE": "Delete Task Bundle",
+        "BODY_FIRST_LINE": "Please note that once you delete a task bundle, it cannot be undone. The bundle will no longer be available for association with new projects, but rest assured that it won't have any impact on older projects.",
+        "BODY_SECOND_LINE": "Are you sure you want to proceed with the deletion?",
+        "CONFIRM": "Yes, Proceed",
+        "CANCEL": "Cancel",
+        "SUCCESS_MESSAGE": "Success! Task bundle deleted."
+      }
+    }
+  },
+  "SIDEBAR": {
+    "HOME": "Home",
+    "INSIGHTS": "Insights",
+    "PROJECTS": "Projects",
+    "SCHEDULE": "Schedule",
+    "TASKS": "Tasks",
+    "INTAKE": "Intake",
+    "PROGRAMS": "Programs",
+    "DESIGN": "Design",
+    "TEAMS": "Teams",
+    "MY_TIME_OFF": "My Time Off",
+    "SETTINGS": "Settings",
+    "LOGOUT": "Log out",
+    "SUPPORT": "Resources",
+    "SUPPORT_POPUP_OPTIONS": {
+      "LEARNOPS_CERTIFICATION": "LearnOps Certification",
+      "CHAT": "Chat With Us",
+      "LEARNING": "Learning Center",
+      "LEARNOPS_COMMUNITY": "LearnOps Community",
+      "SHOW": "Show Me Around"
+    }
+  },
+  "REQUEST_PAGE": {
+    "PAGE_NAME": "Request page",
+    "TITLE": "Add Request",
+    "ALL_REQUESTS_LINK": "All Requests",
+    "SUBMITTED_ON": "Submitted {num, plural, =0 {} =1 {on: {date}}} by {user}",
+    "EMPTY_STATE": "Select a request type and form to preview what the form contains.",
+    "NOTIFICATIONS": {
+      "MISSING_INFO": "Request missing information. Request is not submitted.",
+      "MODIFICATION_SUCCESS": "Request “{requestNo}” has been successfully modified.",
+      "REQUEST_CREATE_SUCCESS": "Request “{requestNo}” has been successfully added.",
+      "REQUEST_SUBMIT": "New request “{requestNo}” has been successfully submitted.",
+      "REQUEST_CANCELLATION_CONFIRMATION": "Request “{requestNo}” was successfully Cancelled.",
+      "IN_REVIEW_SUCCESS_MESSAGE": "The request has been moved to In Review."
+    },
+    "LEFT_PANEL": {
+      "TITLE": "Type of Request",
+      "PROMPT": "Choose from the list of request types below",
+      "EXPAND": "Expand",
+      "COLLAPSE": "Collapse",
+      "FORM": {
+        "TRAINING_TYPE_LABEL": "Select request type",
+        "FORM_TYPE_LABEL": "Select type of form you need",
+        "DOWNLOAD_BUTTON": "Download Form",
+        "APPLY_BUTTON": "Create Request"
+      },
+      "REQUEST_TYPE": {
+        "TRAINING": "Training",
+        "CONTENT_DEVELOPMENT": "Content Development/Update",
+        "LEARNING_DELIVERY": "Learning Delivery",
+        "LEARNING_ADMIN": "Learning Admin/Support",
+        "CONSULTING": "Consulting",
+        "ASSESSMENT_EVALUATION": "Assessment & Evaluation",
+        "EMPLOYEE_RESEARCH": "Employee Research",
+        "EMPLOYEE_SERVICE": "Employee Service",
+        "COACHING_MENTORING": "Coaching & Mentoring",
+        "FACILITATION": "Facilitation",
+        "EVENTS": "Events",
+        "OTHERS": "Others",
+        "ALL": "All"
+      },
+      "CHANGE_FORM_ALERT": {
+        "TITLE": "Switch Forms",
+        "DESCRIPTION": "The new selection of form will discard all the data from the current request. This will initiate the new form. This change is irriversible.",
+        "YES_CHANGE": "Yes, Switch",
+        "CANCEL": "Cancel"
+      }
+    },
+    "LINKED_PROJECTS": {
+      "TITLE": "Linked Projects",
+      "TABLE": {
+        "PROJECT_ID": "Project ID",
+        "PROJECT_NAME": "Project Name",
+        "STATUS": "Status",
+        "VIEW": "View"
+      },
+      "MODAL": {
+        "TITLE": "Overview",
+        "SUB_TITLE": "This section contains Project Overview",
+        "CLOSE_BUTTON": "Close"
+      }
+    },
+    "BASIC_DETAILS": {
+      "TITLE": "Basic Information",
+      "REQUEST_TITLE": "Add a request title",
+      "CAPTION": "This section contains basic information about the request that helps the learning team organize and track requests.",
+      "FIELDS": {
+        "REQUEST_NUMBER": "Request Number",
+        "REQUEST_CREATOR": "Requester",
+        "REQUEST_CREATOR_PLACEHOLDER": "Assign a requester",
+        "REQUESTER": {
+          "NAME": "Requester Name",
+          "TRIGGER": "Add a requester",
+          "PLACEHOLDER": "No requester assigned"
+        },
+        "LD_REVIEWER": {
+          "REQUEST_LD_REVIEWER": "L&D Reviewer",
+          "TRIGGER": "Add L&D Reviewer",
+          "PLACEHOLDER": "No L&D reviewer assigned"
+        },
+        "BUSINESS_REVIEWER": {
+          "REQUEST_BUSINESS_REVIEWER": "Business Reviewer",
+          "TRIGGER": "Add Business Reviewer",
+          "PLACEHOLDER": "No Business reviewer assigned"
+        },
+        "BUSINESS_UNIT": "Business Unit",
+        "REQUEST_TITLE": "Request Title",
+        "FORM_TITLE": "Form Used",
+        "REQUEST_OWNER": "Owner",
+        "REQUEST_OWNER_PLACEHOLDER": "Select an option",
+        "REQUEST_STATUS": "Request Status",
+        "REQUEST_STATUS_OPTIONS": {
+          "SUBMITTED": "Submitted",
+          "DRAFT": "Draft",
+          "APPROVED": "Approved",
+          "REJECTED": "Rejected"
+        },
+        "REQUESTER_NAME": "Requester Name",
+        "LOCATION": "Region/Location",
+        "PRIORITY_OPTIONS": {
+          "HIGH": "High",
+          "MEDIUM": "Medium",
+          "LOW": "Low"
+        }
+      },
+      "ERRORS": {
+        "MISSING_INPUT": "Missing Input"
+      }
+    },
+    "ADDITIONAL_DETAILS": {
+      "TITLE": "Additional Information",
+      "CAPTION": "This section is used to provide additional information specific to this request, which is not included in the standard form.",
+      "FLY_OUT_MENU": {
+        "URL": "Url",
+        "TEXT_FIELD": "Text Field",
+        "FILE_UPLOAD": "Upload"
+      },
+      "FIELDS": {
+        "OTHER_INFO": "Other Information",
+        "OTHER_INFO_CAPTION": "Are there any other considerations or context that we need to be aware of?",
+        "ADD_MORE": "Add More Fields or Questions",
+        "ADD_MORE_CAPTION": "Is there more information you would like to provide for the training"
+      }
+    },
+    "REQUEST_DETAILS": {
+      "TITLE": "Request Details",
+      "CAPTION": "This section describes what the request is about.  Please make sure to include details that will help the learning team to better understand the goals and requirements so they can assess the request in a timely manner.",
+      "FIELDS": {
+        "REQUEST_DESCRIPTION": "Request Description",
+        "REQUEST_DESCRIPTION_CAPTION": "Explain about your request",
+        "REQUEST_DESCRIPTION_PLACEHOLDER": "Enter details of challenges you are trying to solve"
+      },
+      "BUTTON": {
+        "NEXT": "Next",
+        "SAVE_EXIT": "Save & Exit",
+        "UPDATE_EXIT": "Update & Exit",
+        "BACK": "Back",
+        "SUBMIT": "Submit",
+        "UPDATE_REQUEST": "Update Request",
+        "CANCEL": "Cancel"
+      }
+    },
+    "L_D_SECTION": {
+      "TITLE": "Internal Information",
+      "CAPTION": "In this section the request owners can record the initial assessment results and will help the learning team make the decision on the request and plan for next steps if needed.",
+      "FIELDS": {
+        "EFFORT": "Estimated Effort",
+        "HOURS": "hrs",
+        "COST": "Estimated Cost",
+        "PRIORITY": "Internal Priority",
+        "COMMENTS": "Comments"
+      },
+      "PRIORITY_OPTIONS": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low",
+        "unassigned": "Not Assigned"
+      }
+    },
+    "TABS": {
+      "BASIC": "Basic Information",
+      "REQUEST": "Request Details",
+      "ADDITIONAL": "Additional Information",
+      "L_D": "Internal Information"
+    },
+    "TOP_BAR": {
+      "ID": "ID: ",
+      "COMMENTS": "Comments",
+      "LINK_PROJECT": "Create project",
+      "APPROVE": "Approve",
+      "DECLINE": "Decline",
+      "FORM": "Form",
+      "APPROVE_SUCCESS_MESSAGE": "Request “{requestNo}” has been successfully approved and requester is notified about change.",
+      "DECLINE_SUCCESS_MESSAGE": "Request “{requestNo}” has been successfully declined and requester is notified about change.",
+      "WAITLIST_SUCCESS_MESSAGE": "Request “{requestNo}” was succesfully waitlisted and is pending for future approval.",
+      "CREATE_PROJECT_MODAL": {
+        "TITLE": "Create project",
+        "SAVE_OPEN": "Save & Open",
+        "SAVE_NOW": "Save Now",
+        "CANCEL": "Cancel",
+        "SUCCESS_MESSAGE": "The project “{projectTitle}” was saved. "
+      },
+      "DELETE_REQUEST": {
+        "SUCCESS": "Success!",
+        "SUCCESS_MESSAGE": "The request has been deleted.",
+        "ERROR": "Error!",
+        "ERROR_MESSAGE": "The request could not be deleted. Please try again."
+      },
+      "PUBLIC_DRAFT": {
+        "TITLE": "Make draft public",
+        "TOOLTIP": "Making a draft public will allow other users to view it before submission."
+      },
+      "MORE": {
+        "CANCEL_REQUEST": "Cancel request",
+        "DOWNLOAD_REQUEST": "Download Request",
+        "CREATE_PROJECT": "Create Project",
+        "LINK_PROJECT": "Link Request To Project",
+        "DELETE_REQUEST": "Delete Request"
+      },
+      "DELETE_REQUEST_MODAL": {
+        "TITLE": "Delete Request",
+        "WARNING": "The request will be <span class='font-bold'>permanently removed</span> from the system.",
+        "CONFIRMATION": "Are you sure you want to delete <span class='font-bold'>{request}</span>?",
+        "DELETE_BUTTON": "Yes, Delete Request",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "LINK_REQUEST_MODAL": {
+        "TRIGGER": "Link Request to Project",
+        "TITLE": "Link to a Project",
+        "SUBTITLE": "Choose projects to link this request to.",
+        "PLACEHOLDER": "Type in to search for a Project",
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "LINK": "Link",
+        "PROJECT_TITLE": "Project Title",
+        "STATUS": "Status",
+        "UNLINK": "Unlink",
+        "NO_LINKED_PROJECTS": "No project linked",
+        "LINKED_PROJECTS_SUCCESS": "The Projects linked to this Request have been updated."
+      },
+      "IN_REVIEW_MODAL": {
+        "TITLE": "Move back to In Review",
+        "CONFIRMATION": "Are you sure you want to move this request back to In Review?",
+        "NOTIFICATION": "The requester will be notified."
+      },
+      "WAITLIST_MODAL": {
+        "WAITLIST": "Waitlist",
+        "WAITLIST_PLAN": "Waitlist requests you can't take action on right now.",
+        "WAITLIST_REQUEST": "Waitlist Request",
+        "WAITLIST_MEANS": "Waitlisting means you're not quite ready to take action on this request but will consider making a decision on this request when the time is right.",
+        "PLEASE": "Please select the reasons for wait-listing this request:",
+        "CONDITION_APPROVAL": "Conditions for wait-listing",
+        "SELECT_CONDITIONS": "Select as many conditions as are required",
+        "SPECIFY_OTHERS": "Please specify for 'Others'",
+        "MENTION_REASON": "Mention the reason for waitlisting this Request",
+        "WAITLIST_DATE": "Waitlist Date",
+        "WAITLIST_CONDITIONS": {
+          "STRATEGY_PRIORITY": "Strategy / Priority",
+          "RESOURCE": "Resource",
+          "BUDGET": "Budget",
+          "TIMELINE": "Timeline",
+          "IT": "IT",
+          "PROCUREMENT": "Procurement",
+          "VENDOR": "Vendor",
+          "OTHERS": "Others"
+        }
+      }
+    },
+    "PENDING_CANCELLATION_BANNER": {
+      "TITLE": "Request Cancellation.",
+      "BODY": "The requester has asked to cancel this request.",
+      "BUTTON": "View Comments"
+    },
+    "STATUS": {
+      "APPROVED": "Approved",
+      "WAITLISTED": "Waitlisted",
+      "IN_REVIEW": "In Review",
+      "DECLINED": "Declined"
+    },
+    "MODAL": {
+      "CONFIRM_CANCELLATION_REQUEST": {
+        "TITLE": "Request Cancellation",
+        "HINT": "The requester initiated this request cancellation. The reason for cancellation has been stated as:",
+        "PURPOSE": "Purpose of cancellation",
+        "ADDITIONAL_INFORMATION": "Additional Information for Cancellation",
+        "LD_SECTION": "L&D Section",
+        "LD_REMARK": "L&D Remark",
+        "REMARK_PLACEHOLDER": "Add a comment",
+        "CONFIRM_CANCELLATION": "Confirm Cancellation",
+        "CANCEL_BUTTON": "Cancel"
+      }
+    },
+    "APPROVED_REQUEST_BANNER": {
+      "LINE_ONE": "This request was <b>approved</b> by the request owner on {approvalDate}",
+      "LINE_TWO": "View details for additional information.",
+      "BUTTON": "View Comments"
+    },
+    "APPROVED_REQUEST_INFO_MODAL": {
+      "TITLE": "Approved Request",
+      "NO_COMMENTS": "No comments",
+      "COMMENTS": "Comment(s)",
+      "APPROVAL_DATE": "Approval Date"
+    },
+    "CANCELLED_REQUEST_BANNER": {
+      "LINE_ONE": "This request was <b>canceled</b> on {cancellationDate}",
+      "LINE_TWO": "Reason: {reason}",
+      "BUTTON": "View Comments"
+    },
+    "CANCELLED_REQUEST_INFO_MODAL": {
+      "TITLE": "Request Cancellation",
+      "REASON": "Reason for Cancellation",
+      "ADDITIONAL_INFO": "Additional Information for Cancellation",
+      "INTERNAL_SECTION": "Internal Section",
+      "COMMENTS": "L&D Comments",
+      "NO_COMMENTS": "No comments",
+      "CANCELLATION_DATE": "Cancellation Date"
+    },
+    "DECLINED_REQUEST_BANNER": {
+      "LINE_ONE": "This request was <b>declined</b> by the request owner on {declineDate}.",
+      "LINE_TWO": "Reason: {reason}",
+      "BUTTON": "View Comments"
+    },
+    "DECLINED_REQUEST_INFO_MODAL": {
+      "TITLE": "Declined Request",
+      "REASON": "Reason for Decline",
+      "ADDITIONAL_DETAILS": "Additional Details for Decline",
+      "COMMENTS": "Comment(s)",
+      "NO_COMMENTS": "No comments",
+      "DECLINE_DATE": "Decline Date"
+    },
+    "WAITLISTED_REQUEST_BANNER": {
+      "LINE_ONE": "This request was <b>waitlisted</b> by the request owner on {date}.",
+      "LINE_TWO": "Conditions for approval: {conditions}"
+    }
+  },
+  "REQUESTS_LIST_PAGE": {
+    "EXPORT": "Export Requests",
+    "EXPORT_BY_FORM": "Export By Form Type",
+    "EXPORT_TOOLTIP": "Using the checkbox, select the requests you wish to export first.",
+    "NO_RECORDS": "No results found. Try another keyword.",
+    "GET_STARTED": "Get Started",
+    "CREATE_MANAGE_REQUESTS": "Create and Manage Requests!",
+    "PAGE_NAME": "Requests List page",
+    "ADD_REQUEST_BUTTON": "Add Request",
+    "NO_DATE": "No date",
+    "SUB_NAV": {
+      "TEAM_REQUESTS": "Team Requests",
+      "MY_REQUESTS": "My Requests"
+    },
+    "TABLE": {
+      "HEAD": {
+        "REQUEST_NO": "Request Number",
+        "REQUESTER_NAME": "Requester Name",
+        "REQUEST_TITLE": "Request Title",
+        "CREATION_DATE": "Creation Date",
+        "SUBMISSION_DATE": "Submission Date",
+        "DECISION_DATE": "Decision Date",
+        "UPDATE_DATE": "Last Update",
+        "STATUS": "Status",
+        "OWNER_NAME": "Request Owner",
+        "LINKED_PROJECTS": "Projects",
+        "BUSINESS_UNIT": "Business Unit",
+        "PRIORITY": "Internal Priority",
+        "FORM": "Form Used"
+      },
+      "SORT": {
+        "ASC": "Sort in ascending order",
+        "DESC": "Sort in descending order"
+      },
+      "STATUS_LABEL": {
+        "DRAFT": "Draft",
+        "SUBMITTED": "In Review",
+        "APPROVED": "Approved",
+        "REJECTED": "Declined",
+        "PENDING_CANCELLATION": "Pending Cancellation",
+        "CANCELED": "Canceled",
+        "WAITLISTED": "Waitlisted"
+      },
+      "ACTIONS": {
+        "DELETE": "Delete"
+      },
+      "FILTER": {
+        "requestIdentifier": "Request Number",
+        "owners": "Request Owner",
+        "requester": "Requester",
+        "title": "Request Title",
+        "formTitle": "Form Title",
+        "businessTeams": "Business Unit",
+        "createdAt": "Creation Date",
+        "submittedAt": "Submission Date",
+        "decision_date": "Decision Date",
+        "updatedAt": "Last Update Date",
+        "status": "Status",
+        "requestProjects": "Projects",
+        "ldPriority": "Internal Priority"
+      },
+      "IMPORT": {
+        "IMPORT": "Import Requests",
+        "IMPORT_FROM_FILE": "Import requests by uploading a file",
+        "COLUMN_LABELS": {
+          "CREATOR": "Request creator",
+          "BASE_FORM": "Base form",
+          "TITLE": "Request Title",
+          "DESCRIPTION": "Description",
+          "OWNERS": "Owners",
+          "BUSINESS_TEAM": "Business Team",
+          "LD_PRIORITY": "LD Priority"
+        },
+        "SUCCESS": "Your Requests were imported successfully!"
+      },
+      "LINKED_PROJECTS": {
+        "TITLE": "List of Linked Project(s)",
+        "NO_LINKED_PROJETS": "No project",
+        "PICKER_LABEL": "Projects Linked",
+        "PICKER_OPTIONS": {
+          "NONE": "0 projects",
+          "ONE": "1 project",
+          "MANY": "2+ projects"
+        }
+      }
+    },
+    "MODAL": {
+      "DELETE_REQUEST": {
+        "TITLE": "Delete Request",
+        "BODY": "Are you sure you want to permanently delete “{requestNo}” request?",
+        "DELETE_BUTTON": "Yes, Delete",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "CANCEL_REQUEST": {
+        "CANCELLATION_REASON": "Cancellation Reason",
+        "NOTICE": "This action will initiate the cancellation of the request. Are you sure you want to proceed for cancellation?",
+        "CALL_TO_ACTION": "If yes , please select the reason for cancellation.",
+        "REASON": "Reason",
+        "CANCEL_REQUEST": "Cancel Request",
+        "CANCELLATION": "Request Cancellation",
+        "SPECIFY": "Please specify",
+        "REASONS": {
+          "PRIORITY_CHANGE": "Business plan or priority change",
+          "LACK_OF_RESOURCE": "Lack of resource to support the request",
+          "LACK_OF_BUDGET": "Lack of budget to fund the project",
+          "BUSINESS_TIMELINE": "Business timeline change ",
+          "PROCUREMENT_ISSUE": "Procurement issue",
+          "VENDOR_ISSUE": "Vendor issue",
+          "OTHER": "Others"
+        },
+        "ERROR": "Required field"
+      },
+      "DECLINE_REQUEST": {
+        "DECLINATION_REASON": "Reason for Decline",
+        "NOTICE": "Are you sure you want to decline the request?",
+        "CALL_TO_ACTION": "If yes , please select the reason for Declining the request.",
+        "REASON": "Reason",
+        "DECLINE_REQUEST": "Decline Request",
+        "DECLINATION": "Yes, Decline Request",
+        "SPECIFY": "Please specify",
+        "REASONS": {
+          "PRIORITY_CHANGE": "Business plan or priority change",
+          "LACK_OF_RESOURCE": "Lack of resources or budget",
+          "NOT_ALIGNED": "Not aligned with L&D function",
+          "DUPLICATE_REQUEST": "Duplicate request",
+          "SERVICE_NOT_AVAILABLE": "Service/offering not available",
+          "EXTERNAL_VENDOR_RECOMMENDED": "External vendor recommended",
+          "RESOURCE_AVAILABILITY": "Resource availability",
+          "BUDGET_AVAILABILITY": "Budget availability",
+          "TIMELINE_CONFLICT": "Timeline conflict",
+          "TECHNOLOGY_CONSTRAINT": "Technology constraint",
+          "VENDOR_AVAILABILITY": "Vendor availability",
+          "OTHER": "Others"
+        },
+        "ERROR": "Required field",
+        "COMMENTS": "Comment(s)",
+        "DECLINATION_DETAILS": "Add any other detail regarding why the request is being declined"
+      },
+      "APPROVE_REQUEST": {
+        "CALL_TO_ACTION": "You are about to approve this request. Consider leaving a comment for the requester.",
+        "APPROVE_REQUEST": "Approve Request",
+        "COMMENTS": "Comment(s)",
+        "DETAILS": "Add any other detail regarding the request",
+        "ERROR": "Required field"
+      },
+      "IN_REVIEW": {
+      },
+      "CANCEL_CREATE_NEW_REQUEST": {
+        "TITLE": "Cancel New Request",
+        "CALL_TO_ACTION": "You are about to abort the request submission. This action is irriversible. You will lose the data you have entered.",
+        "SUBMIT_BUTTON": "Yes, Cancel"
+      },
+      "LEAVING_CREAT_NEW_REQUEST": {
+        "TITLE": "Exit",
+        "CALL_TO_ACTION": "Seems like there are unsaved changes on this page. Leaving this page will discard your request and all unsaved changes will be lost.",
+        "CALL_TO_ACTION_FOR_EDITING": "Seems like there are unsaved changes on this page. Leaving this page will discard all unsaved changes.",
+        "SUBMIT_BUTTON": "Proceed"
+      }
+    },
+    "NOTIFICATIONS": {
+      "DELETE_REQUEST": "Request “{requestNo}” has been successfully deleted.",
+      "CANCELLATION_SUCCESS": "Cancellation for Request “{requestNo}“ is successfully submitted."
+    }
+  },
+  "OPERATORS": {
+    "CONTAINS": "Contains",
+    "DOESNT_CONTAIN": "Doesn't contain",
+    "EQUAL": "Equal to",
+    "NOT_EQUAL": "Not equal to",
+    "GREATER": "Greater than",
+    "GREATER_OR_EQUAL": "Greater than or Equal to",
+    "LESS": "Less than",
+    "LESS_OR_EQUAL": "Less than or Equal to",
+    "BETWEEN": "Between",
+    "NULL": "Equals no project",
+    "NOT_NULL": "Equals at least 1 project",
+    "OVERLAPS": "Overlaps"
+  },
+  "FILTER_GENERAL": {
+    "VALUE": "Value",
+    "INPUT_VALUE": "Input Value",
+    "SELECT_DATE": "Select date",
+    "FROM": "From",
+    "TO": "To",
+    "NULL": "no project",
+    "NOT_NULL": "at least 1 project",
+    "PLACEHOLDER": "Select an option",
+    "TEXT_VALUE_PLACEHOLDER": "Enter a value",
+    "FIELDS_FILTERS": "Custom Filters"
+  },
+  "CUSTOM_FIELDS_FILTERS": {
+    "FIELD_PLACEHOLDER": "Select a filter field",
+    "OPERATOR_LABEL": "Operator",
+    "OPERATOR_PLACEHOLDER": "Select an operator: greater than, equal to, etc",
+    "VALUE_LABEL": "Value(s)",
+    "VALUE_PLACEHOLDER": "Select a value",
+    "INPUT_VALUE_PLACEHOLDER": "Enter a value",
+    "DATE_PLACEHOLDER": "Select a date",
+    "DATE_FROM_PLACEHOLDER": "From date",
+    "DATE_TO_PLACEHOLDER": "To date",
+    "OVERLAPS_TOOLTIP": "Use of overlap operator will help you find and display records that fall within your selected date range. "
+  },
+  "DESIGN_COMPONENTS": {
+    "FLYOUT_MENU_NAME": "Add"
+  },
+  "PAGINATION": {
+    "RESULTS": "Showing {range} of {total} results",
+    "SHOW": "Rows per page",
+    "JUMP_TO_PAGE": "Jump to Page"
+  },
+  "COMMENT": {
+    "HIDDEN_COMMENTS": "comments hidden",
+    "HIDDEN_COMMENT": "comment hidden",
+    "HIDE_COMMENTS": "Hide comments",
+    "EDIT": "Edit",
+    "UPDATE_BUTTON": "Update",
+    "CANCEL_BUTTON": "Cancel",
+    "EDITED": "Edited",
+    "DELETE": "Delete",
+    "POST": "Post",
+    "WRITE_COMMENT": "Write your comment",
+    "REPLY": "Reply",
+    "DELETE_COMMENT": {
+      "TITLE": "Delete Comment",
+      "BODY": "Are you sure you want to delete this comment?",
+      "DELETE_BUTTON": "Yes, Delete"
+    },
+    "COMMENT_CREATED": "Comment created",
+    "COMMENT_UPDATED": "Comment updated",
+    "COMMENT_DELETED": "Comment deleted",
+    "COMMENT_ERROR": "Comment could not be saved. Please try again."
+  },
+  "PROJECTS_LIST_PAGE": {
+    "EXPORT_PROJECTS": "Export Projects",
+    "EXPORT_TOOLTIP": "Using the checkbox, select the projects you wish to export first.",
+    "TITLE": "Projects",
+    "ADD_PROJECT_BUTTON": "Add Project",
+    "TEAM_PROJECTS": "Team Projects",
+    "MY_PROJECTS": "My Projects",
+    "PAST_START_DATE": "The start date has already passed. Should this project be <b>In Progress</b>?",
+    "CREATE_PROJECT_MODAL": {
+      "TITLE": "Create Project",
+      "BODY": "Select a template for your project and fill in the details to create project",
+      "TEMPLATE_FIELD_LABEL": "Project Template"
+    },
+    "TABLE": {
+      "HEAD": {
+        "PROJECT_NUMBER": "Project Number",
+        "PROJECT_NAME": "Project Name",
+        "BUSINESS_UNIT": "Business Unit",
+        "PROJECT_CATEGORY": "Project Category",
+        "PRIORITY": "Priority",
+        "PROJECT_OWNER": "Project Owner",
+        "START_DATE": "Start Date",
+        "TARGET_COMPLETION_DATE": "Target Completion Date",
+        "ACTUAL_COMPLETION_DATE": "Actual Completion Date",
+        "PROCESS_STAGE": "Process",
+        "PROJECT_STAGE": "Stage",
+        "RESOURCING_TYPE": "Resourcing Type",
+        "STATUS": "Status",
+        "HEALTH": "Health",
+        "BUGGET_SOURCE": "Budget Source",
+        "PARTICIPANT_TYPE": "Participant Type",
+        "TEAMS": "Teams"
+      },
+      "SORT": {
+        "ASC": "Sort in ascending order",
+        "DESC": "Sort in descending order"
+      },
+      "EMPTY": "Create and manage projects!",
+      "GET_STARTED": "Get started",
+      "DUPLICATE": "Duplicate"
+    },
+    "BOARD": {
+      "TEAM_BOARD": "Team Board",
+      "MY_BOARD": "My Board",
+      "SEARCH": "Search..",
+      "VIEW_BY": "View by",
+      "SORT_BY": "Sort by",
+      "FILTER": "Filter",
+      "NO_RESULTS_FOUND": "No results found. Try another keyword.",
+      "FILTER_FIELD": "Field",
+      "FILTER_FIELD_PLACEHOLDER": "Select Field",
+      "NEW_AND_IN_QUEUE_PROJECTS_STAGE": "New & In Queue Projects",
+      "SORTING": {
+        "NEWEST": "Newest",
+        "OLDEST": "Oldest",
+        "TITLE_DESC": "Z-A",
+        "TITLE_ASC": "A-Z"
+      }
+    }
+  },
+  "TASKS_LIST_PAGE": {
+    "EXPORT_TASKS": "Export Tasks",
+    "EXPORT_TASKS_TOOLTIP": "Using the checkbox, select the tasks you wish to export first.",
+    "TEAM_TASKS": "Team Tasks",
+    "MY_TASKS": "My Tasks",
+    "TITLE": "Tasks",
+    "TABLE": {
+      "HEAD": {
+        "TASK_NAME": "Name",
+        "STATUS": "Status",
+        "PROJECT": "Project",
+        "START_DATE": "Start Date",
+        "DUE_DATE": "Due Date",
+        "ESTIMATED_HOURS": "Est. Hours",
+        "ACTUAL_HOURS": "Actual Hours",
+        "ASSIGNEE": "Assignee(s)"
+      },
+      "EMPTY": "Get started adding tasks."
+    },
+    "BACK_LINK": "Task List"
+  },
+  "IMPORT_REQUEST_MODAL": {
+    "TITLE": "Select a Request Form",
+    "DESCRIPTION": "Select a request form for your requests and fill in the details to import requests.",
+    "LABEL": "Request Form"
+  },
+  "IMPORT_PROJECT_MODAL": {
+    "TITLE": "Select a Project Template",
+    "DESCRIPTION": "Select a template for your projects and fill in the details to import projects"
+  },
+  "DUPLICATE_PROJECT_MODAL": {
+    "TITLE": "Duplicate project",
+    "DESCRIPTION": "Project details"
+  },
+  "IMPORT_PROJECTS": {
+    "IMPORT": "Import Projects",
+    "IMPORT_SUCCESS": "Your Projects were imported successfully!",
+    "IMPORT_FROM_FILE": "Import projects by uploading a file",
+    "COLUMN_LABELS": {
+      "TITLE": "Project Title",
+      "DESCRIPTION": "Description",
+      "OWNERS": "Project Owner",
+      "STATUS": "Status",
+      "BUSINESS_UNIT": "Business Unit",
+      "CATEGORY": "Project Category",
+      "START_DATE": "Start Date",
+      "TARGET_COMPLETION_DATE": "Target Completion Date",
+      "TARGET_LAUNCH_DATE": "Target Launch Date",
+      "PRIORITY": "Priority",
+      "PRIVACY": "Privacy",
+      "LEARNING_TEAMS": "Learning Teams",
+      "PROCESS": "Process",
+      "STAGE": "Stage",
+      "HEALTH": "Health"
+    }
+  },
+  "NEW_PROJECT_PAGE": {
+    "TITLE": "Add Project",
+    "ALL_PROJECTS_LINK": "Projects",
+    "NEXT_BUTTON": "Next",
+    "CANCEL_BUTTON": "Cancel",
+    "BASIC_DETAILS": "Basic Details",
+    "RESOURCES_DETAILS": "Resources Details",
+    "BUDGET_DETAILS": "Budget Details",
+    "SAVE_BUTTON": "Save",
+    "BACK_BUTTON": "Back",
+    "DISABLED_PROCESS": "(disabled)",
+    "SAVE_ERROR": "This project is missing information and has not been created.",
+    "MISSING_INFO_ERROR": "Missing Information",
+    "CANCEL_PROJECT_CREATION_SUCCESS": "The creation of the project “{projectName}” was successfully cancelled.",
+    "CANCEL_PROJECT_CREATION_MODAL": {
+      "TITLE": "Cancel Project Creation",
+      "BODY": "The requested action will permanently delete the information filled in. Are you sure you want to cancel the creation of “{projectName}” ?",
+      "SUBMIT": "Yes, Cancel Creation",
+      "CANCEL": "Continue Creating"
+    },
+    "VIEW_PROJECT_MODAL": {
+      "TITLE": "View project",
+      "BASIC_DETAILS": "Basic Details",
+      "REQUEST_DETAILS": "Request Details",
+      "ADDITIONAL_DETAILS": "Additional Details",
+      "LD_ONLY": "L&D Only"
+    },
+    "TASK_BUNDLE": {
+      "TITLE": "Task Bundle",
+      "PLACEHOLDER": "Select Task bundle for project",
+      "ESTIMATED_HOURS_PLACEHOLDER": "Est. hours not set"
+    }
+  },
+  "INSIGHTS_PAGE": {
+    "TITLE": "Insights",
+    "PROJECTS": {
+      "TOTAL_PROJECTS": "Total Projects",
+      "NEW_PROJECTS": "New Projects",
+      "CANCELLED_PROJECTS": "Cancelled Projects",
+      "COMPLETED_PROJECTS": "Completed Projects",
+      "COMPLETED_WITHIN_TIMELINE": "Completed within targeted timeline"
+    },
+    "CAPACITY": {
+      "START_DATE": "Start Date",
+      "END_DATE": "End Date",
+      "TIME_FRAME": "Time Frame",
+      "BUSINESS_UNITS": "Business Unit(s)",
+      "BUSINESS_UNIT_PLACEHOLDER": "Select Business Unit(s)"
+    },
+    "ERROR_MESSAGE": "Something went wrong. Try reloading the page."
+  },
+  "INSIGHTS_PAGE_TABS": {
+    "NO_REQUESTS": "No Requests found within the selected timeframe",
+    "INTAKE": "Intake",
+    "NUMBER_OF_REQUESTS": "Number of Requests",
+    "RECEIVED_REQUESTS": {
+      "TITLE": "Received Requests"
+    },
+    "PROJECTS": "Projects",
+    "CAPACITY": "Capacity",
+    "RESPONSE_RATIO": {
+      "TITLE": "Response ratio",
+      "AVERAGE_DAYS": "Average response within {responseTime} days"
+    },
+    "IN_REVIEW_REQUESTS": {
+      "TITLE": "In Review Requests",
+      "REQUESTS_WAITING": "requests waiting for cancellation",
+      "DAYS_IN_REVIEW": "Days in review",
+      "LESS_THAN_THREE_DAYS": "1 - 3 days",
+      "FOUR_TO_EIGHT_DAYS": "4 - 8 days",
+      "NINE_TO_FOURTEEN_DAYS": "9 - 14 days",
+      "MORE_THAN_FIFTEEN_DAYS": "+15 days"
+    },
+    "APPROVED_REQUESTS": {
+      "TITLE": "Total Approved Requests",
+      "APPROVAL_RATIO": "{ratio}% approval ratio",
+      "NUMBER_OF_REQUESTS": "# Req.",
+      "CHART_LABEL": "Leading Business Units in Receiving Approvals"
+    },
+    "DECLINED_REQUESTS": {
+      "TITLE": "Declined Requests",
+      "DECLINE_RATIO": "% decline ratio"
+    },
+    "REQUESTS_BY": {
+      "TITLE": "Requests by"
+    },
+    "INSIGHTS_INTAKE_REQUESTS_BY_CHART": {
+      "STATUS": "Status",
+      "BUSINESS_UNIT": "Business Unit",
+      "TYPE": "Type",
+      "FORM": "Form"
+    },
+    "FILTER": {
+      "TITLE": "Filters",
+      "DATE_LABEL": "Date",
+      "DATE": {
+        "LAST_1_MONTH": "Last 1 month",
+        "LAST_2_MONTHS": "Last 2 months",
+        "LAST_3_MONTHS": "Last 3 months",
+        "LAST_4_MONTHS": "Last 4 months",
+        "LAST_5_MONTHS": "Last 5 months",
+        "LAST_6_MONTHS": "Last 6 months",
+        "ALL": "All"
+      },
+      "OWNER": "Owner",
+      "BUSINESS_UNIT_LABEL": "Business Unit",
+      "REQUEST_TYPE_LABEL": "Request Type",
+      "FORM_LABEL": "Form",
+      "PRIORITY": "Priority",
+      "PROCESS_NAME": "Process Name",
+      "RESET": "Reset",
+      "APPLY": "Apply"
+    },
+    "CAPACITY_FILTER": {
+      "TITLE": "Filters",
+      "DATE_LABEL": "Date",
+      "DATE": {
+        "LAST_WEEK": "Last week",
+        "LAST_MONTH": "Last month",
+        "LAST_3_MONTHS": "Last 3 months",
+        "LAST_6_MONTHS": "Last 6 months",
+        "LAST_12_MONTHS": "Last 12 months",
+        "CUSTOM": "Custom"
+      },
+      "OWNER": "Owner",
+      "BUSINESS_UNIT_LABEL": "Business Unit",
+      "REQUEST_TYPE_LABEL": "Request Type",
+      "FORM_LABEL": "Form",
+      "PRIORITY": "Priority",
+      "PROCESS_NAME": "Process Name",
+      "RESET": "Reset",
+      "APPLY": "Apply"
+    }
+  },
+  "PROJECTS_INSIGHTS_TABS": {
+    "NO_PROJECTS": "No Projects found within the selected timeframe",
+    "NO_TASKS": "No Tasks found within the selected timeframe",
+    "BY_PRIORITY": {
+      "TITLE": "By Priority",
+      "HIGH_PRIORITY": "High Priority",
+      "MEDIUM_PRIORITY": "Medium Priority",
+      "LOW_PRIORITY": "Low Priority"
+    },
+    "BY_HEALTH_PROJECTS": {
+      "TITLE": "By Health",
+      "LABEL": "Projects In Progress",
+      "ON_TRACK": "On Track",
+      "OFF_TRACK": "Off Track",
+      "AT_RISK": "At Risk"
+    },
+    "BY_STATUS": {
+      "TITLE": "Projects By Status"
+    },
+    "BY_PROCESS": {
+      "TITLE": "By Process",
+      "TOTAL": "Total in *"
+    }
+  },
+  "CAPACITY_INSIGHTS": {
+    "DEMAND_CAPACITY_AVAILABILITY": {
+      "TITLE": "Resource Workload Overview",
+      "CAPTION": "Demand vs Allocation vs Capacity",
+      "TOOLTIP_TRIGGER_DESC": "Description for demand capacity availability chart",
+      "TOOLTIP": "The 'Demand Vs Capacity Vs Availability' chart helps you achieve a balanced and productive workforce. Visualize workloads, team capacity, and availability over time to optimize resource allocation, Identify bottlenecks and make data-driven decisions.",
+      "NO_DATA": "Opps! It looks like there is no data to display on the charts at the moment.Please check your data sources or filters applied.",
+      "AVAILABILITY": "Availability",
+      "CAPACITY": "Capacity",
+      "DEMAND": "Demand"
+    },
+    "NUMBER_OF_RESOURCES": "Number of<br/>Resources",
+    "DEMAND_HOURS": "Total<br/>Demand Hours",
+    "ACTUAL_HOURS": "Total<br/>Actual Hours",
+    "CAPACITY_HOURS": "Total<br/>Capacity Hours",
+    "AVAILABLE_HOURS": "Total<br/>Available Hours",
+    "ALLOCATED_HOURS": "Total<br/>Allocated Hours",
+    "UTILIZATION_BY_TEAM": {
+      "TITLE": "Utilization By Team",
+      "HOURS": "Hours",
+      "CAPTION": "Allocation vs Capacity / Team",
+      "OVERALL_UTLIZATION": "Overall Utilization",
+      "SORT_ASC_TOOLTIP": "Sort by Least to Most Utilized",
+      "SORT_DESC_TOOLTIP": "Sort by Most to Least Utilized",
+      "ALLOCATION": "Allocation",
+      "CAPACITY": "Capacity",
+      "CHART_LEGEND": "Chart Legend"
+    },
+    "BUSINESS_UNITS_DEMAND": {
+      "TITLE": "Allocation vs Demand by Business Unit",
+      "HOURS": "Hours",
+      "CAPTION": "Allocation vs Demand for each Business Unit",
+      "OVERALL_ALLOCATION": "Overall Allocation Rate",
+      "ALLOCATION": "Allocation",
+      "DEMAND": "Demand",
+      "ALLOCATION_RATE": "Allocation Rate",
+      "CHART_LEGEND": "Chart Legend"
+    },
+    "DEMAND_BY_PROJECT_CATEGORIES": {
+      "TITLE": "Demand by Top 10 Project Categories",
+      "CAPTION": "Total Estimated Hours for each Project Category",
+      "HOURS": "Hours"
+    },
+    "ALLOCATION_BY_RESOURCE_TYPE": {
+      "TITLE": "Allocation by Resource Types",
+      "CAPTION": "Allocation Hours for each Resource Type",
+      "BUSINESS": "Business Users",
+      "EXTERNAL": "External Users",
+      "LD": "Learning Members",
+      "ALLOCATION": "Allocation"
+    },
+    "ESTIMATION_BY_TASK_TYPE": {
+      "TITLE": "Estimated vs Actuals By Task Type",
+      "CAPTION": "Estimated vs Actuals for each Task Type",
+      "HOURS": "Hours",
+      "TOOLTIP": "This chart presents the median value for estimated and actual hours of the selected task type. Estimations are calculated from all open tasks within the chosen timeframe. The median reflects the central tendency in the data set, indicating the middle point when ordered from least to greatest.",
+      "CHART_LEGEND": "Chart Legend"
+    },
+    "RESOURCE_UTILIZATION": {
+      "TITLE": "Utilization By Resources",
+      "CAPTION": "Most and Least Utilized Resources",
+      "MOST_UTILIZED": "Most Utilized",
+      "LEAST_UTILIZED": "Least Utilized"
+    }
+  },
+  "UPDATE_PROJECT_PAGE": {
+    "NOT_UPDATED": "This project is missing information and has not been updated.",
+    "UPDATED": "This project was successfully updated!",
+    "UPDATE_FAILED": "This project could not be updated. Please try again.",
+    "ALL_PROJECTS": "All Projects",
+    "UPDATE": "Update Project"
+  },
+  "UPDATE_PROJECT_PAGE_TABS": {
+    "OVERVIEW": "Overview",
+    "TASKS": "Tasks",
+    "PEOPLE": "Resources",
+    "BUDGET": "Budget",
+    "CONTENT": "Content"
+  },
+  "PROJECT_DETAIL": {
+    "ASSIGN_TO_ME": "Assign to me",
+    "USER_CANNOT_ASSIGN_ITSELF_AS_OWNER": "Projects can have only two owners.<br>{num, plural, =0 {Contact one of the project owner to be owner.} =1 {Remove one owner to assign yourself.}}",
+    "COMMENTS": "Comments",
+    "NO_COMMENTS": "No comments yet",
+    "ADD_COMMENT": "Add a comment",
+    "SUBMIT_COMMENT": "Send",
+    "PROJECT_NUMBER": "ID",
+    "PROJECT_NAME": "Project Name",
+    "PROJECT_NAME_PLACEHOLDER": "Add a project name",
+    "START_DATE": "Start Date",
+    "END_DATE": "Target Completion Date",
+    "TIMELINE_WARNING": "The change in the date may impact resource allocation",
+    "PRIVACY": "Privacy",
+    "PRIVACY_PLACEHOLDER": "Select who can see the project",
+    "PRIVACY_TEAM_MESSAGE": "The project access is limited the teams you select",
+    "PRIVACY_PRIVATE_MESSAGE": "The project access is limited to your account",
+    "TEAM": "Team",
+    "TEAM_PLACEHOLDER": "Select which teams will access the project",
+    "VENDOR": "Vendor",
+    "VENDOR_PLACEHOLDER": "Select the vendor this project will require",
+    "HEALTH": "Health",
+    "HEALTH_PLACEHOLDER": "Select the health for this project",
+    "TEMPLATES": "Project Template",
+    "TEMPLATES_PLACEHOLDER": "Select template",
+    "ADDITIONAL_INFO": "Additional Information",
+    "PRIVACY_OPTIONS": {
+      "PRIVATE": "Private",
+      "TEAM": "Team",
+      "PUBLIC": "Public"
+    },
+    "HEALTH_OPTIONS": {
+      "OFF_TRACK": "Off Track",
+      "ON_TRACK": "On Track",
+      "AT_RISK": "At Risk"
+    },
+    "PROJECT_PROCESS_SECTION": "Project process",
+    "SHARING": "Sharing",
+    "PROCESS": "Process Used",
+    "PROCESS_PLACEHOLDER": "Select the process used for this project",
+    "OWNERS": "Project Owners",
+    "CATEGORY": "Project Category",
+    "CATEGORY_PLACEHOLDER": "Select the type of project this is",
+    "PRIORITY": "Priority",
+    "PRIORITY_PLACEHOLDER": "Select the priority level for the project",
+    "PRIORITY_OPTIONS": {
+      "HIGH": "High",
+      "MEDIUM": "Medium",
+      "LOW": "Low",
+      "NONE": "Unassigned"
+    },
+    "BUSINESS_UNIT": "Business Unit",
+    "BUSINESS_UNIT_PLACEHOLDER": "Select the business unit this project is for",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_PLACEHOLDER": "Add a description for the project",
+    "TARGET_LAUNCH_DATE": "Target Launch Date",
+    "TARGET_LAUNCH_DATE_PLACEHOLDER": "Specify a date for the project's release",
+    "TARGET_LAUNCH_DATE_WARNING": "Target launch date cannot be before project start date.",
+    "STATUS": "Status",
+    "STATUS_PLACEHOLDER": "Select the status for your project",
+    "PROGRAMS": "Program(s)",
+    "PROGRAMS_PLACEHOLDER": "Select the program(s) this project is part of",
+    "NO_PROGRAMS_AVAILABLE": "No programs available",
+    "COMPLETION_DISABLED": " Please complete all tasks before completing this project.",
+    "ACTUAL_COMPLETION_DATE": "Actual Completion Date",
+    "STATUS_OPTIONS": {
+      "NEW": "New",
+      "IN_PLANNING": "In Queue",
+      "IN_PROGRESS": "In Progress",
+      "COMPLETED": "Completed",
+      "CLOSED": "Closed",
+      "CANCELED": "Canceled",
+      "ON_HOLD": "On Hold"
+    },
+    "STAGE": "Stage",
+    "STAGE_PLACEHOLDER": "Select the stage the project is in",
+    "BASIC_INFORMATION_TITLE": "Basic Information",
+    "FILL_IN_INFORMATION_TITLE": "Select a template for your project and fill in the details to create project",
+    "BASIC_INFORMATION_SUBTITLE": "Fill in the basic project details",
+    "RESOURCE_INFORMATION_TITLE": "Resource Information",
+    "RESOURCE_INFORMATION_SUBTITLE": "Fill in the project resource details ",
+    "PROJECT_OWNERS": "Project Owners",
+    "ASSIGN_OWNERS": "Assign an owner",
+    "RESOURCING_TYPE": "Resourcing Type",
+    "RESOURCING_TYPE_OPTIONS": {
+      "INTERNAL": "Internal",
+      "VENDOR": "Vendor",
+      "MIXED": "Mixed"
+    },
+    "RESOURCING_TYPE_PLACEHOLDER": "Select the kind of resources this project will use",
+    "ESTIMATED_EFFORT": "Estimated Effort",
+    "ESTIMATED_EFFORT_PLACEHOLDER": "Specify the estimated hours or days required to complete a project",
+    "BUDGET_INFORMATION_TITLE": "Budget Information",
+    "BUDGET_INFORMATION_SUBTITLE": "Fill in the project budget details",
+    "BUDGET_SOURCE": "Budget Source",
+    "BUDGET_SOURCE_PLACEHOLDER": "Select a source of funding for the project",
+    "BUDGET_SOURCE_OPTIONS": {
+      "LD": "L&D budget",
+      "BUSINESS": "Business budget",
+      "SPECIAL": "Special funding",
+      "MIXED": "Mixed",
+      "OTHERS": "Others"
+    },
+    "ESTIMATED_COST": "Estimated Cost",
+    "ALLOCATED_BUDGET": "Allocated Budget",
+    "USER_ROLE": {
+      "OWNER": "Project Owner",
+      "MEMBER": "Project Member",
+      "COLLABORATOR": "Project Collaborator"
+    },
+    "LINKED_REQUESTS_SECTION": {
+      "TITLE": "Linked Requests",
+      "REQUEST_NUMBER": "Request Number",
+      "REQUEST_OWNER": "Request Owner",
+      "REQUESTER_NAME": "Requester Name",
+      "REQUEST_TITLE": "Request Title",
+      "BUSINESS_UNIT": "Business Unit",
+      "SUBMISSION_DATE": "Submission Date",
+      "STATUS": "Status",
+      "NO_REQUEST_LINKED": "No request linked",
+      "LINK_REQUEST": "Link a Request",
+      "VIEW": "View",
+      "PLACEHOLDER": "Type in to search for a Request"
+    },
+    "PUT_PROJECT_ON_HOLD_MODAL": {
+      "TITLE": "Put Project On-Hold",
+      "QUESTION": "Do you wish to put this project on hold?",
+      "RESPONSE": "If so, please select the reason and the action items afterwards.",
+      "REASONS_PICKER_LABEL": "Reason for putting this Project on hold",
+      "REASONS_PICKER_PLACEHOLDER": "Select a reason",
+      "REASON_PICKER_OPTIONS": {
+        "BUSINESS_PRIORITY_CHANGE": "Business priority change",
+        "PROJECT_SCOPE_CHANGE": "Project scope change",
+        "SME": "SME not available",
+        "LACK_OF_BUSINESS_RESOURCE": "Lack of business resource",
+        "LD_PRIORITY_CHANGE": "L&D priority change",
+        "LACK_OF_LD_RESOURCE": "Lack of L&D resource",
+        "TIMELINE_CONFLICT": "Timeline conflict",
+        "PROCUREMENT_ISSUE": "Procurement issue",
+        "TECHNICAL_ISSUE": "Technical issue",
+        "VENDOR_ISSUE": "Vendor issue",
+        "OTHER": "Other"
+      },
+      "SPECIFY_REASON_PLACEHOLDER": "Specify the reason for putting this Project on hold",
+      "PLEASE_SPECIFY": "Please specify",
+      "CONFIRM": "Yes, Hold Project",
+      "CANCEL": "Cancel",
+      "PROJECT_ON_HOLD_BANNER": "This project has been put on hold.",
+      "VIEW_DETAILS": "View Details"
+    },
+    "DELETE_PROJECT": {
+      "TITLE": "Delete Project",
+      "BODY": "By doing so, the resources and budget will automatically be released and the project will be <b>permanently removed</b> from the system.",
+      "QUESTION": "Are you sure you want to delete this project?",
+      "SUBMIT": "Yes, Delete Project",
+      "CANCEL": "Cancel",
+      "SUCCESS_MESSAGE": "The project “{projectName}” was successfully deleted"
+    },
+    "CLOSE_PROJECT": {
+      "TITLE": "Close Project",
+      "BODY": "Are you sure you want to close this project? Once closed you will not be able to edit the project and the <b>action cannot be reversed.</b>",
+      "CONFIRMATION": "If so, please add a final comment before closing the Project.",
+      "TOTAL_HOURS": "Total Hours",
+      "HOURS": "Hours",
+      "CURRENCY": "USD",
+      "TOTAL_COST": "Total Cost",
+      "FINAL_COMMENTS_LABEL": "Final comment(s)",
+      "FINAL_COMMENTS_PLACEHOLDER": "Add any other detail regarding the project",
+      "CLOSING_DATE": "Closing Date",
+      "SUBMIT": "Yes, Close Project",
+      "ARCHIVE": "Yes, Close & Archive",
+      "CANCEL": "Cancel",
+      "CLOSED_PROJECT_BANNER": "This project has been Closed.",
+      "VIEW_DETAILS_BUTTON": "View Details",
+      "SUCCESS_MESSAGE": "Success! Project ‘{projectName}’ {archive, plural, =0 {closed} =1 {closed and archived}}."
+    },
+    "CANCEL_PROJECT": {
+      "TITLE": "Cancel Project",
+      "CANCELLED_PROJECT_TITLE": "Canceled Project",
+      "CANCELLATION_DATE": "Cancellation Date",
+      "BODY": "Once you confirm, <b>you will not be able to resume the project</b>, and its resources and budget will be released from the project. You can also choose to archive the canceled project.",
+      "SELECT_REASON": "Please select the reason for canceling the Project.",
+      "SELECT_REASON_PLACEHOLDER": "Select a reason",
+      "CANCELLATION_REASON": "Cancellation Reason",
+      "SPECIFY": "Please Specify",
+      "SPECIFY_PLACEHOLDER": "Mention the reason for cancelling this Project",
+      "SUBMIT": "Yes, Cancel Project",
+      "ARCHIVE": "Yes, Cancel and Archive",
+      "CANCEL": "Cancel",
+      "SUCCESS_MESSAGE": "Success! Project ‘{projectName}’ {archive, plural, =0 {canceled} =1 {canceled and archived}}.",
+      "REASONS": {
+        "BUSINESS_ASK": "Business ask",
+        "PRIORITY_CHANGE": "L&D priority change",
+        "LACK_OF_RESOURCE": "Resource issue",
+        "TIMELINE_CONFLICT": "Timeline change",
+        "BUDGET_ISSUE": "Budget issue",
+        "PROCUREMENT_ISSUE": "Procurement issue",
+        "TECHNICAL_ISSUE": "Technology issue",
+        "VENDOR_ISSUE": "Vendor issue",
+        "OTHER": "Other"
+      },
+      "BANNER_TITLE": "Canceled Project",
+      "REASON": "Reason: {reason}"
+    },
+    "REACTIVATE_PROJECT": {
+      "TITLE": "Reactivate Project",
+      "BODY": "To reactivate project {projectTitle}, please select a new status for this project.",
+      "SUBMIT": "Yes, Reactivate Project",
+      "REACTIVATE_BUTTON": "Reactivate",
+      "CANCEL": "Cancel",
+      "SUCCESS_MESSAGE": "Success! Project ‘{projectName}’ was successfully reactivated."
+    },
+    "FILES_TAB": {
+      "TITLE": "Content",
+      "ADD_CONTENT": "Add Content",
+      "NO_FILES": "Add and link files and designs to your project!",
+      "SELECT_CONTENT": "Select a Content Type:",
+      "FILE": "File",
+      "WEBLINK": "Weblink",
+      "DESIGN": "Design",
+      "UPLOAD_FILE": "Upload File",
+      "FILE_LIMIT": "from your device. Max file size: 1GB",
+      "FILE_1GB": "File size is larger than 1GB",
+      "TEXT_TO_DISPLAY": "Text to display",
+      "WEBLINK_PLACEHOLDER": "Add a name for your URL link",
+      "WEBLINK_URL_PLACEHOLDER": "Paste URL",
+      "LINK_TO_TASKS": "Link to Tasks",
+      "SELECTE_TASKS": "Select tasks to link the file to",
+      "SELECT_DESIGN": "Select a Cognota Design",
+      "DESIGN_OWNER_TAG": "Owner",
+      "UPLOAD_DESIGN_FILE": "Or, Upload a Design File",
+      "CONFIRMATION_MODAL": {
+        "BODY": "Are you sure you want to {action} this {content}?",
+        "HEADER": "This action cannot be undone.",
+        "CONFIRM": "Yes, {action} {content}"
+      },
+      "LINK_UNLINK_TO_TASK_MODAL": {
+        "TITLE": "Link/Unlink a task",
+        "LABEL": "Choose a task",
+        "TASKS_PICKER_PLACEHOLDER": "Select a task to link the file to",
+        "SUBMIT_SUCCESS_MESSAGE": "List of tasks linked was successfully updated!"
+      },
+      "REPLACE_CONTENT_MODAL": {
+        "TITLE": "Replace {name}",
+        "ARIA_LABEL": "Replace content file modal",
+        "UPLOAD_FILE": "Upload New File",
+        "REPLACE_FILE": "Replace file",
+        "SUBMIT_BUTTON": "Replace Content",
+        "SUCCESS_MESSAGE": "File was successfully replaced!",
+        "REPLACE_DESIGN_CONTENT": "Select a Cognota Design"
+      },
+      "TABLE": {
+        "COLUMNS": {
+          "FILE_THUMBNAIL": "Thumbnail",
+          "FILE_TYPE": "Content Type",
+          "FILE_NAME": "Name",
+          "UPLOADED_BY": "Added by",
+          "UPLOADED_DATE": "Added On",
+          "TASKS_LINKED": "Tasks Linked",
+          "FILE_SIZE": "File Size"
+        },
+        "UNLINK": "Unlink",
+        "NO_TASKS": "No task linked",
+        "LINKED_TASKS_NUMBER": "{number} {num, plural, =0 {task} =1 {tasks}} linked",
+        "LINKED_TASK": "Task: {name}",
+        "ACTIONS_MENU": {
+          "DELETE": "{action} content",
+          "REPLACE": "Replace content",
+          "LINK_UNLINK_TASK": "Link/Unlink a task"
+        },
+        "DOWNLOAD_TOOLTIP": "Click to open file",
+        "CONTENT_TYPE": {
+          "FILE": "File",
+          "WEB_LINK": "Weblink",
+          "DESIGN": "Design"
+        }
+      },
+      "ATTACH_FILE": "Attach a file",
+      "LINK_FILE": "Link a file",
+      "CANCEL": "Cancel",
+      "LINK": "Link",
+      "FILE_UPLOAD_SUCCESS": "File was successfully added.",
+      "FILE_LINK_SUCCESS": "Weblink was successfully added as content!",
+      "DESIGN_ADDED_SUCCESS": "Design was successfully added!",
+      "FILE_DELETE_SUCCESS": "File was successfully deleted!",
+      "WEBLINK_REMOVE_SUCCESS": "Weblink was successfully removed!",
+      "DESIGN_REMOVE_SUCCESS": "Design was successfully removed!",
+      "FILE_NAME_PLACEHOLDER": "Add file name *",
+      "FILE_URL_PLACEHOLDER": "Paste URL *",
+      "REQUIRED_INFORMATION": "Required information"
+    },
+    "ARCHIVED": "Archived",
+    "UNARCHIVED": "Unarchived",
+    "PROJECT_UPDATE_SUCCESS_SNACKBAR_MESSAGE": "Success! Project {action}",
+    "ARCHIVE": {
+      "PROJECT_ARCHIVED_ON": "This project was archived on {archivedDate}."
+    },
+    "INSIGHTS": {
+      "SUMMARY": "Summary",
+      "BY_TASKS": {
+        "BY_TASKS": "By Tasks",
+        "TASKS_COMPLETED": "Tasks Completed",
+        "OVERDUE_TASKS": "Overdue Tasks",
+        "ESTIMATED_VS_ACTUAL_HOURS": "Est | Actual Hours",
+        "AVERAGE_OVERDUE_AGE": "Avg Overdue Age",
+        "DAY": "day",
+        "DAYS": "days",
+        "HOURS": "h",
+        "TASKS": "Tasks",
+        "TASK": "Task",
+        "TOTAL_TASKS": "Total Tasks",
+        "BY_STATUS": "By Status"
+      },
+      "RESOURCES": {
+        "TITLE": "Resources",
+        "NUMBER_OF_RESOURCES": "Number of Resource(s)",
+        "NUMBER_OF_RESOURCES_TOOLTIP": "Total number of participants in the project, including Owners, LD users, Business users, and External users.",
+        "UNASSIGNED_HOURS": "Unassigned",
+        "UNASSIGNED_HOURS_TOOLTIP": "Total estimated unassigned hours for only active tasks until Project's Target Completion Date.",
+        "REMAINING_HOURS": "Remaining",
+        "REMAINING_HOURS_TOOLTIP": "Sum of remaining Est. hours for only active tasks until Project's Target Completion Date.",
+        "TOTAL_AVAILABILITY": "Total Availability",
+        "TOTAL_AVAILABILITY_TOOLTIP": "The sum of Available Hours for all project Resources during the remaining project duration.",
+        "AVERAGE_UTILIZATION": "Avg. Utilization",
+        "AVERAGE_UTILIZATION_TOOLTIP": "The average Allocation/Capacity ratio of all project Resources for the remaining project duration.",
+        "NOT_AVAILABLE": "NA",
+        "HOURS": "Hours"
+      }
+    }
+  },
+  "TASKS": {
+    "ADD_TASK_BUTTON_TITLE": "Add Task",
+    "COMPLETED_PROGRESS_BAR_LABEL": "Tasks completed",
+    "TEAM_TASKS": "Team Tasks",
+    "MY_TASKS": "My Tasks",
+    "IMPORT": "Import Tasks",
+    "IMPORT_SUCCESS": "Your Tasks were imported successfully!",
+    "TASK_TYPES": {
+      "PLANNING": "Planning",
+      "RESEARCH": "Research",
+      "ANALYSIS": "Analysis",
+      "INSTRUCTIONAL_DESIGN": "Instructional Design",
+      "CONTENT_CREATION": "Content Creation",
+      "CONTENT_UPDATE": "Content Update",
+      "GRAPHIC_DESIGN": "Graphic Design",
+      "MEDIA_PRODUCTION": "Media Production",
+      "ASSESSMENT_CREATION": "Assessment Creation",
+      "FILE_UPLOAD": "File Upload",
+      "DEVELOPMENT": "Development",
+      "IMPLEMENTATION": "Implementation",
+      "EVALUATION": "Evaluation",
+      "QA": "QA",
+      "ERROR_CORRECTION": "Error Correction",
+      "REVIEW": "Review",
+      "APPROVAL": "Approval",
+      "PUBLISH": "Publish",
+      "PROJECT_MANAGEMENT": "Project Management",
+      "PROGRAM_MANAGEMENT": "Program Management",
+      "SCHEDULING": "Scheduling/Registration",
+      "DELIVERY": "Delivery/Facilitation",
+      "LMS_DEPLOYMENT": "LMS Deployment",
+      "LMS_SUPPORT": "LMS Admin & Support",
+      "COMMUNICATION": "Communication",
+      "DESIGN": "Design",
+      "EXTERNAL_REVIEW": "External Review",
+      "INITIATING": "Initiating",
+      "EXECUTION": "Execution",
+      "MONITORING": "Monitoring",
+      "CLOSING": "Closing",
+      "OTHERS": "Others"
+    },
+    "ADD_TASK_MODAL": {
+      "TITLE": "Add Task",
+      "SUBTITLE": "Fill in the information to add this task to the project",
+      "TASK_TITLE": "Task title",
+      "TASK_TITLE_PLACEHOLDER": "Add a task name",
+      "TASK_TYPE": "Task Type",
+      "TASK_TYPE_PLACEHOLDER": "Select the task type",
+      "START_DATE": "Start Date",
+      "END_DATE": "Due Date",
+      "ESTIMATED_TIME": "Estimated Time",
+      "ESTIMATED_TIME_PLACEHOLDER": "Mention the estimated hours for the task",
+      "TASK_DESCRIPTION": "Task Description",
+      "TASK_DESCRIPTION_PLACEHOLDER": "Add a description for the task",
+      "TASK_ASSIGNEE": "Task Assignee",
+      "TASK_ASSIGNEE_PLACEHOLDER": "Assign a user",
+      "PROJECT_PLACEHOLDER": "Select a project"
+    },
+    "FROM_BUNDLE": "From Bundle",
+    "FROM_FILE": "From File",
+    "IMPORT_TASKS_MODAL": {
+      "TITLE": "Import Tasks",
+      "DESCRIPTION": "Choose the task bundle(s) to import tasks into your project.",
+      "LABEL": "Task Bundle",
+      "UPLOAD": "Import Tasks from file",
+      "UPLOAD_FROM_BUNDLE": "Import Tasks from Bundle",
+      "SUCCESS_MESSAGE": "Tasks imported successfully"
+    },
+    "NOTIFICATIONS": {
+      "TASK_CREATION_SUCCESS": "Task was successfully created and added to the queue!",
+      "TASK_DUPLICATION_SUCCESS": "Task was successfully duplicated!",
+      "TASK_DELETION_SUCCESS": "Task was deleted.",
+      "CENTRALIZED": {
+        "MESSAGE": "You created a new task.",
+        "CALLBACK": "View your task"
+      }
+    },
+    "TABLE": {
+      "HEAD": {
+        "ENABLED": "Enabled",
+        "NAME": "Task Title",
+        "ASSIGNEE_UPDATE": "Task Assignee",
+        "TASK_TYPE": "Task Type",
+        "START_DATE": "Start Date",
+        "DUE_ACTUAL_DATE": "Due / Actual Date",
+        "DUE_DATE": "Due Date",
+        "ACTUAL_DATE": "Actual Date",
+        "STATUS": "Status",
+        "DISABLED": "Disabled",
+        "ESTIMATED_ACTUAL_HOURS": "Est. / Actual Hours",
+        "ESTIMATED_HOURS": "Estimated Hours",
+        "ACTUAL_HOURS": "Actual Hours"
+      },
+      "EMPTY": "Add tasks for this project",
+      "GET_STARTED": "Get started",
+      "DUPLICATE": "Duplicate",
+      "COPY_OF_PLACEHOLDER": "Copy of",
+      "NO_RECORDS": "No results found. Try another keyword.",
+      "INACTIVE": "Inactive",
+      "NO_ASSIGNEE": "No participant assigned",
+      "NO_DATE": "No data available to show",
+      "NO_TASK_TYPE": "No task type defined",
+      "EXPORT": "Export Tasks",
+      "EXPORT_TOOLTIP": "Using the checkbox, select the tasks you wish to export first.",
+      "NO_TYPE": "No task type defined",
+      "NO_DATA": "No data available to show"
+    },
+    "TASK_DETAIL_PAGE": {
+      "TASK_ON_HOLD_WARNING": "This task has been put on hold.",
+      "TASK_PAST_DUE_WARNING": "This task is past its due date.",
+      "TASK_DISABLED_WARNING": "Disabled tasks are not editable and any time spent on it will not be included in the final calculation.",
+      "SINGULAR_TITLE": "Tasks",
+      "TITLE": "Task Information",
+      "TASK_TITLE_LABEL": "Task Title",
+      "TASK_TITLE_PLACEHOLDER": "Add a task name",
+      "START_DATE_LABEL": "Start Date",
+      "DUE_DATE_LABEL": "Due Date",
+      "TASK_TYPE": "Task Type",
+      "ESTIMATED_TIME_LABEL": "Estimated Hours",
+      "ESTIMATED_TIME_PLACEHOLDER": "Mention the estimated hours for the task",
+      "TASK_DESCRIPTION_LABEL": "Task Description",
+      "TASK_DESCRIPTION_PLACEHOLDER": "Add a description for the task",
+      "TASK_ASSIGNEE": "Task Assignee",
+      "STATUS": "Status",
+      "STATUS_PLACEHOLDER": "Select the status for the task",
+      "ACTUAL_HOURS": "Total Actual Hours",
+      "ADD_ACTUAL_HOURS": "Add Actual hours",
+      "VIEW_ACTUAL_HOURS": "View Actual hours",
+      "ACTUAL_HOURS_LAST_UPDATE": "(Last Updated {date})",
+      "ACTUAL_HOURS_PLACEHOLDER": "Add actual time spent on the task",
+      "ACTUAL_COMPLETION_DATE": "Actual Completion Date",
+      "HOURS_LABEL": "hrs",
+      "ASSIGNEES_REQUIRED": "Assignee required for task completion",
+      "ACTUAL_HOURS_TOOLTIP": "To add actual hours move the task to In progress",
+      "CONTENT": {
+        "TITLE": "Content",
+        "SUBTITLE": "Add files and weblinks to your task. All items will be saved in the project’s Content section.",
+        "LINK_CONTENT": "Link Content",
+        "ADD_CONTENT": "Add Content",
+        "WEBLINK": "Web link",
+        "DESIGN": "Design",
+        "TOOLTIP_CONTENT": {
+          "ADDED_BY": "Added by",
+          "ON_DATE": "on {date}"
+        },
+        "FILES_ADDED_MESSAGE": "Files were successfully added!",
+        "LINK_CONTENT_MODAL_TITLE": "Link/Unlink existing content",
+        "LINK_CONTENT_MODAL_BODY": "Choose content items",
+        "LINK": "Link",
+        "CONTENT_LINKED_MESSAGE": "Content links have been updated",
+        "CONTENT_UNLINK_MESSAGE": "Content was succesfully unlinked!",
+        "NO_CONTENT": "No content added yet."
+      },
+      "TASK_UPDATE_ERROR": "This task is missing information and has not been updated",
+      "SAVE_UPDATES_BUTTON": "Update Task",
+      "CANCEL_UPDATES_BUTTON": "Cancel",
+      "MISSING_INFO_ERROR": "Missing information",
+      "ADDITIONAL_FLAGS": {
+        "DISABLED": "Disabled"
+      },
+      "ADDITIONAL_FLAGS_LABELS": {
+        "DISABLED": "Include Disabled"
+      },
+      "STATUS_OPTIONS": {
+        "NEW": "New",
+        "IN_PROGRESS": "In Progress",
+        "COMPLETED": "Completed",
+        "ON_HOLD": "On Hold"
+      },
+      "LINK_FILE_TO_TASK": "Link",
+      "CANCEL_LINK_FILE_TO_TASK": "Cancel",
+      "ENABLE_TASK": "Enable Task",
+      "UPDATE_SUCCESSFUL": "Task successfully updated",
+      "MORE_ACTIONS_DROPDOWN": {
+        "DELETE": "Delete Task"
+      },
+      "DELETE_TASK_MODAL": {
+        "TITLE": "Delete Task",
+        "BODY": "By doing so, all the information will be permanently removed from the system.",
+        "QUESTION": " Are you sure you want to delete this task?",
+        "SUBMIT": "Yes, Delete Task",
+        "CANCEL": "Cancel"
+      },
+      "COMMENTS": {
+        "TITLE": "{num, plural, =0 {Comments} =1 {1 Comment} other {# Comments}}",
+        "NO_COMMENTS": "No comments yet",
+        "VIEW_COMMENTS": "View Comments",
+        "ADD_COMMENT": "Add a comment",
+        "NO_SUGGESTIONS": "We couldn’t find that person."
+      }
+    }
+  },
+  "BUDGET": {
+    "BUDGET_PLAN": "Budget Plan",
+    "BUDGET_DETAILS": "Budget Details",
+    "BUDGET_DETAILS_TABLE": {
+      "TITLE": "Budget Details",
+      "SUBTITLE": "Budget drilled down by category",
+      "EDIT": "Edit",
+      "SAVE": "Save",
+      "CANCEL": "Cancel",
+      "USD": "USD",
+      "DOLLAR_SIGN": "$",
+      "BUDGET_EXCEEDED": "The total exceeds the total allocated budget in the Budget Plan",
+      "HEAD": {
+        "CATEGORY": "Category",
+        "ALLOCATED_BUDGET": "Allocated Budget",
+        "COST_TO_DATE": "Actual cost to date",
+        "NOTES": "Notes"
+      }
+    },
+    "BUDGET_PLAN_DESCRIPTION": "Allocated budget based on the assigned resources",
+    "UPDATE_BUDGET_BUTTON": "Update Budget",
+    "UPDATE_SUCCESS": "Budget plan was successfully updated"
+  },
+  "PEOPLE": {
+    "TABS": {
+      "RESOURCE_PLAN": "Resource Plan",
+      "RESOURCE_ALLOCATION": "Resource Allocation",
+      "RESOURCE_SUMMARY": "Resource Summary"
+    },
+    "RESOURCE_PLAN": {
+      "UPDATE_RESOURCES_BUTTON": "Update Resources",
+      "UPDATE_SUCCESS": "Resource plan was successfully updated"
+    },
+    "RESOURCE_ALLOCATION": {
+      "PARTICIPANT_PROJECT_ROLE": {
+        "INSTRUCTIONAL_DESIGNER": "Instructional Designer",
+        "LEARNING_DEVELOPER": "Learning Developer",
+        "MEDIA_DEVELOPER": "Media Developer",
+        "CONTENT_WRITER": "Content Writer",
+        "PRODUCER": "Producer",
+        "QA": "QA",
+        "TRAINER": "Trainer/Facilitator",
+        "LEARNING_CONSULTANT": "Learning Consultant/Partner",
+        "REPORTING_ANALYST": "Reporting Analyst",
+        "TRAINING_COORDINATOR": "Training Coordinator",
+        "LMS_ADMIN": "LMS Admin/Support",
+        "PROJECT_MANAGER": "Project Manager",
+        "PROGRAM_MANAGER": "Program Manager",
+        "RESOURCE_MANAGER": "Resource Manager",
+        "COMMUNICATION_SPECIALIST": "Communication Specialist",
+        "EXECTIVE_SPOSNOR": "Executive Sponsor",
+        "SME": "SME",
+        "REVIEWER": "Reviewer",
+        "OTHERS": "Others",
+        "PROJECT_OWNER": "Project Owner"
+      },
+      "ADD_PARTICIPANT_MODAL": {
+        "TITLE": "Add Participant",
+        "UPDATE_ROLE": "Update Role",
+        "PROJECT_PARTICIPANT_FIELD_LABEL": "Project Participant",
+        "PROJECT_PARTICIPANT_FIELD_PLACEHOLDER": "Add a participant",
+        "DESCRIPTION": " Fill in the details to add resource to project",
+        "PARTICIPANT_TYPE_FIELD_LABEL": "Participant Type",
+        "PARTICIPANT_TYPE_FIELD_PLACEHOLDER": "Select a project role",
+        "PARTICIPANT_TYPE_FIELD_OPTIONS": {
+          "MEMBER": "Project Member",
+          "COLLABORATOR": "Project Collaborator"
+        },
+        "PARTICIPANT_ROLE_FIELD_LABEL": "Project Role",
+        "PARTICIPANT_ROLE_FIELD_PLACEHOLDER": "Select a job role to add resource",
+        "PARTICIPANT_START_DATE_FIELD_LABEL": "Start Date",
+        "PARTICIPANT_END_DATE_FIELD_LABEL": "End Date",
+        "PARTICIPANT_END_DATE_FIELD_PLACEHOLDER": "Completion Date",
+        "PARTICIPANT_USER_FIELD_LABEL": "User",
+        "PARTICIPANT_USER_FIELD_PLACEHOLDER": "Select a user",
+        "PARTICIPANT_TOTAL_AVAILABILITY": "Total Availability",
+        "PARTICIPANT_TOTAL_ALLOCATED_HOURS": "Total Allocated Hours",
+        "PARTICIPANT_ESTIMATED_HOURS_NEEDED": "Estimated hours needed",
+        "PARTICIPANT_ADDED_SUCCESS_MESSAGE": "New participant was succesfully added to the team!",
+        "AVAILABLE": "Available",
+        "HOURS_AVAILABLE": "{hours} h",
+        "TOTAL_ALLOCATION_PLACEHOLDER": "Allocation",
+        "ADD_USER": "Add a user",
+        "SELECT_ROLE": "Select a role",
+        "PARTICIPANT_ADDED_SUCCESS_SNACKBAR_MESSAGE": "Success! Participant added.",
+        "PARTICIPANT_UPDATED_SUCCESS_SNACKBAR_MESSAGE": "Success! Participant info updated."
+      },
+      "TABLE": {
+        "ALLOCATION": "Allocation",
+        "OVERALLOCATION": "Overallocation",
+        "TIME_OFF_HOLIDAYS": "Time Off / Holidays",
+        "OWNERS": "{num, plural, =0 {Owner} =1 {Owners}}",
+        "MEMBERS": "{num, plural, =0 {Member} =1 {Members}}",
+        "COLLABORATORS": "{num, plural, =0 {Collaborator} =1 {Collaborators}}",
+        "EMPTY_OWNERS": "No owner added yet.",
+        "EMPTY_MEMBERS": "No member added yet.",
+        "EMPTY_COLLABORATORS": "No collaborators added yet.",
+        "VIEW_TASKS": "View Tasks",
+        "HIDE_TASKS": "Hide Tasks",
+        "HEADERS": {
+          "PROJECT_TEAM": "Project Team",
+          "PROJECT_ROLE": "Project Role",
+          "ALLOCATION": "{isMember, plural, =0 {Est.} =1 {Total}} Allocation",
+          "TIME_LINE": "Timeline",
+          "PARTICIPANT_TYPE": "Participant Type",
+          "PARTICIPANT_TOTAL": "Participant Total",
+          "NAME": "Name",
+          "WEEKLY_TOTAL": "Weekly Total (collaborator not included)",
+          "ACTUAL_HOURS": "Actual Hours"
+        },
+        "TEAM_MANAGER_ASSIGNMENT": "A user cannot be a team manager and a team member of the same team.",
+        "ALLOCATION_TIME": "{allocation}h",
+        "ALLOCATION_AVAILABILITY": "({availability} avail)",
+        "ALLOCATION_HOURS": "{hours}hours",
+        "ASSIGNMENT_ESTIMATED_TIME": "Estimated hours: {estimated} h",
+        "ASSIGNMENT_ACTUAL_TIME": "Actual hours: {hours} h",
+        "COLLABORATOR_ESTIMATED_TIME": "Est. {hours}h total",
+        "ADJUST_ALLOCATION": "Adjust allocation",
+        "UPDATE_ASSIGNMENT": "Update { type } assignment",
+        "ASSIGNMENT_DETAILS": "Assignment details",
+        "ADD_ASSIGNMENT": "Add New Assignment",
+        "NEW_ASSIGNMENT": "New member assignment",
+        "ASSIGNMENT_UPDATED_SUCCESSFULLY": "Project {type} assignment was successfully updated!",
+        "REVIEW_ALLOCATION_WARNING": "You may need to review this user's allocation.",
+        "REMOVE_USER_WARNING_TOOLTIP": " By removing this role, the user will be removed from the project.",
+        "REMOVE_USER_WARNING": "By removing this role, the user will be removed from the project. Cancel this action if this is not desired.",
+        "REMOVE_PROJECT_OWNER_ROLE_WARNING": "To remove this assignment the user needs to be removed as Owner from the Overview page",
+        "NO_ASSIGNMENT": "No assignment",
+        "REMOVE_STARTED_ROLE_WARNING": "Removing this project role will remove the worked hours from the project. To keep record of worked hours, adjust the timeline instead of removing the role.",
+        "REMOVE_STARTED_ROLE_WARNING_TOOLTIP": "Removing this project role will remove the worked hours from the project. To keep record of worked hours, adjust the timeline instead of removing the role.",
+        "TIME_OFF_TOOLTIP": "Time off/Holiday this week",
+        "TARGET_COMPLETION": "Target Completion",
+        "REMOVE_PARTICIPANT": "Remove Participant",
+        "SECTIONS": {
+          "OWNER": "Owner",
+          "EMPTY_OWNER": "No owner users added yet",
+          "LD": "Learning",
+          "EMPTY_LD": "No learning users added yet",
+          "BUSINESS": "Business",
+          "EMPTY_BUSINESS": "No business users added yet",
+          "EXTERNAL": "External",
+          "EMPTY_EXTERNAL": "No external users added yet",
+          "FACILITATOR": "Facilitator",
+          "EMPTY_FACILITATOR": "No facilitator users added yet"
+        },
+        "NO_ROLE": "No role assigned",
+        "NO_TASKS": "No tasks assigned",
+        "PROJECT_OWNER_ROLE": "Project Owner"
+      },
+      "REMOVE_PARTICIPANT_MODAL": {
+        "TITLE": "Remove Participant",
+        "DESCRIPTION": "You are about to remove this participant from this project.<br> They will <b>no longer have access</b> to the project and they will be<br> <b>unassigned from all tasks.</b>",
+        "REMOVE": "Remove Participant",
+        "PARTICIPANT_REMOVED_SUCCESS_SNACKBAR_MESSAGE": "Success! Participant removed"
+      },
+      "UPDATE_WEEKLY_ALLOCATION_MODAL": {
+        "SUCCESS_BANNER": "Project member allocation hours were successfully updated!",
+        "HOUR_LABEL": "h",
+        "TIME_LINE": "Timeline",
+        "PROJECT_ROLE": "Project Role",
+        "HOURS_ALLOCATED": "Hours Allocated",
+        "HOURS_LEFT": "Hours Left",
+        "ACTUAL_HOURS": "Actual Hours"
+      }
+    },
+    "RESOURCE_SUMMARY": {
+      "RESOURCE_SUMMARY_TABLE": {
+        "TITLE": "Resource Summary by Resource Type",
+        "SUB_TITLE": "This section shows total of allocated hours and actual hours to date of project members and collaborators",
+        "MEMBERS_SECTION": "Members",
+        "COLLABORATORS_SECTION": "Collaborators",
+        "PROJECT_ROLE_COLUMN": "Project Role",
+        "NO_OF_RESOURCE_COLUMN": "No. of Resources",
+        "TOTAL_HOURS_COLUMN": "Total Allocated Hours",
+        "TOTAL_ACTUAL_HOURS": "Total Actual Hours",
+        "TOTAL": "Total"
+      },
+      "TASKS_SUMMARY_TABLE": {
+        "TITLE": "Resources Summary by Task Type ",
+        "SUB_TITLE": "This section shows total of allocated and actual hours to date by task type",
+        "TASK_TYPE": "Task Type",
+        "NUMBER_OF_TASKS": "No. of Tasks",
+        "TOTAL_ESTIMATED_HOURS": "Total Estimated Hours",
+        "TOTAL_ACTUAL_HOURS": "Total Actual Hours",
+        "EMPTY_TABLE": "No data to display as no tasks added yet."
+      }
+    }
+  },
+  "EMPLOYMENT_TYPE": {
+    "TITLE": "Employment Type",
+    "FULL_TIME": "Full Time",
+    "PART_TIME": "Part Time",
+    "INTERN": "Intern",
+    "CONTRACTOR": "Contractor"
+  },
+  "TEAMS": {
+    "TEAM": "Team",
+    "CAPACITY": "Capacity",
+    "TABLE": {
+      "TEAM_MEMBERS": "Team Members",
+      "JOB_TITLE": "Job Title",
+      "EMPLOYMENT_TYPE": "Employment type",
+      "COUNTRY": "Country",
+      "HOURLY_RATE": "Hourly Rate",
+      "TEAM_MANAGER": "Team Manager"
+    },
+    "UPDATE_MENU": {
+      "UPDATE_INFO": "Update Information",
+      "MANAGE_TIME_OFF": "Manage Time Off"
+    },
+    "UPDATE_MODAL": {
+      "EMAIL_ID": "Email ID",
+      "JOB_TITLE": "Job Title",
+      "RATE_PER_HOUR": "Rate Per Hour",
+      "COUNTRY": "Country",
+      "EMPLOYMENT_TYPE": "Employment type",
+      "WEEKLY_CAPACITY": "Default Weekly Capacity",
+      "JOB_FUNCTIONS": "Job Functions",
+      "LANGUAGES": "Language(s)",
+      "SKILLS": "Skills",
+      "HRS": "hrs"
+    },
+    "CURRENCY": "USD",
+    "SAVE": "Save",
+    "EMPLOYMENT_TYPE": {
+      "FULL_TIME": "Full Time",
+      "PART_TIME": "Part Time",
+      "INTERN": "Intern",
+      "CONTRACTOR": "Contractor",
+      "UNDEFINED": "Not Assigned"
+    },
+    "SKILLS": {
+      "ACCOUNT_MANAGEMENT": "Account Management",
+      "ANIMATION": "Animation",
+      "ASSESSMENT_CREATION": "Assessment Creation",
+      "AUDIO_EDITING": "Audio Editing",
+      "BRAND_DEVELOPMENT": "Brand Development",
+      "BUSINESS_ANALYSIS": "Business Analysis",
+      "BUSINESS_DEVELOPMENT": "Business Development",
+      "BUSINESS_INTELLIGENCE": "Business Intelligence",
+      "BUSINESS_RELATION_MANAGEMENT": "Business Relation Management",
+      "CASCADING_STYLE_SHEETS": "Cascading Style Sheets",
+      "CHANGE_MANAGEMENT": "Change Management",
+      "COACHING": "Coaching",
+      "COMMUNICATION": "Communication",
+      "CONSULTING": "Consulting",
+      "CONTENT_MANAGEMENT_SYSTEM": "Content Management System",
+      "CONTENT_WRITING_EDITING": "Content Writing/Editing",
+      "CONTRACT_MANAGEMENT": "Contract Management",
+      "COORDINATION": "Coordination",
+      "CURRICULUM_DESIGN_DEVELOP": "Curriculum Design/Develop",
+      "DATA_ANALYSIS": "Data Analysis",
+      "DATABASE": "Database",
+      "DIGITAL_MARKETING": "Digital Marketing",
+      "E_LEARNING": "E-learning",
+      "EVALUATION": "Evaluation",
+      "EVENT_MANAGEMENT": "Event Management",
+      "GOVERNANCE": "Governance",
+      "GRAPHIC_DESIGN": "Graphic Design",
+      "INTAKE_MANAGEMENT": "Intake Management",
+      "FACILITATION": "Facilitation",
+      "FINANCIAL_ANALYSIS": "Financial Analysis",
+      "FINANCIAL_MANAGEMENT": "Financial Management",
+      "HTML5": "HTML5",
+      "HUMAN_RESOURCE_MANAGEMENT_SYSTEM": "Human Resource Management System",
+      "INFORMATION_ARCHITECTURE": "Information Architecture",
+      "INSTRUCTIONAL_DESIGN": "Instructional Design",
+      "JAVASCRIPT": "Javascript",
+      "LEADERSHIP": "Leadership",
+      "LEARNING_MANAGEMENT_SYSTEM": "Learning Management System",
+      "MARKETING": "Marketing",
+      "MEASUREMENT": "Measurement",
+      "MOBILE_APP_DESIGN": "Mobile App Design",
+      "MOBILE_APP_DEVELOPMENT": "Mobile App Development",
+      "PEOPLE_ANALYTICS": "People Analytics",
+      "PERFORMANCE_MANAGEMENT": "Performance Management",
+      "PHOTOGRAPHY": "Photography",
+      "PLANNING": "Planning",
+      "PROCESS_IMPROVEMENT": "Process Improvement",
+      "PRODUCT_MANAGEMENT": "Product Management",
+      "PROGRAMMING": "Programming",
+      "PROJECT_MANAGEMENT": "Project Management",
+      "PROOFREADING": "Proofreading",
+      "QUALITY_ASSURANCE": "Quality Assurance",
+      "REPORTING": "Reporting",
+      "RESEARCH": "Research",
+      "REQUIREMENT_GATHERING": "Requirement Gathering",
+      "REQUIREMENT_ANALYSIS": "Requirement Analysis",
+      "RESOURCE_MANAGEMENT": "Resource Management",
+      "SEARCH_ENGINE_OPTIMIZATION": "Search Engine Optimization",
+      "SOCIAL_MEDIA": "Social Media",
+      "SOCIAL_MEDIA_MARKETING": "Social Media Marketing",
+      "SOFTWARE_ADOBE_PHOTOSHOP": "Software - Adobe Photoshop",
+      "SOFTWARE_ADOBE_ILLUSTRATOR": "Software - Adobe Illustrator",
+      "SOFTWARE_ADOBE_CAPTIVATE": "Software - Adobe Captivate",
+      "SOFTWARE_ARTICULATE": "Software - Articulate",
+      "SOFTWARE_CAMTASIA": "Software - Camtasia",
+      "SOFTWARE_EASYGENERATOR": "Software - Easygenerator",
+      "SOFTWARE_ELUCIDAT": "Software - Elucidat",
+      "SOFTWARE_ISPRING_SUITE": "Software - iSpring Suite",
+      "SOFTWARE_LECTORA": "Software - Lectora",
+      "SOFTWARE_MICROSOFT_WORD": "Software - Microsoft Word",
+      "SOFTWARE_MICROSOFT_POWERPOINT": "Software - Microsoft PowerPoint",
+      "SOFTWARE_MICROSOFT_EXCEL": "Software - Microsoft Excel",
+      "SOFTWARE - SHAREPOINT": "Software - SharePoint",
+      "SURVEY_DESIGN": "Survey Design",
+      "TALENT_MANAGEMENT": "Talent Management",
+      "TEAM_MANAGEMENT": "Team Management",
+      "TRAINING_DELIVERY": "Training Delivery",
+      "UX_DESIGN": "UX Design",
+      "UX_RESEARCH": "UX Research",
+      "USABILITY TESTING": "Usability Testing",
+      "VENDOR_MANAGEMENT": "Vendor Management",
+      "VIDEO_EDITING": "Video Editing",
+      "VIRTUAL_REALITY": "Virtual Reality",
+      "WEB_DESIGN": "Web Design",
+      "WEB_DEVELOPMENT": "Web Development"
+    },
+    "JOB_FUNCTIONS": {
+      "BUSINESS_RELATIONSHIP_MANAGEMENT": "Business Relationship Management",
+      "COACHING": "Coaching",
+      "CONTENT_WRITING": "Content Writing",
+      "COMMUNICATION": "Communication",
+      "CONSULTING": "Consulting",
+      "COORDINATION": "Coordination",
+      "DATA_REPORTING_ANALYSIS": "Data/Reporting Analysis",
+      "FACILITATION": "Facilitation",
+      "FINANCIAL_MANAGEMENT": "Financial Management",
+      "GOVERNANCE": "Governance",
+      "GRAPHIC_DESIGN": "Graphic Design",
+      "INSTRUCTIONAL_DESIGN": "Instructional Design",
+      "INTAKE_MANAGEMENT": "Intake Management",
+      "LEARNING_DEVELOPMENT": "Learning Development",
+      "LEARNING_PLATFORM_ADMINISTRATION": "Learning Platform Administration",
+      "LEARNING_STRATEGY": "Learning Strategy",
+      "LEARNING_SUPPORT": "Learning Support",
+      "LEARNING_TECHNOLOGY": "Learning Technology",
+      "LEADERSHIP_DEVELOPMENT": "Leadership Development",
+      "MARKETING": "Marketing",
+      "MEASUREMENT": "Measurement",
+      "PLANNING": "Planning",
+      "PORTFOLIO_MANAGEMENT": "Portfolio Management",
+      "PROGRAM_MANAGEMENT": "Program Management",
+      "PROJECT_MANAGER": "Project Management",
+      "QUALITY_ASSURANCE": "Quality Assurance",
+      "REPORTING": "Reporting",
+      "RESOURCE_MANAGEMENT": "Resource Management",
+      "SUBJECT_MATTER_EXPERT": "Subject Matter Expert",
+      "TALENT_DEVELOPMENT": "Talent Development",
+      "TEAM_MANAGEMENT": "Team Management",
+      "TRANSLATION": "Translation",
+      "WEB_DEVELOPMENT": "Web Development",
+      "VENDOR_MANAGEMENT": "Vendor Management",
+      "VIDEO_PRODUCTION": "Video Production",
+      "OTHERS": "Others"
+    },
+    "TIME_OFF": {
+      "UPCOMING_TIME_OFF": "Upcoming Time Off",
+      "HISTORY": "History",
+      "TITLE": "Manage Time Off : {user}",
+      "ADD_REMOVE_TIME_OFF": "Add and Remove Time off",
+      "ADD_NEW_TIME_OFF": "Add New Time Off",
+      "REMOVE": "Remove",
+      "ADD": "Add",
+      "SELECT_TYPE": "Select a type of time off",
+      "START": "Start",
+      "END": "End",
+      "TABLE_HEAD": {
+        "DATES": "Dates",
+        "TIME_OFF_TYPE": "Time off type"
+      },
+      "EMPTY_TABLE": "No time off added",
+      "TIME_OFF_TYPES": {
+        "paid_time_off": "Personal Time Off",
+        "sick_day_off": "Sick Leave",
+        "custom_holiday": "Custom Holiday",
+        "vacation": "Vacation",
+        "parental_leave": "Parental Leave",
+        "others": "Others",
+        "UNDEFINED": "Not Assigned"
+      }
+    },
+    "CAPACITY_LEGENDS": {
+      "ALLOCATION": "Allocation",
+      "OVER_ALLOCATION": "Over Allocation",
+      "TIMEOFF_HOLIDAYS": "Time Off/Holidays",
+      "WEEK_CAPACITY": "Week's Capacity:",
+      "HOURS_OCCUPIED": "Hours Occupied:",
+      "AVAILABLE_HOURS": "Available Hours:",
+      "NO_DEFAULT_CAPACITY": "Assign capacity"
+    },
+    "EXPORT_TOOLTIP": "Using the checkbox, select the team members you wish to export first."
+  },
+  "COUNTRIES": {
+    "AF": "Afghanistan",
+    "AX": "Aland Islands",
+    "AL": "Albania",
+    "DZ": "Algeria",
+    "AS": "American Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AQ": "Antarctica",
+    "AG": "Antigua And Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Austria",
+    "AZ": "Azerbaijan",
+    "BS": "Bahamas",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Belarus",
+    "BE": "Belgium",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BQ": "Bonaire, Sint Eustatius and Saba",
+    "BA": "Bosnia And Herzegovina",
+    "BW": "Botswana",
+    "BV": "Bouvet Island",
+    "BR": "Brazil",
+    "IO": "British Indian Ocean Territory",
+    "BN": "Brunei Darussalam",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Cambodia",
+    "CM": "Cameroon",
+    "CA": "Canada",
+    "IC": "Canary Islands",
+    "CV": "Cape Verde",
+    "KY": "Cayman Islands",
+    "CF": "Central African Republic",
+    "TD": "Chad",
+    "CL": "Chile",
+    "CN": "China",
+    "CX": "Christmas Island",
+    "CC": "Cocos (Keeling) Islands",
+    "CO": "Colombia",
+    "KM": "Comoros",
+    "CG": "Congo",
+    "CD": "Congo, Democratic Republic",
+    "CK": "Cook Islands",
+    "CR": "Costa Rica",
+    "CI": "Cote D\"Ivoire",
+    "HR": "Croatia",
+    "CU": "Cuba",
+    "CW": "Curaçao",
+    "CY": "Cyprus",
+    "CZ": "Czech Republic",
+    "DK": "Denmark",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "Dominican Republic",
+    "EC": "Ecuador",
+    "EG": "Egypt",
+    "SV": "El Salvador",
+    "GQ": "Equatorial Guinea",
+    "ER": "Eritrea",
+    "EE": "Estonia",
+    "ET": "Ethiopia",
+    "FK": "Falkland Islands (Malvinas)",
+    "FO": "Faroe Islands",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "France",
+    "GF": "French Guiana",
+    "PF": "French Polynesia",
+    "TF": "French Southern Territories",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Germany",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Greece",
+    "GL": "Greenland",
+    "GD": "Grenada",
+    "GP": "Guadeloupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GG": "Guernsey",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HM": "Heard Island & Mcdonald Islands",
+    "VA": "Holy See (Vatican City State)",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hungary",
+    "IS": "Iceland",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Iran, Islamic Republic Of",
+    "IQ": "Iraq",
+    "IE": "Ireland",
+    "IM": "Isle Of Man",
+    "IL": "Israel",
+    "IT": "Italy",
+    "JM": "Jamaica",
+    "JP": "Japan",
+    "JE": "Jersey",
+    "JO": "Jordan",
+    "KZ": "Kazakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KR": "Korea",
+    "KP": "North Korea",
+    "KW": "Kuwait",
+    "KG": "Kyrgyzstan",
+    "LA": "Lao People\"s Democratic Republic",
+    "LV": "Latvia",
+    "LB": "Lebanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libyan Arab Jamahiriya",
+    "LI": "Liechtenstein",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "MO": "Macao",
+    "MK": "Macedonia",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malaysia",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshall Islands",
+    "MQ": "Martinique",
+    "MR": "Mauritania",
+    "MU": "Mauritius",
+    "YT": "Mayotte",
+    "MX": "Mexico",
+    "FM": "Micronesia, Federated States Of",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Morocco",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Netherlands",
+    "NC": "New Caledonia",
+    "NZ": "New Zealand",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Norfolk Island",
+    "MP": "Northern Mariana Islands",
+    "NO": "Norway",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestinian Territory, Occupied",
+    "PA": "Panama",
+    "PG": "Papua New Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Philippines",
+    "PN": "Pitcairn",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Qatar",
+    "RE": "Reunion",
+    "RO": "Romania",
+    "RU": "Russian Federation",
+    "RW": "Rwanda",
+    "BL": "Saint Barthelemy",
+    "SH": "Saint Helena",
+    "KN": "Saint Kitts And Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Saint Martin (French part)",
+    "PM": "Saint Pierre And Miquelon",
+    "VC": "Saint Vincent And Grenadines",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tome And Principe",
+    "SA": "Saudi Arabia",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychelles",
+    "SL": "Sierra Leone",
+    "SG": "Singapore",
+    "SX": "Sint Maarten (Dutch part)",
+    "SK": "Slovakia",
+    "SI": "Slovenia",
+    "SB": "Solomon Islands",
+    "SO": "Somalia",
+    "ZA": "South Africa",
+    "GS": "South Georgia And Sandwich Isl.",
+    "SS": "South Sudan",
+    "ES": "Spain",
+    "LK": "Sri Lanka",
+    "SD": "Sudan",
+    "SR": "Suriname",
+    "SJ": "Svalbard And Jan Mayen",
+    "SZ": "Swaziland",
+    "SE": "Sweden",
+    "CH": "Switzerland",
+    "SY": "Syrian Arab Republic",
+    "TW": "Taiwan",
+    "TJ": "Tajikistan",
+    "TZ": "Tanzania",
+    "TH": "Thailand",
+    "TL": "Timor-Leste",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad And Tobago",
+    "TN": "Tunisia",
+    "TR": "Turkey",
+    "TM": "Turkmenistan",
+    "TC": "Turks And Caicos Islands",
+    "TV": "Tuvalu",
+    "UG": "Uganda",
+    "UA": "Ukraine",
+    "AE": "United Arab Emirates",
+    "GB": "United Kingdom",
+    "US": "United States",
+    "UM": "United States Outlying Islands",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistan",
+    "VU": "Vanuatu",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "VG": "Virgin Islands, British",
+    "VI": "Virgin Islands, U.S.",
+    "WF": "Wallis And Futuna",
+    "EH": "Western Sahara",
+    "YE": "Yemen",
+    "XK": "Kosovo",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "UNDEFINED": "Not Assigned"
+  },
+  "APP_NOTIFICATIONS": {
+    "REQUEST_QUESTIONS_UPDATED": " updated the request ",
+    "REQUEST_SUBMITTED": " submitted a request: ",
+    "ASSIGN_NEW_OWNER": " assigned you as owner of the request form ",
+    "UNASSIGN_OWNER": " unassigned you as owner of the request form ",
+    "COMMENT_ADDED": " added a comment to the Request ",
+    "REQUEST_BACK_IN_REVIEW": "The request <b>{requestTitle}</b> has been moved to In Review.",
+    "REQUEST_CANCELLED": " requested cancellation for the request form  ",
+    "REQUEST_APPROVED": "The request form <b>{requestTitle}</b> has been approved by the request owner.",
+    "REQUEST_DECLINED": "The request form <b>{requestTitle}</b> has been declined by the request owner.",
+    "REQUEST_WAITLISTED": "The request <b>{requestTitle}</b> has been waitlisted by the request owner.",
+    "REQUEST_COMMENT_MENTION": "{userName} tagged you in a comment within the Request <b>{requestTitle}</b>.",
+    "REQUEST_BUSINESS_REVIEWER": " added you as reviewer to the request ",
+    "TASK_USER_ASSIGNED": "{userName} assigned you to the task <b>{taskName}</b>.",
+    "TASK_USER_UNASSIGNED": "{userName} unassigned you from the task <b>{taskName}</b>.",
+    "TASK_USER_ASSIGNED_OWNER_VIEW": "{userName} assigned {actionTargetName} to the task <b>{taskName}</b>.",
+    "TASK_USER_UNASSIGNED_OWNER_VIEW": "{userName} unassigned {actionTargetName} from the task <b>{taskName}</b>.",
+    "TASK_UPDATED": "{userName} updated the task <b>{taskName}</b>.",
+    "TASK_ACTUAL_HOURS_UPDATED": "{userName} updated actual hours of task <b>{taskName}</b>.",
+    "TASK_STATUS_UPDATED": "{userName} updated the status of the task <b>{taskName}</b>.",
+    "TASK_DISABLED": "{userName} {enabled, plural, =0 {disabled} =1 {re-enabled}} the task <b>{taskName}</b>.",
+    "TASK_DELETED": "{userName} deleted the task <b>{taskName}</b>.",
+    "TASK_DUE_DATE": "Only {number, plural, =1 {1 day} =3 {3 days}} left until the task: <b>{taskName}</b> is due.",
+    "TASK_PAST_DUE_DATE": "The task: <b>{taskName}</b> is past its due date.",
+    "TASK_COMMENT_MENTION": "{userName} tagged you in a comment on the Task <b>{taskName}</b>.",
+    "PROJECT_OWNER_ASSIGNED": "{userName} assigned you as owner of the Project <b>{projectName}</b>.",
+    "PROJECT_OWNER_UNASSIGNED": "{userName} unassigned you as owner from the Project <b>{projectName}</b>.",
+    "PROJECT_STATUS_UPDATED": "{userName} updated the status of the Project <b>{projectName}</b> to <b>{projectStatus}</b>",
+    "PROJECT_UPDATED": "{userName} updated the Project <b>{projectName}</b>.",
+    "PROJECT_COMMENTED": "{userName} added a comment to the Project <b>{projectName}</b>.",
+    "PROJECT_COMMENT_MENTION": "{userName} tagged you in a comment within the Project <b>{projectName}</b>.",
+    "NEW_PROJECT_PARTICIPANT": "{userName} assigned you as a member in the Project <b>{projectName}</b> with the project role of <b>{role}</b>.",
+    "PROJECT_PARTICIPANT_REMOVED": "{userName} removed you as a participant from the Project <b>{projectName}</b>.",
+    "PROJECT_ASSIGNMENT_UPDATED": "{userName} updated your assignment as <b>{role}</b> in the Project <b>{projectName}</b>.",
+    "PROJECT_ASSIGNMENT_REMOVED": "{userName} removed your assignment as <b>{role}</b> in the Project <b>{projectName}</b>.",
+    "PROJECT_START_DATE_THREE_DAYS": "Only 3 days left until the project <b>{projectName}</b> should start. Don't forget to change the status to In Progress once it begins!",
+    "PROJECT_START_DATE_PASSED": "The start date for the project <b>{projectName}</b> has passed. Should this project be In Progress?",
+    "PROJECT_DUE_DATE": "Only {number, plural, =7 {1 week} =1 {1 day}} left until the project <b>{projectName}</b> reaches its target completion date.",
+    "PROJECT_PAST_DUE": "The project <b>{projectName}</b> is past its target completion date.",
+    "BUSINESS_USER_NEW_REGISTRATION": "{newUserEmail} just registered as a <b>Business User.</b>",
+    "TIME_OFF_REMOVED": "{triggererName} removed a time off: {dateRange}",
+    "TIME_OFF_CREATED": "{triggererName} added a time off: {dateRange}",
+    "TIME_OFF_UPDATED": "{triggererName} updated a time off: {dateRange}",
+    "PROJECT_IS_ARCHIVED_UPDATED": "{triggererName} {action} the project <b>{projectName}</b>.",
+    "PROGRAM_UPDATED": "{triggererName} updated the program: <b>{programName}</b>",
+    "PROJECT_LINKED_TO_PROGRAM": "{triggererName} linked project <b>{projectName}</b> to program {programName}</b>",
+    "PROJECT_UNLINKED_FROM_PROGRAM": "{triggererName} Unlinked project <b>{projectName}</b> from program <b>{programName}</b>",
+    "PROGRAM_CLOSED": "{triggererName} closed the program: <b>{programName}</b>",
+    "PROGRAM_DELETED": {
+      "NO_PROJECTS": "{triggererName} has deleted the program <b>{programName}</b>.",
+      "DELETE_PROJECTS": "{triggererName} has deleted the program <b>{programName}</b> with linked projects.",
+      "UNLINK_PROJECTS": "{triggererName} has deleted the program <b>{programName}</b>. However, all linked projects are not impacted by this action.",
+      "MOVE_PROJECTS": "{triggererName} has deleted the program <b>{programName}</b> and moved all {numberOfProjects} {numberOfProjects, plural, =1 {project} other {projects}} to new program <b>{newProgramTitle}</b>."
+    },
+    "TASK_BUNDLE_UPDATED": "{adminName} updated task bundle <b>{bundleTitle}</b>.",
+    "TASK_BUNDLE_DELETED": "{adminName} deleted task bundle <b>{bundleTitle}</b>.",
+    "V2_PROJECT_PARTICIPANT_ADDED": "{triggererName} assigned you as a participant of the Project <b>{projectName}</b>.",
+    "V2_PROJECT_PARTICIPANT_REMOVED": "{triggererName} removed you as a participant from the Project <b>{projectName}</b>."
+  },
+  "LANGUAGES": {
+    "aa": "Afar",
+    "ab": "Abkhazian",
+    "ae": "Avestan",
+    "af": "Afrikaans",
+    "ak": "Akan",
+    "am": "Amharic",
+    "an": "Aragonese",
+    "ar": "Arabic",
+    "as": "Assamese",
+    "av": "Avaric",
+    "ay": "Aymara",
+    "az": "Azerbaijani",
+    "ba": "Bashkir",
+    "be": "Belarusian",
+    "bg": "Bulgarian",
+    "bh": "Bihari languages",
+    "bi": "Bislama",
+    "bm": "Bambara",
+    "bn": "Bengali",
+    "bo": "Tibetan",
+    "br": "Breton",
+    "bs": "Bosnian",
+    "ca": "Catalan",
+    "ce": "Chechen",
+    "ch": "Chamorro",
+    "co": "Corsican",
+    "cr": "Cree",
+    "cs": "Czech",
+    "cu": "Old Church Slavonic / Old Bulgarian",
+    "cv": "Chuvash",
+    "cy": "Welsh",
+    "da": "Danish",
+    "de": "German",
+    "dv": "Divehi",
+    "dz": "Dzongkha",
+    "ee": "Ewe",
+    "el": "Greek, Modern (1453-)",
+    "en": "English",
+    "eo": "Esperanto",
+    "es": "Spanish",
+    "et": "Estonian",
+    "eu": "Basque",
+    "fa": "Persian",
+    "ff": "Fulah",
+    "fi": "Finnish",
+    "fj": "Fijian",
+    "fo": "Faroese",
+    "fr": "French",
+    "fy": "Western Frisian",
+    "ga": "Irish",
+    "gd": "Scottish Gaelic",
+    "gl": "Galician",
+    "gn": "Guarani",
+    "gu": "Gujarati",
+    "gv": "Manx",
+    "ha": "Hausa",
+    "he": "Hebrew",
+    "hi": "Hindi",
+    "ho": "Hiri Motu",
+    "hr": "Croatian",
+    "ht": "Haitian",
+    "hu": "Hungarian",
+    "hy": "Armenian",
+    "hz": "Herero",
+    "ia": "Interlingua (International Auxiliary Language Association)",
+    "id": "Indonesian",
+    "ie": "Interlingue",
+    "ig": "Igbo",
+    "ii": "Sichuan Yi",
+    "ik": "Inupiaq",
+    "io": "Ido",
+    "is": "Icelandic",
+    "it": "Italian",
+    "iu": "Inuktitut",
+    "ja": "Japanese",
+    "jv": "Javanese",
+    "ka": "Georgian",
+    "kg": "Kongo",
+    "ki": "Kikuyu",
+    "kj": "Kuanyama",
+    "kk": "Kazakh",
+    "kl": "Greenlandic",
+    "km": "Central Khmer",
+    "kn": "Kannada",
+    "ko": "Korean",
+    "kr": "Kanuri",
+    "ks": "Kashmiri",
+    "ku": "Kurdish",
+    "kv": "Komi",
+    "kw": "Cornish",
+    "ky": "Kirghiz",
+    "la": "Latin",
+    "lb": "Luxembourgish",
+    "lg": "Ganda",
+    "li": "Limburgan",
+    "ln": "Lingala",
+    "lo": "Lao",
+    "lt": "Lithuanian",
+    "lu": "Luba-Katanga",
+    "lv": "Latvian",
+    "mg": "Malagasy",
+    "mh": "Marshallese",
+    "mi": "Maori",
+    "mk": "Macedonian",
+    "ml": "Malayalam",
+    "mn": "Mongolian",
+    "mr": "Marathi",
+    "ms": "Malay",
+    "mt": "Maltese",
+    "my": "Burmese",
+    "na": "Nauru",
+    "nb": "Norwegian Bokmål",
+    "nd": "North Ndebele",
+    "ne": "Nepali",
+    "ng": "Ndonga",
+    "nl": "Dutch",
+    "nn": "Norwegian Nynorsk",
+    "no": "Norwegian",
+    "nr": "South Ndebele",
+    "nv": "Navajo",
+    "ny": "Chichewa",
+    "oc": "Occitan (post 1500)",
+    "oj": "Ojibwa",
+    "om": "Oromo",
+    "or": "Oriya",
+    "os": "Ossetian / Ossetic",
+    "pa": "Panjabi / Punjabi",
+    "pi": "Pali",
+    "pl": "Polish",
+    "ps": "Pashto",
+    "pt": "Portuguese",
+    "qu": "Quechua",
+    "rm": "Romansh",
+    "rn": "Rundi",
+    "ro": "Romanian",
+    "ru": "Russian",
+    "rw": "Kinyarwanda",
+    "sa": "Sanskrit",
+    "sc": "Sardinian",
+    "sd": "Sindhi",
+    "se": "Northern Sami",
+    "sg": "Sango",
+    "si": "Sinhalese",
+    "sk": "Slovak",
+    "sl": "Slovenian",
+    "sm": "Samoan",
+    "sn": "Shona",
+    "so": "Somali",
+    "sq": "Albanian",
+    "sr": "Serbian",
+    "ss": "Swati",
+    "st": "Sotho, Southern",
+    "su": "Sundanese",
+    "sv": "Swedish",
+    "sw": "Swahili",
+    "ta": "Tamil",
+    "te": "Telugu",
+    "tg": "Tajik",
+    "th": "Thai",
+    "ti": "Tigrinya",
+    "tk": "Turkmen",
+    "tl": "Tagalog",
+    "tn": "Tswana",
+    "to": "Tonga (Tonga Islands)",
+    "tr": "Turkish",
+    "ts": "Tsonga",
+    "tt": "Tatar",
+    "tw": "Twi",
+    "ty": "Tahitian",
+    "ug": "Uyghur",
+    "uk": "Ukrainian",
+    "ur": "Urdu",
+    "uz": "Uzbek",
+    "ve": "Venda",
+    "vi": "Vietnamese",
+    "vo": "Volapük",
+    "wa": "Walloon",
+    "wo": "Wolof",
+    "xh": "Xhosa",
+    "yi": "Yiddish",
+    "yo": "Yoruba",
+    "za": "Zhuang",
+    "zh": "Chinese",
+    "zu": "Zulu",
+    "UNDEFINED": "Not Assigned"
+  },
+  "TIMEOFF_DELETION_SUCCESS": {
+    "TIMEOFF_DELETED": "Time off was successfully removed from the list"
+  },
+  "USERS_PAGE": {
+    "TITLE": "User Accounts",
+    "TABLE": {
+      "HEAD": {
+        "USER_NAME": "User Name",
+        "USER_EMAIL": "User Email",
+        "ROLE": "Role",
+        "USER_TYPE": "User Type",
+        "TEAM": "Team",
+        "JOB_TITLE": "Job Title",
+        "EMPLOYMENT_TYPE": "Employment Type",
+        "LOCATION": "Location",
+        "HOURLY_RATE": "Hourly Rate",
+        "ACCOUNT_STATUS": "Account Status"
+      },
+      "USER_TYPE": {
+        "LD": "Learning Team User",
+        "BUSINESS": "Business User",
+        "EXTERNAL": "External User",
+        "FACILITATOR": "Facilitator User"
+      },
+      "USER_STATUS": {
+        "REGISTERED": "Active",
+        "INVITED": "Invited",
+        "DISABLED_REGISTERED": "Deactivated",
+        "DISABLED_INVITED": "Deactivated"
+      },
+      "USER_ROLE": {
+        "ADMIN": "Admin",
+        "USER": "User"
+      },
+      "USER_PENDING": {
+        "PENDING": "Pending"
+      },
+      "EXPORT": {
+        "EXPORT_USERS": "Export Users",
+        "EXPORT_TOOLTIP": "Using the checkbox, select the users you wish to export first."
+      },
+      "IMPORT": {
+        "IMPORT_LEARNING_USERS": "Import Learning Users ",
+        "IMPORT_FACILITATOR_USERS": "Import Facilitator Users ",
+        "IMPORT_BUSINESS_USERS": "Import Business Users ",
+        "IMPORT_USERS_FILE": "Import users from file",
+        "IMPORT_NOT_NUMBER": "The original value was invalid",
+        "REPEATED_EMAIL": "The email is already registered",
+        "SUCCESS": "The users were imported successfully!"
+      }
+    }
+  },
+  "UPGRADE_PAGE": {
+    "TITLE": "Your trial has come to an end",
+    "MESSAGE": "But you can still take the next step. Check out our different plans and choose the best option for your team.",
+    "CTA": "Upgrade Now"
+  },
+  "VENDORS_PAGE": {
+    "TITLE": "Vendors",
+    "ADD_VENDOR_LINK": "Add a Vendor",
+    "TABLE": {
+      "HEAD": {
+        "VENDOR_NAME": "Vendor Name",
+        "DESCRIPTION": "Description",
+        "COUNTRY": "Country",
+        "LOCATION": "Location (State/Province)",
+        "CREATION_DATE": "Creation Date",
+        "ENABLED": "Enabled"
+      },
+      "EMPTY_STATE": "No vendor added",
+      "NOT_ASSIGNED": "Not Assigned"
+    },
+    "VENDOR_NAME": "Enter name of vendor",
+    "VENDOR_ADDRESS": "Enter address",
+    "VENDOR_COUNTRY": "Select a country",
+    "VENDOR_WEBSITE": "Enter website",
+    "VENDOR_EMAIL": "Add contact email",
+    "VENDOR_DESCRIPTION": "Enter vendor description",
+    "VENDOR_PROVINCE": "Select a state or province",
+    "VENDOR_CONTACT_NAME": "Add contact name",
+    "VENDOR_PHONE": "Add contact phone",
+    "VENDOR_DETAILS": "Fill in the details to add Vendor",
+    "ADDRESS": "Address",
+    "WEBSITE": "Website",
+    "EMAIL": "Email",
+    "PROVINCE": "State/Province",
+    "CONTACT_NAME": "Contact Name",
+    "PHONE": "Phone",
+    "SUCCESS_NOTIFICATION": "New vendor was successfully added!",
+    "EDIT_SUCCESS": "Vendor was successfully updated.",
+    "DISABLED_NOTIFICATION": "Vendor was successfully disabled.",
+    "ENABLED_NOTIFICATION": "Vendor was successfully enabled.",
+    "NOT_UPDATED": "Vendor is missing information and has not been updated.",
+    "ENABLE_VENDOR": "Enable vendor"
+  },
+  "CUSTOM_QUESTIONS": {
+    "TEXT": "Text Field",
+    "DROPDOWN": "Dropdown",
+    "RADIO_BUTTON": "Radio button",
+    "CHECKBOX": "Checkbox",
+    "TOGGLE": "Toggle",
+    "URL": "URL",
+    "NUMBER": "Numeric Field",
+    "DATE": "Date Field",
+    "FILE": "File Upload",
+    "RANGE": "Range"
+  },
+  "LICENSE": {
+    "LICENSE_INACTIVE": "You have 0 licenses left. If you create this user their account will be set as <b>deactivated.</b>",
+    "LICENSE_REMAINING": "You purchased {purchasedLicense} account licenses - {licensesLeft} licenses left",
+    "LICENSE_ACTIVATION": "This user account cannot be activated without an available license."
+  },
+  "LANDING": {
+    "WELCOME": "Welcome!",
+    "INTAKE": "Intake Learning Requests",
+    "INTAKE_DESC": "Intake, review, rank & respond to new training requests from across the business.",
+    "DESIGN": "Design Learning Solutions",
+    "DESIGN_DESC": "Collaborate on strategies and techniques for developing and delivering learning.",
+    "TEAMS": "Manage Learning Teams",
+    "TEAMS_DESC": "Manage teams and examine capacity on an ongoing basis to ensure resource availability for projects.",
+    "PROJECTS": "Plan Learning Projects",
+    "PROJECTS_DESC": "Outline and track the cost, scope, schedule and resources required for learning projects",
+    "INSIGHTS": "Analyze Learning Insights",
+    "INSIGHTS_DESC": "Unlock learning operations insights to discover and clarify strategic focus.",
+    "SETTINGS": "Configure Platform Settings",
+    "SETTINGS_DESC": "Configure platform and administer its operation to support unique business needs and experience.",
+    "LEARN_MORE": "Learn More",
+    "EXTERNAL_USERS": {
+      "BODY_LINE_ONE": "Collaborate seamlessly on learning solutions.",
+      "BODY_LINE_TWO": "Leverage best practices to rapidly build learning content."
+    }
+  },
+  "MY_WORKSPACE": {
+    "MORNING_GREETING": "Good Morning, {userName}!",
+    "AFTERNOON_GREETING": "Good Afternoon, {userName}!",
+    "EVENING_GREETING": "Good Evening, {userName}!",
+    "VIEW_ALL": "View All",
+    "ERROR_STATE": "Something went wrong. Try reloading the page.",
+    "DUE_TASKS": {
+      "TITLE": "Tasks Due",
+      "EMPTY_STATE_TEXT": "No tasks assigned",
+      "TOOLTIP_TEXT": "Tasks assigned by due date",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "TITLE": "Title",
+          "PROJECT": "Project",
+          "STATUS": "Status",
+          "DUE": "Due",
+          "DUE_DATE": "Due Date"
+        },
+        "TODAY": "Today",
+        "TOMORROW": "In a day"
+      },
+      "MODAL_TITLE": "Tasks by Due Date"
+    },
+    "IN_REVIEW_REQUESTS": {
+      "TITLE": "Requests In Review",
+      "EMPTY_STATE_TEXT": "No requests submitted",
+      "TOOLTIP_TEXT": "Requests in review",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "TITLE": "Title",
+          "DAYS_IN_REVIEW": "Days in Review",
+          "REQUESTER": "Requester",
+          "PRIORITY": "Priority"
+        },
+        "DAYS": "{days} {days, plural, =1 {day} other {days}}"
+      }
+    },
+    "RECENT_MENTIONS": {
+      "TITLE": "Recent Mentions",
+      "EMPTY_STATE_TEXT": "No mentions nor action items",
+      "TOOLTIP_TEXT": "Mentions in Requests, Projects and Designs",
+      "IN": "in"
+    },
+    "DUE_PROJECTS": {
+      "TITLE": "Projects Due",
+      "EMPTY_STATE_TEXT": "No projects assigned",
+      "TOOLTIP_TEXT": "Projects by completion date",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "TITLE": "Title",
+          "MY_TASKS": "My Tasks",
+          "STATUS": "Status",
+          "PRIORITY": "Priority",
+          "COMPLETION_DATE": "Completion Date"
+        },
+        "TODAY": "Today"
+      },
+      "MODAL_TITLE": "Projects by Completion Date"
+    }
+  },
+  "CURRENCY_OPTIONS": {
+    "USD": "US Dollar (USD)",
+    "CAD": "Canadian Dollar (CAD)",
+    "EUR": "European Euro (EUR)",
+    "GBP": "British Pound (GBP)",
+    "AUD": "Australian Dollar (AUD)",
+    "NZD": "New Zealand Dollar (NZD)"
+  },
+  "DISPLAY_TAB": {
+    "CURRENCY_LABEL": "Select platform currency"
+  },
+  "REQUEST_PORTAL_DEFAULT_NAME": "Learning Request Portal",
+  "INTAKE_TAB": {
+    "CAPTION": "Set up your portal and create request forms.",
+    "PORTAL_NAME_LABEL": "Portal Name",
+    "PORTAL_NAME_PLACEHOLDER": "Add the name for your portal",
+    "TEAM_REQUEST_TOGGLE": {
+      "LABEL": "Display Team Requests for Business Users",
+      "ON_TEXT": "On",
+      "OFF_TEXT": "Off"
+    },
+    "UPLOAD_LOGO": "Upload Logo",
+    "UPLOAD_BACKGROUND": "Upload Portal Image",
+    "USE_DEFAULT": "Use default image",
+    "COPY_LINK": "Copy",
+    "PORTAL_LINK": "Portal Link",
+    "PREVIEW": "Preview",
+    "PREVIEW_TOOLTIP": "Here you'll see how your files will be displayed in the portal. If you don't upload a portal image, the default image we provide will be displayed.",
+    "COPYRIGHT": "TM & © 2022 Cognota, Inc. All rights reserved.",
+    "LINK_COPIED": "The portal link was copied to your clipboard!",
+    "DRAG_HERE": "Drag file here or",
+    "CHOOSE": "Choose",
+    "FROM_DEVICE": "from your device. Max file size: 10MB",
+    "10MB_FILE_ERROR": "File size is larger than 10MB",
+    "IMAGE_SIZE_HELPER": "Large image recommended (min. height: 1080px)"
+  },
+  "GENERAL_SETTINGS": {
+    "TITLE": "General Settings",
+    "SUCCESS_MESSAGE": "General Settings were successfully updated."
+  },
+  "COMPLETE_REGISTRATION": {
+    "HEADING": "Welcome!",
+    "CAPTION": "You're signing in as <strong>{email}.</strong> Please fill in these profile questions before continuing to the app.",
+    "BUSINESS_UNIT_LABEL": "Business Unit",
+    "BUSINESS_UNIT_PLACEHOLDER": "Select your business unit",
+    "BUTTON": "Save & Continue"
+  },
+  "PROFILE": {
+    "TITLE": "Account Profile",
+    "SUCCESS": "Your profile was successfully updated"
+  },
+  "POWERED_BY": "Powered by",
+  "SIDE_PANEL": {
+    "FULL_PAGE": "Full Page",
+    "ID": "ID",
+    "CANCEL_BUTTON": "Cancel",
+    "UPDATE_BUTTON": "Update",
+    "SUBMIT_BUTTON": "Submit",
+    "QUICK_EDIT": "Quick Edit",
+    "QUICK_VIEW": "Quick View",
+    "DUPLICATE": "Duplicate",
+    "PROJECT": {
+      "RESOURCE_AND_BUDGET": "Resource & Budget"
+    },
+    "UNSAVED_CHANGES": "Unsaved Changes",
+    "REQUEST_MISSING_FIELDS": "Please note that certain required fields have missing inputs. Fill up the form by opening the full-page view before submitting it"
+  },
+  "PROGRAMS_LIST_PAGE": {
+    "TITLE": "Programs",
+    "ADD_PROGRAM_BUTTON": "Add Program",
+    "DELIVERY_TYPES": {
+      "ONLINE": "Online",
+      "IN_PERSON": "In Person",
+      "BLENDED": "Blended",
+      "OTHER": "Other"
+    },
+    "STATUS": {
+      "NOT_STARTED": "Not Started",
+      "IN_PROGRESS": "In Progress",
+      "CLOSED": "Closed"
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "PROGRAM_NUMBER": "Program Number",
+        "TITLE": "Title",
+        "STATUS": "Status",
+        "OWNERS": "Owners",
+        "DELIVERY_TYPE": "Delivery Type",
+        "CREATION": "Creation Date"
+      },
+      "NO_RECORDS": "No results found. Try another keyword.",
+      "GET_STARTED": "Get Started",
+      "EMPTY": "Create and manage your programs."
+    }
+  },
+  "ADD_PROGRAM_MODAL": {
+    "MODAL_TITLE": "Add Program",
+    "CAPTION": "Fill in the information to add new program",
+    "TITLE": "Title",
+    "TITLE_PLACEHOLDER": "Add a program name",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_PLACEHOLDER": "Add a description for the program",
+    "DELIVERY_TYPE": "Delivery Type",
+    "DELIVERY_TYPE_PLACEHOLDER": "Select a type for the program",
+    "OWNERS": "Owners",
+    "ERROR": "Something went wrong... We’re having a technical issue, please refresh or try again"
+  },
+  "PROGRAM_PAGE": {
+    "OVERVIEW": "Overview",
+    "STATUS": "Status",
+    "PROJECTS": "Projects",
+    "PROJECTS_SUB": "This Section shows details of program",
+    "LINK_PROJECTS": "Link Projects",
+    "UPDATE": "Update Program",
+    "UPDATE_SUCCESS": "Success! Program is updated",
+    "UPDATE_ERROR": "Something went wrong... We’re having a technical issue, please refresh or try again",
+    "CLOSED_TOOLTIP": "Please complete all projects linked before closing this program.",
+    "NO_DESCRIPTION": "No description",
+    "ID": "ID",
+    "DELETE_PROGRAM": "Delete Program",
+    "DELETE_PROGRAM_TOOLTIP": "There are unsaved changes.",
+    "INSIGHTS": {
+      "CAPTION": "By Status",
+      "PROJECTS_COMPLETED": "Projects Completed",
+      "PROJECTS_AT_RISK": "Projects at Risk",
+      "AVERAGE_TASK_COMPLETION": "Average Task Completion",
+      "PROJECTS_OVERDUE": "Projects Overdue",
+      "PIE_CHART_NO": "No",
+      "PIE_CHART_LINKED": "Linked",
+      "PIE_CHART_PROJECT": "Project",
+      "PIE_CHART_PROJECTS": "Projects",
+      "CONGRATULATIONS": "Congratulations!",
+      "CONGRATULATIONS_MESSAGE_1": "All projects are completed.",
+      "CONGRATULATIONS_MESSAGE_2": "You are ready to close the program."
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "TITLE": "Title",
+        "STATUS": "Status",
+        "PRIORITY": "Priority",
+        "PROGRESS": "Progress",
+        "START_DATE": "Start Date",
+        "TARGET_COMPLETION_DATE": "Target Completion Date",
+        "ACTUAL_COMPLETION_DATE": "Actual Completion Date"
+      },
+      "NO_RECORDS": "No results found. Try another keyword.",
+      "NO_LINKED_PROJECTS": "No projects linked",
+      "GET_STARTED": "Get Started",
+      "EMPTY": "Create and manage your programs."
+    },
+    "EMPTY": "Create and manage your programs.",
+    "UNLINK": "Unlink",
+    "LINK_PROJECTS_MODAL": {
+      "TITLE": "Link Projects",
+      "CAPTION": "Select project(s) to include in the program",
+      "PROJECTS_LABEL": "Choose Project(s)",
+      "PROJECTS_DROPDOWN_PLACEHOLDER": "Select a project to include in",
+      "LINK_BUTTON": "Link Project(s)",
+      "NO_PROJECTS_AVAILABLE": "All projects are already linked to this program"
+    },
+    "DELETE_PROGRAM_SUCCESS": {
+      "NO_PROJECTS": "Success! Program is deleted.",
+      "UNLINK_PROJECTS": "Success! Projects are unlinked and program is deleted.",
+      "DELETE_PROJECTS": "Success! Program is deleted with its projects.",
+      "MOVE_PROJECTS": "Success! Program is deleted and projects are moved to the selected program."
+    },
+    "DELETE_PROGRAM_ERROR": "Oops! Something went wrong. Please reload the page before you try again.",
+    "DELETE_PROGRAM_MODAL": {
+      "TITLE": "Delete Program",
+      "STEP_ONE": {
+        "TAB": "1. Select moving or deletion of project(s)",
+        "DESCRIPTION": "This program has projects linked to it. You can either move them to a new program, or delete those projects along with the program or unlink them and delete only the program now .",
+        "DELETE_OPTIONS": {
+          "MOVE": "Move Projects to another Program",
+          "UNLINK": "Unlink projects and delete program",
+          "DELETE": "Delete Projects with the Program"
+        },
+        "DELETED_PROJECTS_TEXT": "The following {numberOfProjects, plural, =1 {project} other {projects}} ({numberOfProjects}) will be deleted:",
+        "UNLINKED_PROJECTS_TEXT": "The following {numberOfProjects, plural, =1 {project} other {projects}} ({numberOfProjects}) will be unlinked:",
+        "MOVED_PROJECTS_TEXT": "Select a program to move all projects to:",
+        "PROGRAMS_DROPDOWN_PLACEHOLDER": "Select a program"
+      },
+      "STEP_TWO": {
+        "TAB": "2. Confirm",
+        "DESCRIPTION": "Please enter the name of the program you are deleting:",
+        "PROGRAM_NAME_PLACEHOLDER": "Enter the name of the program",
+        "DELETED_PROJECTS_TEXT": "All {numberOfProjects} {numberOfProjects, plural, =1 {project} other {projects}} are being deleted with this program. This action is not reversible.",
+        "UNLINKED_PROJECTS_TEXT": "All {numberOfProjects} {numberOfProjects, plural, =1 {project} other {projects}} are being unlinked and program will be deleted. This action is not reversible.",
+        "MOVED_PROJECTS_TEXT": "All {numberOfProjects} {numberOfProjects, plural, =1 {project} other {projects}} are being moved to <b>{newProgramTitle}</b>. The new program owners will be notified. This action is not reversible.",
+        "DELETE_BUTTON": "Delete Program"
+      }
+    },
+    "PROJECT_NO_ACCESS": "Access Denied. You are not part of this project team, hence you can not view the project.",
+    "STRATEGY_PAGE": {
+      "STRATEGY": "Strategy",
+      "PROGRAM_STRATEGY": "Program Strategy",
+      "GO_CATEGORY_PAGE": "Go to {category} Strategy",
+      "BETA": "Beta",
+      "TIPS": {
+        "TITLE": "Tips and Examples",
+        "DESCRIPTION": "The following tips and examples were developed as a part of the collaboration between Cognota and ROI Institute.",
+        "HAVE_QUESTIONS": "Have Questions?",
+        "WE_CAN_HELP": "We can help.",
+        "MAIL_SUBJECT": "Need help with Program Strategy",
+        "ERROR_MESSAGE": "Sorry, an error occurred and we couldn't laod the Tips and Examples page.",
+        "ERROR_SUB": "Please reload this page before you try again."
+      },
+      "ROI_BOOTCAMP": {
+        "TITLE": "ROI Boot Camp presented by</br>ROI Institute®",
+        "DESCRIPTION": "Gain a fundamental understand of:",
+        "POINT_ONE": "Data-Driven Decision Making",
+        "POINT_TWO": " Evaluation Knowledge",
+        "POINT_THREE": "The ROI Methodology",
+        "POINT_FOUR": "Practical Applications and Calculations"
+      },
+      "EXAMPLE_PROMPTS": {
+        "APPLICATION_GUIDE" : "Why the ROI Methodology?",
+        "ROI_BROCHEUR": "ROI Methodology Overview",
+        "ROI_AT_A_GLANCE":  "ROI Certification",
+        "LEVEL_0_BUILDING_THE_BRIEF": "Building the Brief",
+        "LEVEL_1_REACTION_EVALUATION_METHODOLOGY": "Reaction Evaluation Methodologies",
+        "LEVEL_2_LEARNING_EVALUATION_METHODOLOGY": "Learning Evaluation Methodologies",
+        "LEVEL_3_APPLICATION_EVALUATION_METHODOLOGY": "Application Evaluation Methodologies",
+        "LEVEL_4_IMPACT_CALCULATING_MONETARY_VALUE": "How to Calculate Monetary Value",
+        "LEVEL_4_IMPACT_EVALUATION_METHODOLOGY": "Impact Evaluation Methodologies",
+        "LEVEL_5_ROI_CALCULATING_PROGRAM_COSTS": "Program Costs",
+        "LEVEL_5_ROI_EVALUATION_METHODOLOGY": "ROI Evaluation Methodologies",
+        "BOOTCAMP": "Claim Your Free Boot Camp"
+      },
+      "CATEGORY": {
+        "CATEGORY_TITLE": "{program} / {category} Strategy",
+        "CATEGORY_NAVIGATOR": "{category} Objectives",
+        "INPUT_CATEGORY_NAVIGATOR": "Input",
+        "ROI_CATEGORY_NAVIGATOR": "ROI & Costs",
+        "PROGRAM_CATEGORY": "Program Category",
+        "OBJECTIVES_SETTING": "Objectives Setting",
+        "ADD_OBJECTIVE": "Add Objective",
+        "GET_STARTED_ADD_OBJECTIVES": "Get started adding objectives",
+        "CATEGORY_INSTRUCTIONS": {
+          "APPLICATION": "“Application” refers to how the knowledge and skills gained through this learning program should be applied. What behavior changes should this program influence?",
+          "LEARNING": "What new skills and/or competencies should learners gain from this program?",
+          "REACTION": "Your learners' experience is important. Engaged and satisfied learners are the foundation for a successful program. What reactions does this program need to elicit?",
+          "IMPACT": "How should this program improve business measures? Each Impact objective will ideally create a monetary benefit for your business.",
+          "ROI": "Set an ROI Objective to determine if the program has achieved the intended result."
+        },
+        "ERROR": {
+          "TITLE": "Sorry, an error occurred and changes were not saved!",
+          "MESSAGE": "Please reload the page before you try to save again."
+        },
+        "UPDATE_ERROR_TITLE": "Sorry, an error occurred and some changes may not have been saved!",
+        "SUCCESS_TITLE": "Success! Objective updated.",
+        "TOTAL_MONETARY_BENEFITS": "Total Annual Monetary Benefits"
+      },
+      "OBJECTIVE": {
+        "MANAGE_OBJECTIVE": "Manage Objective",
+        "OBJECTIVE": "Objective {number}",
+        "OBJECTIVE_RESULT": {
+          "MET": "Objective Met",
+          "NOT_MET": "Objective Not Met",
+          "NO_RESULTS": "No Results Added"
+        },
+        "OBJECTIVE_PAGE_SUBTITLE": "{category} Objective",
+        "WAS_OBJECTIVE_MET": "Was this objective met?",
+        "YES_MET": "Yes, the objective was met",
+        "NOT_MET": "No, the objective wasn't met",
+        "OBJECTIVE_NOT_MET_REASON_LABEL": "Why wasn't the objective met?",
+        "OBJECTIVE_NOT_MET_REASON_SUBTITLE": "Specify any details",
+        "OBJECTIVE_NOT_MET_REASON_PLACEHOLDER": "Describe why the objective wasn't met",
+        "AT_END_OF_PROGRAM_PARTICIPANTS": "At the end of this program, participants will be able to",
+        "EDIT_OBJECTIVE_PLACEHOLDER": "Learners should find this program relevant to their role and job duties.",
+        "EVALUATION_DETAILS": "Evaluation Details & Findings",
+        "COMMING_SOON": "Coming soon...",
+        "DELETE_OBJECTIVE": {
+          "MODAL": {
+            "TITLE": "Delete Objective",
+            "MESSAGE": "The objective will no longer be available and this action cannot be undone.",
+            "IMPACE_LEVEL_MESSAGE": "By deleting this objective, any corresponding monetary benefits will also be permanently deleted from the system.",
+            "CONFIRM_BUTTON": "Yes, Delete"
+          },
+          "NOTIFICATION": {
+            "ERROR": {
+              "TITLE": "Sorry, an error occurred and the objective wasn't deleted!",
+              "MESSAGE": "Please try again."
+            },
+            "SUCCESS": {
+              "TITLE": "Success! Objective deleted."
+            }
+          }
+        },
+        "ADD_OBJECTIVE": {
+          "TITLE": "Add {category} Objective",
+          "SUBTITLE_REACTION": "Select from these popular reaction objectives and add them to your program. If you don’t see what you need, you can create a new objective.",
+          "ADD_OBJECTIVES": "Yes, Add Objective(s)",
+          "PROGRAM_OBJECTIVE": "Program Objective",
+          "OBJECTIVES_SHOULD_BE": "Objectives should be SMART: specific, measurable, actionable, relevant, and time bound.",
+          "ADD_OBJECTIVE_FOR": "Add your objective for this strategy level",
+          "CREATE_OBJECTIVE": "Create Objective",
+          "SUCCESS": "Success! Objective(s) added.",
+          "PROMPTS": "Prompts",
+          "PROGRAM_DESCRIPTION": "Program description"
+        },
+        "OBJECTIVE_MANAGEMENT": "Objective Management",
+        "OBJECTIVE_MEASUREMENT": "Objective Measurement",
+        "REPORT_RESULTS": "How do you want to report the results for this objective?",
+        "MEASURED_OTHER_SCALE": "Was it measured using any other scale?",
+        "MEASUREMENT_TYPES": {
+          "PERCENTAGE": "Percentage %",
+          "FIVE_POINT": "5 pt scale",
+          "TEN_POINT": "10 pt scale"
+        },
+        "MEASUREMENT_INPUT": {
+          "PERCENTAGE": "% of participants met this objective.",
+          "FIVE_POINT": "This objective was met",
+          "TEN_POINT": "This objective was met"
+        },
+        "BENEFITS": {
+          "TITLE": "Benefits Calculator",
+          "SUBTITLE": "Enter the value of one unit of measure and then enter the change in performance of that measure during one month.",
+          "UNIT_OF_MEASURE_TITLE": "Unit of Measure",
+          "UNIT_OF_MEASURE_SUBTITLE": "What is your objective measuring? Example: New customers, absences, churn",
+          "UNIT_OF_MEASURE_PLACEHOLDER": "Add a unit of measure",
+          "VALUE_OF_UNIT_TITLE": "Value of One Unit of Measure (V)",
+          "VALUE_OF_UNIT_TOOLTIP": " How do I find this value?",
+          "VALUE_OF_UNIT_SUBTITLE": "This could be value add such as profit for one new customer or cost avoidance for reducing absences.",
+          "VALUE_OF_UNIT_PLACEHOLDER": "Add monetary value for unit of measure",
+          "CHANGE_OF_PERFORMANCE_TITLE": "Change in Performance per month (ΔP).",
+          "CHANGE_OF_PERFORMANCE_SUBTITLE": "Example: Add the number of absences prevented per month.",
+          "CHANGE_OF_PERFORMANCE_PLACEHOLDER": "Add a number",
+          "ANNUAL_MONETARY_BENEFITS_TITLE": "Annual Monetary Benefits (AΔP*V)",
+          "ANNUAL_MONETARY_BENEFITS_SUBTITLE": "Annual change in performance (ΔP*12) multiplied by the value of the measure",
+          "ANNUAL_MONETARY_BENEFITS_EMPTY_STATE": "No value provided",
+          "ERROR_MESSAGE_TITLE": "Sorry, an error occurred and we couldn't laod the instructions file",
+          "ERROR_MESSAGE_BODY": "Please reload this page before you try again."
+        },
+        "ADDITIONAL_BENEFITS": {
+          "SECTION_TITLE": "Additional Benefits",
+          "SECTION_DESCRIPTION": "What other benefits were created by this program? These benefits can be monetary or intangible.",
+          "ADD_BENEFIT": "Add Benefit"
+        }
+      },
+      "ADDITIONAL_BENEFITS": {
+        "BENEFIT": "Benefit {number}",
+        "MANAGE_BENEFIT": "Manage Benefit"
+      },
+      "ADD_ADDITIONAL_BENEFIT_MODAL": {
+        "TITLE": "Add {category} Benefit",
+        "CONFIRM_BUTTON": "Yes, Add Benefit(s)",
+        "CREATE_BENEFIT": "Create Benefit",
+        "BENEFIT": "Benefit {number}",
+        "BENEFIT_INPUT_PLACEHOLDER": "Add your benefit for this strategy level",
+        "SUCCESS_MESSAGE": "Success! Benefit(s) added.",
+        "PROMPTS": {
+          "OTHER": "What other benefits were created by this program?",
+          "SCOPE": "Additional benefits can include: stress reduction, job satisfaction."
+        }
+      },
+      "EVALUATION": {
+        "TITLE": "Evaluation Plan & Results",
+        "SECTION_DESCRIPTION": "Recommended methods for evaluating reaction include post-program questionnaire, test and/or interview.",
+        "WARNING": "Add objectives first to plan the corresponding evaluation.",
+        "SAVE_PLAN": "Save Plan",
+        "DICARD_CHANGES": "Discard Changes",
+        "NO_OBJECTIVES_TITLE": "There are no objectives to match this plan.",
+        "NO_OBJECTIVES_DESCRIPTION": "Consider adding new objectives and updating your evaluation plan.",
+        "DELETE_COLLECTION_METHOD_MODAL": {
+          "TITLE": "Save Changes: Data Collection Method Deleted",
+          "BODY_TEXT": "By saving these changes to the Evaluation Plan, any data collection method removed and any information related to them will be permanently deleted.",
+          "CONFIRM_BUTTON": "Yes, Save Changes"
+        },
+        "FIELDS": {
+          "COLLECTION_METHOD": "Data Collection Method",
+          "COLLECTION_METHOD_PLACEHOLDER": "Select 1 or more methods",
+          "DATA_SOURCE": "Data Source",
+          "DATA_SOURCE_PLACEHOLDER": "Select 1 or more data sources",
+          "METHOD": "Method",
+          "METHOD_PLACEHOLDER": "Select 1 or more methods",
+          "NUMBER_OF_RESPONDENTS": "No. of Respondents",
+          "NUMBER_OF_RESPONDENTS_PLACEHOLDER": "Add number of respondents",
+          "COLLECTION_TIMING": "Data Collection Timing",
+          "COLLECTION_TIMING_PLACEHOLDER": "Select 1 or more collection timing",
+          "OTHER": "Other",
+          "OTHER_PLACEHOLDER": "Specify the data source",
+          "NUMBER_OF_OBSERVERS": "No. of Observers",
+          "NUMBER_OF_OBSERVERS_PLACEHOLDER": "Add number of observers",
+          "NUMBER_OBSERVED": "No. Observed",
+          "NUMBER_OBSERVED_PLACEHOLDER": "Add number of observers",
+          "DESIRED_BEHAVIOURS": "Desired Behaviours",
+          "DESIRED_BEHAVIOURS_PLACEHOLDER": "Describe the desired behavior to be observed",
+          "ADD_BEHAVIOUR": "Add Behaviour"
+        }
+      },
+      "EVIDENCE": {
+        "TITLE": "Evaluation Evidence",
+        "SECTION_DESCRIPTION": "Keep related documents together by uploading them here.",
+        "SUPPORTED_FILE_TYPES": "Supported file types: JPG, PNG, mp4, mpeg, mp3, pdf, txt, .ppt, .pptx, .xls, .xlsx, .doc, .docx, .odt, .odp, .ai, .psd, ods, .csv",
+        "DELETE_SUCCESS": "Success! Evidence file deleted",
+        "UPLOAD_SUCCESS_MESSAGE": "Success! File uploaded.",
+        "REPLACE_SUCCESS_MESSAGE": "Success! Evidence file replaced.",
+        "UPLOAD_ERROR_MESSAGE_TITLE": "Sorry, an error occurred and your evidence file wasn't uploaded",
+        "UPLOAD_ERROR_MESSAGE_BODY": "Please try to upload it again",
+        "REPLACE_EVIDENCE_MODAL": {
+          "TITLE": "Replace Evidence",
+          "BODY_TEXT": "There's already a file called <b>{fileName}</b>.<p>Uploading a new file with the same name, <b>will replace the previous file.</b></p>",
+          "REPLACE_BUTTON": "Yes, Replace"
+        },
+        "DELETE_ERROR": "Sorry, an error occurred and your evidence file wasn't deleted.",
+        "DELETE_ERROR_MESSAGE": "Please try to delete it again",
+        "DOWNLOAD_ERROR_TITLE": "Sorry, an error occurred and your evidence file wasn't downloaded",
+        "DOWNLOAD_ERROR_MESSAGE": "Please try to download it again"
+      },
+      "ADDITIONAL_BENEFIT": {
+        "TITLE": "{categoryName} Benefit",
+        "TAGS": {
+          "INTANGIBLE": "Intangible",
+          "MONETARY": "Monetary",
+          "NO_INFORMATION": "No Information Added"
+        },
+        "BENEFIT_MANAGEMENT": {
+          "TITLE": "Benefit Management",
+          "BENEFIT": "Benefit {number}",
+          "BENEFIT_SUBTITLE": "At the end of the program this additional benefit was created",
+          "BENEFIT_PLACEHOLDER": "Specify a benefit created by this program"
+        },
+        "BENEFIT_MEASUREMENT": {
+          "TITLE": "Benefit Measurement",
+          "SUBTITLE": "Specify whether this benefit generated any monetary gain.",
+          "IS_MONETARY": "Was this benefit monetary?",
+          "IS_MONETARY_OPTIONS": {
+            "YES": "Yes, it was monetary",
+            "NO": "No, it was intangible"
+          }
+        },
+        "DELETE_BENEFIT_BUTTON": "Delete Benefit",
+        "DELETE_BENEFIT_MODAL": {
+          "TITLE": "Delete Benefit",
+          "MESSAGE": "The benefit will no longer be available and this action cannot be undone.",
+          "SUCCESS_NOTIFICATION": "Success! Benefit deleted.",
+          "ERROR_NOTIFICATION_TITLE": "Sorry, an error occurred and the benefit wasn't deleted!",
+          "ERROR_NOTIFICATION_MESSAGE": "Please try again."
+        },
+        "SUCCESS_MESSAGE": "Success! Benefit updated."
+      }
+    }
+  },
+  "INPUT_CATEGORY": {
+    "BUSINESS_REQUEST_SECTION": {
+      "TITLE": "Business Request",
+      "SUBTITLE": "Who is requesting this learning? When does the learning need to be delivered?",
+      "REQUESTS_LABEL": "Find the business request related to this program",
+      "REQUESTS_PLACEHOLDER": "Search by request name or number",
+      "LINK_REQUESTS": "Link",
+      "CLEAR_ALL": "Clear All",
+      "LINK_REQUEST": "Link a Request",
+      "TABLE": {
+        "REQUEST_NUMBER": "Request Number",
+        "REQUEST_TITLE": "Request Title",
+        "REQUESTER_NAME": "Requester Name",
+        "BUSINESS_UNIT": "Business Unit",
+        "EMPTY_MESSAGE": "No requests linked"
+      },
+      "ADDITIONAL_FIELDS_PROMPT": "If the following fields were not addressed in your business request or if no request was linked, please fill out.",
+      "COMPLETION_DATE_TITLE": "Completion Date",
+      "COMPLETION_DATE_SUBTITLE": "When should the learning be completed?",
+      "COMPLETION_DATE_PLACEHOLDER": "Select a completion date",
+      "BUSINESS_UNIT_TITLE": "Business Unit",
+      "BUSINESS_UNIT_SUBTITLE": "Who is requesting this learning?",
+      "BUSINESS_UNIT_PLACEHOLDER": "Select a business group"
+    },
+    "SAVE_SUCCESS_NOTIFICATION": "Success! Input strategy updated",
+    "OBJECTIVES_DETAIL_SECTION": {
+      "SECTION_TITLE": "Business Objective Details",
+      "SECTION_SUBTITLE": "What are the business objectives?",
+      "FIELDS": {
+        "PAYOFF_OPPORTUNITY": {
+          "TITLE": "Payoff Opportunity",
+          "SUBTITLE": "What is the problem or opportunity? What is the economic value of the opportunity?",
+          "TOOLTIP": "E.g. We are losing $1 million a month due to the disposal of perfectly good products.",
+          "PLACEHOLDER": "Add payoff opportunity"
+        },
+        "BUSINESS_NEED": {
+          "TITLE": "Business Need",
+          "SUBTITLE": "What business measures, if improved, would indicate the problem or opportunity is being addressed?",
+          "TOOLTIP": "E.g. Length of stay, inventory overrun, overtime, employee turnover, customer churn",
+          "PLACEHOLDER": "Add business need"
+        },
+        "JOB_PERFORMANCE_NEED": {
+          "TITLE": "Job Performance Need",
+          "SUBTITLE": "What is happening or not happening on the job that is causing the business need?",
+          "TOOLTIP": "E.g. Supervisors are not having conversations with staff who fail to show up for work",
+          "PLACEHOLDER": "Add job performance need"
+        },
+        "LEARNING_NEED": {
+          "TITLE": "Learning Need",
+          "SUBTITLE": "What knowledge, skill or information is needed in order to change what is happening or not happening?",
+          "TOOLTIP": "E.g. Key performer needs to know how to protect and manage their time",
+          "PLACEHOLDER": "Add learning need"
+        },
+        "PREFERENCE_NEED": {
+          "TITLE": "Preference Need",
+          "SUBTITLE": "How best can this knowledge, skill or information be communicated so that change on the job occurs?",
+          "TOOLTIP": "E.g. New reporting process introduced to key stakeholder during executive retreat",
+          "PLACEHOLDER": "Add preference need"
+        }
+      }
+    },
+    "LEARNER_DETAIL_SECTION": {
+      "SECTION_TITLE": "Learner Details",
+      "SECTION_SUBTITLE": "Who are the learners? What do they need to know and do?",
+      "FIELDS": {
+        "NO_OF_LEARNERS": {
+          "TITLE": "No. of Learners",
+          "SUBTITLE": "How many learners are included in the audience?",
+          "PLACEHOLDER": "Add number of learners"
+        },
+        "AUDIENCE": {
+          "TITLE": "Audience",
+          "SUBTITLE": "Who needs the learning?",
+          "PLACEHOLDER": "Include audience"
+        }
+      }
+    }
+  },
+  "ROI_CATEGORY": {
+    "OBJECTIVES_SETTING": {
+      "EMPTY_STATE_CAPTION": "Get started adding your ROI Objective",
+      "ADD_OBJECTIVE_MODAL": {
+        "TITLE": "Add ROI Objective",
+        "OBJECTIVE_FIELD_LABEL": "Objective",
+        "OBJECTIVE_FIELD_SUBTITLE": "What ROI % should this program achieve?",
+        "OBJECTIVE_FIELD_PLACEHOLDER": "Add your ROI %",
+        "CONFIRM_BUTTON": "Yes, Add Objective"
+      },
+      "OBJECTIVE_CARD": {
+        "TITLE": "Objective",
+        "BODY": "ROI of {roi}%"
+      },
+      "ADD_SUCCESS_NOTIFICATION": "Success! Objective added."
+    },
+    "OBJECTIVE_PAGE": {
+      "DELETE_OBJECTIVE_BUTTON": "Delete Objective",
+      "TITLE": "Objective Management",
+      "OBJECTIVE_FIELD_SUBTITLE": "The desired ROI % for this program is",
+      "ROI_OBJECTIVE_MODAL_TEXT": "By deleting this objective, any related calculations will also be permanently deleted from the system."
+    },
+    "PROGRAM_COSTS": {
+      "TITLE": "Program Costs",
+      "SUBTITLE": "This captures the total costs of the program including both direct and indirect costs. across all stages of the program, providing value for your ROI Calculation.",
+      "BANNER": "Total Program Costs",
+      "MANAGE_COSTS": "Manage Costs"
+    },
+    "COSTS_PAGE": {
+      "HEADING_TITLE": "Add the costs associated with this program",
+      "HEADING_SUBTITLE": "Include all costs related to the evaluation strategy, instrument design, data collection and analysis, and reporting costs.",
+      "COST_DESCRIPTION": "Cost Description",
+      "RESOURCE_COSTS": "Resource costs",
+      "RESOURCE_COSTS_INFORMATION_ICON": "information about resource costs",
+      "RESOURCE_COSTS_TOOLTIP_LINE_1": "This cost is equal to the ",
+      "RESOURCE_COSTS_TOOLTIP_LINE_2": "number of team members x average hourly salary x total hours.",
+      "COST": "Cost",
+      "COST_PLACEHOLDER": "Add cost",
+      "PROCESS_STAGE": "Process Stage (optional)",
+      "ADD_COST_BUTTON": "Add new cost",
+      "COST_DESCRIPTION_PLACEHOLDER": "Describe your cost",
+      "DELETED_STAGE": "Deleted",
+      "DISABLED_STAGE": "Disabled",
+      "SUCCESS_MESSAGE": "Success! Costs updated.",
+      "DELETE_MODAL_TITLE": "Delete Cost"
+    },
+    "ROI_CALCULATOR": {
+      "TITLE": "ROI Calculator",
+      "SUBTITLE": "Converts your monetary benefits and program costs into a benefit-cost ratio and ROI expressed as a percent.",
+      "ANNUAL_MONETARY_BENEFITS_TOTAL": "Total Annual Monetary Benefits",
+      "VIEW_CALCULATION": "View calculation",
+      "NO_VALUE_PROVIDED": "No value provided",
+      "PROGRAM_COST_TOTAL": "Total Program Costs",
+      "RETURN_ON_INVESTMENT": "Return On Investment",
+      "NO_CALCULATION_YET": "No calculation yet",
+      "BENEFIT_COST_RATIO": "Benefit Cost Ratio",
+      "ROI_OBJECTIVE": "ROI Objective",
+      "NO_OBJECTIVE": "No objective set"
+    }
+  },
+  "UNSAVED_CHANGES": {
+    "TITLE": "Unsaved changes",
+    "MESSAGE": "You have unsaved changes on this page. If you leave this page without saving, your changes will be lost.",
+    "CONFIRM_MESSAGE": "Would you like to proceed?",
+    "DISCARD_BUTTON": "Yes, Discard changes"
+  },
+  "USER_TIME_OFF_PAGE": {
+    "TITLE": "My Time Off",
+    "SUBTITLE": "Add and remove your time off",
+    "ADD_TIME_OFF": "Add Time Off",
+    "FORM": {
+      "TITLE": "{action} Time Off",
+      "TYPE_PLACEHOLDER": "Select a type of time off"
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "Dates",
+        "START_DATE": "Start Date",
+        "END_DATE": "End Date",
+        "TYPE": "Time Off Type"
+      },
+      "EMPTY": "No time off added yet"
+    },
+    "SIDE_PANEL": {
+      "ACTIONS": {
+        "UPDATE": "updated",
+        "ADD": "added",
+        "REMOVE": "removed"
+      },
+      "SUCCESS_MESSAGE": "Success! Time off {action}."
+    }
+  },
+  "TASK_ACTUAL_HOURS": {
+    "TITLE": "Actual Hours Log",
+    "CAPTION": "Use this section to add or remove your actual hours spent on the task",
+    "TODAY": "Today",
+    "NO_USER_DATA": "No user detail available to display",
+    "NO_DATE": "No date available to display",
+    "NO_ACTUAL_HOURS_DATA": "We're sorry, but there are no actual hours available to display for this task.",
+    "WARNING": "Deleting the actual hours data may affect project timelines and progress tracking."
+  },
+  "ARCHIVE_PROJECT_MODAL": {
+    "TITLE": "{action} Project",
+    "CAPTION": "Once archived, a project is no longer editable.",
+    "UNARCHIVE_CAPTION": "If un-archived, the project will appear in the main table view.",
+    "DATE_LABEL": "{action} Date",
+    "CONFIRM": "Yes, {action}"
+  },
+  "TEAMS_CAPACITY": {
+    "TABLE_CAPTION": "Teams Capacity",
+    "WEEKLY_CAPACITY": "Weekly Capacity:",
+    "ASSIGNED_HOURS": "Assigned Hours:",
+    "AVAILABLE_HOURS": "Available Hours:",
+    "NO_TEAM_MEMBERS": "(No team members)",
+    "VIEW_PROJECTS": "View Projects",
+    "HIDE_PROJECTS": "Hide Projects",
+    "NO_PROJECTS_ASSIGNED": "No projects assigned",
+    "TEAM_MANAGER": "Team Manager",
+    "WEEKLY_TIME_OFF": "Time off/Holiday this week",
+    "ASSIGN_CAPACITY": "Assign Capacity",
+    "NO_TASKS_ASSIGNED": "No tasks assigned",
+    "TEAMS_AND_MEMBERS_COLUMN_TITLE": "Teams With Team Members ({numberOfTeams})",
+    "NUMBER_OF_TEAM_MEMBERS": "({numberMembers} {numberMembers, plural, =1 {member} other {members}})",
+    "FETCH_MORE_TEAMS": "Show More Teams",
+    "VIEW_PICKER": {
+      "DAILY": "Daily",
+      "WEEKLY": "Weekly",
+      "BETA_WEEKLY": "Weekly",
+      "BETA": "Beta"
+    },
+    "ADD_TEAM": "Add Team",
+    "GET_STARTED_ADD_TEAMS": "Get started adding teams.",
+    "NO_TEAMS_ASSIGNED": "No teams assigned",
+    "ALLOCATION_SUMMARY_TOOLTIP": {
+      "DEFAULT_CAPACITY": "{teamLevel, plural, =1{Team } other{}}{view} Capacity:",
+      "ASSIGNED_HOURS": "{teamLevel, plural, =1{Team } other{}}Assigned Hours:",
+      "TIME_OFF": "{teamLevel, plural, =1{Team } other{}}Time Off:",
+      "AVAILABLE_HOURS": "{teamLevel, plural, =1{Team } other{}}Available Hours:"
+    },
+    "ALLOCATION_SUMMARY_HOURS": "{hours}h",
+    "TEAM_NAME_COLUMN": "Team Name"
+  },
+  "STRATEGY_DATA_COLLECTION": {
+    "METHODS": {
+      "FOCUS_GROUP": "Focus Group",
+      "INTERVIEW": "Interview",
+      "QUESTIONNAIRE": "Questionnaire",
+      "OBSERVATION": "Observation",
+      "PERFORMANCE_MONITORING": "Performance Monitoring",
+      "TEST": "Test",
+      "SURVEY": "Survey",
+      "ACTION_PLANNING_PERFORMANCE_CONTRACTING": "Action Planning/Performance Contracting"
+    },
+    "QUESTION_ANSWERS": {
+      "DATA_SOURCE": {
+        "PARTICIPANTS": "Participants",
+        "FACILITATORS": "Facilitators",
+        "MANAGERS": "Managers",
+        "COLLEAGUES_TEAM": "Colleagues/Team",
+        "DIRECT_REPORTS": "Direct Reports",
+        "CLIENT_BUSINESS_PARTNERS": "Client/Business Partners",
+        "EXTERNAL_CUSTOMERS": "External Customers",
+        "OTHER": "Other"
+      },
+      "COLLECTION_TIMING": {
+        "PRE_PROGRAM": "Pre-Program",
+        "IMMEDIATELY_AFTER": "Immediately After",
+        "2_WEEKS_AFTER": "2 Weeks After",
+        "1_MONTH_AFTER": "1 Month After",
+        "3_MONTHS_AFTER": "3 Months After",
+        "6_MONTHS_AFTER": "6 Months After",
+        "1_YEAR_AFTER": "1 Year After"
+      },
+      "METHOD": {
+        "VIDEO_RECORDING": "Video Recording",
+        "AUDIO_MONITORING": "Audio Monitoring",
+        "COMPUTER_MONITORING_SOFTWARE": "Computer Monitoring (Software)",
+        "BEHAVIOUR_CHECKLIST": "Behaviour Checklist",
+        "CODED_BEHAVIOUR_RECORD": "Coded Behaviour Record",
+        "DELAYED_REPORT_METHOD": "Delayed Report Method"
+      }
+    },
+    "NOTIFICATION": {
+      "ERROR": {
+        "TITLE": "Sorry, an error occurred and some changes may not have been saved",
+        "MESSAGE": "Please reload the page before you try to save again."
+      },
+      "SUCCESS_TITLE": "Success! {categoryName} strategy updated."
+    },
+    "UNSAVED_CHANGES_MODAL": {
+      "TITLE": "Unsaved Changes",
+      "MESSAGE": "Seems like there are unsaved changes in the Evaluation Plan & Results section. Leaving this page will discard all unsaved changes.",
+      "CONFIRM_MESSAGE": "Yes, Leave Without Saving",
+      "DISCARD_BUTTON": "Cancel"
+    }
+  },
+  "TASK_MODAL": {
+    "TITLE": "{action} Task",
+    "ADD_PROMPT": "Fill in the information to add this task to the {container}",
+    "UPDATE_PROMPT": "Fill in the information to update this task in the {container}"
+  },
+  "MANAGE_TIME_OFF": {
+    "FILTERS": {
+      "DATEPICKER_LABEL": "Dates",
+      "DATEPICKER_START_PLACEHOLDER": "From",
+      "DATEPICKER_END_PLACEHOLDER": "To"
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "Dates",
+        "TIME_OFF_TYPE": "Time Off Type",
+        "HOURS": "Hours"
+      },
+      "EMPTY_CAPTION": "Get started adding time off.",
+      "EMPTY_FILTER_RESULT_CAPTION": "No results found."
+    },
+    "EDIT_TIME_OFF": "Edit Time Off",
+    "AMOUNT": "Amount",
+    "DAILY_CAPACITY": "Daily Capacity: {capacity} hours",
+    "TOTAL": "Total",
+    "HOURS": "hours",
+    "ADD_TIME_OFF": "Add Time Off",
+    "ADD_TIME_OFF_SUCCES": "Success! Time off added.",
+    "UPDATE_TIME_OFF_SUCCES": "Success! Time off updated.",
+    "SAVE_CHANGES_ERROR_TITLE": "Sorry, an error occurred and some changes may not have been saved!",
+    "SAVE_CHANGES_ERROR_MESSAGE": "Please reload the page before you try to save again.",
+    "INVALID_DATE_RANGE_ERROR": "Time off entries cannot exceed 18 months",
+    "UPDATE_INVALID_DATE_RANGE": "Please adjust your end date to no later than",
+    "DELET_TIME_OFF_TITLE": "Delete Time Off",
+    "DELETE_TIME_OFF_MESSAGE": "This time off will be removed.",
+    "DELETE_TIME_OFF_CONFIRMATION": "Are you sure you want to delete this time off?",
+    "DELETE_TIME_OFF_BUTTON": "Yes, Delete Time Off",
+    "DELETE_TIME_OFF_SUCCESS": "Success! Time off removed.",
+    "MANAGE_USER_TIME_OFF_TITLE": "Manage Time Off: {userName}",
+    "NO_PERMISSION_ERROR_TITLE": "You don’t have permission to view this page",
+    "NO_PERMISSION_ERROR_MESSAGE": "Please contact your admin for access",
+    "NUMBER_OF_RESULTS": "{number} results"
+  },
+  "SCHEDULE": {
+    "TITLE": "Schedule",
+    "TABS": {
+      "EVENTS": "Events",
+      "FACILITATORS": "Facilitators"
+    },
+    "ADD_EVENT_BUTTON": "Add Event",
+    "ADD_NEW_EVENT": "Add a new event",
+    "ADD_FACILITATOR_BUTTON": "Add Facilitator",
+    "IMPORT_FACILITATORS": "Import Facilitators",
+    "EVENTS": {
+      "BANNER": "Add a Learning Event and it will show up below."
+    },
+    "FACILITATORS": {
+      "BANNER": "Add a Facilitator to Cognota and they will show up below."
+    }
+  }
+}

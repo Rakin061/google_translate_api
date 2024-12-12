@@ -1,0 +1,4125 @@
+{
+  "ADD": "Ajouter",
+  "ADD_A_TEAM": "Ajouter une équipe",
+  "ADD_PROGRAM_MODAL": {
+    "CAPTION": "Remplissez les informations pour ajouter un nouveau programme",
+    "DELIVERY_TYPE": "Type de livraison",
+    "DELIVERY_TYPE_PLACEHOLDER": "Sélectionnez un type pour le programme",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_PLACEHOLDER": "Ajouter une description pour le programme",
+    "ERROR": "Une erreur s'est produite... Nous rencontrons un problème technique, veuillez actualiser ou réessayer",
+    "MODAL_TITLE": "Ajouter un programme",
+    "OWNERS": "Propriétaires",
+    "TITLE": "Titre",
+    "TITLE_PLACEHOLDER": "Ajouter un nom de programme"
+  },
+  "ADD_TEAM_MODAL": {
+    "DESCRIPTION_PLACEHOLDER": "Entrez la description de l'équipe",
+    "FILL_DETAILS": "Remplissez les détails pour ajouter une équipe",
+    "SUCCESS_MESSAGE": "L'équipe a été ajoutée avec succès !",
+    "TEAM_NAME_PLACEHOLDER": "Entrez le nom de l'équipe"
+  },
+  "ADD_USER": {
+    "ADD_USER_BUTTON": "Ajouter un utilisateur",
+    "ADD_USER_MODAL": {
+      "BODY": "Remplissez les détails et sélectionnez le type d'utilisateur",
+      "BUSINESS_UNIT": "Unité commerciale",
+      "BUSINESS_UNIT_PLACEHOLDER": "Sélectionnez une unité commerciale",
+      "CONTINUE_BUTTON": "Continuer",
+      "EMAIL_LABEL": "E-mail",
+      "EMAIL_PLACEHOLDER": "Entrez une adresse e-mail",
+      "SELF_REGISTRATION": "Auto-inscription",
+      "SELF_REGISTRATION_BANNER": "L'utilisateur a été notifié avec succès avec le lien d'inscription !",
+      "SEND_LINK": "Envoyer le lien",
+      "TITLE": "Ajouter { op, plural, =1 {a} other {an} } { userType }",
+      "USER_TYPE_HELP_TEXT": {
+        "BUSINESS": "Utilisateur du côté commercial",
+        "EXTERNAL": "Utilisateur spécialisé",
+        "LD": "Utilisateur qui participe à la création de la formation"
+      },
+      "USER_TYPE_LABEL": "Type d'utilisateur",
+      "USER_TYPE_PLACEHOLDER": "Sélectionnez un type d'utilisateur"
+    },
+    "USER_ADDED": "L'utilisateur a été ajouté avec succès !"
+  },
+  "ALPHA": "Alpha",
+  "APP_NOTIFICATIONS": {
+    "ASSIGN_NEW_OWNER": "vous a attribué comme propriétaire du formulaire de demande",
+    "BUSINESS_USER_NEW_REGISTRATION": "{ newUserEmail } vient de s'inscrire en tant qu'utilisateur professionnel.",
+    "COMMENT_ADDED": "a ajouté un commentaire à la demande",
+    "NEW_PROJECT_PARTICIPANT": "{ userName } vous a attribué comme membre du projet <b>{ projectName }</b> avec le rôle de projet <b>{ role }</b>.",
+    "PROGRAM_CLOSED": "{ triggererName } a fermé le programme : <b>{ programName }</b>",
+    "PROGRAM_DELETED": {
+      "DELETE_PROJECTS": "{ triggererName } a supprimé le programme <b>{ programName }</b> avec les projets liés.",
+      "MOVE_PROJECTS": "{ triggererName } a supprimé le programme <b>{ programName }</b> et déplacé tous les { numberOfProjects } { numberOfProjects, plural, =1 {project} other {projects} } vers le nouveau programme <b>{ newProgramTitle }</b>.",
+      "NO_PROJECTS": "{ triggererName } a supprimé le programme <b>{ programName }</b>.",
+      "UNLINK_PROJECTS": "{ triggererName } a supprimé le programme <b>{ programName }</b>. Cependant, tous les projets liés ne sont pas concernés par cette action."
+    },
+    "PROGRAM_UPDATED": "{ triggererName } a mis à jour le programme : <b>{ programName }</b>",
+    "PROJECT_ASSIGNMENT_REMOVED": "{ userName } a supprimé votre affectation en tant que <b>{ role }</b> dans le projet <b>{ projectName }</b>.",
+    "PROJECT_ASSIGNMENT_UPDATED": "{ userName } a mis à jour votre affectation en tant que <b>{ role }</b> dans le projet <b>{ projectName }</b>.",
+    "PROJECT_COMMENTED": "{ userName } a ajouté un commentaire au projet <b>{ projectName }</b>.",
+    "PROJECT_COMMENT_MENTION": "{ userName } vous a tagué dans un commentaire au sein du projet <b>{ projectName }</b>.",
+    "PROJECT_DUE_DATE": "Il ne reste que { number, plural, =7 {1 semaine} =1 {1 jour} } avant que le projet <b>{ projectName }</b> n'atteigne sa date d'achèvement cible.",
+    "PROJECT_IS_ARCHIVED_UPDATED": "{ triggererName } { action } le projet <b>{ projectName }</b>.",
+    "PROJECT_LINKED_TO_PROGRAM": "{ triggererName } projet lié <b>{ projectName }</b> au programme { programName }</b>",
+    "PROJECT_OWNER_ASSIGNED": "{ userName } vous a attribué le statut de propriétaire du projet <b>{ projectName }</b>.",
+    "PROJECT_OWNER_UNASSIGNED": "{ userName } vous a retiré de la liste des propriétaires du projet <b>{ projectName }</b>.",
+    "PROJECT_PARTICIPANT_REMOVED": "{ userName } vous a supprimé en tant que participant du projet <b>{ projectName }</b>.",
+    "PROJECT_PAST_DUE": "Le projet <b>{ projectName }</b> a dépassé sa date d'achèvement prévue.",
+    "PROJECT_START_DATE_PASSED": "La date de début du projet <b>{ projectName }</b> est passée. Ce projet doit-il être en cours ?",
+    "PROJECT_START_DATE_THREE_DAYS": "Il ne reste que 3 jours avant le début du projet <b>{ projectName }</b>. N'oubliez pas de changer le statut en En cours une fois qu'il aura commencé !",
+    "PROJECT_STATUS_UPDATED": "{ userName } a mis à jour le statut du projet <b>{ projectName }</b> à <b>{ projectStatus }</b>",
+    "PROJECT_UNLINKED_FROM_PROGRAM": "{ triggererName } Projet non lié <b>{ projectName }</b> au programme <b>{ programName }</b>",
+    "PROJECT_UPDATED": "{ userName } a mis à jour le projet <b>{ projectName }</b>.",
+    "REQUEST_APPROVED": "Le formulaire de demande <b>{ requestTitle }</b> a été approuvé par le propriétaire de la demande.",
+    "REQUEST_BACK_IN_REVIEW": "La demande <b>{ requestTitle }</b> a été déplacée vers En cours de révision.",
+    "REQUEST_BUSINESS_REVIEWER": "vous a ajouté comme réviseur à la demande",
+    "REQUEST_CANCELLED": "demande d'annulation du formulaire de demande",
+    "REQUEST_COMMENT_MENTION": "{ userName } vous a tagué dans un commentaire dans la demande <b>{ requestTitle }</b>.",
+    "REQUEST_DECLINED": "Le formulaire de demande <b>{ requestTitle }</b> a été refusé par le propriétaire de la demande.",
+    "REQUEST_QUESTIONS_UPDATED": "mis à jour la demande",
+    "REQUEST_SUBMITTED": "soumis une demande:",
+    "REQUEST_WAITLISTED": "La demande <b>{ requestTitle }</b> a été mise sur liste d'attente par le propriétaire de la demande.",
+    "TASK_ACTUAL_HOURS_UPDATED": "{ userName } a mis à jour les heures réelles de la tâche <b>{ taskName }</b>.",
+    "TASK_BUNDLE_DELETED": "{ adminName } a supprimé le groupe de tâches <b>{ bundleTitle }</b>.",
+    "TASK_BUNDLE_UPDATED": "{ adminName } a mis à jour le groupe de tâches <b>{ bundleTitle }</b>.",
+    "TASK_COMMENT_MENTION": "{ userName } vous a tagué dans un commentaire sur la tâche <b>{ taskName }</b>.",
+    "TASK_DELETED": "{ userName } a supprimé la tâche <b>{ taskName }</b>.",
+    "TASK_DISABLED": "{ userName } { enabled, plural, =0 {désactivé} =1 {réactivé} } la tâche <b>{ taskName }</b>.",
+    "TASK_DUE_DATE": "Il ne reste que { number, plural, =1 {1 jour} =3 {3 jours} } avant que la tâche : <b>{ taskName }</b> soit due.",
+    "TASK_PAST_DUE_DATE": "La tâche : <b>{ taskName }</b> a dépassé sa date d'échéance.",
+    "TASK_STATUS_UPDATED": "{ userName } a mis à jour le statut de la tâche <b>{ taskName }</b>.",
+    "TASK_UPDATED": "{ userName } a mis à jour la tâche <b>{ taskName }</b>.",
+    "TASK_USER_ASSIGNED": "{ userName } vous a assigné la tâche <b>{ taskName }</b>.",
+    "TASK_USER_ASSIGNED_OWNER_VIEW": "{ userName } a attribué { actionTargetName } à la tâche <b>{ taskName }</b>.",
+    "TASK_USER_UNASSIGNED": "{ userName } vous a retiré de la tâche <b>{ taskName }</b>.",
+    "TASK_USER_UNASSIGNED_OWNER_VIEW": "{ userName } non attribué { actionTargetName } de la tâche <b>{ taskName }</b>.",
+    "TIME_OFF_CREATED": "{ triggererName } a ajouté un congé : { dateRange }",
+    "TIME_OFF_REMOVED": "{ triggererName } a supprimé un congé : { dateRange }",
+    "TIME_OFF_UPDATED": "{ triggererName } a mis à jour un congé : { dateRange }",
+    "UNASSIGN_OWNER": "vous a désattribué en tant que propriétaire du formulaire de demande",
+    "V2_PROJECT_PARTICIPANT_ADDED": "{ triggererName } vous a attribué comme participant au projet <b>{ projectName }</b>.",
+    "V2_PROJECT_PARTICIPANT_REMOVED": "{ triggererName } vous a supprimé en tant que participant du projet <b>{ projectName }</b>."
+  },
+  "ARCHIVE": "Archive",
+  "ARCHIVE_PROJECT_MODAL": {
+    "CAPTION": "Une fois archivé, un projet n'est plus modifiable.",
+    "CONFIRM": "Oui, { action }",
+    "DATE_LABEL": "{ action } Date",
+    "TITLE": "Projet { action }",
+    "UNARCHIVE_CAPTION": "Si le projet n'est pas archivé, il apparaîtra dans la vue principale du tableau."
+  },
+  "BACK": "Dos",
+  "BETA": "Bêta",
+  "BUDGET": {
+    "BUDGET_DETAILS": "Détails du budget",
+    "BUDGET_DETAILS_TABLE": {
+      "BUDGET_EXCEEDED": "Le total dépasse le budget total alloué dans le plan budgétaire",
+      "CANCEL": "Annuler",
+      "DOLLAR_SIGN": "$",
+      "EDIT": "Modifier",
+      "HEAD": {
+        "ALLOCATED_BUDGET": "Budget alloué",
+        "CATEGORY": "Catégorie",
+        "COST_TO_DATE": "Coût réel à ce jour",
+        "NOTES": "Remarques"
+      },
+      "SAVE": "Sauvegarder",
+      "SUBTITLE": "Budget détaillé par catégorie",
+      "TITLE": "Détails du budget",
+      "USD": "Dollars américains"
+    },
+    "BUDGET_PLAN": "Plan budgétaire",
+    "BUDGET_PLAN_DESCRIPTION": "Budget alloué en fonction des ressources affectées",
+    "UPDATE_BUDGET_BUTTON": "Mise à jour du budget",
+    "UPDATE_SUCCESS": "Le plan budgétaire a été mis à jour avec succès"
+  },
+  "CANCEL": "Annuler",
+  "CAPACITY_INSIGHTS": {
+    "ACTUAL_HOURS": "Total<br/>Heures réelles",
+    "ALLOCATED_HOURS": "Total<br/>Heures allouées",
+    "ALLOCATION_BY_RESOURCE_TYPE": {
+      "ALLOCATION": "Allocation",
+      "BUSINESS": "Utilisateurs professionnels",
+      "CAPTION": "Heures d'allocation pour chaque type de ressource",
+      "EXTERNAL": "Utilisateurs externes",
+      "LD": "Membres apprenants",
+      "TITLE": "Répartition par types de ressources"
+    },
+    "AVAILABLE_HOURS": "Total<br/>Heures disponibles",
+    "BUSINESS_UNITS_DEMAND": {
+      "ALLOCATION": "Allocation",
+      "ALLOCATION_RATE": "Taux d'attribution",
+      "CAPTION": "Répartition et demande pour chaque unité commerciale",
+      "CHART_LEGEND": "Légende du graphique",
+      "DEMAND": "Demande",
+      "HOURS": "Heures",
+      "OVERALL_ALLOCATION": "Taux d'allocation global",
+      "TITLE": "Répartition et demande par unité commerciale"
+    },
+    "CAPACITY_HOURS": "Capacité totale en heures",
+    "DEMAND_BY_PROJECT_CATEGORIES": {
+      "CAPTION": "Nombre total d'heures estimées pour chaque catégorie de projet",
+      "HOURS": "Heures",
+      "TITLE": "Demande par les 10 principales catégories de projets"
+    },
+    "DEMAND_CAPACITY_AVAILABILITY": {
+      "AVAILABILITY": "Disponibilité",
+      "CAPACITY": "Capacité",
+      "CAPTION": "Demande vs allocation vs capacité",
+      "DEMAND": "Demande",
+      "NO_DATA": "Oups ! Il semble qu'il n'y ait aucune donnée à afficher sur les graphiques pour le moment. Veuillez vérifier vos sources de données ou les filtres appliqués.",
+      "TITLE": "Aperçu de la charge de travail des ressources",
+      "TOOLTIP": "Le graphique « Demande, capacité et disponibilité » vous aide à obtenir une main-d'œuvre équilibrée et productive. Visualisez les charges de travail, la capacité et la disponibilité de l'équipe au fil du temps pour optimiser l'allocation des ressources, identifier les goulots d'étranglement et prendre des décisions basées sur les données.",
+      "TOOLTIP_TRIGGER_DESC": "Description du graphique de disponibilité de la capacité de demande"
+    },
+    "DEMAND_HOURS": "Heures de demande totales",
+    "ESTIMATION_BY_TASK_TYPE": {
+      "CAPTION": "Estimations et chiffres réels pour chaque type de tâche",
+      "CHART_LEGEND": "Légende du graphique",
+      "HOURS": "Heures",
+      "TITLE": "Estimations et chiffres réels par type de tâche",
+      "TOOLTIP": "Ce graphique présente la valeur médiane des heures estimées et réelles du type de tâche sélectionné. Les estimations sont calculées à partir de toutes les tâches ouvertes dans la période choisie. La médiane reflète la tendance centrale de l'ensemble des données, indiquant le point médian lorsqu'elles sont classées du plus petit au plus grand."
+    },
+    "NUMBER_OF_RESOURCES": "Nombre de ressources",
+    "RESOURCE_UTILIZATION": {
+      "CAPTION": "Ressources les plus et les moins utilisées",
+      "LEAST_UTILIZED": "Le moins utilisé",
+      "MOST_UTILIZED": "Le plus utilisé",
+      "TITLE": "Utilisation par ressources"
+    },
+    "UTILIZATION_BY_TEAM": {
+      "ALLOCATION": "Allocation",
+      "CAPACITY": "Capacité",
+      "CAPTION": "Affectation vs Capacité / Équipe",
+      "CHART_LEGEND": "Légende du graphique",
+      "HOURS": "Heures",
+      "OVERALL_UTLIZATION": "Utilisation globale",
+      "SORT_ASC_TOOLTIP": "Trier du moins au plus utilisé",
+      "SORT_DESC_TOOLTIP": "Trier du plus utilisé au moins utilisé",
+      "TITLE": "Utilisation par équipe"
+    }
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "BUTTON": "Enregistrer les modifications",
+    "FAIL_PROMPT": "Vous n'avez pas reçu le lien ?",
+    "INFO": {
+      "CONTENT": "<li>Un caractère spécial</li><li>8 caractères ou plus</li><li>Au moins une lettre majuscule et une valeur numérique</li>",
+      "TITLE": "Afin de protéger votre compte, assurez-vous que votre mot de passe comporte :"
+    },
+    "INPUT": {
+      "CONFIRM": "Confirmez le mot de passe",
+      "CONFIRM_PLACEHOLDER": "Confirmez votre mot de passe",
+      "INCORRECT_FORMAT": "Format de mot de passe incorrect",
+      "MATCHED": "Mot de passe correspondant",
+      "NO_MATCH": "Le mot de passe ne correspond pas",
+      "PASSWORD": "Nouveau mot de passe",
+      "PASSWORD_PLACEHOLDER": "Entrez un mot de passe"
+    },
+    "PASSWORD_LEVEL": {
+      "MEDIUM": "Moyen",
+      "STRENGTH": "Force du mot de passe :",
+      "STRONG": "Fort",
+      "WEAK": "Faible"
+    },
+    "PROMPT": "Afin de protéger votre compte, assurez-vous que votre mot de passe est fort.",
+    "SUCCESS_MESSAGE": "Un email vous a été envoyé. Veuillez cliquer sur le lien lorsque vous le recevrez.",
+    "TITLE": "Changer le mot de passe"
+  },
+  "CLOSE": "Fermer",
+  "COLLAPSE_EXPAND_ICON_DESC": "développer/réduire la barre latérale",
+  "COMING_SOON": "À venir!",
+  "COMMENT": {
+    "CANCEL_BUTTON": "Annuler",
+    "COMMENT_CREATED": "Commentaire créé",
+    "COMMENT_DELETED": "Commentaire supprimé",
+    "COMMENT_ERROR": "Le commentaire n'a pas pu être enregistré. Veuillez réessayer.",
+    "COMMENT_UPDATED": "Commentaire mis à jour",
+    "DELETE": "Supprimer",
+    "DELETE_COMMENT": {
+      "BODY": "Etes-vous sûr de vouloir supprimer ce commentaire ?",
+      "DELETE_BUTTON": "Oui, supprimer",
+      "TITLE": "Supprimer le commentaire"
+    },
+    "EDIT": "Modifier",
+    "EDITED": "Édité",
+    "HIDDEN_COMMENT": "commentaire caché",
+    "HIDDEN_COMMENTS": "commentaires cachés",
+    "HIDE_COMMENTS": "Masquer les commentaires",
+    "POST": "Poste",
+    "REPLY": "Répondre",
+    "UPDATE_BUTTON": "Mise à jour",
+    "WRITE_COMMENT": "Écrivez votre commentaire"
+  },
+  "COMPANY_NAME": "Cognota",
+  "COMPLETE_REGISTRATION": {
+    "BUSINESS_UNIT_LABEL": "Unité commerciale",
+    "BUSINESS_UNIT_PLACEHOLDER": "Sélectionnez votre unité commerciale",
+    "BUTTON": "Enregistrer et continuer",
+    "CAPTION": "Vous vous connectez en tant que <strong>{ email }.</strong> Veuillez répondre à ces questions de profil avant de continuer vers l'application.",
+    "HEADING": "Accueillir!"
+  },
+  "CONFIRM": "Confirmer",
+  "CONTINUE": "Continuer",
+  "COUNTRIES": {
+    "AD": "Andorre",
+    "AE": "Émirats arabes unis",
+    "AF": "Afghanistan",
+    "AG": "Antigua-et-Barbuda",
+    "AI": "Anguilla",
+    "AL": "Albanie",
+    "AM": "Arménie",
+    "AO": "Angola",
+    "AQ": "Antarctique",
+    "AR": "Argentine",
+    "AS": "Samoa américaines",
+    "AT": "Autriche",
+    "AU": "Australie",
+    "AW": "Aruba",
+    "AX": "Îles Åland",
+    "AZ": "Azerbaïdjan",
+    "BA": "Bosnie-Herzégovine",
+    "BB": "Barbade",
+    "BD": "Bangladesh",
+    "BE": "Belgique",
+    "BF": "Burkina Faso",
+    "BG": "Bulgarie",
+    "BH": "Bahreïn",
+    "BI": "Burundi",
+    "BJ": "Bénin",
+    "BL": "Saint Barthélemy",
+    "BM": "Bermudes",
+    "BN": "Brunéi Darussalam",
+    "BO": "Bolivie",
+    "BQ": "Bonaire, Saint-Eustache et Saba",
+    "BR": "Brésil",
+    "BS": "Bahamas",
+    "BT": "Bhoutan",
+    "BV": "Ile Bouvet",
+    "BW": "Botswana",
+    "BY": "Biélorussie",
+    "BZ": "Bélize",
+    "CA": "Canada",
+    "CC": "Îles Cocos (Keeling)",
+    "CD": "Congo, République démocratique",
+    "CF": "République centrafricaine",
+    "CG": "Congo",
+    "CH": "Suisse",
+    "CI": "Côte d'Ivoire",
+    "CK": "Îles Cook",
+    "CL": "Chili",
+    "CM": "Cameroun",
+    "CN": "Chine",
+    "CO": "Colombie",
+    "CR": "Costa Rica",
+    "CU": "Cuba",
+    "CV": "Cap-Vert",
+    "CW": "Curaçao",
+    "CX": "L'île Christmas",
+    "CY": "Chypre",
+    "CZ": "République tchèque",
+    "DE": "Allemagne",
+    "DJ": "Djibouti",
+    "DK": "Danemark",
+    "DM": "Dominique",
+    "DO": "République dominicaine",
+    "DZ": "Algérie",
+    "EC": "Équateur",
+    "EE": "Estonie",
+    "EG": "Egypte",
+    "EH": "Sahara occidental",
+    "ER": "Érythrée",
+    "ES": "Espagne",
+    "ET": "Ethiopie",
+    "FI": "Finlande",
+    "FJ": "Fidji",
+    "FK": "Îles Falkland (Malvinas)",
+    "FM": "Micronésie, États fédérés de",
+    "FO": "Îles Féroé",
+    "FR": "France",
+    "GA": "Gabon",
+    "GB": "Royaume-Uni",
+    "GD": "Grenade",
+    "GE": "Géorgie",
+    "GF": "Guyane française",
+    "GG": "Guernesey",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GL": "Groenland",
+    "GM": "Gambie",
+    "GN": "Guinée",
+    "GP": "Guadeloupe",
+    "GQ": "Guinée équatoriale",
+    "GR": "Grèce",
+    "GS": "Géorgie du Sud et îles Sandwich",
+    "GT": "Guatemala",
+    "GU": "Guam",
+    "GW": "Guinée-Bissau",
+    "GY": "Guyane",
+    "HK": "Hong Kong",
+    "HM": "Île Heard et îles McDonald",
+    "HN": "Honduras",
+    "HR": "Croatie",
+    "HT": "Haïti",
+    "HU": "Hongrie",
+    "IC": "Îles Canaries",
+    "ID": "Indonésie",
+    "IE": "Irlande",
+    "IL": "Israël",
+    "IM": "Île de Man",
+    "IN": "Inde",
+    "IO": "Territoire britannique de l'océan Indien",
+    "IQ": "Irak",
+    "IR": "Iran, République islamique d'",
+    "IS": "Islande",
+    "IT": "Italie",
+    "JE": "Jersey",
+    "JM": "Jamaïque",
+    "JO": "Jordanie",
+    "JP": "Japon",
+    "KE": "Kenya",
+    "KG": "Kirghizistan",
+    "KH": "Cambodge",
+    "KI": "Kiribati",
+    "KM": "Comores",
+    "KN": "Saint-Kitts-et-Nevis",
+    "KP": "Corée du Nord",
+    "KR": "Corée",
+    "KW": "Koweit",
+    "KY": "Îles Caïmans",
+    "KZ": "Kazakhstan",
+    "LA": "République démocratique populaire lao",
+    "LB": "Liban",
+    "LC": "Sainte-Lucie",
+    "LI": "Liechtenstein",
+    "LK": "Sri Lanka",
+    "LR": "Libéria",
+    "LS": "Lesotho",
+    "LT": "Lituanie",
+    "LU": "Luxembourg",
+    "LV": "Lettonie",
+    "LY": "Jamahiriya arabe libyenne",
+    "MA": "Maroc",
+    "MC": "Monaco",
+    "MD": "Moldavie",
+    "ME": "Monténégro",
+    "MF": "Saint Martin (partie française)",
+    "MG": "Madagascar",
+    "MH": "Îles Marshall",
+    "MK": "Macédoine",
+    "ML": "Mali",
+    "MM": "Birmanie",
+    "MN": "Mongolie",
+    "MO": "Macao",
+    "MP": "Îles Mariannes du Nord",
+    "MQ": "Martinique",
+    "MR": "Mauritanie",
+    "MS": "Montserrat",
+    "MT": "Malte",
+    "MU": "Ile Maurice",
+    "MV": "Maldives",
+    "MW": "Malawi",
+    "MX": "Mexique",
+    "MY": "Malaisie",
+    "MZ": "Mozambique",
+    "NA": "Namibie",
+    "NC": "Nouvelle-Calédonie",
+    "NE": "Niger",
+    "NF": "Île Norfolk",
+    "NG": "Nigeria",
+    "NI": "Nicaragua",
+    "NL": "Pays-Bas",
+    "NO": "Norvège",
+    "NP": "Népal",
+    "NR": "Nauru",
+    "NU": "Niue",
+    "NZ": "Nouvelle-Zélande",
+    "OM": "Oman",
+    "PA": "Panama",
+    "PE": "Pérou",
+    "PF": "Polynésie française",
+    "PG": "Papouasie-Nouvelle-Guinée",
+    "PH": "Philippines",
+    "PK": "Pakistan",
+    "PL": "Pologne",
+    "PM": "Saint-Pierre-et-Miquelon",
+    "PN": "Pitcairn",
+    "PR": "Porto Rico",
+    "PS": "Territoire palestinien occupé",
+    "PT": "Portugal",
+    "PW": "Palaos",
+    "PY": "Paraguay",
+    "QA": "Qatar",
+    "RE": "Réunion",
+    "RO": "Roumanie",
+    "RS": "Serbie",
+    "RU": "Fédération de Russie",
+    "RW": "Rwanda",
+    "SA": "Arabie Saoudite",
+    "SB": "Îles Salomon",
+    "SC": "Seychelles",
+    "SD": "Soudan",
+    "SE": "Suède",
+    "SG": "Singapour",
+    "SH": "Sainte-Hélène",
+    "SI": "Slovénie",
+    "SJ": "Svalbard et Jan Mayen",
+    "SK": "Slovaquie",
+    "SL": "Sierra Leone",
+    "SM": "Saint-Marin",
+    "SN": "Sénégal",
+    "SO": "Somalie",
+    "SR": "Suriname",
+    "SS": "Soudan du Sud",
+    "ST": "Sao Tomé-et-Principe",
+    "SV": "Le Salvador",
+    "SX": "Sint Maarten (partie néerlandaise)",
+    "SY": "République arabe syrienne",
+    "SZ": "Swaziland",
+    "TC": "Îles Turques-et-Caïques",
+    "TD": "Tchad",
+    "TF": "Terres Australes Françaises",
+    "TG": "Aller",
+    "TH": "Thaïlande",
+    "TJ": "Tadjikistan",
+    "TK": "Tokélaou",
+    "TL": "Timor-Leste",
+    "TM": "Turkménistan",
+    "TN": "Tunisie",
+    "TO": "Tonga",
+    "TR": "Turquie",
+    "TT": "Trinité-et-Tobago",
+    "TV": "Tuvalu",
+    "TW": "Taïwan",
+    "TZ": "Tanzanie",
+    "UA": "Ukraine",
+    "UG": "Ouganda",
+    "UM": "Îles éloignées des États-Unis",
+    "UNDEFINED": "Non attribué",
+    "US": "États-Unis",
+    "UY": "Uruguay",
+    "UZ": "Ouzbékistan",
+    "VA": "Saint-Siège (État de la Cité du Vatican)",
+    "VC": "Saint-Vincent-et-les-Grenadines",
+    "VE": "Venezuela",
+    "VG": "Îles Vierges britanniques",
+    "VI": "Îles Vierges des États-Unis",
+    "VN": "Vietnam",
+    "VU": "Vanuatu",
+    "WF": "Wallis et Futuna",
+    "WS": "Samoa",
+    "XK": "Kosovo",
+    "YE": "Yémen",
+    "YT": "Mayotte",
+    "ZA": "Afrique du Sud",
+    "ZM": "Zambie",
+    "ZW": "Zimbabwe"
+  },
+  "CREATE": "Créer",
+  "CURRENCY": "Dollars américains",
+  "CURRENCY_OPTIONS": {
+    "AUD": "Dollar australien (AUD)",
+    "CAD": "Dollar canadien (CAD)",
+    "EUR": "Euro européen (EUR)",
+    "GBP": "Livre sterling (GBP)",
+    "NZD": "Dollar néo-zélandais (NZD)",
+    "USD": "Dollar américain (USD)"
+  },
+  "CUSTOM_FIELDS_FILTERS": {
+    "DATE_FROM_PLACEHOLDER": "À partir de la date",
+    "DATE_PLACEHOLDER": "Sélectionnez une date",
+    "DATE_TO_PLACEHOLDER": "À ce jour",
+    "FIELD_PLACEHOLDER": "Sélectionnez un champ de filtre",
+    "INPUT_VALUE_PLACEHOLDER": "Entrez une valeur",
+    "OPERATOR_LABEL": "Opérateur",
+    "OPERATOR_PLACEHOLDER": "Sélectionnez un opérateur : supérieur à, égal à, etc.",
+    "OVERLAPS_TOOLTIP": "L'utilisation de l'opérateur de chevauchement vous aidera à trouver et à afficher les enregistrements qui se situent dans la plage de dates sélectionnée.",
+    "VALUE_LABEL": "Valeurs)",
+    "VALUE_PLACEHOLDER": "Sélectionnez une valeur"
+  },
+  "CUSTOM_QUESTIONS": {
+    "CHECKBOX": "Case à cocher",
+    "DATE": "Champ de date",
+    "DROPDOWN": "Dérouler",
+    "FILE": "Téléchargement de fichiers",
+    "NUMBER": "Champ numérique",
+    "RADIO_BUTTON": "Bouton radio",
+    "RANGE": "Gamme",
+    "TEXT": "Champ de texte",
+    "TOGGLE": "Basculer",
+    "URL": "URL"
+  },
+  "DAYS_LEFT": "{ days } { days, plural, =1 {jour} other {jours} } restant",
+  "DEACTIVATED": "Désactivé",
+  "DEACTIVATED_USER_PAGE": {
+    "CAPTION": "Veuillez contacter votre administrateur pour plus d'informations.",
+    "CTA": "Retour à la connexion",
+    "TITLE": "Il semble que votre compte a été désactivé"
+  },
+  "DELETE": "Supprimer",
+  "DELETE_FILE": "Supprimer le fichier",
+  "DELETE_FILE_CONFIRM": "Oui, supprimer le fichier",
+  "DELETE_FILE_CONFIRMATION": "Ce fichier ne sera plus disponible et cette action ne pourra pas être annulée.",
+  "DESCRIPTION": "{ num, plural, =1 {Description} other {Descriptions} }",
+  "DESIGN_COMPONENTS": {
+    "FLYOUT_MENU_NAME": "Ajouter"
+  },
+  "DISCARD_CHANGES": "Annuler les modifications",
+  "DISPLAY": "Afficher",
+  "DISPLAY_TAB": {
+    "CURRENCY_LABEL": "Sélectionnez la devise de la plateforme"
+  },
+  "DOLLAR_SIGN": "$",
+  "DONE": "Fait",
+  "DUPLICATE_PROJECT_MODAL": {
+    "DESCRIPTION": "Détails du projet",
+    "TITLE": "Dupliquer un projet"
+  },
+  "EDIT": "Modifier",
+  "EDIT_TEAM": {
+    "DELETE_TEAM": "Supprimer l'équipe",
+    "DELETE_TEAM_MODAL": {
+      "BODY_FIRST_LINE": "Cette action est irréversible.",
+      "BODY_SECOND_LINE": "Etes-vous sûr de vouloir supprimer cette équipe ?",
+      "DELETE_BUTTON": "Oui, supprimer",
+      "SUCCESS_NOTIFICATION": "L'équipe a été supprimée avec succès",
+      "TITLE": "Supprimer l'équipe"
+    },
+    "DELETE_TEAM_TOOLTIP": "L'équipe ne peut être supprimée que lorsqu'il n'y a plus de membres.",
+    "FAIL_NOTIFICATION": "Cette équipe manque d'informations et n'a pas été mise à jour.",
+    "NO_TEAM_MEMBERS": "Pas encore de membres de l'équipe",
+    "SUCCESS_NOTIFICATION": "L'équipe a été mise à jour avec succès."
+  },
+  "EMPLOYMENT_TYPE": {
+    "CONTRACTOR": "Entrepreneur",
+    "FULL_TIME": "À temps plein",
+    "INTERN": "Interne",
+    "PART_TIME": "Temps partiel",
+    "TITLE": "Type d'emploi"
+  },
+  "EMPTY_TABLE": {
+    "HELP": "Accédez à notre centre d'apprentissage",
+    "TRY_AGAIN": "Nous rencontrons un problème technique. Veuillez actualiser la page ou réessayer plus tard.",
+    "WRONG": "Quelque chose s'est mal passé..."
+  },
+  "ENTITIES": {
+    "ACCOUNT": "{ num, plural, =1 {Compte} other {Comptes} }",
+    "BUSINESS_TEAM": "{ num, plural, =1 {Équipe commerciale} other {Équipes commerciales} }",
+    "CONFIGURATION": "{ num, plural, =1 {Configurations} other {Configurations} }",
+    "FIELDS": "{ num, plural, =1 {Champ} other {Champs} }",
+    "LEARNING_TEAM": "{ num, plural, =1 {Équipe d'apprentissage} other {Équipes d'apprentissage} }",
+    "ORGANIZATION": "{ num, plural, =1 {Organisation} other {Organisations} }",
+    "PROCESS": "{ num, plural, =1 {Processus} other {Processus} }",
+    "PROGRAM": "{ num, plural, =1 {Programme} other {Programmes} }",
+    "PROGRAMS": "Tous les programmes",
+    "PROJECT": "{ num, plural, =1 {Projet} other {Projets} }",
+    "REQUEST_FORM": "{ num, plural, =1 {Formulaire de demande} other {Formulaires de demande} }",
+    "TASK_BUNDLE": "{ num, plural, =1 {Groupe de tâches} other {Groupes de tâches} }",
+    "TEAM": "{ num, plural, =1 {Équipe} other {Équipes} }",
+    "TEAM_MANAGER": "Chef(s) d'équipe",
+    "TEMPLATE": "{ num, plural, =1 {Modèle} other {Modèles} }",
+    "USER": "{ num, plural, =1 {Utilisateur} other {Utilisateurs} }",
+    "VENDOR": "{ num, plural, =1 {Fournisseur} other {Fournisseurs} }"
+  },
+  "ERRORS": {
+    "MISSING_INFORMATION": "Informations manquantes"
+  },
+  "ERROR_MESSAGE": {
+    "INVALID_FORMAT": "Veuillez saisir votre adresse e-mail dans ce format : votrenom@emailtravail.com",
+    "USER_NOT_REGISTERED": "Cet email est invalide ou a déjà été pris."
+  },
+  "ERROR_SNACKBAR_TITLE": "Erreur!",
+  "EXPORT": "Exporter",
+  "EXPORT_CSV": "Exporter au format CSV",
+  "FILTER_GENERAL": {
+    "FIELDS_FILTERS": "Filtres personnalisés",
+    "FROM": "Depuis",
+    "INPUT_VALUE": "Valeur d'entrée",
+    "NOT_NULL": "au moins 1 projet",
+    "NULL": "aucun projet",
+    "PLACEHOLDER": "Sélectionnez une option",
+    "SELECT_DATE": "Sélectionnez la date",
+    "TEXT_VALUE_PLACEHOLDER": "Entrez une valeur",
+    "TO": "À",
+    "VALUE": "Valeur"
+  },
+  "FOOTER": "TM & © { year } <a { externalLink } href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> Tous droits réservés.",
+  "FORGOT_PAGE": {
+    "BUTTON": "Envoie-moi un lien",
+    "FAIL_PROMPT": "Vous n'avez pas reçu le lien ?",
+    "FAIL_PROMPT_TEXT": "Assurez-vous d'avoir utilisé une adresse e-mail enregistrée.",
+    "INPUT": {
+      "LABEL": "E-mail",
+      "PLACEHOLDER": "Entrez votre email"
+    },
+    "PROMPT": "Pour réinitialiser votre mot de passe, entrez votre adresse e-mail enregistrée pour recevoir le lien de réinitialisation.",
+    "SUCCESS_MESSAGE": "Un email vous a été envoyé. Veuillez cliquer sur le lien lorsque vous le recevrez.",
+    "TITLE": "Récupérer le mot de passe"
+  },
+  "GENERAL": "Général",
+  "GENERAL_SETTINGS": {
+    "SUCCESS_MESSAGE": "Les paramètres généraux ont été mis à jour avec succès.",
+    "TITLE": "Paramètres généraux"
+  },
+  "HOURS_LABEL": "{ hours } { hours, plural, =1 {heure} other {heures} }",
+  "IMPORT": "Importer",
+  "IMPORT_FROM_FILE": "Importez { element } en téléchargeant un fichier",
+  "IMPORT_PROJECTS": {
+    "COLUMN_LABELS": {
+      "BUSINESS_UNIT": "Unité commerciale",
+      "CATEGORY": "Catégorie de projet",
+      "DESCRIPTION": "Description",
+      "HEALTH": "Santé",
+      "LEARNING_TEAMS": "Équipes d'apprentissage",
+      "OWNERS": "Propriétaire du projet",
+      "PRIORITY": "Priorité",
+      "PRIVACY": "Confidentialité",
+      "PROCESS": "Processus",
+      "STAGE": "Scène",
+      "START_DATE": "Date de début",
+      "STATUS": "Statut",
+      "TARGET_COMPLETION_DATE": "Date d'achèvement prévue",
+      "TARGET_LAUNCH_DATE": "Date de lancement prévue",
+      "TITLE": "Titre du projet"
+    },
+    "IMPORT": "Projets d'importation",
+    "IMPORT_FROM_FILE": "Importer des projets en téléchargeant un fichier",
+    "IMPORT_SUCCESS": "Vos projets ont été importés avec succès !"
+  },
+  "IMPORT_PROJECT_MODAL": {
+    "DESCRIPTION": "Sélectionnez un modèle pour vos projets et remplissez les détails pour importer des projets",
+    "TITLE": "Sélectionnez un modèle de projet"
+  },
+  "IMPORT_REQUEST_MODAL": {
+    "DESCRIPTION": "Sélectionnez un formulaire de demande pour vos demandes et remplissez les détails pour importer les demandes.",
+    "LABEL": "Formulaire de demande",
+    "TITLE": "Sélectionnez un formulaire de demande"
+  },
+  "INPUT_CATEGORY": {
+    "BUSINESS_REQUEST_SECTION": {
+      "ADDITIONAL_FIELDS_PROMPT": "Si les champs suivants n'ont pas été traités dans votre demande commerciale ou si aucune demande n'a été liée, veuillez les remplir.",
+      "BUSINESS_UNIT_PLACEHOLDER": "Sélectionnez un groupe d'entreprises",
+      "BUSINESS_UNIT_SUBTITLE": "Qui demande cet apprentissage ?",
+      "BUSINESS_UNIT_TITLE": "Unité commerciale",
+      "CLEAR_ALL": "Tout effacer",
+      "COMPLETION_DATE_PLACEHOLDER": "Sélectionnez une date d'achèvement",
+      "COMPLETION_DATE_SUBTITLE": "Quand l’apprentissage doit-il être terminé ?",
+      "COMPLETION_DATE_TITLE": "Date d'achèvement",
+      "LINK_REQUEST": "Lier une demande",
+      "LINK_REQUESTS": "Lien",
+      "REQUESTS_LABEL": "Trouver la demande commerciale liée à ce programme",
+      "REQUESTS_PLACEHOLDER": "Recherche par nom ou numéro de demande",
+      "SUBTITLE": "Qui demande cette formation ? Quand la formation doit-elle être dispensée ?",
+      "TABLE": {
+        "BUSINESS_UNIT": "Unité commerciale",
+        "EMPTY_MESSAGE": "Aucune demande liée",
+        "REQUESTER_NAME": "Nom du demandeur",
+        "REQUEST_NUMBER": "Numéro de demande",
+        "REQUEST_TITLE": "Titre de la demande"
+      },
+      "TITLE": "Demande d'affaires"
+    },
+    "LEARNER_DETAIL_SECTION": {
+      "FIELDS": {
+        "AUDIENCE": {
+          "PLACEHOLDER": "Inclure le public",
+          "SUBTITLE": "Qui a besoin d’apprendre ?",
+          "TITLE": "Public"
+        },
+        "NO_OF_LEARNERS": {
+          "PLACEHOLDER": "Ajouter le nombre d'apprenants",
+          "SUBTITLE": "Combien d'apprenants sont inclus dans le public ?",
+          "TITLE": "Nombre d'apprenants"
+        }
+      },
+      "SECTION_SUBTITLE": "Qui sont les apprenants ? Que doivent-ils savoir et faire ?",
+      "SECTION_TITLE": "Détails de l'apprenant"
+    },
+    "OBJECTIVES_DETAIL_SECTION": {
+      "FIELDS": {
+        "BUSINESS_NEED": {
+          "PLACEHOLDER": "Ajouter un besoin commercial",
+          "SUBTITLE": "Quelles mesures commerciales, si elles étaient améliorées, indiqueraient que le problème ou l’opportunité est en cours de résolution ?",
+          "TITLE": "Besoin d'affaires",
+          "TOOLTIP": "Par exemple, durée de séjour, dépassement de stock, heures supplémentaires, rotation du personnel, désabonnement de la clientèle"
+        },
+        "JOB_PERFORMANCE_NEED": {
+          "PLACEHOLDER": "Ajouter un besoin de performance au travail",
+          "SUBTITLE": "Qu'est-ce qui se passe ou ne se passe pas au travail qui est à l'origine du besoin de l'entreprise ?",
+          "TITLE": "Besoin de rendement au travail",
+          "TOOLTIP": "Par exemple, les superviseurs ne discutent pas avec les employés qui ne se présentent pas au travail."
+        },
+        "LEARNING_NEED": {
+          "PLACEHOLDER": "Ajouter un besoin d'apprentissage",
+          "SUBTITLE": "Quelles connaissances, compétences ou informations sont nécessaires pour changer ce qui se passe ou ne se passe pas ?",
+          "TITLE": "Besoin d'apprentissage",
+          "TOOLTIP": "Par exemple, l'interprète clé doit savoir comment protéger et gérer son temps."
+        },
+        "PAYOFF_OPPORTUNITY": {
+          "PLACEHOLDER": "Ajouter une opportunité de gain",
+          "SUBTITLE": "Quel est le problème ou l'opportunité ? Quelle est la valeur économique de l'opportunité ?",
+          "TITLE": "Opportunité de gain",
+          "TOOLTIP": "Par exemple, nous perdons 1 million de dollars par mois en raison de l’élimination de produits parfaitement bons."
+        },
+        "PREFERENCE_NEED": {
+          "PLACEHOLDER": "Ajouter une préférence nécessaire",
+          "SUBTITLE": "Quelle est la meilleure façon de communiquer ces connaissances, compétences ou informations afin qu’un changement se produise au travail ?",
+          "TITLE": "Préférence nécessaire",
+          "TOOLTIP": "Par exemple, un nouveau processus de reporting a été présenté aux principales parties prenantes lors d'un séminaire de direction."
+        }
+      },
+      "SECTION_SUBTITLE": "Quels sont les objectifs commerciaux ?",
+      "SECTION_TITLE": "Détails de l'objectif commercial"
+    },
+    "SAVE_SUCCESS_NOTIFICATION": "Succès ! Stratégie de saisie mise à jour"
+  },
+  "INSIGHTS_PAGE": {
+    "CAPACITY": {
+      "BUSINESS_UNITS": "Unité(s) commerciale(s)",
+      "BUSINESS_UNIT_PLACEHOLDER": "Sélectionnez la ou les unités commerciales",
+      "END_DATE": "Date de fin",
+      "START_DATE": "Date de début",
+      "TIME_FRAME": "Laps de temps"
+    },
+    "ERROR_MESSAGE": "Une erreur s'est produite. Essayez de recharger la page.",
+    "PROJECTS": {
+      "CANCELLED_PROJECTS": "Projets annulés",
+      "COMPLETED_PROJECTS": "Projets terminés",
+      "COMPLETED_WITHIN_TIMELINE": "Terminé dans les délais prévus",
+      "NEW_PROJECTS": "Nouveaux projets",
+      "TOTAL_PROJECTS": "Projets totaux"
+    },
+    "TITLE": "Connaissances"
+  },
+  "INSIGHTS_PAGE_TABS": {
+    "APPROVED_REQUESTS": {
+      "APPROVAL_RATIO": "{ ratio }% de taux d'approbation",
+      "CHART_LABEL": "Diriger les unités commerciales dans l'obtention des approbations",
+      "NUMBER_OF_REQUESTS": "# Req.",
+      "TITLE": "Nombre total de demandes approuvées"
+    },
+    "CAPACITY": "Capacité",
+    "CAPACITY_FILTER": {
+      "APPLY": "Appliquer",
+      "BUSINESS_UNIT_LABEL": "Unité commerciale",
+      "DATE": {
+        "CUSTOM": "Coutume",
+        "LAST_12_MONTHS": "Les 12 derniers mois",
+        "LAST_3_MONTHS": "Les 3 derniers mois",
+        "LAST_6_MONTHS": "Les 6 derniers mois",
+        "LAST_MONTH": "Mois dernier",
+        "LAST_WEEK": "La semaine dernière"
+      },
+      "DATE_LABEL": "Date",
+      "FORM_LABEL": "Formulaire",
+      "OWNER": "Propriétaire",
+      "PRIORITY": "Priorité",
+      "PROCESS_NAME": "Nom du processus",
+      "REQUEST_TYPE_LABEL": "Type de demande",
+      "RESET": "Réinitialiser",
+      "TITLE": "Filtres"
+    },
+    "DECLINED_REQUESTS": {
+      "DECLINE_RATIO": "% de taux de déclin",
+      "TITLE": "Demandes refusées"
+    },
+    "FILTER": {
+      "APPLY": "Appliquer",
+      "BUSINESS_UNIT_LABEL": "Unité commerciale",
+      "DATE": {
+        "ALL": "Tous",
+        "LAST_1_MONTH": "Le dernier mois",
+        "LAST_2_MONTHS": "Les 2 derniers mois",
+        "LAST_3_MONTHS": "Les 3 derniers mois",
+        "LAST_4_MONTHS": "Les 4 derniers mois",
+        "LAST_5_MONTHS": "Les 5 derniers mois",
+        "LAST_6_MONTHS": "Les 6 derniers mois"
+      },
+      "DATE_LABEL": "Date",
+      "FORM_LABEL": "Formulaire",
+      "OWNER": "Propriétaire",
+      "PRIORITY": "Priorité",
+      "PROCESS_NAME": "Nom du processus",
+      "REQUEST_TYPE_LABEL": "Type de demande",
+      "RESET": "Réinitialiser",
+      "TITLE": "Filtres"
+    },
+    "INSIGHTS_INTAKE_REQUESTS_BY_CHART": {
+      "BUSINESS_UNIT": "Unité commerciale",
+      "FORM": "Formulaire",
+      "STATUS": "Statut",
+      "TYPE": "Taper"
+    },
+    "INTAKE": "Admission",
+    "IN_REVIEW_REQUESTS": {
+      "DAYS_IN_REVIEW": "Bilan des journées",
+      "FOUR_TO_EIGHT_DAYS": "4 - 8 jours",
+      "LESS_THAN_THREE_DAYS": "1 - 3 jours",
+      "MORE_THAN_FIFTEEN_DAYS": "+15 jours",
+      "NINE_TO_FOURTEEN_DAYS": "9 - 14 jours",
+      "REQUESTS_WAITING": "demandes en attente d'annulation",
+      "TITLE": "Demandes en cours d'examen"
+    },
+    "NO_REQUESTS": "Aucune demande trouvée dans le délai sélectionné",
+    "NUMBER_OF_REQUESTS": "Nombre de demandes",
+    "PROJECTS": "Projets",
+    "RECEIVED_REQUESTS": {
+      "TITLE": "Demandes reçues"
+    },
+    "REQUESTS_BY": {
+      "TITLE": "Demandes de"
+    },
+    "RESPONSE_RATIO": {
+      "AVERAGE_DAYS": "Réponse moyenne dans un délai de { responseTime } jours",
+      "TITLE": "Taux de réponse"
+    }
+  },
+  "INTAKE": "Admission",
+  "INTAKE_TAB": {
+    "10MB_FILE_ERROR": "La taille du fichier est supérieure à 10 Mo",
+    "CAPTION": "Configurez votre portail et créez des formulaires de demande.",
+    "CHOOSE": "Choisir",
+    "COPYRIGHT": "TM & © 2022 Cognota, Inc. Tous droits réservés.",
+    "COPY_LINK": "Copie",
+    "DRAG_HERE": "Faites glisser le fichier ici ou",
+    "FROM_DEVICE": "depuis votre appareil. Taille maximale du fichier : 10 Mo",
+    "IMAGE_SIZE_HELPER": "Image de grande taille recommandée (hauteur min. : 1080px)",
+    "LINK_COPIED": "Le lien du portail a été copié dans votre presse-papiers !",
+    "PORTAL_LINK": "Lien vers le portail",
+    "PORTAL_NAME_LABEL": "Nom du portail",
+    "PORTAL_NAME_PLACEHOLDER": "Ajoutez le nom de votre portail",
+    "PREVIEW": "Aperçu",
+    "PREVIEW_TOOLTIP": "Vous verrez ici comment vos fichiers seront affichés dans le portail. Si vous ne téléchargez pas d'image de portail, l'image par défaut que nous fournissons s'affichera.",
+    "TEAM_REQUEST_TOGGLE": {
+      "LABEL": "Afficher les demandes d'équipe pour les utilisateurs professionnels",
+      "OFF_TEXT": "Désactivé",
+      "ON_TEXT": "Sur"
+    },
+    "UPLOAD_BACKGROUND": "Télécharger l'image du portail",
+    "UPLOAD_LOGO": "Télécharger le logo",
+    "USE_DEFAULT": "Utiliser l'image par défaut"
+  },
+  "LANDING": {
+    "DESIGN": "Solutions d'apprentissage de conception",
+    "DESIGN_DESC": "Collaborer sur des stratégies et des techniques pour développer et dispenser l’apprentissage.",
+    "EXTERNAL_USERS": {
+      "BODY_LINE_ONE": "Collaborez de manière transparente sur des solutions d'apprentissage.",
+      "BODY_LINE_TWO": "Tirez parti des meilleures pratiques pour créer rapidement du contenu d’apprentissage."
+    },
+    "INSIGHTS": "Analyser les connaissances acquises",
+    "INSIGHTS_DESC": "Débloquez des informations sur les opérations d'apprentissage pour découvrir et clarifier l'orientation stratégique.",
+    "INTAKE": "Demandes d'apprentissage d'admission",
+    "INTAKE_DESC": "Accueillir, examiner, classer et répondre aux nouvelles demandes de formation provenant de l’ensemble de l’entreprise.",
+    "LEARN_MORE": "Apprendre encore plus",
+    "PROJECTS": "Planifier des projets d'apprentissage",
+    "PROJECTS_DESC": "Décrire et suivre le coût, la portée, le calendrier et les ressources nécessaires aux projets d'apprentissage",
+    "SETTINGS": "Configurer les paramètres de la plateforme",
+    "SETTINGS_DESC": "Configurez la plateforme et administrez son fonctionnement pour répondre aux besoins et à l'expérience uniques de l'entreprise.",
+    "TEAMS": "Gérer les équipes d'apprentissage",
+    "TEAMS_DESC": "Gérer les équipes et examiner les capacités en permanence pour garantir la disponibilité des ressources pour les projets.",
+    "WELCOME": "Accueillir!"
+  },
+  "LANGUAGES": {
+    "UNDEFINED": "Non attribué",
+    "aa": "Au loin",
+    "ab": "Abkhaze",
+    "ae": "Avestique",
+    "af": "afrikaans",
+    "ak": "Akan",
+    "am": "amharique",
+    "an": "Aragonais",
+    "ar": "arabe",
+    "as": "Assamais",
+    "av": "avare",
+    "ay": "Aymara",
+    "az": "azerbaïdjanais",
+    "ba": "Bachkir",
+    "be": "Biélorusse",
+    "bg": "bulgare",
+    "bh": "Langues bihari",
+    "bi": "Bichelamar",
+    "bm": "Bambara",
+    "bn": "bengali",
+    "bo": "Tibétain",
+    "br": "Breton",
+    "bs": "Bosniaque",
+    "ca": "catalan",
+    "ce": "Tchétchène",
+    "ch": "Chamorro",
+    "co": "corse",
+    "cr": "Cri",
+    "cs": "tchèque",
+    "cu": "Vieux-slave / Vieux-bulgare",
+    "cv": "Tchouvachie",
+    "cy": "gallois",
+    "da": "danois",
+    "de": "Allemand",
+    "dv": "Divéhi",
+    "dz": "Dzongkha",
+    "ee": "Éwé",
+    "el": "Grec, moderne (1453-)",
+    "en": "Anglais",
+    "eo": "espéranto",
+    "es": "Espagnol",
+    "et": "estonien",
+    "eu": "Basque",
+    "fa": "persan",
+    "ff": "Peul",
+    "fi": "finlandais",
+    "fj": "Fidjien",
+    "fo": "Féroïen",
+    "fr": "Français",
+    "fy": "frison occidental",
+    "ga": "irlandais",
+    "gd": "gaélique écossais",
+    "gl": "Galicien",
+    "gn": "Guarani",
+    "gu": "Gujarati",
+    "gv": "Manx",
+    "ha": "Haoussa",
+    "he": "hébreu",
+    "hi": "hindi",
+    "ho": "Hiri Motu",
+    "hr": "croate",
+    "ht": "haïtien",
+    "hu": "hongrois",
+    "hy": "arménien",
+    "hz": "Héréro",
+    "ia": "Interlingua (Association internationale des langues auxiliaires)",
+    "id": "indonésien",
+    "ie": "Interlangue",
+    "ig": "Igbo",
+    "ii": "Yi du Sichuan",
+    "ik": "Inupiaq",
+    "io": "Je fais",
+    "is": "islandais",
+    "it": "italien",
+    "iu": "Inuktitut",
+    "ja": "japonais",
+    "jv": "javanais",
+    "ka": "géorgien",
+    "kg": "Kongo",
+    "ki": "Kikuyu",
+    "kj": "Kuanyama",
+    "kk": "Kazakh",
+    "kl": "groenlandais",
+    "km": "Khmer central",
+    "kn": "Kannada",
+    "ko": "coréen",
+    "kr": "Kanuri",
+    "ks": "Cachemire",
+    "ku": "kurde",
+    "kv": "Komis",
+    "kw": "cornouaillais",
+    "ky": "kirghiz",
+    "la": "latin",
+    "lb": "luxembourgeois",
+    "lg": "Ganda",
+    "li": "Limbourgeois",
+    "ln": "Lingala",
+    "lo": "Lao",
+    "lt": "lituanien",
+    "lu": "Luba-Katanga",
+    "lv": "letton",
+    "mg": "malgache",
+    "mh": "Marshallais",
+    "mi": "Maori",
+    "mk": "Macédonien",
+    "ml": "Malayalam",
+    "mn": "mongol",
+    "mr": "Marathi",
+    "ms": "malais",
+    "mt": "maltais",
+    "my": "birman",
+    "na": "Nauru",
+    "nb": "Norvégien bokmål",
+    "nd": "Ndébélé du Nord",
+    "ne": "Népalais",
+    "ng": "Ndonga",
+    "nl": "Néerlandais",
+    "nn": "Norvégien nynorsk",
+    "no": "norvégien",
+    "nr": "Ndébélé du Sud",
+    "nv": "Navajo",
+    "ny": "Chichewa",
+    "oc": "Occitan (après 1500)",
+    "oj": "Ojibwa",
+    "om": "Oromo",
+    "or": "Oriya",
+    "os": "Ossète / Ossète",
+    "pa": "Panjabi / Pendjabi",
+    "pi": "Pali",
+    "pl": "polonais",
+    "ps": "Pachtoune",
+    "pt": "portugais",
+    "qu": "Quechua",
+    "rm": "Romanche",
+    "rn": "Rundi",
+    "ro": "roumain",
+    "ru": "russe",
+    "rw": "Kinyarwanda",
+    "sa": "Sanskrit",
+    "sc": "Sarde",
+    "sd": "Sindhi",
+    "se": "Samis du Nord",
+    "sg": "Sango",
+    "si": "Cinghalais",
+    "sk": "slovaque",
+    "sl": "slovène",
+    "sm": "Samoan",
+    "sn": "Shona",
+    "so": "somali",
+    "sq": "albanais",
+    "sr": "serbe",
+    "ss": "Swati",
+    "st": "Sotho, Sud",
+    "su": "Soundanais",
+    "sv": "suédois",
+    "sw": "Swahili",
+    "ta": "Tamoul",
+    "te": "Télougou",
+    "tg": "Tadjik",
+    "th": "thaïlandais",
+    "ti": "Tigrinya",
+    "tk": "Turkmène",
+    "tl": "Tagalog",
+    "tn": "Tswana",
+    "to": "Tonga (îles Tonga)",
+    "tr": "turc",
+    "ts": "Tsonga",
+    "tt": "tatar",
+    "tw": "Twi",
+    "ty": "Tahiti",
+    "ug": "Ouïghour",
+    "uk": "ukrainien",
+    "ur": "Ourdou",
+    "uz": "Ouzbek",
+    "ve": "Vendre",
+    "vi": "vietnamien",
+    "vo": "Volapuk",
+    "wa": "Wallon",
+    "wo": "Wolof",
+    "xh": "Xhosa",
+    "yi": "yiddish",
+    "yo": "Yorouba",
+    "za": "Zhuang",
+    "zh": "Chinois",
+    "zu": "zoulou"
+  },
+  "LICENSE": {
+    "LICENSE_ACTIVATION": "Ce compte utilisateur ne peut pas être activé sans une licence disponible.",
+    "LICENSE_INACTIVE": "Il vous reste 0 licence. Si vous créez cet utilisateur, son compte sera défini comme <b>désactivé.</b>",
+    "LICENSE_REMAINING": "Vous avez acheté { purchasedLicense } licences de compte - { licensesLeft } licences restantes"
+  },
+  "LOADING": "Chargement",
+  "LOGIN_PAGE": {
+    "BUTTON": "Se connecter",
+    "BUTTON_BACK": "Dos",
+    "BUTTON_NEXT": "Suivant",
+    "BUTTON_SSO": "Connexion avec SSO",
+    "FORGET_PASSWORD_LINK": "Mot de passe oublié?",
+    "HEADING": "Bienvenue chez Cognota",
+    "INPUT": {
+      "EMAIL_INPUT": {
+        "LABEL": "E-mail",
+        "PLACEHOLDER": "Entrez votre email"
+      },
+      "EMPTY_HELP_TEXT": "Entrée manquante",
+      "INCORRECT_EMAIL_OR_PASSWORD": "Email incorrect ou mot de passe invalide.",
+      "INVALID_HELP_TEXT": "Veuillez saisir votre adresse e-mail dans ce format : votrenom@emailtravail.com",
+      "PASSWORD_INPUT": {
+        "LABEL": "Mot de passe",
+        "PLACEHOLDER": "Entrez le mot de passe"
+      },
+      "PASSWORD_NOT_MATCH": "Le mot de passe ne correspond pas",
+      "USER_NOT_FOUND": "Utilisateur non enregistré"
+    },
+    "LEFT_PANEL": {
+      "PROMPT": "Consolidez vos outils disparates et améliorez vos processus en gérant les demandes de formation, la planification des projets et des capacités et la conception du contenu dans une plateforme centralisée.",
+      "TITLE": "Êtes-vous prêt à augmenter votre productivité de 70 % ou plus ?"
+    },
+    "LOADING": "Chargement",
+    "LOGIN_OPTION_CHK_FAILED": "Impossible de vérifier les options de connexion disponibles. Veuillez réessayer.",
+    "REMEMBER_ME": "Souviens-toi de moi",
+    "SLOGAN": "Logiciel conçu pour les équipes de formation et de développement",
+    "WELCOME_TO": "Bienvenue à"
+  },
+  "MANAGE_TIME_OFF": {
+    "ADD_TIME_OFF": "Ajouter du temps libre",
+    "ADD_TIME_OFF_SUCCES": "Succès ! Temps libre ajouté.",
+    "AMOUNT": "Montant",
+    "DAILY_CAPACITY": "Capacité journalière : { capacity } heures",
+    "DELETE_TIME_OFF_BUTTON": "Oui, supprimer les congés",
+    "DELETE_TIME_OFF_CONFIRMATION": "Etes-vous sûr de vouloir supprimer ce congé ?",
+    "DELETE_TIME_OFF_MESSAGE": "Ce temps libre sera supprimé.",
+    "DELETE_TIME_OFF_SUCCESS": "Succès ! Congé supprimé.",
+    "DELET_TIME_OFF_TITLE": "Supprimer les congés",
+    "EDIT_TIME_OFF": "Modifier les congés",
+    "FILTERS": {
+      "DATEPICKER_END_PLACEHOLDER": "À",
+      "DATEPICKER_LABEL": "Dates",
+      "DATEPICKER_START_PLACEHOLDER": "Depuis"
+    },
+    "HOURS": "heures",
+    "INVALID_DATE_RANGE_ERROR": "Les inscriptions en congés ne peuvent pas dépasser 18 mois",
+    "MANAGE_USER_TIME_OFF_TITLE": "Gérer les congés : { userName }",
+    "NO_PERMISSION_ERROR_MESSAGE": "Veuillez contacter votre administrateur pour y accéder",
+    "NO_PERMISSION_ERROR_TITLE": "Vous n'avez pas la permission de voir cette page",
+    "NUMBER_OF_RESULTS": "{ number } résultats",
+    "SAVE_CHANGES_ERROR_MESSAGE": "Veuillez recharger la page avant d'essayer de sauvegarder à nouveau.",
+    "SAVE_CHANGES_ERROR_TITLE": "Désolé, une erreur s'est produite et certaines modifications n'ont peut-être pas été enregistrées !",
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "Dates",
+        "HOURS": "Heures",
+        "TIME_OFF_TYPE": "Type de congé"
+      },
+      "EMPTY_CAPTION": "Commencez à ajouter des congés.",
+      "EMPTY_FILTER_RESULT_CAPTION": "Aucun résultat trouvé."
+    },
+    "TOTAL": "Total",
+    "UPDATE_INVALID_DATE_RANGE": "Veuillez ajuster votre date de fin au plus tard le",
+    "UPDATE_TIME_OFF_SUCCES": "Succès ! Congé mis à jour."
+  },
+  "MORE_ACTIONS": "Plus d'actions",
+  "MY_WORKSPACE": {
+    "AFTERNOON_GREETING": "Bonjour, { userName } !",
+    "DUE_PROJECTS": {
+      "EMPTY_STATE_TEXT": "Aucun projet assigné",
+      "MODAL_TITLE": "Projets par date d'achèvement",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "COMPLETION_DATE": "Date d'achèvement",
+          "MY_TASKS": "Mes tâches",
+          "PRIORITY": "Priorité",
+          "STATUS": "Statut",
+          "TITLE": "Titre"
+        },
+        "TODAY": "Aujourd'hui"
+      },
+      "TITLE": "Projets à venir",
+      "TOOLTIP_TEXT": "Projets par date d'achèvement"
+    },
+    "DUE_TASKS": {
+      "EMPTY_STATE_TEXT": "Aucune tâche assignée",
+      "MODAL_TITLE": "Tâches par date d'échéance",
+      "TABLE": {
+        "HEAD_CELLS": {
+          "DUE": "Exigible",
+          "DUE_DATE": "Date d'échéance",
+          "PROJECT": "Projet",
+          "STATUS": "Statut",
+          "TITLE": "Titre"
+        },
+        "TODAY": "Aujourd'hui",
+        "TOMORROW": "En un jour"
+      },
+      "TITLE": "Tâches à accomplir",
+      "TOOLTIP_TEXT": "Tâches assignées par date d'échéance"
+    },
+    "ERROR_STATE": "Une erreur s'est produite. Essayez de recharger la page.",
+    "EVENING_GREETING": "Bonsoir, { userName } !",
+    "IN_REVIEW_REQUESTS": {
+      "EMPTY_STATE_TEXT": "Aucune demande soumise",
+      "TABLE": {
+        "DAYS": "{ days } { days, plural, =1 {jour} other {jours} }",
+        "HEAD_CELLS": {
+          "DAYS_IN_REVIEW": "Bilan des journées",
+          "PRIORITY": "Priorité",
+          "REQUESTER": "Demandeur",
+          "TITLE": "Titre"
+        }
+      },
+      "TITLE": "Demandes en cours d'examen",
+      "TOOLTIP_TEXT": "Demandes en cours d'examen"
+    },
+    "MORNING_GREETING": "Bonjour, { userName } !",
+    "RECENT_MENTIONS": {
+      "EMPTY_STATE_TEXT": "Aucune mention ni élément d'action",
+      "IN": "dans",
+      "TITLE": "Mentions récentes",
+      "TOOLTIP_TEXT": "Mentions dans les demandes, projets et conceptions"
+    },
+    "VIEW_ALL": "Tout voir"
+  },
+  "NEW_PROJECT_PAGE": {
+    "ALL_PROJECTS_LINK": "Projets",
+    "BACK_BUTTON": "Dos",
+    "BASIC_DETAILS": "Détails de base",
+    "BUDGET_DETAILS": "Détails du budget",
+    "CANCEL_BUTTON": "Annuler",
+    "CANCEL_PROJECT_CREATION_MODAL": {
+      "BODY": "L'action demandée supprimera définitivement les informations renseignées. Êtes-vous sûr de vouloir annuler la création de « { projectName } » ?",
+      "CANCEL": "Continuer à créer",
+      "SUBMIT": "Oui, annuler la création",
+      "TITLE": "Annuler la création du projet"
+    },
+    "CANCEL_PROJECT_CREATION_SUCCESS": "La création du projet « { projectName } » a été annulée avec succès.",
+    "DISABLED_PROCESS": "(désactivé)",
+    "MISSING_INFO_ERROR": "Informations manquantes",
+    "NEXT_BUTTON": "Suivant",
+    "RESOURCES_DETAILS": "Ressources Détails",
+    "SAVE_BUTTON": "Sauvegarder",
+    "SAVE_ERROR": "Ce projet manque d'informations et n'a pas été créé.",
+    "TASK_BUNDLE": {
+      "ESTIMATED_HOURS_PLACEHOLDER": "Heures estimées non définies",
+      "PLACEHOLDER": "Sélectionner un ensemble de tâches pour le projet",
+      "TITLE": "Ensemble de tâches"
+    },
+    "TITLE": "Ajouter un projet",
+    "VIEW_PROJECT_MODAL": {
+      "ADDITIONAL_DETAILS": "Détails supplémentaires",
+      "BASIC_DETAILS": "Détails de base",
+      "LD_ONLY": "Formation et développement uniquement",
+      "REQUEST_DETAILS": "Détails de la demande",
+      "TITLE": "Voir le projet"
+    }
+  },
+  "NO": "Non",
+  "NONE": "Aucun",
+  "NOTIFICATIONS": "notifications",
+  "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé.",
+  "OPERATORS": {
+    "BETWEEN": "Entre",
+    "CONTAINS": "Contient",
+    "DOESNT_CONTAIN": "Ne contient pas",
+    "EQUAL": "Égal à",
+    "GREATER": "Plus grand que",
+    "GREATER_OR_EQUAL": "Supérieur ou égal à",
+    "LESS": "Moins que",
+    "LESS_OR_EQUAL": "Inférieur ou égal à",
+    "NOT_EQUAL": "Pas égal à",
+    "NOT_NULL": "Équivaut à au moins 1 projet",
+    "NULL": "N'équivaut à aucun projet",
+    "OVERLAPS": "Chevauchements"
+  },
+  "ORG_SETTINGS_PAGE": {
+    "ADD_VENDOR": "Ajouter un fournisseur",
+    "BUSINESS_TEAMS": {
+      "TABLE": {
+        "CREATION_DATE": "Date de création",
+        "DESCRIPTION": "Description"
+      },
+      "TITLE": "Équipes commerciales"
+    },
+    "CAPTION": "Ajoutez des équipes ou des fournisseurs pour configurer votre organisation",
+    "LEARNING_TEAMS": {
+      "ADD_TEAM": "Ajouter une équipe",
+      "ADD_TEAM_MODAL": {
+        "ADD_MANAGER": "Ajouter des gestionnaires",
+        "ENTER_DESCRIPTION": "Entrez la description de l'équipe",
+        "ENTER_TEAM_NAME": "Entrez le nom de l'équipe",
+        "FILL_DETAILS": "Remplissez les détails pour ajouter une équipe",
+        "REPORTS_TO": "Rapports à",
+        "SELECT_TEAM": "Sélectionnez l'équipe",
+        "TEAM_ADDED": "L'équipe a été ajoutée avec succès !",
+        "TEAM_NAME": "Nom de l'équipe"
+      },
+      "HIDE_PROJECTS": "Masquer les projets",
+      "HOURS": "{ hours }h",
+      "ROLES": "{ op, plural, =1 {Rôle} other {Rôles} }",
+      "TABLE": {
+        "A_MANAGER_IS_NEEDED": "Un gestionnaire est nécessaire pour gérer les ressources du projet.",
+        "CREATION_DATE": "Date de création",
+        "NO_MANAGER_ASSIGNED": "Aucun gestionnaire assigné",
+        "NO_TEAM_ADDED": "Aucune équipe ajoutée",
+        "REPORTS_TO": "Rapports à",
+        "TEAM_MANAGER": "Chef(s) d'équipe",
+        "TEAM_NAME": "Nom de l'équipe"
+      },
+      "TEAMS_&_MEMBERS": "Équipes et membres de l'équipe",
+      "TIME_OFF_WEEK": "Congé/jour férié cette semaine",
+      "TITLE": "Équipes d'apprentissage",
+      "VENDOR_MODAL_TITLE": "Remplissez les détails pour ajouter un fournisseur",
+      "VIEW_PROJECTS": "Voir les projets"
+    },
+    "TITLE": "Mise en place de l'organisation"
+  },
+  "PAGINATION": {
+    "JUMP_TO_PAGE": "Accéder à la page",
+    "RESULTS": "Affichage de { range } sur { total } résultats",
+    "SHOW": "Lignes par page"
+  },
+  "PASSWORD_SETUP_PAGE": {
+    "BUTTON": "Soumettre",
+    "INPUT": {
+      "PASSWORD": "Entrez le mot de passe"
+    },
+    "PROMPT": "Cette configuration est destinée au compte utilisateur <strong>{ email }.</strong> Si ce n'est pas votre compte, veuillez contacter votre administrateur.",
+    "SUCCESS_MESSAGE": {
+      "LINE_ONE": "Veuillez vérifier votre email pour confirmer votre compte.",
+      "LINE_TWO": "Vous n'avez pas reçu d'e-mail ?",
+      "LINK": "Renvoyer l'e-mail",
+      "TITLE": "Vous y êtes presque !"
+    },
+    "TITLE": "Configuration du mot de passe"
+  },
+  "PEOPLE": {
+    "RESOURCE_ALLOCATION": {
+      "ADD_PARTICIPANT_MODAL": {
+        "ADD_USER": "Ajouter un utilisateur",
+        "AVAILABLE": "Disponible",
+        "DESCRIPTION": "Remplissez les détails pour ajouter une ressource au projet",
+        "HOURS_AVAILABLE": "{ hours } h",
+        "PARTICIPANT_ADDED_SUCCESS_MESSAGE": "Un nouveau participant a été ajouté avec succès à l'équipe !",
+        "PARTICIPANT_ADDED_SUCCESS_SNACKBAR_MESSAGE": "Succès ! Participant ajouté.",
+        "PARTICIPANT_END_DATE_FIELD_LABEL": "Date de fin",
+        "PARTICIPANT_END_DATE_FIELD_PLACEHOLDER": "Date d'achèvement",
+        "PARTICIPANT_ESTIMATED_HOURS_NEEDED": "Heures estimées nécessaires",
+        "PARTICIPANT_ROLE_FIELD_LABEL": "Rôle du projet",
+        "PARTICIPANT_ROLE_FIELD_PLACEHOLDER": "Sélectionnez un rôle de travail pour ajouter une ressource",
+        "PARTICIPANT_START_DATE_FIELD_LABEL": "Date de début",
+        "PARTICIPANT_TOTAL_ALLOCATED_HOURS": "Nombre total d'heures allouées",
+        "PARTICIPANT_TOTAL_AVAILABILITY": "Disponibilité totale",
+        "PARTICIPANT_TYPE_FIELD_LABEL": "Type de participant",
+        "PARTICIPANT_TYPE_FIELD_OPTIONS": {
+          "COLLABORATOR": "Collaborateur de projet",
+          "MEMBER": "Membre du projet"
+        },
+        "PARTICIPANT_TYPE_FIELD_PLACEHOLDER": "Sélectionnez un rôle de projet",
+        "PARTICIPANT_UPDATED_SUCCESS_SNACKBAR_MESSAGE": "Succès ! Informations sur les participants mises à jour.",
+        "PARTICIPANT_USER_FIELD_LABEL": "Utilisateur",
+        "PARTICIPANT_USER_FIELD_PLACEHOLDER": "Sélectionnez un utilisateur",
+        "PROJECT_PARTICIPANT_FIELD_LABEL": "Participant au projet",
+        "PROJECT_PARTICIPANT_FIELD_PLACEHOLDER": "Ajouter un participant",
+        "SELECT_ROLE": "Sélectionnez un rôle",
+        "TITLE": "Ajouter un participant",
+        "TOTAL_ALLOCATION_PLACEHOLDER": "Allocation",
+        "UPDATE_ROLE": "Mettre à jour le rôle"
+      },
+      "PARTICIPANT_PROJECT_ROLE": {
+        "COMMUNICATION_SPECIALIST": "Spécialiste en communication",
+        "CONTENT_WRITER": "Rédacteur de contenu",
+        "EXECTIVE_SPOSNOR": "Commanditaire exécutif",
+        "INSTRUCTIONAL_DESIGNER": "Concepteur pédagogique",
+        "LEARNING_CONSULTANT": "Consultant/Partenaire en apprentissage",
+        "LEARNING_DEVELOPER": "Développeur d'apprentissage",
+        "LMS_ADMIN": "Administrateur/Support LMS",
+        "MEDIA_DEVELOPER": "Développeur de médias",
+        "OTHERS": "Autres",
+        "PRODUCER": "Producteur",
+        "PROGRAM_MANAGER": "Responsable de programme",
+        "PROJECT_MANAGER": "Chef de projet",
+        "PROJECT_OWNER": "Propriétaire du projet",
+        "QA": "Assurance qualité",
+        "REPORTING_ANALYST": "Analyste de rapports",
+        "RESOURCE_MANAGER": "Gestionnaire de ressources",
+        "REVIEWER": "Critique",
+        "SME": "PME",
+        "TRAINER": "Formateur/Animateur",
+        "TRAINING_COORDINATOR": "Coordonnatrice de formation"
+      },
+      "REMOVE_PARTICIPANT_MODAL": {
+        "DESCRIPTION": "Vous êtes sur le point de supprimer ce participant de ce projet.<br>Il n'aura <b>plus accès</b> au projet et il ne sera <br> <b>plus affecté à aucune tâche.</b>",
+        "PARTICIPANT_REMOVED_SUCCESS_SNACKBAR_MESSAGE": "Succès ! Participant supprimé",
+        "REMOVE": "Supprimer le participant",
+        "TITLE": "Supprimer le participant"
+      },
+      "TABLE": {
+        "ADD_ASSIGNMENT": "Ajouter une nouvelle tâche",
+        "ADJUST_ALLOCATION": "Ajuster l'allocation",
+        "ALLOCATION": "Allocation",
+        "ALLOCATION_AVAILABILITY": "({ availability } disponible)",
+        "ALLOCATION_HOURS": "{ hours }heures",
+        "ALLOCATION_TIME": "{ allocation }h",
+        "ASSIGNMENT_ACTUAL_TIME": "Heures réelles : { hours } h",
+        "ASSIGNMENT_DETAILS": "Détails de la mission",
+        "ASSIGNMENT_ESTIMATED_TIME": "Heures estimées : { estimated } h",
+        "ASSIGNMENT_UPDATED_SUCCESSFULLY": "L’affectation du projet { type } a été mise à jour avec succès !",
+        "COLLABORATORS": "{ num, plural, =0 {Collaborateur} =1 {Collaborateurs} }",
+        "COLLABORATOR_ESTIMATED_TIME": "Estimation de { hours }h au total",
+        "EMPTY_COLLABORATORS": "Aucun collaborateur n'a encore été ajouté.",
+        "EMPTY_MEMBERS": "Aucun membre n'a encore été ajouté.",
+        "EMPTY_OWNERS": "Aucun propriétaire n'a encore été ajouté.",
+        "HEADERS": {
+          "ACTUAL_HOURS": "Heures réelles",
+          "ALLOCATION": "{ isMember, plural, =0 {Est.} =1 {Total} } Allocation",
+          "NAME": "Nom",
+          "PARTICIPANT_TOTAL": "Nombre total de participants",
+          "PARTICIPANT_TYPE": "Type de participant",
+          "PROJECT_ROLE": "Rôle du projet",
+          "PROJECT_TEAM": "Équipe de projet",
+          "TIME_LINE": "Chronologie",
+          "WEEKLY_TOTAL": "Total hebdomadaire (collaborateur non inclus)"
+        },
+        "HIDE_TASKS": "Masquer les tâches",
+        "MEMBERS": "{ num, plural, =0 {Membre} =1 {Membres} }",
+        "NEW_ASSIGNMENT": "Affectation d'un nouveau membre",
+        "NO_ASSIGNMENT": "Aucune affectation",
+        "NO_ROLE": "Aucun rôle attribué",
+        "NO_TASKS": "Aucune tâche assignée",
+        "OVERALLOCATION": "Surallocation",
+        "OWNERS": "{ num, plural, =0 {Propriétaire} =1 {Propriétaires} }",
+        "PROJECT_OWNER_ROLE": "Propriétaire du projet",
+        "REMOVE_PARTICIPANT": "Supprimer le participant",
+        "REMOVE_PROJECT_OWNER_ROLE_WARNING": "Pour supprimer cette affectation, l'utilisateur doit être supprimé en tant que propriétaire de la page Présentation",
+        "REMOVE_STARTED_ROLE_WARNING": "La suppression de ce rôle de projet supprimera les heures travaillées du projet. Pour conserver une trace des heures travaillées, ajustez la chronologie au lieu de supprimer le rôle.",
+        "REMOVE_STARTED_ROLE_WARNING_TOOLTIP": "La suppression de ce rôle de projet supprimera les heures travaillées du projet. Pour conserver une trace des heures travaillées, ajustez la chronologie au lieu de supprimer le rôle.",
+        "REMOVE_USER_WARNING": "En supprimant ce rôle, l'utilisateur sera supprimé du projet. Annulez cette action si vous ne le souhaitez pas.",
+        "REMOVE_USER_WARNING_TOOLTIP": "En supprimant ce rôle, l'utilisateur sera supprimé du projet.",
+        "REVIEW_ALLOCATION_WARNING": "Vous devrez peut-être revoir l'allocation de cet utilisateur.",
+        "SECTIONS": {
+          "BUSINESS": "Entreprise",
+          "EMPTY_BUSINESS": "Aucun utilisateur professionnel n'a encore été ajouté",
+          "EMPTY_EXTERNAL": "Aucun utilisateur externe n'a encore été ajouté",
+          "EMPTY_FACILITATOR": "Aucun utilisateur facilitateur n'a encore été ajouté",
+          "EMPTY_LD": "Aucun utilisateur d'apprentissage n'a encore été ajouté",
+          "EMPTY_OWNER": "Aucun utilisateur propriétaire n'a encore été ajouté",
+          "EXTERNAL": "Externe",
+          "FACILITATOR": "Animateur",
+          "LD": "Apprentissage",
+          "OWNER": "Propriétaire"
+        },
+        "TARGET_COMPLETION": "Achèvement de l'objectif",
+        "TEAM_MANAGER_ASSIGNMENT": "Un utilisateur ne peut pas être à la fois chef d’équipe et membre de la même équipe.",
+        "TIME_OFF_HOLIDAYS": "Congés / jours fériés",
+        "TIME_OFF_TOOLTIP": "Congé/jour férié cette semaine",
+        "UPDATE_ASSIGNMENT": "Mettre à jour l'affectation { type }",
+        "VIEW_TASKS": "Afficher les tâches"
+      },
+      "UPDATE_WEEKLY_ALLOCATION_MODAL": {
+        "ACTUAL_HOURS": "Heures réelles",
+        "HOURS_ALLOCATED": "Heures allouées",
+        "HOURS_LEFT": "Heures restantes",
+        "HOUR_LABEL": "h",
+        "PROJECT_ROLE": "Rôle du projet",
+        "SUCCESS_BANNER": "Les heures d’affectation des membres du projet ont été mises à jour avec succès !",
+        "TIME_LINE": "Chronologie"
+      }
+    },
+    "RESOURCE_PLAN": {
+      "UPDATE_RESOURCES_BUTTON": "Mettre à jour les ressources",
+      "UPDATE_SUCCESS": "Le plan de ressources a été mis à jour avec succès"
+    },
+    "RESOURCE_SUMMARY": {
+      "RESOURCE_SUMMARY_TABLE": {
+        "COLLABORATORS_SECTION": "Collaborateurs",
+        "MEMBERS_SECTION": "Membres",
+        "NO_OF_RESOURCE_COLUMN": "Nombre de ressources",
+        "PROJECT_ROLE_COLUMN": "Rôle du projet",
+        "SUB_TITLE": "Cette section montre le total des heures allouées et les heures réelles à ce jour des membres du projet et des collaborateurs",
+        "TITLE": "Résumé des ressources par type de ressource",
+        "TOTAL": "Total",
+        "TOTAL_ACTUAL_HOURS": "Total des heures réelles",
+        "TOTAL_HOURS_COLUMN": "Nombre total d'heures allouées"
+      },
+      "TASKS_SUMMARY_TABLE": {
+        "EMPTY_TABLE": "Aucune donnée à afficher car aucune tâche n'a encore été ajoutée.",
+        "NUMBER_OF_TASKS": "Nombre de tâches",
+        "SUB_TITLE": "Cette section affiche le total des heures allouées et réelles à ce jour par type de tâche",
+        "TASK_TYPE": "Type de tâche",
+        "TITLE": "Résumé des ressources par type de tâche",
+        "TOTAL_ACTUAL_HOURS": "Total des heures réelles",
+        "TOTAL_ESTIMATED_HOURS": "Nombre total d'heures estimées"
+      }
+    },
+    "TABS": {
+      "RESOURCE_ALLOCATION": "Affectation des ressources",
+      "RESOURCE_PLAN": "Plan de ressources",
+      "RESOURCE_SUMMARY": "Résumé de la ressource"
+    }
+  },
+  "PERCENT_SIGN": "%",
+  "POWERED_BY": "Alimenté par",
+  "PROFILE": {
+    "SUCCESS": "Votre profil a été mis à jour avec succès",
+    "TITLE": "Profil du compte"
+  },
+  "PROFILE_MENU": {
+    "LANGUAGE": "Langue",
+    "NOTIFICATION": "Notifications",
+    "PROFILE": "Mon profil",
+    "TIME_OFF": "Mon temps libre"
+  },
+  "PROGRAMS_LIST_PAGE": {
+    "ADD_PROGRAM_BUTTON": "Ajouter un programme",
+    "DELIVERY_TYPES": {
+      "BLENDED": "Mélangé",
+      "IN_PERSON": "En personne",
+      "ONLINE": "En ligne",
+      "OTHER": "Autre"
+    },
+    "STATUS": {
+      "CLOSED": "Fermé",
+      "IN_PROGRESS": "En cours",
+      "NOT_STARTED": "Pas commencé"
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "CREATION": "Date de création",
+        "DELIVERY_TYPE": "Type de livraison",
+        "OWNERS": "Propriétaires",
+        "PROGRAM_NUMBER": "Numéro de programme",
+        "STATUS": "Statut",
+        "TITLE": "Titre"
+      },
+      "EMPTY": "Créez et gérez vos programmes.",
+      "GET_STARTED": "Commencer",
+      "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé."
+    },
+    "TITLE": "Programmes"
+  },
+  "PROGRAM_PAGE": {
+    "CLOSED_TOOLTIP": "Veuillez compléter tous les projets liés avant de fermer ce programme.",
+    "DELETE_PROGRAM": "Supprimer le programme",
+    "DELETE_PROGRAM_ERROR": "Oups ! Une erreur s'est produite. Veuillez recharger la page avant de réessayer.",
+    "DELETE_PROGRAM_MODAL": {
+      "STEP_ONE": {
+        "DELETED_PROJECTS_TEXT": "Les { numberOfProjects, plural, =1 {projet} other {projets} } suivants ({ numberOfProjects }) seront supprimés :",
+        "DELETE_OPTIONS": {
+          "DELETE": "Supprimer des projets avec le programme",
+          "MOVE": "Déplacer des projets vers un autre programme",
+          "UNLINK": "Dissocier les projets et supprimer le programme"
+        },
+        "DESCRIPTION": "Ce programme est associé à des projets. Vous pouvez soit les déplacer vers un nouveau programme, soit supprimer ces projets avec le programme, soit les dissocier et supprimer uniquement le programme maintenant.",
+        "MOVED_PROJECTS_TEXT": "Sélectionnez un programme vers lequel déplacer tous les projets :",
+        "PROGRAMS_DROPDOWN_PLACEHOLDER": "Sélectionnez un programme",
+        "TAB": "1. Sélectionnez le déplacement ou la suppression du ou des projets",
+        "UNLINKED_PROJECTS_TEXT": "Les { numberOfProjects, plural, =1 {projet} other {projets} } suivants ({ numberOfProjects }) seront dissociés :"
+      },
+      "STEP_TWO": {
+        "DELETED_PROJECTS_TEXT": "Tous les { numberOfProjects } { numberOfProjects, plural, =1 {projet} other {projets} } sont supprimés avec ce programme. Cette action n'est pas réversible.",
+        "DELETE_BUTTON": "Supprimer le programme",
+        "DESCRIPTION": "Veuillez saisir le nom du programme que vous supprimez :",
+        "MOVED_PROJECTS_TEXT": "Tous les { numberOfProjects } { numberOfProjects, plural, =1 {projet} other {projets} } sont déplacés vers <b>{ newProgramTitle }</b>. Les nouveaux propriétaires du programme seront informés. Cette action n'est pas réversible.",
+        "PROGRAM_NAME_PLACEHOLDER": "Entrez le nom du programme",
+        "TAB": "2. Confirm",
+        "UNLINKED_PROJECTS_TEXT": "Tous les { numberOfProjects } { numberOfProjects, plural, =1 {projet} other {projets} } sont en cours de suppression et le programme sera supprimé. Cette action n'est pas réversible."
+      },
+      "TITLE": "Supprimer le programme"
+    },
+    "DELETE_PROGRAM_SUCCESS": {
+      "DELETE_PROJECTS": "Succès ! Le programme est supprimé avec ses projets.",
+      "MOVE_PROJECTS": "Succès ! Le programme est supprimé et les projets sont déplacés vers le programme sélectionné.",
+      "NO_PROJECTS": "Succès ! Le programme est supprimé.",
+      "UNLINK_PROJECTS": "Succès ! Les projets sont dissociés et le programme est supprimé."
+    },
+    "DELETE_PROGRAM_TOOLTIP": "Il y a des modifications non enregistrées.",
+    "EMPTY": "Créez et gérez vos programmes.",
+    "ID": "IDENTIFIANT",
+    "INSIGHTS": {
+      "AVERAGE_TASK_COMPLETION": "Taux moyen d'achèvement des tâches",
+      "CAPTION": "Par statut",
+      "CONGRATULATIONS": "Félicitations!",
+      "CONGRATULATIONS_MESSAGE_1": "Tous les projets sont terminés.",
+      "CONGRATULATIONS_MESSAGE_2": "Vous êtes prêt à fermer le programme.",
+      "PIE_CHART_LINKED": "Lié",
+      "PIE_CHART_NO": "Non",
+      "PIE_CHART_PROJECT": "Projet",
+      "PIE_CHART_PROJECTS": "Projets",
+      "PROJECTS_AT_RISK": "Projets en péril",
+      "PROJECTS_COMPLETED": "Projets terminés",
+      "PROJECTS_OVERDUE": "Projets en retard"
+    },
+    "LINK_PROJECTS": "Projets de liens",
+    "LINK_PROJECTS_MODAL": {
+      "CAPTION": "Sélectionnez le(s) projet(s) à inclure dans le programme",
+      "LINK_BUTTON": "Projet(s) de lien",
+      "NO_PROJECTS_AVAILABLE": "Tous les projets sont déjà liés à ce programme",
+      "PROJECTS_DROPDOWN_PLACEHOLDER": "Sélectionnez un projet à inclure dans",
+      "PROJECTS_LABEL": "Choisissez le(s) projet(s)",
+      "TITLE": "Projets de liens"
+    },
+    "NO_DESCRIPTION": "Aucune description",
+    "OVERVIEW": "Aperçu",
+    "PROJECTS": "Projets",
+    "PROJECTS_SUB": "Cette section montre les détails du programme",
+    "PROJECT_NO_ACCESS": "Accès refusé. Vous ne faites pas partie de cette équipe de projet, vous ne pouvez donc pas voir le projet.",
+    "STATUS": "Statut",
+    "STRATEGY_PAGE": {
+      "ADDITIONAL_BENEFIT": {
+        "BENEFIT_MANAGEMENT": {
+          "BENEFIT": "Avantage { number }",
+          "BENEFIT_PLACEHOLDER": "Spécifier un avantage créé par ce programme",
+          "BENEFIT_SUBTITLE": "À la fin du programme, cet avantage supplémentaire a été créé",
+          "TITLE": "Gestion des avantages sociaux"
+        },
+        "BENEFIT_MEASUREMENT": {
+          "IS_MONETARY": "Cet avantage était-il monétaire ?",
+          "IS_MONETARY_OPTIONS": {
+            "NO": "Non, c'était intangible",
+            "YES": "Oui, c'était monétaire"
+          },
+          "SUBTITLE": "Précisez si cette prestation a généré un gain monétaire.",
+          "TITLE": "Mesure des avantages"
+        },
+        "DELETE_BENEFIT_BUTTON": "Supprimer l'avantage",
+        "DELETE_BENEFIT_MODAL": {
+          "ERROR_NOTIFICATION_MESSAGE": "Veuillez réessayer.",
+          "ERROR_NOTIFICATION_TITLE": "Désolé, une erreur s'est produite et l'avantage n'a pas été supprimé !",
+          "MESSAGE": "L’avantage ne sera plus disponible et cette action ne pourra pas être annulée.",
+          "SUCCESS_NOTIFICATION": "Succès ! Avantage supprimé.",
+          "TITLE": "Supprimer l'avantage"
+        },
+        "SUCCESS_MESSAGE": "Succès ! Avantage mis à jour.",
+        "TAGS": {
+          "INTANGIBLE": "Intangible",
+          "MONETARY": "Monétaire",
+          "NO_INFORMATION": "Aucune information ajoutée"
+        },
+        "TITLE": "{ categoryName } Avantage"
+      },
+      "ADDITIONAL_BENEFITS": {
+        "BENEFIT": "Avantage { number }",
+        "MANAGE_BENEFIT": "Gérer les avantages"
+      },
+      "ADD_ADDITIONAL_BENEFIT_MODAL": {
+        "BENEFIT": "Avantage { number }",
+        "BENEFIT_INPUT_PLACEHOLDER": "Ajoutez votre avantage pour ce niveau de stratégie",
+        "CONFIRM_BUTTON": "Oui, ajouter des avantages",
+        "CREATE_BENEFIT": "Créer des avantages",
+        "PROMPTS": {
+          "OTHER": "Quels autres avantages ont été créés par ce programme ?",
+          "SCOPE": "Les avantages supplémentaires peuvent inclure : la réduction du stress et la satisfaction au travail."
+        },
+        "SUCCESS_MESSAGE": "Succès ! Avantage(s) ajouté(s).",
+        "TITLE": "Ajouter l'avantage { category }"
+      },
+      "BETA": "Bêta",
+      "CATEGORY": {
+        "ADD_OBJECTIVE": "Ajouter un objectif",
+        "CATEGORY_INSTRUCTIONS": {
+          "APPLICATION": "« Application » fait référence à la manière dont les connaissances et les compétences acquises grâce à ce programme d’apprentissage doivent être appliquées. Quels changements de comportement ce programme devrait-il influencer ?",
+          "IMPACT": "Comment ce programme devrait-il améliorer les mesures commerciales ? Chaque objectif d’impact créera idéalement un avantage monétaire pour votre entreprise.",
+          "LEARNING": "Quelles nouvelles compétences et/ou aptitudes les apprenants devraient-ils acquérir grâce à ce programme ?",
+          "REACTION": "L'expérience de vos apprenants est importante. Des apprenants engagés et satisfaits sont la base d'un programme réussi. Quelles réactions ce programme doit-il susciter ?",
+          "ROI": "Définissez un objectif de retour sur investissement pour déterminer si le programme a atteint le résultat escompté."
+        },
+        "CATEGORY_NAVIGATOR": "{ category } Objectifs",
+        "CATEGORY_TITLE": "{ program } / { category } Stratégie",
+        "ERROR": {
+          "MESSAGE": "Veuillez recharger la page avant d'essayer de sauvegarder à nouveau.",
+          "TITLE": "Désolé, une erreur s'est produite et les modifications n'ont pas été enregistrées !"
+        },
+        "GET_STARTED_ADD_OBJECTIVES": "Commencez à ajouter des objectifs",
+        "INPUT_CATEGORY_NAVIGATOR": "Saisir",
+        "OBJECTIVES_SETTING": "Définition des objectifs",
+        "PROGRAM_CATEGORY": "Catégorie de programme",
+        "ROI_CATEGORY_NAVIGATOR": "Retour sur investissement et coûts",
+        "SUCCESS_TITLE": "Succès ! Objectif mis à jour.",
+        "TOTAL_MONETARY_BENEFITS": "Total des avantages monétaires annuels",
+        "UPDATE_ERROR_TITLE": "Désolé, une erreur s'est produite et certaines modifications n'ont peut-être pas été enregistrées !"
+      },
+      "EVALUATION": {
+        "DELETE_COLLECTION_METHOD_MODAL": {
+          "BODY_TEXT": "En enregistrant ces modifications dans le plan d’évaluation, toute méthode de collecte de données supprimée et toute information s’y rapportant seront définitivement supprimées.",
+          "CONFIRM_BUTTON": "Oui, enregistrer les modifications",
+          "TITLE": "Enregistrer les modifications : méthode de collecte de données supprimée"
+        },
+        "DICARD_CHANGES": "Annuler les modifications",
+        "FIELDS": {
+          "ADD_BEHAVIOUR": "Ajouter un comportement",
+          "COLLECTION_METHOD": "Méthode de collecte des données",
+          "COLLECTION_METHOD_PLACEHOLDER": "Sélectionnez 1 ou plusieurs méthodes",
+          "COLLECTION_TIMING": "Calendrier de collecte des données",
+          "COLLECTION_TIMING_PLACEHOLDER": "Sélectionnez 1 ou plusieurs horaires de collecte",
+          "DATA_SOURCE": "Source des données",
+          "DATA_SOURCE_PLACEHOLDER": "Sélectionnez 1 ou plusieurs sources de données",
+          "DESIRED_BEHAVIOURS": "Comportements souhaités",
+          "DESIRED_BEHAVIOURS_PLACEHOLDER": "Décrivez le comportement souhaité à observer",
+          "METHOD": "Méthode",
+          "METHOD_PLACEHOLDER": "Sélectionnez 1 ou plusieurs méthodes",
+          "NUMBER_OBSERVED": "Non. Observé",
+          "NUMBER_OBSERVED_PLACEHOLDER": "Ajouter le nombre d'observateurs",
+          "NUMBER_OF_OBSERVERS": "Nombre d'observateurs",
+          "NUMBER_OF_OBSERVERS_PLACEHOLDER": "Ajouter le nombre d'observateurs",
+          "NUMBER_OF_RESPONDENTS": "Nombre de répondants",
+          "NUMBER_OF_RESPONDENTS_PLACEHOLDER": "Ajouter le nombre de répondants",
+          "OTHER": "Autre",
+          "OTHER_PLACEHOLDER": "Spécifier la source de données"
+        },
+        "NO_OBJECTIVES_DESCRIPTION": "Envisagez d’ajouter de nouveaux objectifs et de mettre à jour votre plan d’évaluation.",
+        "NO_OBJECTIVES_TITLE": "Il n’y a pas d’objectifs correspondant à ce plan.",
+        "SAVE_PLAN": "Enregistrer le plan",
+        "SECTION_DESCRIPTION": "Les méthodes recommandées pour évaluer la réaction comprennent un questionnaire post-programme, un test et/ou un entretien.",
+        "TITLE": "Plan d'évaluation et résultats",
+        "WARNING": "Ajoutez d’abord des objectifs pour planifier l’évaluation correspondante."
+      },
+      "EVIDENCE": {
+        "DELETE_ERROR": "Désolé, une erreur s'est produite et votre fichier de preuves n'a pas été supprimé.",
+        "DELETE_ERROR_MESSAGE": "Veuillez essayer de le supprimer à nouveau",
+        "DELETE_SUCCESS": "Succès ! Le fichier de preuves a été supprimé",
+        "DOWNLOAD_ERROR_MESSAGE": "Veuillez essayer de le télécharger à nouveau",
+        "DOWNLOAD_ERROR_TITLE": "Désolé, une erreur s'est produite et votre fichier de preuves n'a pas été téléchargé",
+        "REPLACE_EVIDENCE_MODAL": {
+          "BODY_TEXT": "Il existe déjà un fichier appelé <b>{ fileName }</b>.<p>Le téléchargement d'un nouveau fichier portant le même nom <b>remplacera le fichier précédent.</b></p>",
+          "REPLACE_BUTTON": "Oui, remplacer",
+          "TITLE": "Remplacer les preuves"
+        },
+        "REPLACE_SUCCESS_MESSAGE": "Succès ! Le dossier de preuves a été remplacé.",
+        "SECTION_DESCRIPTION": "Conservez les documents connexes ensemble en les téléchargeant ici.",
+        "SUPPORTED_FILE_TYPES": "Types de fichiers pris en charge : JPG, PNG, mp4, mpeg, mp3, pdf, txt, .ppt, .pptx, .xls, .xlsx, .doc, .docx, .odt, .odp, .ai, .psd, ods, .csv",
+        "TITLE": "Preuves d'évaluation",
+        "UPLOAD_ERROR_MESSAGE_BODY": "Veuillez essayer de le télécharger à nouveau",
+        "UPLOAD_ERROR_MESSAGE_TITLE": "Désolé, une erreur s'est produite et votre fichier de preuves n'a pas été téléchargé",
+        "UPLOAD_SUCCESS_MESSAGE": "Succès ! Fichier téléchargé."
+      },
+      "EXAMPLE_PROMPTS": {
+        "APPLICATION_GUIDE": "Pourquoi la méthodologie ROI ?",
+        "BOOTCAMP": "Réclamez votre Boot Camp gratuit",
+        "LEVEL_0_BUILDING_THE_BRIEF": "Élaboration du brief",
+        "LEVEL_1_REACTION_EVALUATION_METHODOLOGY": "Méthodologies d'évaluation des réactions",
+        "LEVEL_2_LEARNING_EVALUATION_METHODOLOGY": "Méthodologies d'évaluation de l'apprentissage",
+        "LEVEL_3_APPLICATION_EVALUATION_METHODOLOGY": "Méthodologie d'évaluation des candidatures",
+        "LEVEL_4_IMPACT_CALCULATING_MONETARY_VALUE": "Comment calculer la valeur monétaire",
+        "LEVEL_4_IMPACT_EVALUATION_METHODOLOGY": "Méthodologie d'évaluation d'impact",
+        "LEVEL_5_ROI_CALCULATING_PROGRAM_COSTS": "Coûts du programme",
+        "LEVEL_5_ROI_EVALUATION_METHODOLOGY": "Méthodologies d'évaluation du retour sur investissement",
+        "ROI_AT_A_GLANCE": "Certification ROI",
+        "ROI_BROCHEUR": "Présentation de la méthodologie ROI"
+      },
+      "GO_CATEGORY_PAGE": "Accéder à la stratégie { category }",
+      "OBJECTIVE": {
+        "ADDITIONAL_BENEFITS": {
+          "ADD_BENEFIT": "Ajouter un avantage",
+          "SECTION_DESCRIPTION": "Quels autres avantages ont été créés par ce programme ? Ces avantages peuvent être monétaires ou intangibles.",
+          "SECTION_TITLE": "Avantages supplémentaires"
+        },
+        "ADD_OBJECTIVE": {
+          "ADD_OBJECTIVES": "Oui, ajouter des objectifs",
+          "ADD_OBJECTIVE_FOR": "Ajoutez votre objectif pour ce niveau de stratégie",
+          "CREATE_OBJECTIVE": "Créer un objectif",
+          "OBJECTIVES_SHOULD_BE": "Les objectifs doivent être SMART : spécifiques, mesurables, réalisables, pertinents et limités dans le temps.",
+          "PROGRAM_DESCRIPTION": "Description du programme",
+          "PROGRAM_OBJECTIVE": "Objectif du programme",
+          "PROMPTS": "Invites",
+          "SUBTITLE_REACTION": "Sélectionnez l'un de ces objectifs de réaction populaires et ajoutez-les à votre programme. Si vous ne voyez pas ce dont vous avez besoin, vous pouvez créer un nouvel objectif.",
+          "SUCCESS": "Succès ! Objectif(s) ajouté(s).",
+          "TITLE": "Ajouter l'objectif { category }"
+        },
+        "AT_END_OF_PROGRAM_PARTICIPANTS": "À la fin de ce programme, les participants seront capables de",
+        "BENEFITS": {
+          "ANNUAL_MONETARY_BENEFITS_EMPTY_STATE": "Aucune valeur fournie",
+          "ANNUAL_MONETARY_BENEFITS_SUBTITLE": "Variation annuelle de la performance (ΔP*12) multipliée par la valeur de la mesure",
+          "ANNUAL_MONETARY_BENEFITS_TITLE": "Avantages monétaires annuels (AΔP*V)",
+          "CHANGE_OF_PERFORMANCE_PLACEHOLDER": "Ajouter un numéro",
+          "CHANGE_OF_PERFORMANCE_SUBTITLE": "Exemple : Additionnez le nombre d'absences empêchées par mois.",
+          "CHANGE_OF_PERFORMANCE_TITLE": "Évolution des performances par mois (ΔP).",
+          "ERROR_MESSAGE_BODY": "Veuillez recharger cette page avant de réessayer.",
+          "ERROR_MESSAGE_TITLE": "Désolé, une erreur s'est produite et nous n'avons pas pu télécharger le fichier d'instructions",
+          "SUBTITLE": "Saisissez la valeur d’une unité de mesure, puis saisissez le changement de performance de cette mesure au cours d’un mois.",
+          "TITLE": "Calculateur d'avantages",
+          "UNIT_OF_MEASURE_PLACEHOLDER": "Ajouter une unité de mesure",
+          "UNIT_OF_MEASURE_SUBTITLE": "Quel est votre objectif de mesure ? Exemple : nouveaux clients, absences, désabonnement",
+          "UNIT_OF_MEASURE_TITLE": "Unité de mesure",
+          "VALUE_OF_UNIT_PLACEHOLDER": "Ajouter une valeur monétaire pour l'unité de mesure",
+          "VALUE_OF_UNIT_SUBTITLE": "Il peut s'agir d'une valeur ajoutée telle qu'un bénéfice pour un nouveau client ou une réduction des coûts grâce à la réduction des absences.",
+          "VALUE_OF_UNIT_TITLE": "Valeur d'une unité de mesure (V)",
+          "VALUE_OF_UNIT_TOOLTIP": "Comment puis-je trouver cette valeur ?"
+        },
+        "COMMING_SOON": "À venir...",
+        "DELETE_OBJECTIVE": {
+          "MODAL": {
+            "CONFIRM_BUTTON": "Oui, supprimer",
+            "IMPACE_LEVEL_MESSAGE": "En supprimant cet objectif, tous les avantages monétaires correspondants seront également supprimés définitivement du système.",
+            "MESSAGE": "L'objectif ne sera plus disponible et cette action ne pourra pas être annulée.",
+            "TITLE": "Supprimer l'objectif"
+          },
+          "NOTIFICATION": {
+            "ERROR": {
+              "MESSAGE": "Veuillez réessayer.",
+              "TITLE": "Désolé, une erreur s'est produite et l'objectif n'a pas été supprimé !"
+            },
+            "SUCCESS": {
+              "TITLE": "Succès ! Objectif supprimé."
+            }
+          }
+        },
+        "EDIT_OBJECTIVE_PLACEHOLDER": "Les apprenants devraient trouver ce programme pertinent par rapport à leur rôle et à leurs tâches professionnelles.",
+        "EVALUATION_DETAILS": "Détails et conclusions de l'évaluation",
+        "MANAGE_OBJECTIVE": "Gérer l'objectif",
+        "MEASURED_OTHER_SCALE": "A-t-il été mesuré à l’aide d’une autre échelle ?",
+        "MEASUREMENT_INPUT": {
+          "FIVE_POINT": "Cet objectif a été atteint",
+          "PERCENTAGE": "% des participants ont atteint cet objectif.",
+          "TEN_POINT": "Cet objectif a été atteint"
+        },
+        "MEASUREMENT_TYPES": {
+          "FIVE_POINT": "Échelle de 5 points",
+          "PERCENTAGE": "Pourcentage %",
+          "TEN_POINT": "Échelle de 10 points"
+        },
+        "NOT_MET": "Non, l'objectif n'a pas été atteint",
+        "OBJECTIVE": "Objectif { number }",
+        "OBJECTIVE_MANAGEMENT": "Gestion des objectifs",
+        "OBJECTIVE_MEASUREMENT": "Mesure objective",
+        "OBJECTIVE_NOT_MET_REASON_LABEL": "Pourquoi l'objectif n'a-t-il pas été atteint ?",
+        "OBJECTIVE_NOT_MET_REASON_PLACEHOLDER": "Décrivez pourquoi l'objectif n'a pas été atteint",
+        "OBJECTIVE_NOT_MET_REASON_SUBTITLE": "Précisez les détails",
+        "OBJECTIVE_PAGE_SUBTITLE": "{ category } Objectif",
+        "OBJECTIVE_RESULT": {
+          "MET": "Objectif atteint",
+          "NOT_MET": "Objectif non atteint",
+          "NO_RESULTS": "Aucun résultat ajouté"
+        },
+        "REPORT_RESULTS": "Comment souhaitez-vous rapporter les résultats pour cet objectif ?",
+        "WAS_OBJECTIVE_MET": "Cet objectif a-t-il été atteint ?",
+        "YES_MET": "Oui, l'objectif a été atteint"
+      },
+      "PROGRAM_STRATEGY": "Stratégie du programme",
+      "ROI_BOOTCAMP": {
+        "DESCRIPTION": "Acquérir une compréhension fondamentale de :",
+        "POINT_FOUR": "Applications pratiques et calculs",
+        "POINT_ONE": "Prise de décision basée sur les données",
+        "POINT_THREE": "La méthodologie du ROI",
+        "POINT_TWO": "Évaluation des connaissances",
+        "TITLE": "ROI Boot Camp présenté par ROI Institute®"
+      },
+      "STRATEGY": "Stratégie",
+      "TIPS": {
+        "DESCRIPTION": "Les conseils et exemples suivants ont été développés dans le cadre de la collaboration entre Cognota et ROI Institute.",
+        "ERROR_MESSAGE": "Désolé, une erreur s'est produite et nous n'avons pas pu charger la page Conseils et exemples.",
+        "ERROR_SUB": "Veuillez recharger cette page avant de réessayer.",
+        "HAVE_QUESTIONS": "Vous avez des questions ?",
+        "MAIL_SUBJECT": "Besoin d'aide avec la stratégie du programme",
+        "TITLE": "Conseils et exemples",
+        "WE_CAN_HELP": "Nous pouvons vous aider."
+      }
+    },
+    "TABLE": {
+      "COLUMNS": {
+        "ACTUAL_COMPLETION_DATE": "Date d'achèvement réelle",
+        "PRIORITY": "Priorité",
+        "PROGRESS": "Progrès",
+        "START_DATE": "Date de début",
+        "STATUS": "Statut",
+        "TARGET_COMPLETION_DATE": "Date d'achèvement prévue",
+        "TITLE": "Titre"
+      },
+      "EMPTY": "Créez et gérez vos programmes.",
+      "GET_STARTED": "Commencer",
+      "NO_LINKED_PROJECTS": "Aucun projet lié",
+      "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé."
+    },
+    "UNLINK": "Dissocier",
+    "UPDATE": "Programme de mise à jour",
+    "UPDATE_ERROR": "Une erreur s'est produite... Nous rencontrons un problème technique, veuillez actualiser ou réessayer",
+    "UPDATE_SUCCESS": "Succès ! Le programme est mis à jour"
+  },
+  "PROJECTS_INSIGHTS_TABS": {
+    "BY_HEALTH_PROJECTS": {
+      "AT_RISK": "En danger",
+      "LABEL": "Projets en cours",
+      "OFF_TRACK": "Hors piste",
+      "ON_TRACK": "Sur la bonne voie",
+      "TITLE": "Par Santé"
+    },
+    "BY_PRIORITY": {
+      "HIGH_PRIORITY": "Haute priorité",
+      "LOW_PRIORITY": "Faible priorité",
+      "MEDIUM_PRIORITY": "Priorité moyenne",
+      "TITLE": "Par priorité"
+    },
+    "BY_PROCESS": {
+      "TITLE": "Par processus",
+      "TOTAL": "Total en *"
+    },
+    "BY_STATUS": {
+      "TITLE": "Projets par statut"
+    },
+    "NO_PROJECTS": "Aucun projet trouvé dans la période sélectionnée",
+    "NO_TASKS": "Aucune tâche trouvée dans la période sélectionnée"
+  },
+  "PROJECTS_LIST_PAGE": {
+    "ADD_PROJECT_BUTTON": "Ajouter un projet",
+    "BOARD": {
+      "FILTER": "Filtre",
+      "FILTER_FIELD": "Champ",
+      "FILTER_FIELD_PLACEHOLDER": "Sélectionner un champ",
+      "MY_BOARD": "Mon conseil d'administration",
+      "NEW_AND_IN_QUEUE_PROJECTS_STAGE": "Projets nouveaux et en attente",
+      "NO_RESULTS_FOUND": "Aucun résultat trouvé. Essayez un autre mot-clé.",
+      "SEARCH": "Recherche..",
+      "SORTING": {
+        "NEWEST": "Le plus récent",
+        "OLDEST": "Le plus ancien",
+        "TITLE_ASC": "A-Z",
+        "TITLE_DESC": "Z-A"
+      },
+      "SORT_BY": "Trier par",
+      "TEAM_BOARD": "Conseil d'équipe",
+      "VIEW_BY": "Voir par"
+    },
+    "CREATE_PROJECT_MODAL": {
+      "BODY": "Sélectionnez un modèle pour votre projet et remplissez les détails pour créer le projet",
+      "TEMPLATE_FIELD_LABEL": "Modèle de projet",
+      "TITLE": "Créer un projet"
+    },
+    "EXPORT_PROJECTS": "Projets d'exportation",
+    "EXPORT_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les projets que vous souhaitez exporter en premier.",
+    "MY_PROJECTS": "Mes projets",
+    "PAST_START_DATE": "La date de début est déjà passée. Ce projet doit-il être <b>en cours</b> ?",
+    "TABLE": {
+      "DUPLICATE": "Double",
+      "EMPTY": "Créez et gérez des projets !",
+      "GET_STARTED": "Commencer",
+      "HEAD": {
+        "ACTUAL_COMPLETION_DATE": "Date d'achèvement réelle",
+        "BUGGET_SOURCE": "Source du budget",
+        "BUSINESS_UNIT": "Unité commerciale",
+        "HEALTH": "Santé",
+        "PARTICIPANT_TYPE": "Type de participant",
+        "PRIORITY": "Priorité",
+        "PROCESS_STAGE": "Processus",
+        "PROJECT_CATEGORY": "Catégorie de projet",
+        "PROJECT_NAME": "Nom du projet",
+        "PROJECT_NUMBER": "Numéro de projet",
+        "PROJECT_OWNER": "Propriétaire du projet",
+        "PROJECT_STAGE": "Scène",
+        "RESOURCING_TYPE": "Type de ressources",
+        "START_DATE": "Date de début",
+        "STATUS": "Statut",
+        "TARGET_COMPLETION_DATE": "Date d'achèvement prévue",
+        "TEAMS": "Équipes"
+      },
+      "SORT": {
+        "ASC": "Trier par ordre croissant",
+        "DESC": "Trier par ordre décroissant"
+      }
+    },
+    "TEAM_PROJECTS": "Projets d'équipe",
+    "TITLE": "Projets"
+  },
+  "PROJECT_DETAIL": {
+    "ACTUAL_COMPLETION_DATE": "Date d'achèvement réelle",
+    "ADDITIONAL_INFO": "Informations Complémentaires",
+    "ADD_COMMENT": "Ajouter un commentaire",
+    "ALLOCATED_BUDGET": "Budget alloué",
+    "ARCHIVE": {
+      "PROJECT_ARCHIVED_ON": "Ce projet a été archivé le { archivedDate }."
+    },
+    "ARCHIVED": "Archivé",
+    "ASSIGN_OWNERS": "Attribuer un propriétaire",
+    "ASSIGN_TO_ME": "Attribue-moi",
+    "BASIC_INFORMATION_SUBTITLE": "Remplissez les détails de base du projet",
+    "BASIC_INFORMATION_TITLE": "Informations de base",
+    "BUDGET_INFORMATION_SUBTITLE": "Remplissez les détails du budget du projet",
+    "BUDGET_INFORMATION_TITLE": "Informations budgétaires",
+    "BUDGET_SOURCE": "Source du budget",
+    "BUDGET_SOURCE_OPTIONS": {
+      "BUSINESS": "Budget d'entreprise",
+      "LD": "Budget de formation et développement",
+      "MIXED": "Mixte",
+      "OTHERS": "Autres",
+      "SPECIAL": "Financement spécial"
+    },
+    "BUDGET_SOURCE_PLACEHOLDER": "Sélectionnez une source de financement pour le projet",
+    "BUSINESS_UNIT": "Unité commerciale",
+    "BUSINESS_UNIT_PLACEHOLDER": "Sélectionnez l'unité commerciale à laquelle ce projet est destiné",
+    "CANCEL_PROJECT": {
+      "ARCHIVE": "Oui, annuler et archiver",
+      "BANNER_TITLE": "Projet annulé",
+      "BODY": "Une fois que vous aurez confirmé, <b>vous ne pourrez plus reprendre le projet</b>, et ses ressources et son budget seront libérés du projet. Vous pouvez également choisir d'archiver le projet annulé.",
+      "CANCEL": "Annuler",
+      "CANCELLATION_DATE": "Date d'annulation",
+      "CANCELLATION_REASON": "Motif d'annulation",
+      "CANCELLED_PROJECT_TITLE": "Projet annulé",
+      "REASON": "Raison : { reason }",
+      "REASONS": {
+        "BUDGET_ISSUE": "Problème budgétaire",
+        "BUSINESS_ASK": "Demande d'affaires",
+        "LACK_OF_RESOURCE": "Problème de ressources",
+        "OTHER": "Autre",
+        "PRIORITY_CHANGE": "Changement de priorité en matière de formation et de développement",
+        "PROCUREMENT_ISSUE": "Problème d'approvisionnement",
+        "TECHNICAL_ISSUE": "Problème de technologie",
+        "TIMELINE_CONFLICT": "Changement de chronologie",
+        "VENDOR_ISSUE": "Problème de fournisseur"
+      },
+      "SELECT_REASON": "Veuillez sélectionner la raison de l'annulation du projet.",
+      "SELECT_REASON_PLACEHOLDER": "Sélectionnez une raison",
+      "SPECIFY": "Veuillez préciser",
+      "SPECIFY_PLACEHOLDER": "Mentionnez la raison de l'annulation de ce projet",
+      "SUBMIT": "Oui, annuler le projet",
+      "SUCCESS_MESSAGE": "Succès ! Projet ‘{ projectName }’ { archive, plural, =0 {annulé} =1 {annulé et archivé} }.",
+      "TITLE": "Annuler le projet"
+    },
+    "CATEGORY": "Catégorie de projet",
+    "CATEGORY_PLACEHOLDER": "Sélectionnez le type de projet dont il s'agit",
+    "CLOSE_PROJECT": {
+      "ARCHIVE": "Oui, fermer et archiver",
+      "BODY": "Etes-vous sûr de vouloir fermer ce projet ? Une fois fermé, vous ne pourrez plus modifier le projet et l'action ne pourra pas être annulée.",
+      "CANCEL": "Annuler",
+      "CLOSED_PROJECT_BANNER": "Ce projet a été fermé.",
+      "CLOSING_DATE": "Date de clôture",
+      "CONFIRMATION": "Si tel est le cas, veuillez ajouter un commentaire final avant de fermer le projet.",
+      "CURRENCY": "Dollars américains",
+      "FINAL_COMMENTS_LABEL": "Commentaire(s) final(aux)",
+      "FINAL_COMMENTS_PLACEHOLDER": "Ajoutez tout autre détail concernant le projet",
+      "HOURS": "Heures",
+      "SUBMIT": "Oui, fermer le projet",
+      "SUCCESS_MESSAGE": "Succès ! Projet ‘{ projectName }’ { archive, plural, =0 {fermé} =1 {fermé et archivé} }.",
+      "TITLE": "Fermer le projet",
+      "TOTAL_COST": "Coût total",
+      "TOTAL_HOURS": "Heures totales",
+      "VIEW_DETAILS_BUTTON": "Voir les détails"
+    },
+    "COMMENTS": "Commentaires",
+    "COMPLETION_DISABLED": "Veuillez terminer toutes les tâches avant de terminer ce projet.",
+    "DELETE_PROJECT": {
+      "BODY": "Ce faisant, les ressources et le budget seront automatiquement libérés et le projet sera <b>définitivement supprimé</b> du système.",
+      "CANCEL": "Annuler",
+      "QUESTION": "Etes-vous sûr de vouloir supprimer ce projet ?",
+      "SUBMIT": "Oui, supprimer le projet",
+      "SUCCESS_MESSAGE": "Le projet « { projectName } » a été supprimé avec succès",
+      "TITLE": "Supprimer le projet"
+    },
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_PLACEHOLDER": "Ajouter une description pour le projet",
+    "END_DATE": "Date d'achèvement prévue",
+    "ESTIMATED_COST": "Coût estimé",
+    "ESTIMATED_EFFORT": "Effort estimé",
+    "ESTIMATED_EFFORT_PLACEHOLDER": "Précisez le nombre estimé d'heures ou de jours nécessaires pour terminer un projet",
+    "FILES_TAB": {
+      "ADD_CONTENT": "Ajouter du contenu",
+      "ATTACH_FILE": "Joindre un fichier",
+      "CANCEL": "Annuler",
+      "CONFIRMATION_MODAL": {
+        "BODY": "Êtes-vous sûr de vouloir { action } ce { content } ?",
+        "CONFIRM": "Oui, { action } { content }",
+        "HEADER": "Cette action ne peut pas être annulée."
+      },
+      "DESIGN": "Conception",
+      "DESIGN_ADDED_SUCCESS": "Le design a été ajouté avec succès !",
+      "DESIGN_OWNER_TAG": "Propriétaire",
+      "DESIGN_REMOVE_SUCCESS": "Le design a été supprimé avec succès !",
+      "FILE": "Déposer",
+      "FILE_1GB": "La taille du fichier est supérieure à 1 Go",
+      "FILE_DELETE_SUCCESS": "Le fichier a été supprimé avec succès !",
+      "FILE_LIMIT": "depuis votre appareil. Taille maximale du fichier : 1 Go",
+      "FILE_LINK_SUCCESS": "Le lien Web a été ajouté avec succès en tant que contenu !",
+      "FILE_NAME_PLACEHOLDER": "Ajouter le nom du fichier *",
+      "FILE_UPLOAD_SUCCESS": "Le fichier a été ajouté avec succès.",
+      "FILE_URL_PLACEHOLDER": "Coller l'URL *",
+      "LINK": "Lien",
+      "LINK_FILE": "Lier un fichier",
+      "LINK_TO_TASKS": "Lien vers les tâches",
+      "LINK_UNLINK_TO_TASK_MODAL": {
+        "LABEL": "Choisissez une tâche",
+        "SUBMIT_SUCCESS_MESSAGE": "La liste des tâches liées a été mise à jour avec succès !",
+        "TASKS_PICKER_PLACEHOLDER": "Sélectionnez une tâche à laquelle lier le fichier",
+        "TITLE": "Lier/Dissocier une tâche"
+      },
+      "NO_FILES": "Ajoutez et liez des fichiers et des conceptions à votre projet !",
+      "REPLACE_CONTENT_MODAL": {
+        "ARIA_LABEL": "Remplacer le fichier de contenu modal",
+        "REPLACE_DESIGN_CONTENT": "Sélectionnez un design Cognota",
+        "REPLACE_FILE": "Remplacer le fichier",
+        "SUBMIT_BUTTON": "Remplacer le contenu",
+        "SUCCESS_MESSAGE": "Le fichier a été remplacé avec succès !",
+        "TITLE": "Remplacer { name }",
+        "UPLOAD_FILE": "Télécharger un nouveau fichier"
+      },
+      "REQUIRED_INFORMATION": "Informations requises",
+      "SELECTE_TASKS": "Sélectionnez les tâches auxquelles lier le fichier",
+      "SELECT_CONTENT": "Sélectionnez un type de contenu :",
+      "SELECT_DESIGN": "Sélectionnez un design Cognota",
+      "TABLE": {
+        "ACTIONS_MENU": {
+          "DELETE": "Contenu de { action }",
+          "LINK_UNLINK_TASK": "Lier/Dissocier une tâche",
+          "REPLACE": "Remplacer le contenu"
+        },
+        "COLUMNS": {
+          "FILE_NAME": "Nom",
+          "FILE_SIZE": "Taille du fichier",
+          "FILE_THUMBNAIL": "Vignette",
+          "FILE_TYPE": "Type de contenu",
+          "TASKS_LINKED": "Tâches liées",
+          "UPLOADED_BY": "Ajouté par",
+          "UPLOADED_DATE": "Ajouté sur"
+        },
+        "CONTENT_TYPE": {
+          "DESIGN": "Conception",
+          "FILE": "Déposer",
+          "WEB_LINK": "Lien Web"
+        },
+        "DOWNLOAD_TOOLTIP": "Cliquez pour ouvrir le fichier",
+        "LINKED_TASK": "Tâche : { name }",
+        "LINKED_TASKS_NUMBER": "{ number } { num, plural, =0 {tâche} =1 {tâches} } lié",
+        "NO_TASKS": "Aucune tâche liée",
+        "UNLINK": "Dissocier"
+      },
+      "TEXT_TO_DISPLAY": "Texte à afficher",
+      "TITLE": "Contenu",
+      "UPLOAD_DESIGN_FILE": "Ou téléchargez un fichier de conception",
+      "UPLOAD_FILE": "Télécharger le fichier",
+      "WEBLINK": "Lien Web",
+      "WEBLINK_PLACEHOLDER": "Ajoutez un nom pour votre lien URL",
+      "WEBLINK_REMOVE_SUCCESS": "Le lien Web a été supprimé avec succès !",
+      "WEBLINK_URL_PLACEHOLDER": "Coller l'URL"
+    },
+    "FILL_IN_INFORMATION_TITLE": "Sélectionnez un modèle pour votre projet et remplissez les détails pour créer le projet",
+    "HEALTH": "Santé",
+    "HEALTH_OPTIONS": {
+      "AT_RISK": "En danger",
+      "OFF_TRACK": "Hors piste",
+      "ON_TRACK": "Sur la bonne voie"
+    },
+    "HEALTH_PLACEHOLDER": "Sélectionnez la santé pour ce projet",
+    "INSIGHTS": {
+      "BY_TASKS": {
+        "AVERAGE_OVERDUE_AGE": "Âge moyen des retardataires",
+        "BY_STATUS": "Par statut",
+        "BY_TASKS": "Par tâches",
+        "DAY": "jour",
+        "DAYS": "jours",
+        "ESTIMATED_VS_ACTUAL_HOURS": "Heures réelles | Heures réelles",
+        "HOURS": "h",
+        "OVERDUE_TASKS": "Tâches en retard",
+        "TASK": "Tâche",
+        "TASKS": "Tâches",
+        "TASKS_COMPLETED": "Tâches accomplies",
+        "TOTAL_TASKS": "Nombre total de tâches"
+      },
+      "RESOURCES": {
+        "AVERAGE_UTILIZATION": "Utilisation moyenne",
+        "AVERAGE_UTILIZATION_TOOLTIP": "Le ratio moyen d'allocation/capacité de toutes les ressources du projet pour la durée restante du projet.",
+        "HOURS": "Heures",
+        "NOT_AVAILABLE": "N / A",
+        "NUMBER_OF_RESOURCES": "Nombre de ressource(s)",
+        "NUMBER_OF_RESOURCES_TOOLTIP": "Nombre total de participants au projet, y compris les propriétaires, les utilisateurs LD, les utilisateurs professionnels et les utilisateurs externes.",
+        "REMAINING_HOURS": "Restant",
+        "REMAINING_HOURS_TOOLTIP": "Somme des heures estimées restantes pour les seules tâches actives jusqu'à la date d'achèvement cible du projet.",
+        "TITLE": "Ressources",
+        "TOTAL_AVAILABILITY": "Disponibilité totale",
+        "TOTAL_AVAILABILITY_TOOLTIP": "La somme des heures disponibles pour toutes les ressources du projet pendant la durée restante du projet.",
+        "UNASSIGNED_HOURS": "Non attribué",
+        "UNASSIGNED_HOURS_TOOLTIP": "Nombre total d'heures non attribuées estimées pour les tâches actives uniquement jusqu'à la date d'achèvement cible du projet."
+      },
+      "SUMMARY": "Résumé"
+    },
+    "LINKED_REQUESTS_SECTION": {
+      "BUSINESS_UNIT": "Unité commerciale",
+      "LINK_REQUEST": "Lier une demande",
+      "NO_REQUEST_LINKED": "Aucune demande liée",
+      "PLACEHOLDER": "Tapez pour rechercher une demande",
+      "REQUESTER_NAME": "Nom du demandeur",
+      "REQUEST_NUMBER": "Numéro de demande",
+      "REQUEST_OWNER": "Demande du propriétaire",
+      "REQUEST_TITLE": "Titre de la demande",
+      "STATUS": "Statut",
+      "SUBMISSION_DATE": "Date de soumission",
+      "TITLE": "Demandes liées",
+      "VIEW": "Voir"
+    },
+    "NO_COMMENTS": "Pas encore de commentaires",
+    "NO_PROGRAMS_AVAILABLE": "Aucun programme disponible",
+    "OWNERS": "Propriétaires de projets",
+    "PRIORITY": "Priorité",
+    "PRIORITY_OPTIONS": {
+      "HIGH": "Haut",
+      "LOW": "Faible",
+      "MEDIUM": "Moyen",
+      "NONE": "Non attribué"
+    },
+    "PRIORITY_PLACEHOLDER": "Sélectionnez le niveau de priorité du projet",
+    "PRIVACY": "Confidentialité",
+    "PRIVACY_OPTIONS": {
+      "PRIVATE": "Privé",
+      "PUBLIC": "Publique",
+      "TEAM": "Équipe"
+    },
+    "PRIVACY_PLACEHOLDER": "Sélectionnez qui peut voir le projet",
+    "PRIVACY_PRIVATE_MESSAGE": "L'accès au projet est limité à votre compte",
+    "PRIVACY_TEAM_MESSAGE": "L'accès au projet est limité aux équipes que vous sélectionnez",
+    "PROCESS": "Procédé utilisé",
+    "PROCESS_PLACEHOLDER": "Sélectionnez le processus utilisé pour ce projet",
+    "PROGRAMS": "Programme(s)",
+    "PROGRAMS_PLACEHOLDER": "Sélectionnez le(s) programme(s) dont ce projet fait partie",
+    "PROJECT_NAME": "Nom du projet",
+    "PROJECT_NAME_PLACEHOLDER": "Ajouter un nom de projet",
+    "PROJECT_NUMBER": "IDENTIFIANT",
+    "PROJECT_OWNERS": "Propriétaires de projets",
+    "PROJECT_PROCESS_SECTION": "Déroulement du projet",
+    "PROJECT_UPDATE_SUCCESS_SNACKBAR_MESSAGE": "Succès ! Projet { action }",
+    "PUT_PROJECT_ON_HOLD_MODAL": {
+      "CANCEL": "Annuler",
+      "CONFIRM": "Oui, conserver le projet",
+      "PLEASE_SPECIFY": "Veuillez préciser",
+      "PROJECT_ON_HOLD_BANNER": "Ce projet a été mis en attente.",
+      "QUESTION": "Souhaitez-vous mettre ce projet en suspens ?",
+      "REASONS_PICKER_LABEL": "Raison de la suspension de ce projet",
+      "REASONS_PICKER_PLACEHOLDER": "Sélectionnez une raison",
+      "REASON_PICKER_OPTIONS": {
+        "BUSINESS_PRIORITY_CHANGE": "Changement de priorité commerciale",
+        "LACK_OF_BUSINESS_RESOURCE": "Manque de ressources commerciales",
+        "LACK_OF_LD_RESOURCE": "Manque de ressources en matière de formation et de développement",
+        "LD_PRIORITY_CHANGE": "Changement de priorité en matière de formation et de développement",
+        "OTHER": "Autre",
+        "PROCUREMENT_ISSUE": "Problème d'approvisionnement",
+        "PROJECT_SCOPE_CHANGE": "Modification de la portée du projet",
+        "SME": "PME non disponible",
+        "TECHNICAL_ISSUE": "Problème technique",
+        "TIMELINE_CONFLICT": "Conflit de chronologie",
+        "VENDOR_ISSUE": "Problème de fournisseur"
+      },
+      "RESPONSE": "Si tel est le cas, veuillez sélectionner la raison et les éléments d’action par la suite.",
+      "SPECIFY_REASON_PLACEHOLDER": "Précisez la raison pour laquelle ce projet a été mis en attente",
+      "TITLE": "Mettre le projet en attente",
+      "VIEW_DETAILS": "Voir les détails"
+    },
+    "REACTIVATE_PROJECT": {
+      "BODY": "Pour réactiver le projet { projectTitle }, veuillez sélectionner un nouveau statut pour ce projet.",
+      "CANCEL": "Annuler",
+      "REACTIVATE_BUTTON": "Réactiver",
+      "SUBMIT": "Oui, réactiver le projet",
+      "SUCCESS_MESSAGE": "Succès ! Le projet « { projectName } » a été réactivé avec succès.",
+      "TITLE": "Réactiver le projet"
+    },
+    "RESOURCE_INFORMATION_SUBTITLE": "Remplissez les détails des ressources du projet",
+    "RESOURCE_INFORMATION_TITLE": "Informations sur les ressources",
+    "RESOURCING_TYPE": "Type de ressources",
+    "RESOURCING_TYPE_OPTIONS": {
+      "INTERNAL": "Interne",
+      "MIXED": "Mixte",
+      "VENDOR": "Fournisseur"
+    },
+    "RESOURCING_TYPE_PLACEHOLDER": "Sélectionnez le type de ressources que ce projet utilisera",
+    "SHARING": "Partage",
+    "STAGE": "Scène",
+    "STAGE_PLACEHOLDER": "Sélectionnez l'étape dans laquelle se trouve le projet",
+    "START_DATE": "Date de début",
+    "STATUS": "Statut",
+    "STATUS_OPTIONS": {
+      "CANCELED": "Annulé",
+      "CLOSED": "Fermé",
+      "COMPLETED": "Complété",
+      "IN_PLANNING": "En file d'attente",
+      "IN_PROGRESS": "En cours",
+      "NEW": "Nouveau",
+      "ON_HOLD": "En attente"
+    },
+    "STATUS_PLACEHOLDER": "Sélectionnez le statut de votre projet",
+    "SUBMIT_COMMENT": "Envoyer",
+    "TARGET_LAUNCH_DATE": "Date de lancement prévue",
+    "TARGET_LAUNCH_DATE_PLACEHOLDER": "Spécifier une date pour la sortie du projet",
+    "TARGET_LAUNCH_DATE_WARNING": "La date de lancement cible ne peut pas être antérieure à la date de début du projet.",
+    "TEAM": "Équipe",
+    "TEAM_PLACEHOLDER": "Sélectionnez les équipes qui accéderont au projet",
+    "TEMPLATES": "Modèle de projet",
+    "TEMPLATES_PLACEHOLDER": "Sélectionnez le modèle",
+    "TIMELINE_WARNING": "Le changement de date peut avoir un impact sur l'allocation des ressources",
+    "UNARCHIVED": "Non archivé",
+    "USER_CANNOT_ASSIGN_ITSELF_AS_OWNER": "Les projets ne peuvent avoir que deux propriétaires.<br>{ num, plural, =0 {Contactez l'un des propriétaires du projet pour en être le propriétaire.} =1 {Supprimez un propriétaire pour vous l'attribuer.} }",
+    "USER_ROLE": {
+      "COLLABORATOR": "Collaborateur de projet",
+      "MEMBER": "Membre du projet",
+      "OWNER": "Propriétaire du projet"
+    },
+    "VENDOR": "Fournisseur",
+    "VENDOR_PLACEHOLDER": "Sélectionnez le fournisseur dont ce projet aura besoin"
+  },
+  "REMOVE": "Retirer",
+  "REQUESTS_LIST_PAGE": {
+    "ADD_REQUEST_BUTTON": "Ajouter une demande",
+    "CREATE_MANAGE_REQUESTS": "Créez et gérez des demandes !",
+    "EXPORT": "Demandes d'exportation",
+    "EXPORT_BY_FORM": "Exporter par type de formulaire",
+    "EXPORT_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les demandes que vous souhaitez exporter en premier.",
+    "GET_STARTED": "Commencer",
+    "MODAL": {
+      "APPROVE_REQUEST": {
+        "APPROVE_REQUEST": "Approuver la demande",
+        "CALL_TO_ACTION": "Vous êtes sur le point d'approuver cette demande. Pensez à laisser un commentaire au demandeur.",
+        "COMMENTS": "Commentaire(s)",
+        "DETAILS": "Ajoutez tout autre détail concernant la demande",
+        "ERROR": "Champ obligatoire"
+      },
+      "CANCEL_CREATE_NEW_REQUEST": {
+        "CALL_TO_ACTION": "Vous êtes sur le point d'annuler la soumission de la demande. Cette action est irréversible. Vous perdrez les données que vous avez saisies.",
+        "SUBMIT_BUTTON": "Oui, annuler",
+        "TITLE": "Annuler une nouvelle demande"
+      },
+      "CANCEL_REQUEST": {
+        "CALL_TO_ACTION": "Si oui, veuillez sélectionner la raison de l'annulation.",
+        "CANCELLATION": "Demande d'annulation",
+        "CANCELLATION_REASON": "Motif d'annulation",
+        "CANCEL_REQUEST": "Annuler la demande",
+        "ERROR": "Champ obligatoire",
+        "NOTICE": "Cette action entraînera l'annulation de la demande. Êtes-vous sûr de vouloir procéder à l'annulation ?",
+        "REASON": "Raison",
+        "REASONS": {
+          "BUSINESS_TIMELINE": "Changement de calendrier d'entreprise",
+          "LACK_OF_BUDGET": "Manque de budget pour financer le projet",
+          "LACK_OF_RESOURCE": "Manque de ressources pour soutenir la demande",
+          "OTHER": "Autres",
+          "PRIORITY_CHANGE": "Plan d'affaires ou changement de priorité",
+          "PROCUREMENT_ISSUE": "Problème d'approvisionnement",
+          "VENDOR_ISSUE": "Problème de fournisseur"
+        },
+        "SPECIFY": "Veuillez préciser"
+      },
+      "DECLINE_REQUEST": {
+        "CALL_TO_ACTION": "Si oui, veuillez sélectionner la raison du refus de la demande.",
+        "COMMENTS": "Commentaire(s)",
+        "DECLINATION": "Oui, refuser la demande",
+        "DECLINATION_DETAILS": "Ajoutez tout autre détail expliquant pourquoi la demande est refusée",
+        "DECLINATION_REASON": "Raison du déclin",
+        "DECLINE_REQUEST": "Refuser la demande",
+        "ERROR": "Champ obligatoire",
+        "NOTICE": "Êtes-vous sûr de vouloir refuser la demande ?",
+        "REASON": "Raison",
+        "REASONS": {
+          "BUDGET_AVAILABILITY": "Disponibilité budgétaire",
+          "DUPLICATE_REQUEST": "Demande en double",
+          "EXTERNAL_VENDOR_RECOMMENDED": "Fournisseur externe recommandé",
+          "LACK_OF_RESOURCE": "Manque de ressources ou de budget",
+          "NOT_ALIGNED": "Non aligné avec la fonction L&D",
+          "OTHER": "Autres",
+          "PRIORITY_CHANGE": "Plan d'affaires ou changement de priorité",
+          "RESOURCE_AVAILABILITY": "Disponibilité des ressources",
+          "SERVICE_NOT_AVAILABLE": "Service/offre non disponible",
+          "TECHNOLOGY_CONSTRAINT": "Contrainte technologique",
+          "TIMELINE_CONFLICT": "Conflit de chronologie",
+          "VENDOR_AVAILABILITY": "Disponibilité des fournisseurs"
+        },
+        "SPECIFY": "Veuillez préciser"
+      },
+      "DELETE_REQUEST": {
+        "BODY": "Êtes-vous sûr de vouloir supprimer définitivement la demande « { requestNo } » ?",
+        "CANCEL_BUTTON": "Annuler",
+        "DELETE_BUTTON": "Oui, supprimer",
+        "TITLE": "Demande de suppression"
+      },
+      "LEAVING_CREAT_NEW_REQUEST": {
+        "CALL_TO_ACTION": "Il semblerait qu'il y ait des modifications non enregistrées sur cette page. Si vous quittez cette page, votre demande sera annulée et toutes les modifications non enregistrées seront perdues.",
+        "CALL_TO_ACTION_FOR_EDITING": "Il semblerait qu'il y ait des modifications non enregistrées sur cette page. Quitter cette page annulera toutes les modifications non enregistrées.",
+        "SUBMIT_BUTTON": "Procéder",
+        "TITLE": "Sortie"
+      }
+    },
+    "NOTIFICATIONS": {
+      "CANCELLATION_SUCCESS": "L'annulation de la demande « { requestNo } » a été soumise avec succès.",
+      "DELETE_REQUEST": "La requête « { requestNo } » a été supprimée avec succès."
+    },
+    "NO_DATE": "Sans date",
+    "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé.",
+    "PAGE_NAME": "Page de liste des demandes",
+    "SUB_NAV": {
+      "MY_REQUESTS": "Mes demandes",
+      "TEAM_REQUESTS": "Demandes d'équipe"
+    },
+    "TABLE": {
+      "ACTIONS": {
+        "DELETE": "Supprimer"
+      },
+      "FILTER": {
+        "businessTeams": "Unité commerciale",
+        "createdAt": "Date de création",
+        "decision_date": "Date de décision",
+        "formTitle": "Titre du formulaire",
+        "ldPriority": "Priorité interne",
+        "owners": "Demande du propriétaire",
+        "requestIdentifier": "Numéro de demande",
+        "requestProjects": "Projets",
+        "requester": "Demandeur",
+        "status": "Statut",
+        "submittedAt": "Date de soumission",
+        "title": "Titre de la demande",
+        "updatedAt": "Date de la dernière mise à jour"
+      },
+      "HEAD": {
+        "BUSINESS_UNIT": "Unité commerciale",
+        "CREATION_DATE": "Date de création",
+        "DECISION_DATE": "Date de décision",
+        "FORM": "Formulaire utilisé",
+        "LINKED_PROJECTS": "Projets",
+        "OWNER_NAME": "Demande du propriétaire",
+        "PRIORITY": "Priorité interne",
+        "REQUESTER_NAME": "Nom du demandeur",
+        "REQUEST_NO": "Numéro de demande",
+        "REQUEST_TITLE": "Titre de la demande",
+        "STATUS": "Statut",
+        "SUBMISSION_DATE": "Date de soumission",
+        "UPDATE_DATE": "Dernière mise à jour"
+      },
+      "IMPORT": {
+        "COLUMN_LABELS": {
+          "BASE_FORM": "Forme de base",
+          "BUSINESS_TEAM": "Équipe commerciale",
+          "CREATOR": "Créateur de la demande",
+          "DESCRIPTION": "Description",
+          "LD_PRIORITY": "Priorité LD",
+          "OWNERS": "Propriétaires",
+          "TITLE": "Titre de la demande"
+        },
+        "IMPORT": "Demandes d'importation",
+        "IMPORT_FROM_FILE": "Importer des demandes en téléchargeant un fichier",
+        "SUCCESS": "Vos demandes ont été importées avec succès !"
+      },
+      "LINKED_PROJECTS": {
+        "NO_LINKED_PROJETS": "Aucun projet",
+        "PICKER_LABEL": "Projets liés",
+        "PICKER_OPTIONS": {
+          "MANY": "2+ projets",
+          "NONE": "0 projets",
+          "ONE": "1 projet"
+        },
+        "TITLE": "Liste des projets liés"
+      },
+      "SORT": {
+        "ASC": "Trier par ordre croissant",
+        "DESC": "Trier par ordre décroissant"
+      },
+      "STATUS_LABEL": {
+        "APPROVED": "Approuvé",
+        "CANCELED": "Annulé",
+        "DRAFT": "Brouillon",
+        "PENDING_CANCELLATION": "Annulation en attente",
+        "REJECTED": "Refusé",
+        "SUBMITTED": "En revue",
+        "WAITLISTED": "Sur liste d'attente"
+      }
+    }
+  },
+  "REQUEST_PAGE": {
+    "ADDITIONAL_DETAILS": {
+      "CAPTION": "Cette section permet de fournir des informations complémentaires spécifiques à cette demande, qui ne sont pas incluses dans le formulaire standard.",
+      "FIELDS": {
+        "ADD_MORE": "Ajouter des champs ou des questions supplémentaires",
+        "ADD_MORE_CAPTION": "Y a-t-il des informations supplémentaires que vous souhaiteriez fournir pour la formation ?",
+        "OTHER_INFO": "Autres informations",
+        "OTHER_INFO_CAPTION": "Y a-t-il d’autres considérations ou contextes dont nous devons être conscients ?"
+      },
+      "FLY_OUT_MENU": {
+        "FILE_UPLOAD": "Télécharger",
+        "TEXT_FIELD": "Champ de texte",
+        "URL": "URL"
+      },
+      "TITLE": "Informations Complémentaires"
+    },
+    "ALL_REQUESTS_LINK": "Toutes les demandes",
+    "APPROVED_REQUEST_BANNER": {
+      "BUTTON": "Voir les commentaires",
+      "LINE_ONE": "Cette demande a été <b>approuvée</b> par le propriétaire de la demande le { approvalDate }",
+      "LINE_TWO": "Consultez les détails pour plus d'informations."
+    },
+    "APPROVED_REQUEST_INFO_MODAL": {
+      "APPROVAL_DATE": "Date d'approbation",
+      "COMMENTS": "Commentaire(s)",
+      "NO_COMMENTS": "Sans commentaires",
+      "TITLE": "Demande approuvée"
+    },
+    "BASIC_DETAILS": {
+      "CAPTION": "Cette section contient des informations de base sur la demande qui aident l'équipe d'apprentissage à organiser et à suivre les demandes.",
+      "ERRORS": {
+        "MISSING_INPUT": "Entrée manquante"
+      },
+      "FIELDS": {
+        "BUSINESS_REVIEWER": {
+          "PLACEHOLDER": "Aucun réviseur d'entreprise assigné",
+          "REQUEST_BUSINESS_REVIEWER": "Réviseur d'entreprise",
+          "TRIGGER": "Ajouter un réviseur d'entreprise"
+        },
+        "BUSINESS_UNIT": "Unité commerciale",
+        "FORM_TITLE": "Formulaire utilisé",
+        "LD_REVIEWER": {
+          "PLACEHOLDER": "Aucun examinateur L&D assigné",
+          "REQUEST_LD_REVIEWER": "Réviseur L&D",
+          "TRIGGER": "Ajouter un réviseur L&D"
+        },
+        "LOCATION": "Région/Localisation",
+        "PRIORITY_OPTIONS": {
+          "HIGH": "Haut",
+          "LOW": "Faible",
+          "MEDIUM": "Moyen"
+        },
+        "REQUESTER": {
+          "NAME": "Nom du demandeur",
+          "PLACEHOLDER": "Aucun demandeur assigné",
+          "TRIGGER": "Ajouter un demandeur"
+        },
+        "REQUESTER_NAME": "Nom du demandeur",
+        "REQUEST_CREATOR": "Demandeur",
+        "REQUEST_CREATOR_PLACEHOLDER": "Affecter un demandeur",
+        "REQUEST_NUMBER": "Numéro de demande",
+        "REQUEST_OWNER": "Propriétaire",
+        "REQUEST_OWNER_PLACEHOLDER": "Sélectionnez une option",
+        "REQUEST_STATUS": "Statut de la demande",
+        "REQUEST_STATUS_OPTIONS": {
+          "APPROVED": "Approuvé",
+          "DRAFT": "Brouillon",
+          "REJECTED": "Rejeté",
+          "SUBMITTED": "Soumis"
+        },
+        "REQUEST_TITLE": "Titre de la demande"
+      },
+      "REQUEST_TITLE": "Ajouter un titre de demande",
+      "TITLE": "Informations de base"
+    },
+    "CANCELLED_REQUEST_BANNER": {
+      "BUTTON": "Voir les commentaires",
+      "LINE_ONE": "Cette demande a été <b>annulée</b> le { cancellationDate }",
+      "LINE_TWO": "Raison : { reason }"
+    },
+    "CANCELLED_REQUEST_INFO_MODAL": {
+      "ADDITIONAL_INFO": "Informations complémentaires pour l'annulation",
+      "CANCELLATION_DATE": "Date d'annulation",
+      "COMMENTS": "Commentaires sur L&D",
+      "INTERNAL_SECTION": "Section interne",
+      "NO_COMMENTS": "Sans commentaires",
+      "REASON": "Motif de l'annulation",
+      "TITLE": "Demande d'annulation"
+    },
+    "DECLINED_REQUEST_BANNER": {
+      "BUTTON": "Voir les commentaires",
+      "LINE_ONE": "Cette demande a été <b>refusée</b> par le propriétaire de la demande le { declineDate }.",
+      "LINE_TWO": "Raison : { reason }"
+    },
+    "DECLINED_REQUEST_INFO_MODAL": {
+      "ADDITIONAL_DETAILS": "Détails supplémentaires en cas de refus",
+      "COMMENTS": "Commentaire(s)",
+      "DECLINE_DATE": "Date de déclin",
+      "NO_COMMENTS": "Sans commentaires",
+      "REASON": "Raison du déclin",
+      "TITLE": "Demande refusée"
+    },
+    "EMPTY_STATE": "Sélectionnez un type de demande et un formulaire pour prévisualiser ce que contient le formulaire.",
+    "LEFT_PANEL": {
+      "CHANGE_FORM_ALERT": {
+        "CANCEL": "Annuler",
+        "DESCRIPTION": "La nouvelle sélection de formulaire supprimera toutes les données de la requête en cours. Cela lancera le nouveau formulaire. Ce changement est irréversible.",
+        "TITLE": "Changer de forme",
+        "YES_CHANGE": "Oui, Switch"
+      },
+      "COLLAPSE": "Effondrement",
+      "EXPAND": "Développer",
+      "FORM": {
+        "APPLY_BUTTON": "Créer une demande",
+        "DOWNLOAD_BUTTON": "Formulaire de téléchargement",
+        "FORM_TYPE_LABEL": "Sélectionnez le type de formulaire dont vous avez besoin",
+        "TRAINING_TYPE_LABEL": "Sélectionnez le type de demande"
+      },
+      "PROMPT": "Choisissez parmi la liste des types de demandes ci-dessous",
+      "REQUEST_TYPE": {
+        "ALL": "Tous",
+        "ASSESSMENT_EVALUATION": "Évaluation et évaluation",
+        "COACHING_MENTORING": "Coaching et mentorat",
+        "CONSULTING": "Consultant",
+        "CONTENT_DEVELOPMENT": "Développement/mise à jour du contenu",
+        "EMPLOYEE_RESEARCH": "Recherche sur les employés",
+        "EMPLOYEE_SERVICE": "Service aux employés",
+        "EVENTS": "Événements",
+        "FACILITATION": "Facilitation",
+        "LEARNING_ADMIN": "Administration/Support de l'apprentissage",
+        "LEARNING_DELIVERY": "Apprentissage",
+        "OTHERS": "Autres",
+        "TRAINING": "Entraînement"
+      },
+      "TITLE": "Type de demande"
+    },
+    "LINKED_PROJECTS": {
+      "MODAL": {
+        "CLOSE_BUTTON": "Fermer",
+        "SUB_TITLE": "Cette section contient un aperçu du projet",
+        "TITLE": "Aperçu"
+      },
+      "TABLE": {
+        "PROJECT_ID": "ID du projet",
+        "PROJECT_NAME": "Nom du projet",
+        "STATUS": "Statut",
+        "VIEW": "Voir"
+      },
+      "TITLE": "Projets liés"
+    },
+    "L_D_SECTION": {
+      "CAPTION": "Dans cette section, les propriétaires de la demande peuvent enregistrer les résultats de l'évaluation initiale et aideront l'équipe d'apprentissage à prendre une décision sur la demande et à planifier les prochaines étapes si nécessaire.",
+      "FIELDS": {
+        "COMMENTS": "Commentaires",
+        "COST": "Coût estimé",
+        "EFFORT": "Effort estimé",
+        "HOURS": "heures",
+        "PRIORITY": "Priorité interne"
+      },
+      "PRIORITY_OPTIONS": {
+        "high": "Haut",
+        "low": "Faible",
+        "medium": "Moyen",
+        "unassigned": "Non attribué"
+      },
+      "TITLE": "Informations internes"
+    },
+    "MODAL": {
+      "CONFIRM_CANCELLATION_REQUEST": {
+        "ADDITIONAL_INFORMATION": "Informations complémentaires pour l'annulation",
+        "CANCEL_BUTTON": "Annuler",
+        "CONFIRM_CANCELLATION": "Confirmer l'annulation",
+        "HINT": "Le demandeur a initié l'annulation de cette demande. La raison de l'annulation a été indiquée comme suit :",
+        "LD_REMARK": "Remarque sur la formation et le développement",
+        "LD_SECTION": "Section Formation et Développement",
+        "PURPOSE": "Objet de l'annulation",
+        "REMARK_PLACEHOLDER": "Ajouter un commentaire",
+        "TITLE": "Demande d'annulation"
+      }
+    },
+    "NOTIFICATIONS": {
+      "IN_REVIEW_SUCCESS_MESSAGE": "La demande a été déplacée vers En cours d'examen.",
+      "MISSING_INFO": "Demande d'informations manquantes. La demande n'a pas été soumise.",
+      "MODIFICATION_SUCCESS": "La requête « { requestNo } » a été modifiée avec succès.",
+      "REQUEST_CANCELLATION_CONFIRMATION": "La demande « { requestNo } » a été annulée avec succès.",
+      "REQUEST_CREATE_SUCCESS": "La requête « { requestNo } » a été ajoutée avec succès.",
+      "REQUEST_SUBMIT": "La nouvelle demande « { requestNo } » a été soumise avec succès."
+    },
+    "PAGE_NAME": "Page de demande",
+    "PENDING_CANCELLATION_BANNER": {
+      "BODY": "Le demandeur a demandé d'annuler cette demande.",
+      "BUTTON": "Voir les commentaires",
+      "TITLE": "Demande d'annulation."
+    },
+    "REQUEST_DETAILS": {
+      "BUTTON": {
+        "BACK": "Dos",
+        "CANCEL": "Annuler",
+        "NEXT": "Suivant",
+        "SAVE_EXIT": "Enregistrer et quitter",
+        "SUBMIT": "Soumettre",
+        "UPDATE_EXIT": "Mise à jour et sortie",
+        "UPDATE_REQUEST": "Demande de mise à jour"
+      },
+      "CAPTION": "Cette section décrit l'objet de la demande. Assurez-vous d'inclure des détails qui aideront l'équipe d'apprentissage à mieux comprendre les objectifs et les exigences afin qu'elle puisse évaluer la demande en temps opportun.",
+      "FIELDS": {
+        "REQUEST_DESCRIPTION": "Description de la demande",
+        "REQUEST_DESCRIPTION_CAPTION": "Expliquez votre demande",
+        "REQUEST_DESCRIPTION_PLACEHOLDER": "Entrez les détails des défis que vous essayez de résoudre"
+      },
+      "TITLE": "Détails de la demande"
+    },
+    "STATUS": {
+      "APPROVED": "Approuvé",
+      "DECLINED": "Refusé",
+      "IN_REVIEW": "En revue",
+      "WAITLISTED": "Sur liste d'attente"
+    },
+    "SUBMITTED_ON": "Soumis {num, plural, =0 {} =1 {le : { date }}} par { user }",
+    "TABS": {
+      "ADDITIONAL": "Informations Complémentaires",
+      "BASIC": "Informations de base",
+      "L_D": "Informations internes",
+      "REQUEST": "Détails de la demande"
+    },
+    "TITLE": "Ajouter une demande",
+    "TOP_BAR": {
+      "APPROVE": "Approuver",
+      "APPROVE_SUCCESS_MESSAGE": "La demande « { requestNo } » a été approuvée avec succès et le demandeur est informé du changement.",
+      "COMMENTS": "Commentaires",
+      "CREATE_PROJECT_MODAL": {
+        "CANCEL": "Annuler",
+        "SAVE_NOW": "Économisez maintenant",
+        "SAVE_OPEN": "Enregistrer et ouvrir",
+        "SUCCESS_MESSAGE": "Le projet « { projectTitle } » a été enregistré.",
+        "TITLE": "Créer un projet"
+      },
+      "DECLINE": "Déclin",
+      "DECLINE_SUCCESS_MESSAGE": "La demande « { requestNo } » a été refusée avec succès et le demandeur est informé du changement.",
+      "DELETE_REQUEST": {
+        "ERROR": "Erreur!",
+        "ERROR_MESSAGE": "La demande n'a pas pu être supprimée. Veuillez réessayer.",
+        "SUCCESS": "Succès!",
+        "SUCCESS_MESSAGE": "La demande a été supprimée."
+      },
+      "DELETE_REQUEST_MODAL": {
+        "CANCEL_BUTTON": "Annuler",
+        "CONFIRMATION": "Êtes-vous sûr de vouloir supprimer <span class='font-bold'>{ request }</span> ?",
+        "DELETE_BUTTON": "Oui, supprimer la demande",
+        "TITLE": "Demande de suppression",
+        "WARNING": "La demande sera <span class='font-bold'>définitivement supprimée</span> du système."
+      },
+      "FORM": "Formulaire",
+      "ID": "IDENTIFIANT: ",
+      "IN_REVIEW_MODAL": {
+        "CONFIRMATION": "Êtes-vous sûr de vouloir déplacer cette demande vers En cours d’examen ?",
+        "NOTIFICATION": "Le demandeur sera informé.",
+        "TITLE": "Revenir à En revue"
+      },
+      "LINK_PROJECT": "Créer un projet",
+      "LINK_REQUEST_MODAL": {
+        "CANCEL": "Annuler",
+        "LINK": "Lien",
+        "LINKED_PROJECTS_SUCCESS": "Les projets liés à cette demande ont été mis à jour.",
+        "NO_LINKED_PROJECTS": "Aucun projet lié",
+        "PLACEHOLDER": "Tapez pour rechercher un projet",
+        "PROJECT_TITLE": "Titre du projet",
+        "SAVE": "Sauvegarder",
+        "STATUS": "Statut",
+        "SUBTITLE": "Choisissez les projets auxquels lier cette demande.",
+        "TITLE": "Lien vers un projet",
+        "TRIGGER": "Demande de lien vers le projet",
+        "UNLINK": "Dissocier"
+      },
+      "MORE": {
+        "CANCEL_REQUEST": "Annuler la demande",
+        "CREATE_PROJECT": "Créer un projet",
+        "DELETE_REQUEST": "Demande de suppression",
+        "DOWNLOAD_REQUEST": "Demande de téléchargement",
+        "LINK_PROJECT": "Demande de lien vers le projet"
+      },
+      "PUBLIC_DRAFT": {
+        "TITLE": "Rendre le projet public",
+        "TOOLTIP": "Rendre un brouillon public permettra aux autres utilisateurs de le consulter avant de le soumettre."
+      },
+      "WAITLIST_MODAL": {
+        "CONDITION_APPROVAL": "Conditions d'inscription sur liste d'attente",
+        "MENTION_REASON": "Mentionnez la raison de la mise en liste d'attente de cette demande",
+        "PLEASE": "Veuillez sélectionner les raisons pour lesquelles cette demande est mise sur liste d'attente :",
+        "SELECT_CONDITIONS": "Sélectionnez autant de conditions que nécessaire",
+        "SPECIFY_OTHERS": "Veuillez préciser pour « Autres »",
+        "WAITLIST": "Liste d'attente",
+        "WAITLIST_CONDITIONS": {
+          "BUDGET": "Budget",
+          "IT": "IL",
+          "OTHERS": "Autres",
+          "PROCUREMENT": "Approvisionnement",
+          "RESOURCE": "Ressource",
+          "STRATEGY_PRIORITY": "Stratégie / Priorité",
+          "TIMELINE": "Chronologie",
+          "VENDOR": "Fournisseur"
+        },
+        "WAITLIST_DATE": "Date de la liste d'attente",
+        "WAITLIST_MEANS": "Être sur liste d'attente signifie que vous n'êtes pas tout à fait prêt à agir sur cette demande, mais que vous envisagerez de prendre une décision sur cette demande lorsque le moment sera venu.",
+        "WAITLIST_PLAN": "Demandes de liste d'attente sur lesquelles vous ne pouvez pas agir pour le moment.",
+        "WAITLIST_REQUEST": "Demande de liste d'attente"
+      },
+      "WAITLIST_SUCCESS_MESSAGE": "La demande « { requestNo } » a été mise sur liste d’attente avec succès et est en attente d’approbation future."
+    },
+    "WAITLISTED_REQUEST_BANNER": {
+      "LINE_ONE": "Cette demande a été mise sur liste d'attente par le propriétaire de la demande le { date }.",
+      "LINE_TWO": "Conditions d'approbation : { conditions }"
+    }
+  },
+  "REQUEST_PORTAL_DEFAULT_NAME": "Portail de demande d'apprentissage",
+  "REQUIRED_INFORMATION": "Informations requises",
+  "ROI_CATEGORY": {
+    "COSTS_PAGE": {
+      "ADD_COST_BUTTON": "Ajouter un nouveau coût",
+      "COST": "Coût",
+      "COST_DESCRIPTION": "Description des coûts",
+      "COST_DESCRIPTION_PLACEHOLDER": "Décrivez votre coût",
+      "COST_PLACEHOLDER": "Ajouter un coût",
+      "DELETED_STAGE": "Supprimé",
+      "DELETE_MODAL_TITLE": "Supprimer le coût",
+      "DISABLED_STAGE": "Désactivé",
+      "HEADING_SUBTITLE": "Inclure tous les coûts liés à la stratégie d’évaluation, à la conception de l’instrument, à la collecte et à l’analyse des données et aux coûts de rapport.",
+      "HEADING_TITLE": "Ajoutez les coûts associés à ce programme",
+      "PROCESS_STAGE": "Étape du processus (facultatif)",
+      "RESOURCE_COSTS": "Coûts des ressources",
+      "RESOURCE_COSTS_INFORMATION_ICON": "informations sur les coûts des ressources",
+      "RESOURCE_COSTS_TOOLTIP_LINE_1": "Ce coût est égal à la",
+      "RESOURCE_COSTS_TOOLTIP_LINE_2": "nombre de membres de l'équipe x salaire horaire moyen x heures totales.",
+      "SUCCESS_MESSAGE": "Succès ! Coûts mis à jour."
+    },
+    "OBJECTIVES_SETTING": {
+      "ADD_OBJECTIVE_MODAL": {
+        "CONFIRM_BUTTON": "Oui, ajouter un objectif",
+        "OBJECTIVE_FIELD_LABEL": "Objectif",
+        "OBJECTIVE_FIELD_PLACEHOLDER": "Ajoutez votre % de ROI",
+        "OBJECTIVE_FIELD_SUBTITLE": "Quel pourcentage de retour sur investissement ce programme devrait-il atteindre ?",
+        "TITLE": "Ajouter un objectif de retour sur investissement"
+      },
+      "ADD_SUCCESS_NOTIFICATION": "Succès ! Objectif ajouté.",
+      "EMPTY_STATE_CAPTION": "Commencez à ajouter votre objectif de retour sur investissement",
+      "OBJECTIVE_CARD": {
+        "BODY": "Retour sur investissement de { roi }%",
+        "TITLE": "Objectif"
+      }
+    },
+    "OBJECTIVE_PAGE": {
+      "DELETE_OBJECTIVE_BUTTON": "Supprimer l'objectif",
+      "OBJECTIVE_FIELD_SUBTITLE": "Le pourcentage de retour sur investissement souhaité pour ce programme est",
+      "ROI_OBJECTIVE_MODAL_TEXT": "En supprimant cet objectif, tous les calculs associés seront également supprimés définitivement du système.",
+      "TITLE": "Gestion des objectifs"
+    },
+    "PROGRAM_COSTS": {
+      "BANNER": "Coût total du programme",
+      "MANAGE_COSTS": "Gérer les coûts",
+      "SUBTITLE": "Cela capture les coûts totaux du programme, y compris les coûts directs et indirects, à toutes les étapes du programme, offrant ainsi une valeur ajoutée pour votre calcul du retour sur investissement.",
+      "TITLE": "Coûts du programme"
+    },
+    "ROI_CALCULATOR": {
+      "ANNUAL_MONETARY_BENEFITS_TOTAL": "Total des avantages monétaires annuels",
+      "BENEFIT_COST_RATIO": "Rapport coûts-bénéfices",
+      "NO_CALCULATION_YET": "Pas encore de calcul",
+      "NO_OBJECTIVE": "Aucun objectif fixé",
+      "NO_VALUE_PROVIDED": "Aucune valeur fournie",
+      "PROGRAM_COST_TOTAL": "Coût total du programme",
+      "RETURN_ON_INVESTMENT": "Retour sur investissement",
+      "ROI_OBJECTIVE": "Objectif ROI",
+      "SUBTITLE": "Convertit vos avantages monétaires et les coûts du programme en un rapport avantages-coûts et un retour sur investissement exprimé en pourcentage.",
+      "TITLE": "Calculateur de retour sur investissement",
+      "VIEW_CALCULATION": "Voir le calcul"
+    }
+  },
+  "SAVE": "Sauvegarder",
+  "SAVE_NOW": "Économisez maintenant",
+  "SAVE_OPEN": "Enregistrer et ouvrir",
+  "SCHEDULE": {
+    "ADD_EVENT_BUTTON": "Ajouter un événement",
+    "ADD_FACILITATOR_BUTTON": "Ajouter un facilitateur",
+    "ADD_NEW_EVENT": "Ajouter un nouvel événement",
+    "EVENTS": {
+      "BANNER": "Ajoutez un événement d’apprentissage et il apparaîtra ci-dessous."
+    },
+    "FACILITATORS": {
+      "BANNER": "Ajoutez un facilitateur à Cognota et il apparaîtra ci-dessous."
+    },
+    "IMPORT_FACILITATORS": "Facilitateurs d'importation",
+    "TABS": {
+      "EVENTS": "Événements",
+      "FACILITATORS": "Animateurs"
+    },
+    "TITLE": "Calendrier"
+  },
+  "SELECT": "Sélectionner",
+  "SETTINGS_PAGE": {
+    "ADD_PROCESS_MODAL": {
+      "ADD_STAGE_BUTTON": "Ajouter une étape",
+      "DESCRIPTION": "Remplissez les détails pour ajouter un processus personnalisé",
+      "DESCRIPTION_FIELD_LABEL": "Description",
+      "PROCESS_ADDED_SUCCESSFULLY_MESSAGE": "Le processus a été ajouté avec succès !",
+      "PROCESS_DESCRIPTION_FIELD_PLACEHOLDER": "Entrez la description du processus",
+      "PROCESS_NAME_FIELD_LABEL": "Nom du processus",
+      "PROCESS_NAME_FIELD_PLACEHOLDER": "Entrez le nom du processus",
+      "PROCESS_UPDATED_SUCCESSFULLY_MESSAGE": "Le processus a été mis à jour avec succès !",
+      "STAGE_COMPLETION_FIELD_LABEL": "Temps d'exécution estimé (min - max)",
+      "STAGE_DESCRIPTION_FIELD_PLACEHOLDER": "Entrez la description de cette étape",
+      "STAGE_DIVISION": "Étape { index }",
+      "STAGE_MAX_COMPLETION_FIELD_PLACEHOLDER": "Heures max.",
+      "STAGE_MIN_COMPLETION_FIELD_PLACEHOLDER": "Heures minimales",
+      "STAGE_NAME_FIELD_ERROR": "Les noms de scène ne peuvent pas être répétés. Utilisez un nom différent.",
+      "STAGE_NAME_FIELD_LABEL": "Nom de scène",
+      "STAGE_NAME_FIELD_PLACEHOLDER": "Entrez le nom de l'étape",
+      "TITLE": "Ajouter un processus"
+    },
+    "FIELDS_PAGE": {
+      "BUTTON_TITLE": "Ajouter un champ",
+      "DEFAULT_VALUES_MODAL": {
+        "ADD_VALUES_BUTTON": "Ajouter de la valeur(s)",
+        "BODY": "Veuillez fournir des valeurs par défaut pour tous les projets existants qui ont utilisé cette valeur de champ.",
+        "TITLE": "Valeurs par défaut"
+      },
+      "DELETE_FIELD_MODAL": {
+        "BODY": "Cette action est irréversible. La suppression du champ personnalisé le supprimera définitivement du système, y compris toutes les données ou références associées. Veuillez prendre un moment pour réfléchir aux implications avant de continuer.",
+        "DELETE_BUTTON": "Supprimer le champ",
+        "SUCCESS_NOTIFICATION": "Le champ personnalisé est supprimé.",
+        "TITLE": "Supprimer le champ"
+      },
+      "DETAILS": {
+        "ADD_SUCCESS": "Un nouveau champ personnalisé est ajouté.",
+        "CREATOR_FIELD_NAME": "Créateur de champ",
+        "DELETE_FIELD": "Supprimer le champ",
+        "DESCRIPTION_FIELD_NAME": "Description",
+        "DESCRIPTION_FIELD_PLACEHOLDER": "Entrez la description du champ",
+        "DUPLICATE_ERROR": "Oups ! Option déjà utilisée. Veuillez saisir une option unique",
+        "ENABLED_TOGGLE": "Activé",
+        "FIELD_OPTIONS": {
+          "BOOLEAN": "Oui / Non",
+          "FLOAT": "Nombres décimaux (c'est-à-dire monnaie et mesure)",
+          "INT": "Nombres (nombres entiers)",
+          "SINGLE_LINE": "Texte (caractères alphanumériques)"
+        },
+        "FIELD_TYPE_CHECKBOX": {
+          "DATE": "Plage de dates",
+          "DROPDOWN": "Menu déroulant à sélection multiple",
+          "NUMERIC": "Inclure les décimales",
+          "TEXT": "Texte multiligne"
+        },
+        "OPTIONS_DATA_TYPE_LABEL": "Type de données de l'option",
+        "OPTIONS_LABEL": "Options",
+        "TITLE_FIELD_NAME": "Titre du champ",
+        "TITLE_FIELD_PLACEHOLDER": "Entrez le titre du champ",
+        "TYPE_FIELD_NAME": "Type de champ",
+        "TYPE_FIELD_PLACEHOLDER": "Sélectionnez le type de champ",
+        "TYPE_TOOLTIP": "Le type de données que vous sélectionnez détermine la manière dont les options de champ gèrent et affichent les données, garantissant ainsi une capture précise des informations.",
+        "UPDATE_ERROR": "Une erreur s'est produite... Nous rencontrons un problème technique, veuillez actualiser ou réessayer",
+        "UPDATE_SUCCESS": "Le champ { title } est mis à jour."
+      },
+      "FIELD_NAMES": {
+        "CHECKBOX": "Case à cocher",
+        "DATE_PICKER": "Champ de date",
+        "DROPDOWN": "Dérouler",
+        "NUMERICAL_FIELD": "Champ numérique",
+        "RADIO": "Bouton radio",
+        "TEXT_FIELD": "Champ de texte",
+        "TOGGLE": "Basculer"
+      },
+      "PAGE_SUB_TITLE": "Utilisez cette section de paramètres pour créer et gérer vos champs.",
+      "PAGE_TITLE": "Champ personnalisé",
+      "SUB_TITLE": "Cette section contient des informations sur le terrain.",
+      "TABLE_COLUMNS": {
+        "CREATOR": "Créateur",
+        "DESCRIPTION": "Description",
+        "DISABLED": "Désactivé",
+        "ENABLED": "Activé",
+        "LAST_UPDATED": "Dernière mise à jour",
+        "STATUS": "Statut",
+        "TITLE": "Titre du champ",
+        "TYPE": "Type de champ"
+      },
+      "TABLE_EMPTY": "Créez et gérez des champs personnalisés.",
+      "TITLE": "Aperçu des champs",
+      "UPDATE_WARNING_MODAL": {
+        "BODY": "La ou les mises à jour seront appliquées à tous les projets nouveaux et existants qui utilisent ce champ. <br/>Voulez-vous continuer ?",
+        "PROCEED_BUTTON": "Oui, continuez",
+        "TITLE": "Mettre à jour le champ"
+      }
+    },
+    "FORMS": {
+      "ADD_FORM": "Ajouter un formulaire",
+      "COPY_LINK": {
+        "COPY_FORM_LINK": "Copier le lien vers le formulaire",
+        "SUCCESS_MESSAGE": "Le lien vers le formulaire dans le portail de demande a été copié !",
+        "TOOLTIP": "Lien vers le formulaire dans le portail de demande"
+      },
+      "CREATE_FORMS": "Créez et gérez des formulaires !",
+      "DELETE": {
+        "DELETE_FORM": "Supprimer le formulaire",
+        "PUBLISHED_DESCRIPTION": "Ce changement est <b>irréversible</b>. Les demandes basées sur ce formulaire ne seront pas supprimées.",
+        "QUESTION": "Etes-vous sûr de vouloir supprimer ce formulaire ?",
+        "SUCCESS": "Le formulaire a été supprimé avec succès !",
+        "TITLE": "Supprimer le formulaire { status }",
+        "UNPUBLISHED_DESCRIPTION": "Ce changement est <b>irréversible</b>. Si le formulaire a déjà été publié, le changement n'affectera pas les demandes basées sur ce formulaire."
+      },
+      "DELETE_TOOLTIP": "Les formulaires doivent être dépubliés pour être supprimés",
+      "DESIGN": {
+        "CUSTOM_QUESTIONS": {
+          "ADD_OPTION": "Ajouter une option",
+          "ADD_QUESTION": "Ajouter une question",
+          "CAPTION1": "Ajoutez vos propres questions avec une variété de formats.",
+          "CAPTION2": "Les questions sans étiquettes ni valeurs ne seront pas affichées dans la demande.",
+          "DATE": {
+            "DATE_RANGE": "Plage de dates"
+          },
+          "DRAG_HANDLE": "poignée de traction",
+          "DROPDOWN": {
+            "MULTISELECT": "Liste déroulante à sélection multiple"
+          },
+          "FILE": {
+            "PLACEHOLDER": "Ajouter une instruction de téléchargement"
+          },
+          "LABEL_PROMPT": {
+            "EDIT": "Modifier l'étiquette",
+            "OPEN": "Lien ouvert"
+          },
+          "OPTION_PLACEHOLDER": "Tapez votre option",
+          "PLACEHOLDER": "Tapez votre espace réservé",
+          "QUESTION_LABEL": "Tapez votre étiquette",
+          "RANGE": {
+            "MAX_VALUE_PLACEHOLDER": "Ajouter la valeur maximale",
+            "MIN_VALUE_PLACEHOLDER": "Ajouter une valeur minimale"
+          },
+          "REMOVE_OPTION": "supprimer l'option",
+          "REORDER": "Réorganiser",
+          "REQUIRED": "Requis",
+          "TEXT": {
+            "MULTILINE": "Champ multiligne"
+          },
+          "TITLE": "Questions personnalisées",
+          "TOGGLE": {
+            "HELP_TEXT": "Régler le commutateur sur son état par défaut",
+            "VALUE": "Tapez une valeur"
+          }
+        },
+        "DEFAULT_FIELDS": "Champs par défaut",
+        "ENTER_COMMENTS": "Entrez des commentaires pour cette demande",
+        "ENTER_COSTS": "Entrer le coût",
+        "ENTER_DESCRIPTION": "Entrez une description",
+        "ENTER_EFFORTS": "Entrez les efforts",
+        "ENTER_REQUESTER": "Entrez le nom du demandeur",
+        "GENERAL_INFO": "Informations générales",
+        "SELECT_BUSINESS_UNIT": "Sélectionnez une unité commerciale",
+        "SELECT_PRIORITY": "Sélectionnez une priorité",
+        "SELECT_REGION_LOCATION": "Sélectionnez une région ou un emplacement",
+        "SUBTITLE": "Créer un formulaire en ajoutant des champs pour recueillir des informations pour les demandes d'apprentissage",
+        "SYSTEM_GENERATED_ID": "ID généré par le système",
+        "TITLE": "Conception de formulaire"
+      },
+      "DUPLICATE": {
+        "COPY": "- Copie",
+        "DUPLICATE_FORM": "Formulaire en double",
+        "FILL_DETAILS": "Remplissez les détails pour créer un nouveau formulaire",
+        "NEW_NAME": "Nouveau nom de formulaire",
+        "ORIGINAL_NAME": "Nom du formulaire d'origine"
+      },
+      "FORM_CREATED_SUCCESS": "Le formulaire de demande a été créé avec succès !",
+      "FORM_CREATOR": "Créateur de formulaire",
+      "FORM_TITLE": "Titre du formulaire de demande",
+      "LAST_UPDATE": "Dernière mise à jour",
+      "NOT_UPDATED": "Ce formulaire de demande manque d'informations et n'a pas été mis à jour.",
+      "NO_FORMS": "Aucun formulaire trouvé",
+      "PUBLISH": "Publier",
+      "PUBLISHED": "Publié",
+      "PUBLISHED_MODAL": {
+        "DESCRIPTION": "Le formulaire est déjà publié. Les modifications apportées n'affecteront que les nouvelles demandes.",
+        "TITLE": "Mettre à jour le formulaire publié"
+      },
+      "PUBLISH_SUCCESS": "Ce formulaire a été publié avec succès !",
+      "REQUEST_TYPE": "Type de demande",
+      "SUMMARY": {
+        "DEFAULT_OWNERS": "Propriétaire(s) de la demande par défaut",
+        "DESCRIPTION": "Description du formulaire",
+        "ENTER": "Entrez { field }",
+        "ENTER_DESCRIPTION": "Entrez la description",
+        "FORM_TITLE": "Titre du formulaire",
+        "REQUEST_OWNER": "Ajouter un propriétaire de demande",
+        "SELECT_REQUEST_TYPE": "Sélectionnez un type de demande",
+        "SUBTITLE": "Remplissez les informations générales du formulaire.",
+        "TITLE": "Résumé du formulaire"
+      },
+      "TABLE_MENU": {
+        "DELETE": "Supprimer",
+        "DUPLICATE": "Double"
+      },
+      "UNPUBLISHED_MODAL": {
+        "DESCRIPTION": "Si ce formulaire a déjà été publié, les modifications apportées n'affecteront que les nouvelles demandes.",
+        "QUESTION": "Etes-vous sûr de vouloir mettre à jour le formulaire ?",
+        "TITLE": "Mise à jour du formulaire non publié"
+      },
+      "UNPUBLISH_SUCCESS": "Ce formulaire a été dépublié avec succès ! Les demandes soumises via ce formulaire n'ont pas été affectées.",
+      "UN_PUBLISHED": "Non publié",
+      "UPDATED_SUCCESS": "Le formulaire de demande a été mis à jour avec succès.",
+      "UPDATE_TOOLTIP": "Assurez-vous que toutes vos questions personnalisées ont :<li>Une étiquette claire</li><li>Toutes les options spécifiées pour les questions à choix multiples</li>",
+      "YES_UPDATE": "Oui, mise à jour"
+    },
+    "GENERAL_PAGE_CAPTION": "Personnaliser l'application",
+    "PROJECTS_PAGE": {
+      "ACTIVE_PROCESS_TOOLTIP": "Les processus contenant des projets ne peuvent pas être supprimés",
+      "ADD_PROCESS": "Ajouter un processus",
+      "ADD_TASK_BUNDLE": "Ajouter un pack",
+      "ADD_TEMPLATES": "Ajouter un modèle",
+      "COGNOTA": "Cognota",
+      "CREATED_BY": "Créé par",
+      "CREATION_DATE": "Date de création",
+      "DATE": "Date",
+      "DELETE_PROCESS": "Supprimer le processus",
+      "DESCRIPTION": "Description",
+      "DISABLED_PROCESS_WARNING": "Les processus désactivés n'apparaîtront pas comme une option pour les nouveaux projets et n'apparaîtront pas dans la vue du tableau s'ils ne contiennent aucun projet.",
+      "EDIT": "Modifier",
+      "ENABLE_PROCESS": "Activer le processus",
+      "ESTIMATED_COMPLETION_TIME": "{ time } heures",
+      "ESTIMATE_TIME": "Temps d'exécution estimé",
+      "GET_STARTED": "Commencer",
+      "NO_ESTIMATED_COMPLETION_TIME": "Non spécifié",
+      "OWNER": "Propriétaire",
+      "PAGE_SUB_TITLE": "Utilisez cette section de paramètres pour organiser vos projets selon des processus, modèles et champs personnalisés ou prêts à l'emploi.",
+      "PAGE_TITLE": "Mise en place du projet",
+      "PROCESSES": "Processus",
+      "PROCESS_NAME": "Nom du processus",
+      "PROCESS_PAGE_TITLE": "Processus : { process }",
+      "REMOVE": "Retirer",
+      "STATUS": "Statut",
+      "SYSTEM": "Système",
+      "SYSTEM_PROCESS_TOOLTIP": "Les processus définis par le système ne peuvent pas être supprimés.",
+      "TEMPLATES": "Modèles",
+      "TITLE": "Titre",
+      "disabled": "Désactivé",
+      "draft": "Non publié",
+      "published": "Publié"
+    },
+    "REMOVE_PROCESS_MODAL": {
+      "DESCRIPTION": "Ce changement est <b>irréversible.</b><br><br>Êtes-vous sûr de vouloir supprimer ce processus ?",
+      "REMOVE_PROCESS_SUCCESSFULLY_MESSAGE": "Le processus a été supprimé avec succès !",
+      "TITLE": "Processus de suppression"
+    },
+    "TASK_BUNDLE_PAGE": {
+      "ADD_TASK_BUNDLE": "Ajouter un ensemble de tâches",
+      "BUILD_SECTION": {
+        "ADD_TASK": "Ajouter une tâche",
+        "ARE_YOU_SURE": "Etes-vous sûr de vouloir supprimer cette tâche ?",
+        "DELETE_TASK": "Supprimer la tâche",
+        "DELETE_TASK_CONFIRM": "Oui, supprimer la tâche",
+        "DESCRIPTION": "Description de la tâche",
+        "GET_STARTED": "Commencez par ajouter des tâches.",
+        "NAME": "Titre de la tâche",
+        "NO_RESULTS_FOUND": "Aucun résultat trouvé. Essayez un autre mot-clé.",
+        "NO_TASKS_ADDED": "Aucune tâche ajoutée",
+        "TASK_LIST": "Liste des tâches",
+        "TASK_WILL_BE_REMOVED": "Cette tâche sera supprimée du groupe de tâches."
+      },
+      "BUNDLE_BUILD_TAB": "2. Créer un bundle",
+      "BUNDLE_OVERVIEW_TAB": "1. Présentation du bundle",
+      "CREATED_SUCCESSFULLY": "Succès ! Ensemble de tâches créé.",
+      "DELETE_BUNDLE": {
+        "BODY_FIRST_LINE": "Veuillez noter qu'une fois que vous avez supprimé un groupe de tâches, cette opération ne peut pas être annulée. Le groupe ne pourra plus être associé à de nouveaux projets, mais soyez assuré qu'il n'aura aucun impact sur les projets plus anciens.",
+        "BODY_SECOND_LINE": "Etes-vous sûr de vouloir procéder à la suppression ?",
+        "CANCEL": "Annuler",
+        "CONFIRM": "Oui, continuez",
+        "DELETE": "Supprimer le bundle",
+        "SUCCESS_MESSAGE": "Succès ! Le groupe de tâches a été supprimé.",
+        "TITLE": "Supprimer un ensemble de tâches"
+      },
+      "OVERVIEW_SECTION": {
+        "CREATOR_LABEL": "Créé par",
+        "DESCRIPTION_LABEL": "Description",
+        "SECTION_DESCRIPTION": "Cette section contient des informations sur les groupes de tâches.",
+        "TITLE_LABEL": "Titre"
+      },
+      "TABLE": {
+        "EMPTY": "Créez et gérez vos groupes de tâches",
+        "GET_STARTED": "Commencer",
+        "HEAD": {
+          "CREATION_DATE": "Date de création",
+          "CREATOR": "Créateur",
+          "DESCRIPTION": "Description",
+          "ESTIMATED_HOURS": "Heures estimées",
+          "TITLE": "Titre"
+        },
+        "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé."
+      },
+      "UPDATE": "Pack de mise à jour",
+      "UPDATED_SUCCESSFULLY": "Succès ! Ensemble de tâches mis à jour."
+    },
+    "TEMPLATE_PAGE": {
+      "ACTIONS": {
+        "ADD": "Ajouté",
+        "DELETE": "Supprimé",
+        "PUBLISH": "Publié",
+        "UNPUBLISH": "Non publié",
+        "UPDATE": "Mis à jour"
+      },
+      "ADD_MORE_FIELDS_MODAL": {
+        "DESCRIPTION": "Utilisez les champs suivants pour créer vos modèles de projets personnalisés.",
+        "FIELD_TYPE": "Type de champ : { fieldType }",
+        "TITLE": "Champs pour le modèle"
+      },
+      "ADD_TEMPLATE": "Ajouter un modèle",
+      "BUILD_SECTION": {
+        "ADD_MORE_FIELDS": "Ajouter plus de champs",
+        "REQUIRED": "Requis",
+        "SECTION_DESCRIPTION": "Cette section du projet fournit un aperçu de votre projet.",
+        "SECTION_TITLE": "Sections du projet"
+      },
+      "BUILD_TAB": "Modèle de construction",
+      "DEFAULT_VALUES_MODAL": {
+        "DESCRIPTION": "Fournir une valeur par défaut pour les nouveaux champs dans le modèle mis à jour pour les projets existants.",
+        "TITLE": "Valeurs par défaut"
+      },
+      "DELETE_TEMPLATE": "Supprimer le modèle",
+      "DELETE_TEMPLATE_TOOLTIP": "Vous ne pouvez supprimer que les modèles non publiés.",
+      "DELETE_TEMPLATE_WARNING_MENSSAGE": "Vous êtes sur le point de supprimer ce modèle. Cette action est irréversible.",
+      "OVERVIEW_SECTION": {
+        "DESCRIPTION_FIELD_LABEL": "Description",
+        "SECTION_DESCRIPTION": "Cette section contient des informations sur le modèle.",
+        "TEMPLATE_CREATOR_FIELD_LABEL": "Créateur de modèles",
+        "TEMPLATE_OWNER_FIELD_LABEL": "Propriétaire du modèle",
+        "TITLE_FIELD_LABEL": "Titre"
+      },
+      "OVERVIEW_TAB": "Présentation du modèle",
+      "PUBLISH": "Publier",
+      "SUCCESS_MESSAGE": "Succès ! Modèle { action }.",
+      "UPDATE_CONFIRMATION_MODAL": {
+        "CONFIRM": "Oui, continuez",
+        "DESCRIPTION": "Ces mises à jour seront appliquées à tous les projets nouveaux et existants qui utilisent ce modèle.<br/>Voulez-vous continuer ?"
+      },
+      "UPDATE_TEMPLATE": "Mettre à jour le modèle",
+      "UPDATE_WARNING": "<b>Attention !</b> Toutes les modifications apportées à ce modèle seront appliquées à tous les projets nouveaux et existants créés avec ce modèle.",
+      "VERSION_MISMATCH_ERROR": {
+        "MESSAGE": "Quelqu'un d'autre a enregistré ses modifications pendant que vous étiez encore en train de modifier le modèle. Veuillez recharger la page avant de réessayer.",
+        "TITLE": "Oups ! Les modifications n'ont pas été enregistrées."
+      }
+    },
+    "USER_PAGE": {
+      "BASIC_INFORMATION": {
+        "CAPTION": "Remplissez les informations de base de l'utilisateur",
+        "CHANGE_TO_LEARNING_USER": "Passer à l'utilisateur d'apprentissage",
+        "COUNTRY": "Pays",
+        "COUNTRY_PLACEHOLDER": "Sélectionnez un pays",
+        "EDIT_PICTURE": "Modifier l'image",
+        "EMAIL": "E-mail",
+        "EMAIL_PLACEHOLDER": "Ajouter une adresse e-mail",
+        "FIRST_NAME": "Prénom",
+        "FIRST_NAME_PLACEHOLDER": "Ajouter le prénom",
+        "LAST_NAME": "Nom de famille",
+        "LAST_NAME_PLACEHOLDER": "Ajouter le nom de famille",
+        "PROFILE_PICTURE": "Photo de profil",
+        "PROVINCE": "État/Province",
+        "PROVINCE_LIST_PLACEHOLDER": "Sélectionnez un état ou une province",
+        "PROVINCE_TEXT_PLACEHOLDER": "Ajouter un état ou une province",
+        "TITLE": "Informations de base",
+        "TOGGLE_LABEL": "Faire de cet utilisateur un administrateur",
+        "TOGGLE_OFF_TEXT": "Désactivé",
+        "TOGGLE_ON_TEXT": "Sur",
+        "USER_TYPE": "Type d'utilisateur"
+      },
+      "CAPACITY_MANAGEMENT": {
+        "CAPTION": "Remplissez les détails de capacité de base",
+        "PUBLIC_HOLIDAYS": {
+          "LABEL": "Appliquer les jours fériés",
+          "OFF_TEXT": "Désactivé",
+          "ON_TEXT": "Sur",
+          "VIEW_HOLIDAYS": "Voir les jours fériés"
+        },
+        "TITLE": "Gestion de la capacité",
+        "WEEKLY_CAPACITY": "Capacité hebdomadaire par défaut",
+        "WEEKLY_CAPACITY_PLACEHOLDER": "Précisez les heures de travail par semaine"
+      },
+      "CHANGE_USER_TYPE_MODAL": {
+        "BODY": {
+          "CHANGE_DESCRIPTION": "Cela donnera à l'utilisateur l'accès à davantage de modules de la plateforme et nécessitera un siège de licence.",
+          "FORM": {
+            "DEFAULT_WEEKLY_CAPACITY": "Capacité hebdomadaire par défaut",
+            "EMPLOYMENT_TYPE": "Type d'emploi",
+            "EMPLOYMENT_TYPE_PLACEHOLDER": "Sélectionnez un type d'emploi",
+            "JOB_FUNCTION": "Fonction du poste",
+            "JOB_FUNCTION_PLACEHOLDER": "Sélectionnez une fonction",
+            "SECTION_TITLE_CAPACITY": "Informations sur la capacité",
+            "SECTION_TITLE_JOB": "Informations sur l'emploi",
+            "TEAM": "Équipe",
+            "TEAM_PLACEHOLDER": "Sélectionnez une équipe"
+          },
+          "LICENSES_REMAINING": "Licences restantes : { licenses }",
+          "NO_LICENSES": "Il vous reste 0 licences. Si vous mettez à niveau cet utilisateur, il sera défini comme désactivé.",
+          "PLEASE_FILL": "Veuillez remplir les informations suivantes requises pour les utilisateurs en apprentissage"
+        },
+        "BUTTONS": {
+          "CANCEL": "Annuler",
+          "CONFIRM": "Oui, changer"
+        },
+        "ERROR_NOTIFICATION": "Une erreur s'est produite. Veuillez réessayer.",
+        "SUCCESS_NOTIFICATION": "Succès ! Le type d'utilisateur a changé.",
+        "TITLE": "Changer d'utilisateur professionnel en utilisateur apprenant"
+      },
+      "ERRORS": {
+        "DISABLE_ACCOUNT": "Cet utilisateur a été désactivé et ne peut plus accéder à la plateforme.",
+        "INLINE_NOTFICATION": "Il manque des informations à cet utilisateur et elles n'ont pas été mises à jour.",
+        "MISSING_INFORMATION": "Informations manquantes"
+      },
+      "FOOTER": {
+        "CANCEL_BUTTON": "Annuler",
+        "UPDATE_BUTTON": "Mise à jour"
+      },
+      "HEADER": {
+        "ENABLE_ACCOUNT": "Utilisateur actif",
+        "MORE_ACTIONS": {
+          "NOTIFY_USER": "Notifier l'utilisateur"
+        }
+      },
+      "JOB_INFORMATION": {
+        "BUSINESS_TEAM": "Équipe commerciale",
+        "BUSINESS_TEAM_PLACEHOLDER": "Sélectionnez une unité commerciale",
+        "CAPTION": "Remplissez les principaux détails du travail",
+        "COMPANY_NAME": "Nom de l'entreprise",
+        "COMPANY_NAME_PLACEHOLDER": "Ajouter le nom de l'entreprise",
+        "EMPLOYMENT_TYPE": "Type d'emploi",
+        "EMPLOYMENT_TYPE_PLACEHOLDER": "Sélectionnez un type d'emploi",
+        "HOURLY_RATE": "Taux horaire",
+        "HOURLY_RATE_PLACEHOLDER": "Ajouter un tarif horaire",
+        "JOB_FUNCTION": "Fonction du poste",
+        "JOB_FUNCTION_PLACEHOLDER": "Sélectionnez une fonction",
+        "JOB_TITLE": "Titre d'emploi",
+        "JOB_TITLE_PLACEHOLDER": "Ajouter un titre de poste",
+        "LANGUAGES": "Langues",
+        "LANGUAGES_PLACEHOLDER": "Sélectionnez une ou plusieurs langues maîtrisées",
+        "NONE": "Aucun",
+        "SKILLS": "Compétences",
+        "SKILLS_PLACEHOLDER": "Ajouter des compétences",
+        "TEAM": "Équipe",
+        "TEAM_PLACEHOLDER": "Sélectionnez une équipe",
+        "TITLE": "Informations sur l'emploi"
+      },
+      "NOTIFY_USER_MODAL": {
+        "BODY": {
+          "FIRST_LINE": "Souhaitez-vous envoyer à l'utilisateur une notification avec ses informations de connexion ?",
+          "SECOND_LINE": "Vous pouvez toujours les avertir plus tard."
+        },
+        "BUTTONS": {
+          "NOTIFY": "Oui, notifier",
+          "NOT_NOW": "Pas maintenant"
+        },
+        "TITLE": "Notifier l'utilisateur"
+      },
+      "TITLE": "Utilisateurs",
+      "USER_NOTIFIED": "Cet utilisateur a été notifié avec succès !",
+      "USER_UPDATED": "Cet utilisateur a été mis à jour avec succès !",
+      "VIEW_HOLIDAYS_MODAL": {
+        "TITLE": "Jours fériés"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "DESIGN": "Conception",
+    "HOME": "Maison",
+    "INSIGHTS": "Connaissances",
+    "INTAKE": "Admission",
+    "LOGOUT": "Se déconnecter",
+    "MY_TIME_OFF": "Mon temps libre",
+    "PROGRAMS": "Programmes",
+    "PROJECTS": "Projets",
+    "SCHEDULE": "Calendrier",
+    "SETTINGS": "Paramètres",
+    "SUPPORT": "Ressources",
+    "SUPPORT_POPUP_OPTIONS": {
+      "CHAT": "Discutez avec nous",
+      "LEARNING": "Centre d'apprentissage",
+      "LEARNOPS_CERTIFICATION": "Certification LearnOps",
+      "LEARNOPS_COMMUNITY": "Communauté LearnOps",
+      "SHOW": "Montre-moi les environs"
+    },
+    "TASKS": "Tâches",
+    "TEAMS": "Équipes"
+  },
+  "SIDEKICK": "Demandez à LearnOps AI",
+  "SIDE_PANEL": {
+    "CANCEL_BUTTON": "Annuler",
+    "DUPLICATE": "Double",
+    "FULL_PAGE": "Page complète",
+    "ID": "IDENTIFIANT",
+    "PROJECT": {
+      "RESOURCE_AND_BUDGET": "Ressources et budget"
+    },
+    "QUICK_EDIT": "Modification rapide",
+    "QUICK_VIEW": "Aperçu rapide",
+    "REQUEST_MISSING_FIELDS": "Veuillez noter que certains champs obligatoires ne sont pas renseignés. Remplissez le formulaire en ouvrant la vue pleine page avant de le soumettre",
+    "SUBMIT_BUTTON": "Soumettre",
+    "UNSAVED_CHANGES": "Modifications non enregistrées",
+    "UPDATE_BUTTON": "Mise à jour"
+  },
+  "STRATEGY_DATA_COLLECTION": {
+    "METHODS": {
+      "ACTION_PLANNING_PERFORMANCE_CONTRACTING": "Planification d'actions/contrats de performance",
+      "FOCUS_GROUP": "Groupe de discussion",
+      "INTERVIEW": "Entretien",
+      "OBSERVATION": "Observation",
+      "PERFORMANCE_MONITORING": "Suivi des performances",
+      "QUESTIONNAIRE": "Questionnaire",
+      "SURVEY": "Enquête",
+      "TEST": "Test"
+    },
+    "NOTIFICATION": {
+      "ERROR": {
+        "MESSAGE": "Veuillez recharger la page avant d'essayer de sauvegarder à nouveau.",
+        "TITLE": "Désolé, une erreur s'est produite et certaines modifications n'ont peut-être pas été enregistrées"
+      },
+      "SUCCESS_TITLE": "Succès ! Stratégie { categoryName } mise à jour."
+    },
+    "QUESTION_ANSWERS": {
+      "COLLECTION_TIMING": {
+        "1_MONTH_AFTER": "1 mois après",
+        "1_YEAR_AFTER": "1 an après",
+        "2_WEEKS_AFTER": "2 semaines après",
+        "3_MONTHS_AFTER": "3 mois après",
+        "6_MONTHS_AFTER": "6 mois après",
+        "IMMEDIATELY_AFTER": "Immédiatement après",
+        "PRE_PROGRAM": "Pré-programme"
+      },
+      "DATA_SOURCE": {
+        "CLIENT_BUSINESS_PARTNERS": "Clients/Partenaires commerciaux",
+        "COLLEAGUES_TEAM": "Collègues/Equipe",
+        "DIRECT_REPORTS": "Rapports directs",
+        "EXTERNAL_CUSTOMERS": "Clients externes",
+        "FACILITATORS": "Animateurs",
+        "MANAGERS": "Gestionnaires",
+        "OTHER": "Autre",
+        "PARTICIPANTS": "Participants"
+      },
+      "METHOD": {
+        "AUDIO_MONITORING": "Surveillance audio",
+        "BEHAVIOUR_CHECKLIST": "Liste de contrôle du comportement",
+        "CODED_BEHAVIOUR_RECORD": "Registre codé des comportements",
+        "COMPUTER_MONITORING_SOFTWARE": "Surveillance informatique (logiciel)",
+        "DELAYED_REPORT_METHOD": "Méthode de rapport différé",
+        "VIDEO_RECORDING": "Enregistrement vidéo"
+      }
+    },
+    "UNSAVED_CHANGES_MODAL": {
+      "CONFIRM_MESSAGE": "Oui, partez sans économiser",
+      "DISCARD_BUTTON": "Annuler",
+      "MESSAGE": "Il semblerait qu'il y ait des modifications non enregistrées dans la section Plan d'évaluation et résultats. Quitter cette page annulera toutes les modifications non enregistrées.",
+      "TITLE": "Modifications non enregistrées"
+    }
+  },
+  "SUCCESS": "Succès",
+  "SUCCESS_SNACKBAR_TITLE": "Succès!",
+  "TABLE_HEADER_ACTIONS": {
+    "EXPORT": "Exporter",
+    "FILTER": "Filtre",
+    "REORDER": "Réorganiser"
+  },
+  "TASK": {
+    "ACTUAL_COMPLETION_DATE": "Date d'achèvement réelle",
+    "ACTUAL_HOURS": "Heures réelles",
+    "ASSIGNEE": "Cessionnaire",
+    "DUE_DATE": "Date d'échéance",
+    "ESTIMATED_HOURS": "Heures estimées",
+    "INCLUDE_DISABLED": "Inclure les tâches désactivées",
+    "START_DATE": "Date de début",
+    "STATUS": "Statut",
+    "TASK_TYPE": "Type de tâche",
+    "TYPE": "Taper"
+  },
+  "TASKS": {
+    "ADD_TASK_BUTTON_TITLE": "Ajouter une tâche",
+    "ADD_TASK_MODAL": {
+      "END_DATE": "Date d'échéance",
+      "ESTIMATED_TIME": "Durée estimée",
+      "ESTIMATED_TIME_PLACEHOLDER": "Mentionnez les heures estimées pour la tâche",
+      "PROJECT_PLACEHOLDER": "Sélectionnez un projet",
+      "START_DATE": "Date de début",
+      "SUBTITLE": "Remplissez les informations pour ajouter cette tâche au projet",
+      "TASK_ASSIGNEE": "Responsable de la tâche",
+      "TASK_ASSIGNEE_PLACEHOLDER": "Affecter un utilisateur",
+      "TASK_DESCRIPTION": "Description de la tâche",
+      "TASK_DESCRIPTION_PLACEHOLDER": "Ajouter une description pour la tâche",
+      "TASK_TITLE": "Intitulé de la tâche",
+      "TASK_TITLE_PLACEHOLDER": "Ajouter un nom de tâche",
+      "TASK_TYPE": "Type de tâche",
+      "TASK_TYPE_PLACEHOLDER": "Sélectionnez le type de tâche",
+      "TITLE": "Ajouter une tâche"
+    },
+    "COMPLETED_PROGRESS_BAR_LABEL": "Tâches accomplies",
+    "FROM_BUNDLE": "À partir du bundle",
+    "FROM_FILE": "À partir du fichier",
+    "IMPORT": "Tâches d'importation",
+    "IMPORT_SUCCESS": "Vos tâches ont été importées avec succès !",
+    "IMPORT_TASKS_MODAL": {
+      "DESCRIPTION": "Choisissez le(s) groupe(s) de tâches pour importer des tâches dans votre projet.",
+      "LABEL": "Ensemble de tâches",
+      "SUCCESS_MESSAGE": "Tâches importées avec succès",
+      "TITLE": "Tâches d'importation",
+      "UPLOAD": "Importer des tâches à partir d'un fichier",
+      "UPLOAD_FROM_BUNDLE": "Importer des tâches à partir du bundle"
+    },
+    "MY_TASKS": "Mes tâches",
+    "NOTIFICATIONS": {
+      "CENTRALIZED": {
+        "CALLBACK": "Afficher votre tâche",
+        "MESSAGE": "Vous avez créé une nouvelle tâche."
+      },
+      "TASK_CREATION_SUCCESS": "La tâche a été créée avec succès et ajoutée à la file d’attente !",
+      "TASK_DELETION_SUCCESS": "La tâche a été supprimée.",
+      "TASK_DUPLICATION_SUCCESS": "La tâche a été dupliquée avec succès !"
+    },
+    "TABLE": {
+      "COPY_OF_PLACEHOLDER": "Copie de",
+      "DUPLICATE": "Double",
+      "EMPTY": "Ajouter des tâches pour ce projet",
+      "EXPORT": "Tâches d'exportation",
+      "EXPORT_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les tâches que vous souhaitez exporter en premier.",
+      "GET_STARTED": "Commencer",
+      "HEAD": {
+        "ACTUAL_DATE": "Date réelle",
+        "ACTUAL_HOURS": "Heures réelles",
+        "ASSIGNEE_UPDATE": "Responsable de la tâche",
+        "DISABLED": "Désactivé",
+        "DUE_ACTUAL_DATE": "Date d'échéance / réelle",
+        "DUE_DATE": "Date d'échéance",
+        "ENABLED": "Activé",
+        "ESTIMATED_ACTUAL_HOURS": "Heures Est./Réelles",
+        "ESTIMATED_HOURS": "Heures estimées",
+        "NAME": "Titre de la tâche",
+        "START_DATE": "Date de début",
+        "STATUS": "Statut",
+        "TASK_TYPE": "Type de tâche"
+      },
+      "INACTIVE": "Inactif",
+      "NO_ASSIGNEE": "Aucun participant assigné",
+      "NO_DATA": "Aucune donnée disponible à afficher",
+      "NO_DATE": "Aucune donnée disponible à afficher",
+      "NO_RECORDS": "Aucun résultat trouvé. Essayez un autre mot-clé.",
+      "NO_TASK_TYPE": "Aucun type de tâche défini",
+      "NO_TYPE": "Aucun type de tâche défini"
+    },
+    "TASK_DETAIL_PAGE": {
+      "ACTUAL_COMPLETION_DATE": "Date d'achèvement réelle",
+      "ACTUAL_HOURS": "Total des heures réelles",
+      "ACTUAL_HOURS_LAST_UPDATE": "(Dernière mise à jour { date })",
+      "ACTUAL_HOURS_PLACEHOLDER": "Ajoutez le temps réel passé sur la tâche",
+      "ACTUAL_HOURS_TOOLTIP": "Pour ajouter des heures réelles, déplacez la tâche vers En cours",
+      "ADDITIONAL_FLAGS": {
+        "DISABLED": "Désactivé"
+      },
+      "ADDITIONAL_FLAGS_LABELS": {
+        "DISABLED": "Inclure les personnes handicapées"
+      },
+      "ADD_ACTUAL_HOURS": "Ajouter les heures réelles",
+      "ASSIGNEES_REQUIRED": "Personne désignée pour l'achèvement de la tâche",
+      "CANCEL_LINK_FILE_TO_TASK": "Annuler",
+      "CANCEL_UPDATES_BUTTON": "Annuler",
+      "COMMENTS": {
+        "ADD_COMMENT": "Ajouter un commentaire",
+        "NO_COMMENTS": "Pas encore de commentaires",
+        "NO_SUGGESTIONS": "Nous n’avons pas pu trouver cette personne.",
+        "TITLE": "{ num, plural, =0 {Commentaires} =1 {1 Commentaire} other {# Commentaires} }",
+        "VIEW_COMMENTS": "Voir les commentaires"
+      },
+      "CONTENT": {
+        "ADD_CONTENT": "Ajouter du contenu",
+        "CONTENT_LINKED_MESSAGE": "Les liens de contenu ont été mis à jour",
+        "CONTENT_UNLINK_MESSAGE": "Le contenu a été supprimé avec succès !",
+        "DESIGN": "Conception",
+        "FILES_ADDED_MESSAGE": "Les fichiers ont été ajoutés avec succès !",
+        "LINK": "Lien",
+        "LINK_CONTENT": "Contenu du lien",
+        "LINK_CONTENT_MODAL_BODY": "Choisissez les éléments de contenu",
+        "LINK_CONTENT_MODAL_TITLE": "Lier/dissocier un contenu existant",
+        "NO_CONTENT": "Aucun contenu n'a encore été ajouté.",
+        "SUBTITLE": "Ajoutez des fichiers et des liens Web à votre tâche. Tous les éléments seront enregistrés dans la section Contenu du projet.",
+        "TITLE": "Contenu",
+        "TOOLTIP_CONTENT": {
+          "ADDED_BY": "Ajouté par",
+          "ON_DATE": "le { date }"
+        },
+        "WEBLINK": "Lien Web"
+      },
+      "DELETE_TASK_MODAL": {
+        "BODY": "Ce faisant, toutes les informations seront définitivement supprimées du système.",
+        "CANCEL": "Annuler",
+        "QUESTION": "Etes-vous sûr de vouloir supprimer cette tâche ?",
+        "SUBMIT": "Oui, supprimer la tâche",
+        "TITLE": "Supprimer la tâche"
+      },
+      "DUE_DATE_LABEL": "Date d'échéance",
+      "ENABLE_TASK": "Activer la tâche",
+      "ESTIMATED_TIME_LABEL": "Heures estimées",
+      "ESTIMATED_TIME_PLACEHOLDER": "Mentionnez les heures estimées pour la tâche",
+      "HOURS_LABEL": "heures",
+      "LINK_FILE_TO_TASK": "Lien",
+      "MISSING_INFO_ERROR": "Informations manquantes",
+      "MORE_ACTIONS_DROPDOWN": {
+        "DELETE": "Supprimer la tâche"
+      },
+      "SAVE_UPDATES_BUTTON": "Tâche de mise à jour",
+      "SINGULAR_TITLE": "Tâches",
+      "START_DATE_LABEL": "Date de début",
+      "STATUS": "Statut",
+      "STATUS_OPTIONS": {
+        "COMPLETED": "Complété",
+        "IN_PROGRESS": "En cours",
+        "NEW": "Nouveau",
+        "ON_HOLD": "En attente"
+      },
+      "STATUS_PLACEHOLDER": "Sélectionnez le statut de la tâche",
+      "TASK_ASSIGNEE": "Responsable de la tâche",
+      "TASK_DESCRIPTION_LABEL": "Description de la tâche",
+      "TASK_DESCRIPTION_PLACEHOLDER": "Ajouter une description pour la tâche",
+      "TASK_DISABLED_WARNING": "Les tâches désactivées ne sont pas modifiables et le temps passé dessus ne sera pas inclus dans le calcul final.",
+      "TASK_ON_HOLD_WARNING": "Cette tâche a été suspendue.",
+      "TASK_PAST_DUE_WARNING": "Cette tâche a dépassé sa date d'échéance.",
+      "TASK_TITLE_LABEL": "Titre de la tâche",
+      "TASK_TITLE_PLACEHOLDER": "Ajouter un nom de tâche",
+      "TASK_TYPE": "Type de tâche",
+      "TASK_UPDATE_ERROR": "Cette tâche manque d'informations et n'a pas été mise à jour",
+      "TITLE": "Informations sur la tâche",
+      "UPDATE_SUCCESSFUL": "Tâche mise à jour avec succès",
+      "VIEW_ACTUAL_HOURS": "Voir les heures réelles"
+    },
+    "TASK_TYPES": {
+      "ANALYSIS": "Analyse",
+      "APPROVAL": "Approbation",
+      "ASSESSMENT_CREATION": "Création d'évaluation",
+      "CLOSING": "Clôture",
+      "COMMUNICATION": "Communication",
+      "CONTENT_CREATION": "Création de contenu",
+      "CONTENT_UPDATE": "Mise à jour du contenu",
+      "DELIVERY": "Livraison/Facilitation",
+      "DESIGN": "Conception",
+      "DEVELOPMENT": "Développement",
+      "ERROR_CORRECTION": "Correction d'erreur",
+      "EVALUATION": "Évaluation",
+      "EXECUTION": "Exécution",
+      "EXTERNAL_REVIEW": "Examen externe",
+      "FILE_UPLOAD": "Téléchargement de fichiers",
+      "GRAPHIC_DESIGN": "Conception graphique",
+      "IMPLEMENTATION": "Mise en œuvre",
+      "INITIATING": "Initiation",
+      "INSTRUCTIONAL_DESIGN": "Conception pédagogique",
+      "LMS_DEPLOYMENT": "Déploiement LMS",
+      "LMS_SUPPORT": "Administrateur et support LMS",
+      "MEDIA_PRODUCTION": "Production médiatique",
+      "MONITORING": "Surveillance",
+      "OTHERS": "Autres",
+      "PLANNING": "Planification",
+      "PROGRAM_MANAGEMENT": "Gestion de programme",
+      "PROJECT_MANAGEMENT": "Gestion de projet",
+      "PUBLISH": "Publier",
+      "QA": "Assurance qualité",
+      "RESEARCH": "Recherche",
+      "REVIEW": "Revoir",
+      "SCHEDULING": "Planification/Inscription"
+    },
+    "TEAM_TASKS": "Tâches d'équipe"
+  },
+  "TASKS_LIST_PAGE": {
+    "BACK_LINK": "Liste des tâches",
+    "EXPORT_TASKS": "Tâches d'exportation",
+    "EXPORT_TASKS_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les tâches que vous souhaitez exporter en premier.",
+    "MY_TASKS": "Mes tâches",
+    "TABLE": {
+      "EMPTY": "Commencez à ajouter des tâches.",
+      "HEAD": {
+        "ACTUAL_HOURS": "Heures réelles",
+        "ASSIGNEE": "Cessionnaire(s)",
+        "DUE_DATE": "Date d'échéance",
+        "ESTIMATED_HOURS": "Heures d'ouverture estimées",
+        "PROJECT": "Projet",
+        "START_DATE": "Date de début",
+        "STATUS": "Statut",
+        "TASK_NAME": "Nom"
+      }
+    },
+    "TEAM_TASKS": "Tâches d'équipe",
+    "TITLE": "Tâches"
+  },
+  "TASK_ACTUAL_HOURS": {
+    "CAPTION": "Utilisez cette section pour ajouter ou supprimer vos heures réelles consacrées à la tâche",
+    "NO_ACTUAL_HOURS_DATA": "Nous sommes désolés, mais il n'y a pas d'heures réelles disponibles à afficher pour cette tâche.",
+    "NO_DATE": "Aucune date disponible pour l'affichage",
+    "NO_USER_DATA": "Aucun détail utilisateur disponible à afficher",
+    "TITLE": "Journal des heures réelles",
+    "TODAY": "Aujourd'hui",
+    "WARNING": "La suppression des données relatives aux heures réelles peut affecter les délais du projet et le suivi de sa progression."
+  },
+  "TASK_MODAL": {
+    "ADD_PROMPT": "Remplissez les informations pour ajouter cette tâche au { container }",
+    "TITLE": "{ action } Tâche",
+    "UPDATE_PROMPT": "Remplissez les informations pour mettre à jour cette tâche dans le { container }"
+  },
+  "TEAMS": {
+    "CAPACITY": "Capacité",
+    "CAPACITY_LEGENDS": {
+      "ALLOCATION": "Allocation",
+      "AVAILABLE_HOURS": "Horaires disponibles :",
+      "HOURS_OCCUPIED": "Heures occupées :",
+      "NO_DEFAULT_CAPACITY": "Affecter la capacité",
+      "OVER_ALLOCATION": "Surallocation",
+      "TIMEOFF_HOLIDAYS": "Congés/vacances",
+      "WEEK_CAPACITY": "Capacité de la semaine :"
+    },
+    "CURRENCY": "Dollars américains",
+    "EMPLOYMENT_TYPE": {
+      "CONTRACTOR": "Entrepreneur",
+      "FULL_TIME": "À temps plein",
+      "INTERN": "Interne",
+      "PART_TIME": "Temps partiel",
+      "UNDEFINED": "Non attribué"
+    },
+    "EXPORT_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les membres de l’équipe que vous souhaitez exporter en premier.",
+    "JOB_FUNCTIONS": {
+      "BUSINESS_RELATIONSHIP_MANAGEMENT": "Gestion des relations d'affaires",
+      "COACHING": "Entraînement",
+      "COMMUNICATION": "Communication",
+      "CONSULTING": "Consultant",
+      "CONTENT_WRITING": "Rédaction de contenu",
+      "COORDINATION": "Coordination",
+      "DATA_REPORTING_ANALYSIS": "Analyse des données/rapports",
+      "FACILITATION": "Facilitation",
+      "FINANCIAL_MANAGEMENT": "Gestion financière",
+      "GOVERNANCE": "Gouvernance",
+      "GRAPHIC_DESIGN": "Conception graphique",
+      "INSTRUCTIONAL_DESIGN": "Conception pédagogique",
+      "INTAKE_MANAGEMENT": "Gestion de l'admission",
+      "LEADERSHIP_DEVELOPMENT": "Développement du leadership",
+      "LEARNING_DEVELOPMENT": "Développement de l'apprentissage",
+      "LEARNING_PLATFORM_ADMINISTRATION": "Administration de la plateforme d'apprentissage",
+      "LEARNING_STRATEGY": "Stratégie d'apprentissage",
+      "LEARNING_SUPPORT": "Soutien à l'apprentissage",
+      "LEARNING_TECHNOLOGY": "Technologie d'apprentissage",
+      "MARKETING": "Commercialisation",
+      "MEASUREMENT": "Mesures",
+      "OTHERS": "Autres",
+      "PLANNING": "Planification",
+      "PORTFOLIO_MANAGEMENT": "Gestion de portefeuille",
+      "PROGRAM_MANAGEMENT": "Gestion de programme",
+      "PROJECT_MANAGER": "Gestion de projet",
+      "QUALITY_ASSURANCE": "Assurance qualité",
+      "REPORTING": "Rapports",
+      "RESOURCE_MANAGEMENT": "Gestion des ressources",
+      "SUBJECT_MATTER_EXPERT": "Expert en la matière",
+      "TALENT_DEVELOPMENT": "Développement des talents",
+      "TEAM_MANAGEMENT": "Gestion d'équipe",
+      "TRANSLATION": "Traduction",
+      "VENDOR_MANAGEMENT": "Gestion des fournisseurs",
+      "VIDEO_PRODUCTION": "Production vidéo",
+      "WEB_DEVELOPMENT": "Développement Web"
+    },
+    "SAVE": "Sauvegarder",
+    "SKILLS": {
+      "ACCOUNT_MANAGEMENT": "Gestion de compte",
+      "ANIMATION": "Animation",
+      "ASSESSMENT_CREATION": "Création d'évaluation",
+      "AUDIO_EDITING": "Montage audio",
+      "BRAND_DEVELOPMENT": "Développement de la marque",
+      "BUSINESS_ANALYSIS": "Analyse d'entreprise",
+      "BUSINESS_DEVELOPMENT": "Développement des affaires",
+      "BUSINESS_INTELLIGENCE": "Intelligence d'affaires",
+      "BUSINESS_RELATION_MANAGEMENT": "Gestion des relations d'affaires",
+      "CASCADING_STYLE_SHEETS": "Feuilles de style en cascade",
+      "CHANGE_MANAGEMENT": "Gestion du changement",
+      "COACHING": "Entraînement",
+      "COMMUNICATION": "Communication",
+      "CONSULTING": "Consultant",
+      "CONTENT_MANAGEMENT_SYSTEM": "Système de gestion de contenu",
+      "CONTENT_WRITING_EDITING": "Rédaction/édition de contenu",
+      "CONTRACT_MANAGEMENT": "Gestion des contrats",
+      "COORDINATION": "Coordination",
+      "CURRICULUM_DESIGN_DEVELOP": "Conception/élaboration de programmes d'études",
+      "DATABASE": "Base de données",
+      "DATA_ANALYSIS": "Analyse des données",
+      "DIGITAL_MARKETING": "Marketing numérique",
+      "EVALUATION": "Évaluation",
+      "EVENT_MANAGEMENT": "Gestion d'événements",
+      "E_LEARNING": "Apprentissage en ligne",
+      "FACILITATION": "Facilitation",
+      "FINANCIAL_ANALYSIS": "Analyse financière",
+      "FINANCIAL_MANAGEMENT": "Gestion financière",
+      "GOVERNANCE": "Gouvernance",
+      "GRAPHIC_DESIGN": "Conception graphique",
+      "HTML5": "HTML5",
+      "HUMAN_RESOURCE_MANAGEMENT_SYSTEM": "Système de gestion des ressources humaines",
+      "INFORMATION_ARCHITECTURE": "Architecture de l'information",
+      "INSTRUCTIONAL_DESIGN": "Conception pédagogique",
+      "INTAKE_MANAGEMENT": "Gestion de l'admission",
+      "JAVASCRIPT": "Javascript",
+      "LEADERSHIP": "Direction",
+      "LEARNING_MANAGEMENT_SYSTEM": "Système de gestion de l'apprentissage",
+      "MARKETING": "Commercialisation",
+      "MEASUREMENT": "Mesures",
+      "MOBILE_APP_DESIGN": "Conception d'applications mobiles",
+      "MOBILE_APP_DEVELOPMENT": "Développement d'applications mobiles",
+      "PEOPLE_ANALYTICS": "Analyse des personnes",
+      "PERFORMANCE_MANAGEMENT": "Gestion des performances",
+      "PHOTOGRAPHY": "Photographie",
+      "PLANNING": "Planification",
+      "PROCESS_IMPROVEMENT": "Amélioration des processus",
+      "PRODUCT_MANAGEMENT": "Gestion de produit",
+      "PROGRAMMING": "Programmation",
+      "PROJECT_MANAGEMENT": "Gestion de projet",
+      "PROOFREADING": "Relecture",
+      "QUALITY_ASSURANCE": "Assurance qualité",
+      "REPORTING": "Rapports",
+      "REQUIREMENT_ANALYSIS": "Analyse des besoins",
+      "REQUIREMENT_GATHERING": "Collecte des besoins",
+      "RESEARCH": "Recherche",
+      "RESOURCE_MANAGEMENT": "Gestion des ressources",
+      "SEARCH_ENGINE_OPTIMIZATION": "Optimisation des moteurs de recherche",
+      "SOCIAL_MEDIA": "Réseaux sociaux",
+      "SOCIAL_MEDIA_MARKETING": "Marketing des médias sociaux",
+      "SOFTWARE - SHAREPOINT": "Logiciel - SharePoint",
+      "SOFTWARE_ADOBE_CAPTIVATE": "Logiciel - Adobe Captivate",
+      "SOFTWARE_ADOBE_ILLUSTRATOR": "Logiciel - Adobe Illustrator",
+      "SOFTWARE_ADOBE_PHOTOSHOP": "Logiciel - Adobe Photoshop",
+      "SOFTWARE_ARTICULATE": "Logiciel - Articulate",
+      "SOFTWARE_CAMTASIA": "Logiciel - Camtasia",
+      "SOFTWARE_EASYGENERATOR": "Logiciel - Easygenerator",
+      "SOFTWARE_ELUCIDAT": "Logiciel - Elucidat",
+      "SOFTWARE_ISPRING_SUITE": "Logiciel - iSpring Suite",
+      "SOFTWARE_LECTORA": "Logiciel - Lectora",
+      "SOFTWARE_MICROSOFT_EXCEL": "Logiciel - Microsoft Excel",
+      "SOFTWARE_MICROSOFT_POWERPOINT": "Logiciel - Microsoft PowerPoint",
+      "SOFTWARE_MICROSOFT_WORD": "Logiciel - Microsoft Word",
+      "SURVEY_DESIGN": "Conception d'enquête",
+      "TALENT_MANAGEMENT": "Gestion des talents",
+      "TEAM_MANAGEMENT": "Gestion d'équipe",
+      "TRAINING_DELIVERY": "Prestation de formation",
+      "USABILITY TESTING": "Tests d'utilisabilité",
+      "UX_DESIGN": "Conception UX",
+      "UX_RESEARCH": "Recherche UX",
+      "VENDOR_MANAGEMENT": "Gestion des fournisseurs",
+      "VIDEO_EDITING": "Montage vidéo",
+      "VIRTUAL_REALITY": "Réalité virtuelle",
+      "WEB_DESIGN": "Conception de sites Web",
+      "WEB_DEVELOPMENT": "Développement Web"
+    },
+    "TABLE": {
+      "COUNTRY": "Pays",
+      "EMPLOYMENT_TYPE": "Type d'emploi",
+      "HOURLY_RATE": "Taux horaire",
+      "JOB_TITLE": "Titre d'emploi",
+      "TEAM_MANAGER": "Chef d'équipe",
+      "TEAM_MEMBERS": "Membres de l'équipe"
+    },
+    "TEAM": "Équipe",
+    "TIME_OFF": {
+      "ADD": "Ajouter",
+      "ADD_NEW_TIME_OFF": "Ajouter un nouveau congé",
+      "ADD_REMOVE_TIME_OFF": "Ajouter et supprimer des congés",
+      "EMPTY_TABLE": "Aucun congé ajouté",
+      "END": "Fin",
+      "HISTORY": "Histoire",
+      "REMOVE": "Retirer",
+      "SELECT_TYPE": "Sélectionnez un type de congé",
+      "START": "Commencer",
+      "TABLE_HEAD": {
+        "DATES": "Dates",
+        "TIME_OFF_TYPE": "Type de congé"
+      },
+      "TIME_OFF_TYPES": {
+        "UNDEFINED": "Non attribué",
+        "custom_holiday": "Vacances personnalisées",
+        "others": "Autres",
+        "paid_time_off": "Congés personnels",
+        "parental_leave": "Congé parental",
+        "sick_day_off": "Congé de maladie",
+        "vacation": "Vacances"
+      },
+      "TITLE": "Gérer les congés : { user }",
+      "UPCOMING_TIME_OFF": "Prochain congé"
+    },
+    "UPDATE_MENU": {
+      "MANAGE_TIME_OFF": "Gérer les congés",
+      "UPDATE_INFO": "Mise à jour des informations"
+    },
+    "UPDATE_MODAL": {
+      "COUNTRY": "Pays",
+      "EMAIL_ID": "ID de courrier électronique",
+      "EMPLOYMENT_TYPE": "Type d'emploi",
+      "HRS": "heures",
+      "JOB_FUNCTIONS": "Fonctions du poste",
+      "JOB_TITLE": "Titre d'emploi",
+      "LANGUAGES": "Langue(s)",
+      "RATE_PER_HOUR": "Taux horaire",
+      "SKILLS": "Compétences",
+      "WEEKLY_CAPACITY": "Capacité hebdomadaire par défaut"
+    }
+  },
+  "TEAMS_CAPACITY": {
+    "ADD_TEAM": "Ajouter une équipe",
+    "ALLOCATION_SUMMARY_HOURS": "{ hours }h",
+    "ALLOCATION_SUMMARY_TOOLTIP": {
+      "ASSIGNED_HOURS": "{ teamLevel, plural, =1{Équipe } other{} }Heures attribuées :",
+      "AVAILABLE_HOURS": "{ teamLevel, plural, =1{Équipe } other{} }Heures disponibles :",
+      "DEFAULT_CAPACITY": "{ teamLevel, plural, =1{Équipe } other{} }{ view } Capacité :",
+      "TIME_OFF": "{ teamLevel, plural, =1{Team } other{} }Congé :"
+    },
+    "ASSIGNED_HOURS": "Heures assignées :",
+    "ASSIGN_CAPACITY": "Affecter la capacité",
+    "AVAILABLE_HOURS": "Horaires disponibles :",
+    "FETCH_MORE_TEAMS": "Afficher plus d'équipes",
+    "GET_STARTED_ADD_TEAMS": "Commencez à ajouter des équipes.",
+    "HIDE_PROJECTS": "Masquer les projets",
+    "NO_PROJECTS_ASSIGNED": "Aucun projet assigné",
+    "NO_TASKS_ASSIGNED": "Aucune tâche assignée",
+    "NO_TEAMS_ASSIGNED": "Aucune équipe assignée",
+    "NO_TEAM_MEMBERS": "(Aucun membre de l'équipe)",
+    "NUMBER_OF_TEAM_MEMBERS": "({ numberMembers } { numberMembers, plural, =1 {membre} other {membres} })",
+    "TABLE_CAPTION": "Capacité des équipes",
+    "TEAMS_AND_MEMBERS_COLUMN_TITLE": "Équipes avec membres d'équipe ({ numberOfTeams })",
+    "TEAM_MANAGER": "Chef d'équipe",
+    "TEAM_NAME_COLUMN": "Nom de l'équipe",
+    "VIEW_PICKER": {
+      "BETA": "Bêta",
+      "BETA_WEEKLY": "Hebdomadaire",
+      "DAILY": "Tous les jours",
+      "WEEKLY": "Hebdomadaire"
+    },
+    "VIEW_PROJECTS": "Voir les projets",
+    "WEEKLY_CAPACITY": "Capacité hebdomadaire :",
+    "WEEKLY_TIME_OFF": "Congé/jour férié cette semaine"
+  },
+  "TEAM_NAME": "{ num, plural, =1 {Nom de l'équipe} other {Noms des équipes} }",
+  "TIMEOFF_DELETION_SUCCESS": {
+    "TIMEOFF_DELETED": "Le congé a été supprimé avec succès de la liste"
+  },
+  "TITLES": {
+    "BASIC_INFORMATION_TITLE": "Informations de base"
+  },
+  "TOGGLE_OFF": "Désactivé",
+  "TOGGLE_ON": "Sur",
+  "TRAINING_REQUEST_PORTAL": "Portail de demande de formation",
+  "TRIAL_REGISTRATION_PAGE": {
+    "HEADING": "Enregistrez votre compte",
+    "INPUT": {
+      "COMPANY": {
+        "LABEL": "Entreprise",
+        "PLACEHOLDER": "Entrez le nom de votre entreprise"
+      },
+      "CONFIRM_PASSWORD": {
+        "LABEL": "Confirmez le mot de passe",
+        "PLACEHOLDER": "Confirmez votre mot de passe"
+      },
+      "COUNTRY": {
+        "LABEL": "Pays",
+        "PLACEHOLDER": "Sélectionnez votre pays"
+      },
+      "EMAIL": {
+        "LABEL": "E-mail",
+        "PLACEHOLDER": "Entrez votre email"
+      },
+      "FIRST_NAME": {
+        "LABEL": "Prénom",
+        "PLACEHOLDER": "Entrez votre prénom"
+      },
+      "JOB_TITLE": {
+        "LABEL": "Titre d'emploi",
+        "PLACEHOLDER": "Entrez votre titre de poste"
+      },
+      "LAST_NAME": {
+        "LABEL": "Nom de famille",
+        "PLACEHOLDER": "Entrez votre nom de famille"
+      },
+      "PASSWORD": {
+        "LABEL": "Mot de passe",
+        "PLACEHOLDER": "Entrez un mot de passe",
+        "TOOLTIP": {
+          "LENGTH": "8 - 64 caractères",
+          "NUMBER": "Un numéro",
+          "SPECIAL_CHARACTERS": "Un personnage spécial",
+          "TITLE": "Le mot de passe doit inclure",
+          "UPPERCASE": "Une lettre majuscule"
+        }
+      }
+    },
+    "INVALID_ACCOUNT_ERROR": "L'identifiant de compte fourni n'est pas valide",
+    "INVALID_TOKEN_ERROR": "Ce jeton d'inscription n'est pas valide. Veuillez contacter le service client, nous vous aiderons immédiatement !",
+    "LOGIN_BUTTON": "Connectez-vous plutôt",
+    "REGISTER_BUTTON": "Inscrivez-vous maintenant",
+    "TERMS_CHECK": "J'accepte les <a { linkClass } href='https://cognota.com/terms-of-use/' target='_blank' rel='noreferrer'>Conditions d'utilisation</a> et la <a { linkClass } href='https://cognota.com/privacy-policy/' target='_blank' rel='noreferrer'>Politique de confidentialité</a>.",
+    "USERNAME_EXISTS_ERROR": "Cet email est invalide ou a déjà été pris."
+  },
+  "UNARCHIVE": "Désarchiver",
+  "UNSAVED_CHANGES": {
+    "CONFIRM_MESSAGE": "Souhaitez-vous continuer ?",
+    "DISCARD_BUTTON": "Oui, annuler les modifications",
+    "MESSAGE": "Vous avez effectué des modifications non enregistrées sur cette page. Si vous quittez cette page sans les enregistrer, vos modifications seront perdues.",
+    "TITLE": "Modifications non enregistrées"
+  },
+  "UPDATE": "Mise à jour",
+  "UPDATE_PROJECT_PAGE": {
+    "ALL_PROJECTS": "Tous les projets",
+    "NOT_UPDATED": "Ce projet manque d'informations et n'a pas été mis à jour.",
+    "UPDATE": "Projet de mise à jour",
+    "UPDATED": "Ce projet a été mis à jour avec succès !",
+    "UPDATE_FAILED": "Ce projet n'a pas pu être mis à jour. Veuillez réessayer."
+  },
+  "UPDATE_PROJECT_PAGE_TABS": {
+    "BUDGET": "Budget",
+    "CONTENT": "Contenu",
+    "OVERVIEW": "Aperçu",
+    "PEOPLE": "Ressources",
+    "TASKS": "Tâches"
+  },
+  "UPGRADE": "Mise à niveau",
+  "UPGRADE_PAGE": {
+    "CTA": "Mettre à jour maintenant",
+    "MESSAGE": "Mais vous pouvez toujours passer à l'étape suivante. Découvrez nos différents plans et choisissez la meilleure option pour votre équipe.",
+    "TITLE": "Votre procès est terminé"
+  },
+  "USERS_PAGE": {
+    "TABLE": {
+      "EXPORT": {
+        "EXPORT_TOOLTIP": "À l’aide de la case à cocher, sélectionnez les utilisateurs que vous souhaitez exporter en premier.",
+        "EXPORT_USERS": "Exporter les utilisateurs"
+      },
+      "HEAD": {
+        "ACCOUNT_STATUS": "Statut du compte",
+        "EMPLOYMENT_TYPE": "Type d'emploi",
+        "HOURLY_RATE": "Taux horaire",
+        "JOB_TITLE": "Titre d'emploi",
+        "LOCATION": "Emplacement",
+        "ROLE": "Rôle",
+        "TEAM": "Équipe",
+        "USER_EMAIL": "Courriel de l'utilisateur",
+        "USER_NAME": "Nom d'utilisateur",
+        "USER_TYPE": "Type d'utilisateur"
+      },
+      "IMPORT": {
+        "IMPORT_BUSINESS_USERS": "Importer des utilisateurs professionnels",
+        "IMPORT_FACILITATOR_USERS": "Utilisateurs du facilitateur d'importation",
+        "IMPORT_LEARNING_USERS": "Importer des utilisateurs d'apprentissage",
+        "IMPORT_NOT_NUMBER": "La valeur d'origine n'était pas valide",
+        "IMPORT_USERS_FILE": "Importer des utilisateurs à partir d'un fichier",
+        "REPEATED_EMAIL": "L'email est déjà enregistré",
+        "SUCCESS": "Les utilisateurs ont été importés avec succès !"
+      },
+      "USER_PENDING": {
+        "PENDING": "En attente"
+      },
+      "USER_ROLE": {
+        "ADMIN": "Administrateur",
+        "USER": "Utilisateur"
+      },
+      "USER_STATUS": {
+        "DISABLED_INVITED": "Désactivé",
+        "DISABLED_REGISTERED": "Désactivé",
+        "INVITED": "Invité",
+        "REGISTERED": "Actif"
+      },
+      "USER_TYPE": {
+        "BUSINESS": "Utilisateur professionnel",
+        "EXTERNAL": "Utilisateur externe",
+        "FACILITATOR": "Utilisateur facilitateur",
+        "LD": "Utilisateur de l'équipe d'apprentissage"
+      }
+    },
+    "TITLE": "Comptes d'utilisateurs"
+  },
+  "USER_TIME_OFF_PAGE": {
+    "ADD_TIME_OFF": "Ajouter du temps libre",
+    "FORM": {
+      "TITLE": "{ action } Congé",
+      "TYPE_PLACEHOLDER": "Sélectionnez un type de congé"
+    },
+    "SIDE_PANEL": {
+      "ACTIONS": {
+        "ADD": "ajouté",
+        "REMOVE": "supprimé",
+        "UPDATE": "mis à jour"
+      },
+      "SUCCESS_MESSAGE": "Succès ! Temps libre { action }."
+    },
+    "SUBTITLE": "Ajoutez et supprimez vos congés",
+    "TABLE": {
+      "COLUMNS": {
+        "DATES": "Dates",
+        "END_DATE": "Date de fin",
+        "START_DATE": "Date de début",
+        "TYPE": "Type de congé"
+      },
+      "EMPTY": "Aucun congé n'a encore été ajouté"
+    },
+    "TITLE": "Mon temps libre"
+  },
+  "VENDORS_PAGE": {
+    "ADDRESS": "Adresse",
+    "ADD_VENDOR_LINK": "Ajouter un fournisseur",
+    "CONTACT_NAME": "Nom du contact",
+    "DISABLED_NOTIFICATION": "Le fournisseur a été désactivé avec succès.",
+    "EDIT_SUCCESS": "Le fournisseur a été mis à jour avec succès.",
+    "EMAIL": "E-mail",
+    "ENABLED_NOTIFICATION": "Le fournisseur a été activé avec succès.",
+    "ENABLE_VENDOR": "Activer le fournisseur",
+    "NOT_UPDATED": "Il manque des informations sur le fournisseur et elles n'ont pas été mises à jour.",
+    "PHONE": "Téléphone",
+    "PROVINCE": "État/Province",
+    "SUCCESS_NOTIFICATION": "Un nouveau fournisseur a été ajouté avec succès !",
+    "TABLE": {
+      "EMPTY_STATE": "Aucun fournisseur ajouté",
+      "HEAD": {
+        "COUNTRY": "Pays",
+        "CREATION_DATE": "Date de création",
+        "DESCRIPTION": "Description",
+        "ENABLED": "Activé",
+        "LOCATION": "Localisation (État/Province)",
+        "VENDOR_NAME": "Nom du vendeur"
+      },
+      "NOT_ASSIGNED": "Non attribué"
+    },
+    "TITLE": "Fournisseurs",
+    "VENDOR_ADDRESS": "Entrez l'adresse",
+    "VENDOR_CONTACT_NAME": "Ajouter le nom du contact",
+    "VENDOR_COUNTRY": "Sélectionnez un pays",
+    "VENDOR_DESCRIPTION": "Entrez la description du fournisseur",
+    "VENDOR_DETAILS": "Remplissez les détails pour ajouter un fournisseur",
+    "VENDOR_EMAIL": "Ajouter une adresse e-mail de contact",
+    "VENDOR_NAME": "Entrez le nom du vendeur",
+    "VENDOR_PHONE": "Ajouter un numéro de téléphone de contact",
+    "VENDOR_PROVINCE": "Sélectionnez un état ou une province",
+    "VENDOR_WEBSITE": "Entrer sur le site web",
+    "WEBSITE": "Site web"
+  },
+  "VERIFY_PAGE": {
+    "BODY": {
+      "LINE_ONE": "Vous serez redirigé vers la page de connexion dans 5 secondes",
+      "LINE_TWO": "Vous n'avez pas été redirigé ?"
+    },
+    "ERROR": {
+      "BODY": "Il semble que le lien que vous utilisez ne soit plus valide. Pour obtenir un nouveau lien, veuillez cliquer sur le bouton ci-dessous.",
+      "LINK": "Générer un lien",
+      "TITLE": "Quelque chose s'est mal passé"
+    },
+    "LINK": "Connectez-vous ici",
+    "TITLE": "Votre compte a été vérifié !"
+  },
+  "YES": "Oui",
+  "YES_DELETE": "Oui, supprimer"
+}

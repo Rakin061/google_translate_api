@@ -1,0 +1,23 @@
+{
+  "ADD": "Agregar",
+  "ADD_A_TEAM": "Agregar un equipo",
+  "BACK": "Atrás",
+  "CANCEL": "Cancelar",
+  "CLOSE": "Cerca",
+  "COMPANY_NAME": "Cognota",
+  "CONFIRM": "Confirmar",
+  "CONTINUE": "Continuar",
+  "CREATE": "Crear",
+  "DISCARD_CHANGES": "Descartar cambios",
+  "DONE": "Hecho",
+  "EDIT": "Editar",
+  "FOOTER": "TM y © { year } <a { externalLink } href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> Todos los derechos reservados.",
+  "LOADING": "Cargando",
+  "REMOVE": "Eliminar",
+  "SAVE": "Ahorrar",
+  "SAVE_NOW": "Ahorra ahora",
+  "SAVE_OPEN": "Guardar y abrir",
+  "TRAINING_REQUEST_PORTAL": "Portal de solicitud de formación",
+  "UPDATE": "Actualizar",
+  "YES_DELETE": "Sí, eliminar"
+}

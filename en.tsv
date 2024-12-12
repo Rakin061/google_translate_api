@@ -1,0 +1,30 @@
+FOOTER	TM & © { [[Z_year_Z]] } <a { [[Z_externalLink_Z]] } href='https://cognota.com/' target='_blank' rel='noreferrer'>Cognota, Inc.</a> All rights reserved.
+DESCRIPTION	{ [[Z_NUM_Z]], [[Z_PLURAL_Z]], =1 {Description} [[Z_OTHER_Z]] {Descriptions} }
+DAYS_LEFT	{ [[Z_days_Z]] } { [[Z_days_Z]], [[Z_plural_Z]], =1 {day} [[Z_other_Z]] {days} } left
+IMPORT_FROM_FILE	Import { [[Z_element_Z]] } by uploading a file
+ENTITIES.ACCOUNT	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Account} [[Z_other_Z]] {Accounts} }
+ENTITIES.BUSINESS_TEAM	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Business Team} [[Z_other_Z]] {Business Teams} }
+ENTITIES.LEARNING_TEAM	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Learning Team} [[Z_other_Z]] {Learning Teams} }
+ENTITIES.ORGANIZATION	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Organization} [[Z_other_Z]] {Organizations} }
+ENTITIES.CONFIGURATION	{ [[Z_NUM_Z]], [[Z_PLURAL_Z]], =1 {Configuration} [[Z_OTHER_Z]] {Configurations} }
+ENTITIES.PROJECT	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Project} [[Z_other_Z]] {Projects} }
+ENTITIES.REQUEST_FORM	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Request Form} [[Z_other_Z]] {Request Forms} }
+ENTITIES.USER	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {User} [[Z_other_Z]] {Users} }
+ENTITIES.VENDOR	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Vendor} [[Z_other_Z]] {Vendors} }
+ENTITIES.TEAM	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Team} [[Z_other_Z]] {Teams} }
+ENTITIES.TEAM_MANAGER	Team Manager(s)
+ENTITIES.PROCESS	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Process} [[Z_other_Z]] {Processes} }
+ENTITIES.TEMPLATE	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Template} [[Z_other_Z]] {Templates} }
+ENTITIES.PROGRAMS	All Programs
+ENTITIES.FIELDS	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Field} [[Z_other_Z]] {Fields} }
+ENTITIES.PROGRAM	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Program} [[Z_other_Z]] {Programs} }
+ENTITIES.TASK_BUNDLE	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Task Bundle} [[Z_other_Z]] {Task Bundles} }
+TEAM_NAME	{ [[Z_num_Z]], [[Z_plural_Z]], =1 {Team Name} [[Z_other_Z]] {Team Names} }
+HOURS_LABEL	{ [[Z_HOURS_Z]] } { [[Z_HOURS_Z]], [[Z_PLURAL_Z]], =1 {hour} [[Z_OTHER_Z]] {hours} }
+TRIAL_REGISTRATION_PAGE.TERMS_CHECK	I agree to the <a { [[Z_linkClass_Z]] } href='https://cognota.com/terms-of-use/' target='_blank' rel='noreferrer'>Terms of Use</a> and <a { [[Z_linkClass_Z]] } href='https://cognota.com/privacy-policy/' target='_blank' rel='noreferrer'>Privacy Policy</a>.
+ORG_SETTINGS_PAGE.LEARNING_TEAMS.ROLES	{ [[Z_op_Z]], [[Z_plural_Z]], =1 {Role} [[Z_other_Z]] {Roles} }
+ADD_USER.ADD_USER_MODAL.TITLE	Add { [[Z_op_Z]], [[Z_plural_Z]], =1 {a} [[Z_other_Z]] {an} } { [[Z_userType_Z]] }
+REQUEST_PAGE.SUBMITTED_ON	Submitted {num, plural, =0 {} =1 {on: { [[Z_date_Z]] }}} by { [[Z_user_Z]] }
+REQUEST_PAGE.TOP_BAR.APPROVE_SUCCESS_MESSAGE	Request “{ [[Z_requestNo_Z]] }” has been successfully approved and requester is notified about change.
+REQUEST_PAGE.TOP_BAR.DECLINE_SUCCESS_MESSAGE	Request “{ [[Z_requestNo_Z]] }” has been successfully declined and requester is notified about change.
+REQUEST_PAGE.TOP_BAR.WAITLIST_SUCCESS_MESSAGE	Request “{ [[Z_requestNo_Z]] }” was succesfully waitlisted and is pending for future approval.

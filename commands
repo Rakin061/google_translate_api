@@ -1,0 +1,22 @@
+this project:
+  npm init -y
+  npm install @google-cloud/translate
+  npm install @google-cloud/storage
+  export GOOGLE_APPLICATION_CREDENTIALS="cognoto-translation-auth.json"
+  node translate.js 
+
+backend: requires .env file 
+  in cns-dev:
+    docker compose up db migrate test-data
+    checkout to cns-dev-rebased
+  in cns-dev-rebased:
+    delete all schema in db using db tool
+    create a schema named public
+    docker dompose up db migrate test-data app
+    run the sql: insert into auth.user_pool_config (id, aws_region, oauth_domain, user_pool_id, user_pool_web_client_id, jwks, is_default, created_at, created_by, updated_at, updated_by, deleted_at, deleted_by) values ('a4317806-df65-4479-b01d-622adc756fbf', 'us-east-1', 'localhost', 'us-east-1_nl3w1caiU', '1spbfikl1vtlfmrpevdqjds2f8', '{"FONh14Jo/0ZRgl53YqFFSavrVGwZ2efLOfRBnXVUWJE=": {"e": "AQAB", "n": "qORX6tbgNdV-2eOv3RG5Xu6eQv8xud-vD5eKEdEfqYXqMUKHDBBBCneydncVW6eYn02ZAMvp2ZnFyd3lxk6Yqn4vzrgk9r0d7fOmaTlmIA1-aVZWaPUcuxlPD4KOrQCqba5a6pr_Nlrt1H4pRSK8ptuYK1yJJRw-OMFC3yjukJrDeHqyDCPe78pb58wpZvLpeuD6CnGgm_4kcDPfNP69husB1lk-8o-VB43NEjpIRh3RbaBk83UJAXmghNcS8y0ZP63DdtPY-3sH0wXt2UguISIBUZ0oqHPXDHaetIJL23GZnZKzBXnxJ1MMtZ4b-b9yPOogAUjGYgC1bscgWJzUqw", "alg": "RS256", "kty": "RSA", "use": "sig"}, "PKHWXa64V8Y/ZpPwv6K52c76OVj8M0XluqAC5dvX6p0=": {"e": "AQAB", "n": "3CRvvyVz9HHyc9Z_1bchT2R-hbxMlAbUdtTHPiy1Mpu7zw8rK_1B2zPdcfJ5j28hADmUpdGQZ67Y2N296zjQ0DrZv4P914ovJcY08ijnsWSudrdi7YoaI2vUQwJaHWo7r0u4IVM1hKBvjL08a1If8R_u3uaOD-XBAwKqtAeDvil006rk7DUubMLEDeCGHciupI9GgXY4qVboDcRytJkF5-Qvit6FQJFy4mhoD9wuJzSW_WQ0H2dCLaLRUJsRT0d5opgUP-JEt45840F5kraT-yar1aL4ZCeU-md05QozysB0b3HBh9rSwVksd3Gt6D1bUgCKhCHYLcukI4S34gmTVQ", "alg": "RS256", "kty": "RSA", "use": "sig"}}', 'true', '2024-08-13 05:02:55.290078', 'postgres', '2024-08-13 05:02:55.290078', 'postgres', null, null);
+
+frontend: requires .env file
+  npm install/ npm ci --legacy-peer-deps
+  npm run start:dev
+  user: testcognota@gmail.com || EKtest1#
+     
